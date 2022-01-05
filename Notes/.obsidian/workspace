@@ -1,0 +1,92 @@
+{
+  "main": {
+    "id": "1b139fd08741477f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d282d1a846be860d",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b160b2bdf16f11e",
+    "type": "split",
+    "children": [
+      {
+        "id": "4aa1bfcd85e01b58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16801078082cf9c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "328f3a8a439ab19d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8af8461e988bca1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "87d279022dfbbf21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3910dd8649af752e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d282d1a846be860d",
+  "lastOpenFiles": [
+    "home/thesis/Asta/2002.07546.pdf.md",
+    "Assignments.md",
+    "Prova.md",
+    "home/thesis/Asta.md"
+  ]
+}
