@@ -11,17 +11,22 @@
 
 using namespace RooFit;
 
-
-
-void prova(){
+void ph_all(){
+    // write the results file
+    ofstream write; //ofstream is the class for fstream package
+    write.open("Fit_Results/fit_res.txt"); //open is the method of ofstream
     // TCanvas
     TCanvas *c1 = new TCanvas("C1","m_yy",200,10,1200,700);
     c1->Divide(2,2);
     TCanvas *c2 = new TCanvas("C2","m_yy+fit",200,10,1200,700);
     c2->Divide(2,2);
+
     // masses
-    int masses[3] = {110,130,140}; // 125 MeV non riesco a scaricarlo
-    for(int m=0; m<3; m++){
+    int masses[4] = {110,125,130,140};
+    for(int m=0; m<4; m++){
+      // write on fit results the mass
+      write << "############################################" << endl;
+      write << "Fit results of "+to_string(masses[m])+" MeV distribution:" << endl;
       // defining objetcs
       TH1F *hist;
       // due to TFile gives me some problems, I must run this awfull code
@@ -31,11 +36,15 @@ void prova(){
         hist = new TH1F("m_yy","m_yy distribution [110 MeV]",100,masses[m]-30,masses[m]+30);
       }
       if(m==1){
+        input = new TFile("../Data/PowhegPy8_NNLOPS_ggH125.root","read"); // reading the 125 Mev file
+        hist = new TH1F("m_yy","m_yy distribution [125 MeV]",100,masses[m]-30,masses[m]+30);
+      }
+      if(m==2){
         input = new TFile("../Data/PowhegPy8_NNLOPS_ggH130.root","read"); // reading the 130 Mev file
         hist = new TH1F("m_yy","m_yy distribution [130 MeV]",100,masses[m]-30,masses[m]+30);
 
       }
-      if(m==2){
+      if(m==3){
         input = new TFile("../Data/PowhegPy8_NNLOPS_ggH140.root","read"); // reading the 140 Mev file
         hist = new TH1F("m_yy","m_yy distribution [140 MeV]",100,masses[m]-30,masses[m]+30);
       }
@@ -49,10 +58,10 @@ void prova(){
       tree->SetBranchAddress("EventWeight", &weight);
 
       for(int i=0; i<entries; i++){
+        // getting the colums values
         tree->GetEntry(i);
-        // cout << m_yy << " " << weight << endl;
         hist->Fill(m_yy*pow(10,-3),weight);
-        // cout << m_yy << endl;
+          // cout << cutFlow << endl;
       }
 
       // RooFit
@@ -67,8 +76,11 @@ void prova(){
       // fit pdf to datas
       gauss.fitTo(dh);
       // printing results
-      mean.Print();
-      sigma.Print();
+      write << "--------------------------------------------" << endl;
+      write << "Guassian fit:" << endl;
+      write << "mean = " << mean.getVal() << " +- " << mean.getAsymErrorHi()<< endl;
+      write << "sigma = " << sigma.getVal() << " +- " << sigma.getAsymErrorHi()<< endl;
+
 
       // RooFit RooCrystalBall_fit
       //DCB parameters
@@ -82,14 +94,16 @@ void prova(){
       // fit to datas
       dcbPdf.fitTo(dh);
       // printing results
-      cout << "############################################" << endl;
-      mu.Print();
-      width.Print();
-      a1.Print();
-      p1.Print();
-      a2.Print();
-      p2.Print();
-      cout << "############################################" << endl;
+      write << "--------------------------------------------" << endl;
+      write << "DCB fit:" << endl;
+      write << "mu = " << mu.getVal() << " +- " << mu.getAsymErrorHi()<< endl;
+      write << "width = " << width.getVal() << " +- " << width.getAsymErrorHi()<< endl;
+      write << "a1 = " << a1.getVal() << " +- " << a1.getAsymErrorHi()<< endl;
+      write << "p1 = " << a1.getVal() << " +- " << p1.getAsymErrorHi()<< endl;
+      write << "a2 = " << a2.getVal() << " +- " << a2.getAsymErrorHi()<< endl;
+      write << "p2 = " << a2.getVal() << " +- " << p2.getAsymErrorHi()<< endl;
+      write << "############################################" << endl;
+      write << endl;
 
       // drawing datas
       c1->cd(m+1);
@@ -105,9 +119,12 @@ void prova(){
         frame->SetTitle("m_yy distribution + fits [110 MeV]"); // 110 MeV file
       }
       if(m==1){
-        frame->SetTitle("m_yy distribution + fits [130 MeV]"); // 130 MeV file
+        frame->SetTitle("m_yy distribution + fits [125 MeV]"); // 125 MeV file
       }
       if(m==2){
+        frame->SetTitle("m_yy distribution + fits [130 MeV]"); // 130 MeV file
+      }
+      if(m==3){
       frame->SetTitle("m_yy distribution + fits [140 MeV]"); // 140 MeV file
       }
       // settings the axis names
@@ -131,5 +148,7 @@ void prova(){
      // Save the canvas
       c1->SaveAs("Plots/myy_dist.pdf");
       c2->SaveAs("Plots/myy+fit.pdf");
+      // closing results file
+      write.close();
      return;
 }
