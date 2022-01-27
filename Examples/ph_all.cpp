@@ -26,27 +26,27 @@ void ph_all(){
     for(int m=0; m<4; m++){
       // write on fit results the mass
       write << "############################################" << endl;
-      write << "Fit results of "+to_string(masses[m])+" GeV distribution:" << endl;
+      write << "Fit results of "+to_string(masses[m])+" MeV distribution:" << endl;
       // defining objetcs
       TH1F *hist;
       // due to TFile gives me some problems, I must run this awfull code
       TFile *input;
       if(m==0){
-        input = new TFile("../Data/PowhegPy8_NNLOPS_ggH110.root","read"); // reading the 110 GeV file
-        hist = new TH1F("m_yy","m_yy distribution [110 GeV]",100,masses[m]-30,masses[m]+30);
+        input = new TFile("../Data/PowhegPy8_NNLOPS_ggH110.root","read"); // reading the 110 Mev file
+        hist = new TH1F("m_yy","m_yy distribution [110 MeV]",100,masses[m]-30,masses[m]+30);
       }
       if(m==1){
-        input = new TFile("../Data/PowhegPy8_NNLOPS_ggH125.root","read"); // reading the 125 GeV file
-        hist = new TH1F("m_yy","m_yy distribution [125 GeV]",100,masses[m]-30,masses[m]+30);
+        input = new TFile("../Data/PowhegPy8_NNLOPS_ggH125.root","read"); // reading the 125 Mev file
+        hist = new TH1F("m_yy","m_yy distribution [125 MeV]",100,masses[m]-30,masses[m]+30);
       }
       if(m==2){
-        input = new TFile("../Data/PowhegPy8_NNLOPS_ggH130.root","read"); // reading the 130 GeV file
-        hist = new TH1F("m_yy","m_yy distribution [130 GeV]",100,masses[m]-30,masses[m]+30);
+        input = new TFile("../Data/PowhegPy8_NNLOPS_ggH130.root","read"); // reading the 130 Mev file
+        hist = new TH1F("m_yy","m_yy distribution [130 MeV]",100,masses[m]-30,masses[m]+30);
 
       }
       if(m==3){
-        input = new TFile("../Data/PowhegPy8_NNLOPS_ggH140.root","read"); // reading the 140 GeV file
-        hist = new TH1F("m_yy","m_yy distribution [140 GeV]",100,masses[m]-30,masses[m]+30);
+        input = new TFile("../Data/PowhegPy8_NNLOPS_ggH140.root","read"); // reading the 140 Mev file
+        hist = new TH1F("m_yy","m_yy distribution [140 MeV]",100,masses[m]-30,masses[m]+30);
       }
       TTree *tree = (TTree*)input->Get("myCatNtuple;1"); // loading the TTree file
       int entries = tree->GetEntries(); // number of rows
@@ -107,28 +107,28 @@ void ph_all(){
 
       // drawing datas
       c1->cd(m+1);
-      hist->SetXTitle("m_yy [GeV]");
+      hist->SetXTitle("m_yy [MeV]");
       hist->SetYTitle("Events");
       hist->Draw();
 
       // RooFit plots
       c2->cd(m+1);
-      // creating the 110, 130, 140 GeV plots
+      // creating the 110, 130, 140 MeV plots
       RooPlot *frame = x.frame();
       if(m==0){
-        frame->SetTitle("m_yy distribution + fits [110 GeV]"); // 110 GeV file
+        frame->SetTitle("m_yy distribution + fits [110 MeV]"); // 110 MeV file
       }
       if(m==1){
-        frame->SetTitle("m_yy distribution + fits [125 GeV]"); // 125 GeV file
+        frame->SetTitle("m_yy distribution + fits [125 MeV]"); // 125 MeV file
       }
       if(m==2){
-        frame->SetTitle("m_yy distribution + fits [130 GeV]"); // 130 GeV file
+        frame->SetTitle("m_yy distribution + fits [130 MeV]"); // 130 MeV file
       }
       if(m==3){
-      frame->SetTitle("m_yy distribution + fits [140 GeV]"); // 140 GeV file
+      frame->SetTitle("m_yy distribution + fits [140 MeV]"); // 140 MeV file
       }
       // settings the axis names
-      frame->SetXTitle("m_yy [GeV]");
+      frame->SetXTitle("m_yy [MeV]");
       frame->SetYTitle("Events");
       // ploting the datas and fits
       dh.plotOn(frame,Name("Data Hist"));
