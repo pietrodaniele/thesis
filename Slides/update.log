@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  27 JAN 2022 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  27 JAN 2022 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2411,14 +2411,21 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
 [2
 
-] [3
+]
+Overfull \hbox (1.05997pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[3
+
+] [4
 
 ]
 Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [][] 
  []
 
-[4
+[5
 
 ]
 \tf@nav=\write6
@@ -2430,28 +2437,29 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `update.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (./update.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `update.out' has not changed.
 (rerunfilecheck)             Checksum: 4D320EFEF8A7BBA25F435897612A3173;45.
  ) 
 Here is how much of TeX's memory you used:
- 29909 strings out of 481239
- 598401 string characters out of 5920376
- 922277 words of memory out of 5000000
- 44446 multiletter control sequences out of 15000+600000
- 571228 words of font info for 63 fonts, out of 8000000 for 9000
+ 29942 strings out of 481239
+ 599208 string characters out of 5920376
+ 923277 words of memory out of 5000000
+ 44472 multiletter control sequences out of 15000+600000
+ 572508 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,14n,78p,773b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on update.pdf (4 pages, 26598 bytes).
+e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on update.pdf (5 pages, 35700 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 7736 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 9784 words of extra memory for PDF output out of 10000 (max. 10000000)
 
