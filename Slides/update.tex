@@ -67,11 +67,61 @@
 			\vfill
 		\end{frame}
 	
-		\begin{frame}{First analysis}
-			contenuto...
+		\begin{frame}{Data}
+			\vfill
+			\begin{textblock}{5}(0.028,0.35)
+				In each file, there is a \texttt{TTree myCatNtuple},\\ which contains all the variables. Only three\\ of them were used:
+				\begin{itemize}
+					\item \textbf{m\_yy};
+					\item \textbf{EventWeight}: it contains all type of \\weights.
+					\item \textbf{cutFlow}:----------
+				\end{itemize}
+			\end{textblock}
+			\begin{textblock}{1}(0.6,0.12)
+				\includegraphics[width=.4\textwidth]{Images/ttre.png}
+			\end{textblock}
 		\end{frame}
 	
-	
+		\begin{frame}{$m_{\gamma\gamma}$ distibution}
+			Using all entries the distributions at different masses are:
+			\vfill
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_dist.pdf}
+			\vfill
+		\end{frame}
 
+		\begin{frame}{Data analysis and fits}
+			\vfill
+			The distributions are fitted using two type of fit:
+			\begin{itemize}
+				\item \textbf{gaussian fit}: there are 2 parameters:
+				\begin{itemize}
+					\item mean $\mu$;
+					\item sigma $\sigma$;
+				\end{itemize}
+				$$
+				f(x,\mu,\sigma)= \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+				$$
+				\item \textbf{DCB fit}: there are six parameters:
+				\begin{itemize}
+					\item mean $\mu$;
+					\item sigma $\sigma$
+					\item a$_1$;
+					\item p$_1$;
+					\item a$_2$;
+					\item p$_2$;
+				\end{itemize}
+				$$
+				f(x,\mu,\sigma,a_1,p_1,a_2,p_2) = \cdots
+				$$
+			\end{itemize}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{Gaussian and DCB fits}
+			\vfill
+			Applying the fits to all entries:
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy+fit.pdf}
+			\vfill
+		\end{frame}
 	
 \end{document}

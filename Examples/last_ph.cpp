@@ -17,7 +17,7 @@ void last_ph(){
   ofstream write; //ofstream is the class for fstream package
   write.open("Fit_Results/fit_res_last_ph.txt"); //open is the method of ofstream
   // TCanvas
-  TCanvas *c1 = new TCanvas("C1","m_yy",200,10,1200,700);
+  TCanvas *c1 = new TCanvas("C1","m_yy",400,100,1200,700);
   // mass
   int mass = 140;
   int intervall = 30;
@@ -28,8 +28,7 @@ void last_ph(){
   write << "Fit results of "+to_string(mass)+" GeV distribution:" << endl;
   // defining objetcs + datas
   TFile *input = new TFile("../Data/PowhegPy8_NNLOPS_ggH140.root","read"); // reading the 140 GeV file;
-  TH1F *hist = new TH1F("m_yy","m_yy distribution [140 GeV]",100,mass-intervall,mass+intervall);
-  // datas
+    // datas
   TTree *datatree = (TTree*)input->Get("myCatNtuple;1");
   datatree->SetBranchAddress("m_yy", &m_yy);
   datatree->SetBranchAddress("EventWeight", &weight);
@@ -42,7 +41,6 @@ void last_ph(){
   for(int i=0;i<datatree->GetEntries();i++){
     datatree->GetEvent(i);
     m.setVal(m_yy*pow(10,-3));
-    //w.setVal(weight*128965.16);
     dataset->add(RooArgSet(m),weight*128965.16);
   }
   dataset->Print();
@@ -73,7 +71,9 @@ void last_ph(){
   write << "############################################" << endl;
   write << endl;
   // / drawing datas
-  c1->cd();
+  TPad *pad1 = new TPad("data+fit","data+fit",0.,0.25,1.,1.);
+  pad1->Draw();
+  pad1->cd();
   // printing results on plot
   string intro[6] = {"mu = ","width = ","a1 = ","p1 = ","a2 = ","p2 = "};
   string values[6] = {to_string(mu.getVal()),to_string(width.getVal()),to_string(a1.getVal()),to_string(p1.getVal()),to_string(a2.getVal()),to_string(p2.getVal())};
@@ -81,7 +81,7 @@ void last_ph(){
   string pm = " +- ";
 
 
-  TPaveText *text = new TPaveText(0.9, 0.75, 0.7, 0.9,"brNDC");
+  TPaveText *text = new TPaveText(0.9, 0.65, 0.7, 0.9,"brNDC");
   text->AddText("DCB fit:");
   for(int j=0; j<6; j++){
     string line = intro[j]+values[j]+pm+errors[j];
@@ -92,7 +92,7 @@ void last_ph(){
   text->SetFillStyle(0);
   text->SetTextAlign(12);
   text->SetTextFont(42);
-  text->SetTextSize(0.02);
+  text->SetTextSize(0.03);
   //
   RooPlot *frame = m.frame();
   frame->SetTitle("m_yy distribution + DCB fit [140 GeV]"); // 140 GeV file
@@ -116,10 +116,37 @@ void last_ph(){
   frame->Draw();
   leg.DrawClone();
   text->Draw();
-
   // Save the canvas
-  c1->SaveAs("Plots/myy_140GeV_DCBfit.pdf");
+  //c1->SaveAs("Plots/myy_140GeV_DCBfit.pdf");
   write.close();
 
+  // ratio plots
+  c1->cd(0);
+  TPad *pad2 = new TPad("data/fit","data/fit",0.,0.,1.,0.25);
+  pad2->Draw();
+  pad2->cd();
+  RooDataSet * datafit = dcbPdf->generate(RooArgSet(m),datatree->GetEntries());
+  TH1* h_fromdata = dataset->createHistogram("m_yy_data",m);
+  h_fromdata->Scale(1./h_fromdata->Integral(), "width");
+  TH1* h_fromfit = datafit->createHistogram("m_yy_data",m);
+  h_fromfit->Scale(1./h_fromfit->Integral(), "width");
+
+  h_fromdata->Divide(h_fromdata,h_fromfit);
+  h_fromdata->SetTitle("");
+  h_fromdata->GetXaxis()->SetTitle("");
+  //h_fromdata->SetTitleFont(0.3,"X");
+  h_fromdata->SetLabelSize(0.08,"X");
+  h_fromdata->GetYaxis()->SetTitle("data/fit");
+  h_fromdata->GetYaxis()->SetRangeUser(0., 2.);
+  h_fromdata->SetLabelSize(0.08,"Y");
+  h_fromdata->SetTitleSize(0.08,"Y");
+  // drawing
+  h_fromdata->Draw();
+  // plot a y=1 line
+  TLine * line = new TLine(mass-intervall,1,mass+intervall,1);
+  line->SetLineColor(kGreen);
+  line->Draw();
+  // saving plot
+  c1->SaveAs("Plots/myy_140GeV_DCBfit.pdf");
   return;
 }
