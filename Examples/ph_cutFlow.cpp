@@ -14,7 +14,7 @@ using namespace RooFit;
 void ph_cutFlow(){
   // write the results file
   ofstream write; //ofstream is the class for fstream package
-  write.open("Fit_Results/fit_res.txt"); //open is the method of ofstream
+  write.open("Fit_Results/fit_res_cutFlow.txt"); //open is the method of ofstream
   // TCanvas
   TCanvas *c1 = new TCanvas("C1","m_yy",200,10,1200,700);
   c1->Divide(2,2);
@@ -120,7 +120,7 @@ void ph_cutFlow(){
     // RooFit plots
     c2->cd(m+1);
     // printing results on plot
-    TPaveText *text = new TPaveText(0.9, 0.45, 0.6, 0.9,"brNDC");
+    TPaveText *text = new TPaveText(0.9, 0.45, 0.55, 0.9,"brNDC");
     string pm = " +- ";
     // gaussian fit
     string intro_gauss[2] = {"mean = ","sigma = "};

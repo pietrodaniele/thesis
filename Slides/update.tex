@@ -72,9 +72,9 @@
 			\begin{textblock}{5}(0.028,0.35)
 				In each file, there is a \texttt{TTree myCatNtuple},\\ which contains all the variables. Only three\\ of them were used:
 				\begin{itemize}
-					\item \textbf{m\_yy};
+					\item \textbf{m\_yy}: mass distribution;
 					\item \textbf{EventWeight}: it contains all type of \\weights.
-					\item \textbf{cutFlow}:----------
+					\item \textbf{cutFlow}
 				\end{itemize}
 			\end{textblock}
 			\begin{textblock}{1}(0.6,0.12)
@@ -83,8 +83,8 @@
 		\end{frame}
 	
 		\begin{frame}{$m_{\gamma\gamma}$ distibution}
-			Using all entries the distributions at different masses are:
 			\vfill
+			Using all entries the distributions at different masses are:
 			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_dist.pdf}
 			\vfill
 		\end{frame}
@@ -124,4 +124,82 @@
 			\vfill
 		\end{frame}
 	
+		\begin{frame}{CutFlow}
+			\vfill
+			Events with at least two isolated $\gamma$ with tight identification could be selected, where the transverse momentum of the leading photon is such that $p_T/m_{\gamma\gamma} > 0.35$, whereas that of the sub-leading photon is $p_T/m_{\gamma\gamma} > 0.25$. Then there are also other demands on the "quality" of data collection and triggers.
+			
+			\vspace{0.5cm}
+			$\Longrightarrow$ Using the \texttt{cutFlow} greater than 13, the events are selected.
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{m$_{\gamma\gamma}$ distribution with cutFlow > 13}
+			\vfill
+			Using \texttt{cutFlow}>13 entries the distributions at different masses are:
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_dist_cutFlow.pdf}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{Gaussian and DCB fits with cutFlow > 13}
+			\vfill
+			Applying the fits to all entries:
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy+fit_cutFlow.pdf}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{DCB fit and ratio plot [110 GeV]}
+			\vfill
+			The \texttt{ratio plot} between the fit and the distribution is added to each DCB fit. Using the 110 GeV mass distribution:
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_110GeV_DCBfit.pdf}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{DCB fit and ratio plot [125 GeV]}
+			\vfill
+			The \texttt{ratio plot} between the fit and the distribution is added to each DCB fit. Using the 125 GeV mass distribution:
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_125GeV_DCBfit.pdf}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{DCB fit and ratio plot [130 GeV]}
+			\vfill
+			The \texttt{ratio plot} between the fit and the distribution is added to each DCB fit. Using the 130 GeV mass distribution:
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_130GeV_DCBfit.pdf}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{DCB fit and ratio plot [140 GeV]}
+			\vfill
+			The \texttt{ratio plot} between the fit and the distribution is added to each DCB fit. Using the 140 GeV mass distribution:
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_140GeV_DCBfit.pdf}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{DCB fit+ratioplot [110 GeV] (cutFlow > 13)}
+			\vfill
+			The \texttt{ratio plot} between the fit and the distribution is added to each DCB fit. Using the 110 GeV mass distribution with \texttt{cutFlow} > 13:
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_110GeV_DCBfit_cutFlow.pdf}
+			\vfill
+		\end{frame}
+		
+		\begin{frame}{DCB fit+ratioplot [125 GeV] (cutFlow > 13)}
+			\vfill
+			The \texttt{ratio plot} between the fit and the distribution is added to each DCB fit. Using the 125 GeV mass distribution with \texttt{cutFlow} > 13:
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_125GeV_DCBfit_cutFlow.pdf}
+			\vfill
+		\end{frame}
+		
+		\begin{frame}{DCB fit+ratioplot [130 GeV] (cutFlow > 13)}
+			\vfill
+			The \texttt{ratio plot} between the fit and the distribution is added to each DCB fit. Using the 130 GeV mass distribution with \texttt{cutFlow} > 13:
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_130GeV_DCBfit_cutFlow.pdf}
+			\vfill
+		\end{frame}
+		
+		\begin{frame}{DCB fit+ratioplot [140 GeV] (cutFlow > 13)}
+			\vfill
+			The \texttt{ratio plot} between the fit and the distribution is added to each DCB fit. Using the 140 GeV mass distribution with \texttt{cutFlow} > 13:
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_140GeV_DCBfit_cutFlow.pdf}
+			\vfill
+		\end{frame}
 \end{document}

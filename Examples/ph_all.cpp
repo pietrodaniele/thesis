@@ -105,7 +105,7 @@ void ph_all(){
     // RooFit plots
     c2->cd(m+1);
     // printing results on plot
-    TPaveText *text = new TPaveText(0.9, 0.45, 0.6, 0.9,"brNDC");
+    TPaveText *text = new TPaveText(0.9, 0.45, 0.55, 0.9,"brNDC");
     string pm = " +- ";
     // gaussian fit
     string intro_gauss[2] = {"mean = ","sigma = "};
