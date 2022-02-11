@@ -71,7 +71,7 @@ void last_ph_cutFlow(){
   RooRealVar p2("p2","p2",1,0.,100.);
   RooCrystalBall * dcbPdf = new RooCrystalBall("dcbPdf","DoubleSidedCB",m,mu,width,a1,p1,a2,p2);
   // fit to datas
-  dcbPdf->fitTo(*dataset, Range("signal"), SumW2Error(true));
+  dcbPdf->fitTo(*dataset, Range("signal"), AsymptoticError(true));
 
   write << "--------------------------------------------" << endl;
   write << "DCB fit:" << endl;
@@ -139,7 +139,7 @@ void last_ph_cutFlow(){
   TPad *pad2 = new TPad("data/fit","data/fit",0.,0.,1.,0.25);
   pad2->Draw();
   pad2->cd();
-  RooDataSet * datafit = dcbPdf->generate(RooArgSet(m),datatree->GetEntries());
+  RooDataSet * datafit = dcbPdf->generate(RooArgSet(m),pow(10,6));
   TH1* h_fromdata = dataset->createHistogram("m_yy_data",m);
   h_fromdata->Scale(1./h_fromdata->Integral(), "width");
   TH1* h_fromfit = datafit->createHistogram("m_yy_data",m);
