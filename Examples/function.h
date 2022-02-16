@@ -9,7 +9,6 @@
 #include "TRandom.h"
 #include "TLegend.h"
 #include "TLatex.h"
+#include <vector>
 
 using namespace RooFit;
-
-void ratioplot_roodataset(TH1F&, RooCrystalBall&);
