@@ -23,7 +23,7 @@ void plot_results(string, RooFormulaVar, RooFormulaVar, RooRealVar, RooRealVar, 
 // cutFlow > 13 applied
 
 
-void simul_fit(){
+void no125_fit(){
   // all parameters obtained from previous fit
   double masses[4] = {110,125,130,140};
   double masses_error[4] = {0,0,0,0};
@@ -84,22 +84,6 @@ void simul_fit(){
   RooRealVar p2_110("p2_110","p2",1,0.0001,100.);
   RooCrystalBall dcbPdf_110("dcbPdf_110","DoubleSidedCB",m,mean_110,width_110,a1_110,p1_110,a2_110,p2_110);
 
-  //  125 model
-  // variables 125 GeV
-  // fit_parameters
-  // ---------------------------------------------------------------------------
-  RooRealVar m_h_125("m_h_125", "Higgs mass", mass125);
-  // ---------------------------------------------------------------------------
-  RooFormulaVar mean_125("mu_125","@0 + @1*m_h_125",RooArgList(A_mu,B_mu,m_h_125));
-  // ---------------------------------------------------------------------------
-  RooFormulaVar width_125("width_125","@0 + @1*m_h_125",RooArgList(A_width,B_width,m_h_125));
-  // ---------------------------------------------------------------------------
-  RooRealVar a1_125("a1_125","a1",1,0.0001,100.);
-  RooRealVar p1_125("p1_125","p1",1,0.0001,100.);
-  RooRealVar a2_125("a2_125","a2",1,0.0001,100.);
-  RooRealVar p2_125("p2_125","p2",1,0.0001,100.);
-  RooCrystalBall dcbPdf_125("dcbPdf_125","DoubleSidedCB",m,mean_125,width_125,a1_125,p1_125,a2_125,p2_125);
-
   //  130 model
   // variables 130 GeV
   // fit_parameters
@@ -138,13 +122,11 @@ void simul_fit(){
   // Define category to distinguish 110,125,130 and 140 GeV samples events
   RooCategory sample("sample","sample") ;
   sample.defineType("myy_110") ;
-  sample.defineType("myy_125") ;
   sample.defineType("myy_130") ;
   sample.defineType("myy_140") ;
 
   // Construct combined dataset in (x,sample)
-  RooDataSet combData("combData","combined data",m,Index(sample),Import("myy_110",*dataset110),
-                      Import("myy_125",*dataset125),Import("myy_130",*dataset130),Import("myy_140",*dataset140)) ;
+  RooDataSet combData("combData","combined data",m,Index(sample),Import("myy_110",*dataset110),Import("myy_130",*dataset130),Import("myy_140",*dataset140)) ;
 
 
 
@@ -156,7 +138,6 @@ void simul_fit(){
 
   // Associate model with the physics state and model_ctl with the control state
   simPdf.addPdf(dcbPdf_110,"myy_110") ;
-  simPdf.addPdf(dcbPdf_125,"myy_125") ;
   simPdf.addPdf(dcbPdf_130,"myy_130") ;
   simPdf.addPdf(dcbPdf_140,"myy_140") ;
 
@@ -166,11 +147,12 @@ void simul_fit(){
   // ---------------------------------------------------
 
   // Perform simultaneous fit of model to data and model_ctl to data_ctl
-  simPdf.fitTo(combData) ;
+  simPdf.fitTo(combData,Save()) ;
 
-  cout << mean_110.getVal() << endl;
-  cout << mean_130.getVal() << endl;
+  // creating the 125 fit
+  // 110 GeV
 
+  
 
   // P l o t   m o d e l   s l i c e s   o n   d a t a    s l i c e s
   // ----------------------------------------------------------------
@@ -200,34 +182,35 @@ void simul_fit(){
   //simPdf.plotOn(frame2,Slice(sample,"myy_130"),Components("dcbPdf_130"),ProjWData(sample,combData),LineStyle(kDashed)) ;
   */
 
-  plot_results("110",mean_110,width_110,a1_110,p1_110,a2_110,p2_110,m,combData,simPdf,sample);
-  plot_results("125",mean_125,width_125,a1_125,p1_125,a2_125,p2_125,m,combData,simPdf,sample);
-  plot_results("130",mean_130,width_130,a1_130,p1_130,a2_130,p2_130,m,combData,simPdf,sample);
-  plot_results("140",mean_140,width_140,a1_140,p1_140,a2_140,p2_140,m,combData,simPdf,sample);
+  TCanvas* c1 = new TCanvas("c1","c1",600,400) ;
+  c1->cd();
+  RooPlot* frame = m.frame(Title("m_{yy} distribution + DCB no 125 fit [125 GeV] with #mu(m_{h}) and #sigma(m_{h})"));
+  dataset125->plotOn(frame,Name("Data")) ;
+  simPdf_125.plotOn(frame,Name("Fit")) ;
+  // settings the axis names
+  frame->SetXTitle("m_{h} [GeV]");
+  frame->SetYTitle("Events");
+
+  // legend
+  TLegend leg(0.15, 0.8, 0.48, 0.9);
+  leg.AddEntry(frame->findObject("Data"), "Data Hist", "lep");
+  leg.AddEntry(frame->findObject("Fit"), "DCB Fit", "L");
+  leg.SetBorderSize(0);
+  leg.SetFillStyle(0);
+  leg.SetTextSize(0.025);
+
+  // drawing
+  frame->Draw();
+  leg.DrawClone();
 
 
-  double mu_sim[4] = {mean_110.getVal(),mean_125.getVal(),mean_130.getVal(),mean_140.getVal()};
-  double width_sim[4] = {width_110.getVal(),width_125.getVal(),width_130.getVal(),width_140.getVal()};
-  double a1_sim[4] = {a1_110.getVal(),a1_125.getVal(),a1_130.getVal(),a1_140.getVal()};
-  double p1_sim[4] = {p1_110.getVal(),p1_125.getVal(),p1_130.getVal(),p1_140.getVal()};
-  double a2_sim[4] = {a2_110.getVal(),a2_125.getVal(),a2_130.getVal(),a2_140.getVal()};
-  double p2_sim[4] = {p2_110.getVal(),p2_125.getVal(),p2_130.getVal(),p2_140.getVal()};
+  // saving plot
+  c1->SaveAs("Plots/myy_125GeV_DCBfit_cutFlow_no125.pdf");
 
-  // getting propaged errors
-  //.getPropagatedError(res)
-  double mu_sim_err[4] = {0,0,0,0};
-  double width_sim_err[4] = {0,0,0,0};
-  double a1_sim_err[4] = {0,0,0,0};
-  double p1_sim_err[4] = {0,0,0,0};
-  double a2_sim_err[4] = {0,0,0,0};
-  double p2_sim_err[4] = {0,0,0,0};
+  return;
 
-  plot_param(mu,mu_sim,mu_sim_err,"mu");
-  plot_param(sigma,width_sim,width_sim_err,"width");
-  plot_param(a1,a1_sim,a1_sim_err,"a1");
-  plot_param(p1,p1_sim,p1_sim_err,"p1");
-  plot_param(a2,a2_sim,a2_sim_err,"a2");
-  plot_param(p2,p2_sim,p2_sim_err,"p2");
+
+
 
   return;
 }

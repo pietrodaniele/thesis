@@ -6,15 +6,19 @@
 #include "RooAddPdf.h"
 #include "RooSimultaneous.h"
 #include "RooCategory.h"
+#include "TFile.h"
+#include "TTree.h"
 #include "TCanvas.h"
 #include "TAxis.h"
 #include "RooPlot.h"
+
+using namespace std;
 using namespace RooFit ;
 
 // functions
 double eff_calc(int);
 
-void eff_conf(){
+int main(){
   double masses[4] = {110,125,130,140};
   double effs[4] = {eff_calc(110),eff_calc(125),eff_calc(130),eff_calc(140)};
 
@@ -32,12 +36,12 @@ void eff_conf(){
   //gr1->SetFillStyle(0);
 
   gr1->SetTitle("Efficiencies(m_{h})");
-  gr1->GetXaxis()->SetTitle("m_{h} [GeV]");
+  gr1->GetXaxis()->SetTitle("m_{yy} [GeV]");
   gr1->GetYaxis()->SetTitle("Eff");
   gr1->Draw("ALP");
 
   c3->SaveAs("Plots/efficiencies.pdf");
-  return;
+  return 0;
 }
 
 
@@ -52,7 +56,7 @@ double eff_calc(int MASS){
   const char *repo = "../Data/PowhegPy8_NNLOPS_ggH";
   const char *end = ".root";
   string path = repo + name + end;
-  TFile *input = new TFile(path.c_str(),"read"); // reading the 140 GeV file;
+  TFile * input = new TFile(path.c_str(),"read"); // reading the 140 GeV file;
   // datas
   TTree *datatree = (TTree*)input->Get("myCatNtuple;1");
   datatree->SetBranchAddress("cutFlow", &cutFlow);

@@ -9,7 +9,6 @@
 #include "TRandom.h"
 #include "TLegend.h"
 #include "TLatex.h"
-#include "function.h"
 
 using namespace RooFit;
 
@@ -185,7 +184,7 @@ void multifit_and_plot(int MASS){
   string title_plot = title_init + to_string(MASS) + title_end;
   frame->SetTitle(title_plot.c_str()); // 140 GeV file
   // settings the axis names
-  frame->SetXTitle("m_yy [GeV]");
+  frame->SetXTitle("m_{h} [GeV]");
   frame->SetYTitle("Events");
 
   // ploting the datas and fits
@@ -199,6 +198,12 @@ void multifit_and_plot(int MASS){
   leg.SetBorderSize(0);
   leg.SetFillStyle(0);
   leg.SetTextSize(0.025);
+
+  /*// fit results
+  TPaveText *text_chi = new TPaveText(0.65, 0.2, 0.85, 0.3,"brNDC");
+  string line_chi = "ChiQuadro = "+to_string(dcbPdf_all->GetChisquare());
+  text_chi->AddText(line_chi.c_str());
+  text_chi->Draw();*/
 
   // drawing
   frame->Draw();

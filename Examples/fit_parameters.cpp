@@ -9,7 +9,6 @@
 #include "TRandom.h"
 #include "TLegend.h"
 #include "TLatex.h"
-#include "function.h"
 
 using namespace RooFit;
 
@@ -91,7 +90,7 @@ vector<double> param_lin(double *M, double *M_err, double *par, double *par_err,
     gr->SetTitle(title.c_str());
     gr->SetMarkerColor(4);
     gr->SetMarkerStyle(21);
-    gr->GetXaxis()->SetTitle("m_yy [GeV]");
+    gr->GetXaxis()->SetTitle("m_{h} [GeV]");
     const char *ytit = " fit";
     string ytitle = name + ytit;
     gr->GetYaxis()->SetTitle(ytitle.c_str());
@@ -239,7 +238,7 @@ void fit_and_plot(vector<double> mu_par, vector<double> sigma_par, int MASS){
   string title_plot = title_init + to_string(MASS) + title_end;
   frame->SetTitle(title_plot.c_str()); // 140 GeV file
   // settings the axis names
-  frame->SetXTitle("m_yy [GeV]");
+  frame->SetXTitle("m_{h} [GeV]");
   frame->SetYTitle("Events");
 
   // ploting the datas and fits
@@ -358,7 +357,7 @@ void fit_and_plot_all(vector<double> mu_par, vector<double> sigma_par, vector<do
   string title_plot = title_init + to_string(MASS) + title_end;
   frame->SetTitle(title_plot.c_str()); // 140 GeV file
   // settings the axis names
-  frame->SetXTitle("m_yy [GeV]");
+  frame->SetXTitle("m_{h} [GeV]");
   frame->SetYTitle("Events");
 
   // ploting the datas and fits

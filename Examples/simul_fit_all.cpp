@@ -5,6 +5,7 @@
 #include "RooChebychev.h"
 #include "RooAddPdf.h"
 #include "RooSimultaneous.h"
+#include "RooFitResult.h"
 #include "RooCategory.h"
 #include "TCanvas.h"
 #include "TAxis.h"
@@ -12,41 +13,22 @@
 using namespace RooFit ;
 
 // functions
+void read_linear_fit(vector<double>&, vector<double>&, vector<double>&, vector<double>&, vector<double>&, vector<double>&);
 RooDataSet *read_data(int, RooRealVar&);
 vector<double> param_lin(double *, double *, double *, double *, string);
 void plot_param(double [4], double [4], double [4], string);
-void plot_results(string, RooFormulaVar, RooFormulaVar, RooRealVar, RooRealVar, RooRealVar, RooRealVar,
-                  RooRealVar, RooDataSet, RooSimultaneous, RooCategory);
+void plot_results(string, RooFormulaVar, RooFormulaVar, RooFormulaVar, RooFormulaVar, RooFormulaVar, RooFormulaVar, RooRealVar, RooDataSet, RooSimultaneous, RooCategory);
 
 
-// mu and width functions of m_h
+
+// all params are function of m_h
 // cutFlow > 13 applied
 
 
-void simul_fit(){
-  // all parameters obtained from previous fit
-  double masses[4] = {110,125,130,140};
-  double masses_error[4] = {0,0,0,0};
-  double mu[4] = {110.122045, 125.120605, 130.119203, 140.128386};
-  double mu_error[4] = {0.031419, 0.032085, 0.034132, 0.041798};
-  double sigma[4] = {1.683887, 1.788779, 1.823120, 1.906895};
-  double sigma_error[4] = {0.037484, 0.037591, 0.040010, 0.048537};
-  double a1[4] = {1.737295, 1.723697, 1.739125, 1.748865};
-  double a1_error[4] = {0.123130, 0.116492, 0.122213, 0.144540};
-  double p1[4] = {4.825106, 4.912847, 4.751721, 4.606459};
-  double p1_error[4] = {1.078196, 1.066697, 1.061026, 1.199767};
-  double a2[4] = {1.602378, 1.563756, 1.511050, 1.628135};
-  double a2_error[4] = {0.145021, 0.130597, 0.126748, 0.178149};
-  double p2[4] = {15.929337, 21.855431, 30.468083, 18.320550};
-  double p2_error[4] = {9.688985, 16.271775, 28.915310, 15.547188};
-
-  // linear fit results ==> (a,b) from y = a + b*x
-  vector<double> mu_par = param_lin(masses,masses_error,mu,mu_error,"mu");
-  vector<double> sigma_par = param_lin(masses,masses_error,sigma,sigma_error,"sigma");
-  vector<double> a1_par = param_lin(masses,masses_error,a1,a1_error,"a1");
-  vector<double> p1_par = param_lin(masses,masses_error,p1,p1_error,"p1");
-  vector<double> a2_par = param_lin(masses,masses_error,a2,a2_error,"a2");
-  vector<double> p2_par = param_lin(masses,masses_error,p2,p2_error,"p2");
+void simul_fit_all(){
+  // reading the linear_fit results file
+  vector<double> mu_par, sigma_par, a1_par, p1_par, a2_par, p2_par;
+  read_linear_fit(mu_par, sigma_par, a1_par, p1_par, a2_par, p2_par);
 
   // creating a single mass range
   RooRealVar m("m","mass",80,170);
@@ -54,82 +36,110 @@ void simul_fit(){
 
   // Create observables
   int intervall = 30;
-  int mass110 = 110;
-  int mass125 = 125;
-  int mass130 = 130;
-  int mass140 = 140;
+
+  // linear fit parameters
   RooRealVar A_mu("A_mu","Bias mu",mu_par[0]);
   RooRealVar B_mu("B_mu","Ang coeff mu",mu_par[1]);
   RooRealVar A_width("A_width","Bias width",sigma_par[0]);
   RooRealVar B_width("B_width","Ang coeff width",sigma_par[1]);
+  RooRealVar A_a1("A_a1","Bias a1",a1_par[0],-15,15);
+  RooRealVar B_a1("B_a1","Ang coeff a1",a1_par[1],-15,15);
+  RooRealVar A_p1("A_p1","Bias p1",p1_par[0],-15,15);
+  RooRealVar B_p1("B_p1","Ang coeff p1",p1_par[1],-15,15);
+  RooRealVar A_a2("A_a2","Bias a2",a2_par[0],-15,15);
+  RooRealVar B_a2("B_a2","Ang coeff a2",a2_par[1],-15,15);
+  RooRealVar A_p2("A_p2","Bias p2",p2_par[0],-15,15);
+  RooRealVar B_p2("B_p2","Ang coeff p2",p2_par[1],-15,15);
+
+  cout << A_a1.getVal() << " " << B_a1.getVal() << endl;
 
   // dataset
   RooDataSet * dataset110 = read_data(110,m);
   RooDataSet * dataset125 = read_data(125,m);
   RooDataSet * dataset130 = read_data(130,m);
   RooDataSet * dataset140 = read_data(140,m);
+
+  // mH variable
+  RooRealVar m_h("m_h", "Higgs mass",0);
+
   //  110 model
   // variables 110 GeV
   // fit_parameters
   // ---------------------------------------------------------------------------
-  RooRealVar m_h_110("m_h_110", "Higgs mass", mass110);
+  RooRealVar m_h_110("m_h_110", "Higgs mass", 110);
   // ---------------------------------------------------------------------------
   RooFormulaVar mean_110("mu_110","@0 + @1*m_h_110",RooArgList(A_mu,B_mu,m_h_110));
   // ---------------------------------------------------------------------------
   RooFormulaVar width_110("width_110","@0 + @1*m_h_110",RooArgList(A_width,B_width,m_h_110));
   // ---------------------------------------------------------------------------
-  RooRealVar a1_110("a1_110","a1",1,0.0001,100.);
-  RooRealVar p1_110("p1_110","p1",1,0.0001,100.);
-  RooRealVar a2_110("a2_110","a2",1,0.0001,100.);
-  RooRealVar p2_110("p2_110","p2",1,0.0001,100.);
+  RooFormulaVar a1_110("a1_110","@0 + @1*m_h_110",RooArgList(A_a1,B_a1,m_h_110));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar p1_110("p1_110","@0 + @1*m_h_110",RooArgList(A_p1,B_p1,m_h_110));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar a2_110("a2_110","@0 + @1*m_h_110",RooArgList(A_a2,B_a2,m_h_110));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar p2_110("p2_110","@0 + @1*m_h_110",RooArgList(A_p2,B_p2,m_h_110));
+  // ---------------------------------------------------------------------------
   RooCrystalBall dcbPdf_110("dcbPdf_110","DoubleSidedCB",m,mean_110,width_110,a1_110,p1_110,a2_110,p2_110);
 
   //  125 model
   // variables 125 GeV
   // fit_parameters
   // ---------------------------------------------------------------------------
-  RooRealVar m_h_125("m_h_125", "Higgs mass", mass125);
+  RooRealVar m_h_125("m_h_125", "Higgs mass", 125);
   // ---------------------------------------------------------------------------
   RooFormulaVar mean_125("mu_125","@0 + @1*m_h_125",RooArgList(A_mu,B_mu,m_h_125));
   // ---------------------------------------------------------------------------
   RooFormulaVar width_125("width_125","@0 + @1*m_h_125",RooArgList(A_width,B_width,m_h_125));
   // ---------------------------------------------------------------------------
-  RooRealVar a1_125("a1_125","a1",1,0.0001,100.);
-  RooRealVar p1_125("p1_125","p1",1,0.0001,100.);
-  RooRealVar a2_125("a2_125","a2",1,0.0001,100.);
-  RooRealVar p2_125("p2_125","p2",1,0.0001,100.);
+  RooFormulaVar a1_125("a1_125","@0 + @1*m_h_125",RooArgList(A_a1,B_a1,m_h_125));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar p1_125("p1_125","@0 + @1*m_h_125",RooArgList(A_p1,B_p1,m_h_125));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar a2_125("a2_125","@0 + @1*m_h_125",RooArgList(A_a2,B_a2,m_h_125));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar p2_125("p2_125","@0 + @1*m_h_125",RooArgList(A_p2,B_p2,m_h_125));
+  // ---------------------------------------------------------------------------
   RooCrystalBall dcbPdf_125("dcbPdf_125","DoubleSidedCB",m,mean_125,width_125,a1_125,p1_125,a2_125,p2_125);
 
   //  130 model
   // variables 130 GeV
   // fit_parameters
   // ---------------------------------------------------------------------------
-  RooRealVar m_h_130("m_h_130", "Higgs mass", mass130);
+  RooRealVar m_h_130("m_h_130", "Higgs mass", 130);
   // ---------------------------------------------------------------------------
   RooFormulaVar mean_130("mu_130","@0 + @1*m_h_130",RooArgList(A_mu,B_mu,m_h_130));
   // ---------------------------------------------------------------------------
   RooFormulaVar width_130("width","@0 + @1*m_h_130",RooArgList(A_width,B_width,m_h_130));
   // ---------------------------------------------------------------------------
-  RooRealVar a1_130("a1_130","a1",1,0.0001,100.);
-  RooRealVar p1_130("p1_130","p1",1,0.0001,100.);
-  RooRealVar a2_130("a2_130","a2",1,0.0001,100.);
-  RooRealVar p2_130("p2_130","p2",1,0.0001,100.);
+  RooFormulaVar a1_130("a1_130","@0 + @1*m_h_130",RooArgList(A_a1,B_a1,m_h_130));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar p1_130("p1_130","@0 + @1*m_h_130",RooArgList(A_p1,B_p1,m_h_130));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar a2_130("a2_130","@0 + @1*m_h_130",RooArgList(A_a2,B_a2,m_h_130));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar p2_130("p2_130","@0 + @1*m_h_130",RooArgList(A_p2,B_p2,m_h_130));
+  // ---------------------------------------------------------------------------
   RooCrystalBall dcbPdf_130("dcbPdf_130","DoubleSidedCB",m,mean_130,width_130,a1_130,p1_130,a2_130,p2_130);
 
   //  140 model
   // variables 140 GeV
   // fit_parameters
   // ---------------------------------------------------------------------------
-  RooRealVar m_h_140("m_h_140", "Higgs mass", mass140);
+  RooRealVar m_h_140("m_h_140", "Higgs mass", 140);
   // ---------------------------------------------------------------------------
   RooFormulaVar mean_140("mu_140","@0 + @1*m_h_140",RooArgList(A_mu,B_mu,m_h_140));
   // ---------------------------------------------------------------------------
   RooFormulaVar width_140("width","@0 + @1*m_h_140",RooArgList(A_width,B_width,m_h_140));
   // ---------------------------------------------------------------------------
-  RooRealVar a1_140("a1_140","a1",1,0.0001,100.);
-  RooRealVar p1_140("p1_140","p1",1,0.0001,100.);
-  RooRealVar a2_140("a2_140","a2",1,0.0001,100.);
-  RooRealVar p2_140("p2_140","p2",1,0.0001,100.);
+  RooFormulaVar a1_140("a1_140","@0 + @1*m_h_140",RooArgList(A_a1,B_a1,m_h_140));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar p1_140("p1_140","@0 + @1*m_h_140",RooArgList(A_p1,B_p1,m_h_140));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar a2_140("a2_140","@0 + @1*m_h_140",RooArgList(A_a2,B_a2,m_h_140));
+  // ---------------------------------------------------------------------------
+  RooFormulaVar p2_140("p2_140","@0 + @1*m_h_140",RooArgList(A_p2,B_p2,m_h_140));
+  // ---------------------------------------------------------------------------
   RooCrystalBall dcbPdf_140("dcbPdf_140","DoubleSidedCB",m,mean_140,width_140,a1_140,p1_140,a2_140,p2_140);
 
   // C r e a t e   i n d e x   c a t e g o r y   a n d   j o i n   s a m p l e s
@@ -166,16 +176,13 @@ void simul_fit(){
   // ---------------------------------------------------
 
   // Perform simultaneous fit of model to data and model_ctl to data_ctl
-  simPdf.fitTo(combData) ;
-
-  cout << mean_110.getVal() << endl;
-  cout << mean_130.getVal() << endl;
-
+  // simPdf.fitTo(combData,Save()) ;
+  simPdf.fitTo(combData);
 
   // P l o t   m o d e l   s l i c e s   o n   d a t a    s l i c e s
   // ----------------------------------------------------------------
 
-  /*// Make a frame for the 110 GeV sample
+  // Make a frame for the 110 GeV sample
   RooPlot* frame1 = m.frame(Title("110 GeV m_{h} distribution")) ;
   combData.plotOn(frame1,Cut("sample==sample::myy_110")) ;
   simPdf.plotOn(frame1,Slice(sample,"myy_110"),ProjWData(sample,combData)) ;
@@ -198,16 +205,17 @@ void simul_fit(){
   combData.plotOn(frame4,Cut("sample==sample::myy_140")) ;
   simPdf.plotOn(frame4,Slice(sample,"myy_140"),ProjWData(sample,combData)) ;
   //simPdf.plotOn(frame2,Slice(sample,"myy_130"),Components("dcbPdf_130"),ProjWData(sample,combData),LineStyle(kDashed)) ;
-  */
+
 
   plot_results("110",mean_110,width_110,a1_110,p1_110,a2_110,p2_110,m,combData,simPdf,sample);
   plot_results("125",mean_125,width_125,a1_125,p1_125,a2_125,p2_125,m,combData,simPdf,sample);
   plot_results("130",mean_130,width_130,a1_130,p1_130,a2_130,p2_130,m,combData,simPdf,sample);
   plot_results("140",mean_140,width_140,a1_140,p1_140,a2_140,p2_140,m,combData,simPdf,sample);
 
+  cout << A_a1.getVal() << " " << B_a1.getVal() << endl;
 
-  double mu_sim[4] = {mean_110.getVal(),mean_125.getVal(),mean_130.getVal(),mean_140.getVal()};
-  double width_sim[4] = {width_110.getVal(),width_125.getVal(),width_130.getVal(),width_140.getVal()};
+  double mu_sim[4] = {A_mu.getVal()+110*B_mu.getVal(),A_mu.getVal()+125*B_mu.getVal(),A_mu.getVal()+130*B_mu.getVal(),A_mu.getVal()+140*B_mu.getVal()};
+  double width_sim[4] = {A_width.getVal()+110*B_width.getVal(),A_width.getVal()+125*B_width.getVal(),A_width.getVal()+130*B_width.getVal(),A_width.getVal()+140*B_width.getVal()};
   double a1_sim[4] = {a1_110.getVal(),a1_125.getVal(),a1_130.getVal(),a1_140.getVal()};
   double p1_sim[4] = {p1_110.getVal(),p1_125.getVal(),p1_130.getVal(),p1_140.getVal()};
   double a2_sim[4] = {a2_110.getVal(),a2_125.getVal(),a2_130.getVal(),a2_140.getVal()};
@@ -222,6 +230,23 @@ void simul_fit(){
   double a2_sim_err[4] = {0,0,0,0};
   double p2_sim_err[4] = {0,0,0,0};
 
+
+  // all parameters obtained from previous fit
+  double masses[4] = {110,125,130,140};
+  double masses_error[4] = {0,0,0,0};
+  double mu[4] = {110.122045, 125.120605, 130.119203, 140.128386};
+  double mu_error[4] = {0.031419, 0.032085, 0.034132, 0.041798};
+  double sigma[4] = {1.683887, 1.788779, 1.823120, 1.906895};
+  double sigma_error[4] = {0.037484, 0.037591, 0.040010, 0.048537};
+  double a1[4] = {1.737295, 1.723697, 1.739125, 1.748865};
+  double a1_error[4] = {0.123130, 0.116492, 0.122213, 0.144540};
+  double p1[4] = {4.825106, 4.912847, 4.751721, 4.606459};
+  double p1_error[4] = {1.078196, 1.066697, 1.061026, 1.199767};
+  double a2[4] = {1.602378, 1.563756, 1.511050, 1.628135};
+  double a2_error[4] = {0.145021, 0.130597, 0.126748, 0.178149};
+  double p2[4] = {15.929337, 21.855431, 30.468083, 18.320550};
+  double p2_error[4] = {9.688985, 16.271775, 28.915310, 15.547188};
+
   plot_param(mu,mu_sim,mu_sim_err,"mu");
   plot_param(sigma,width_sim,width_sim_err,"width");
   plot_param(a1,a1_sim,a1_sim_err,"a1");
@@ -232,7 +257,7 @@ void simul_fit(){
   return;
 }
 
-void plot_results(string name, RooFormulaVar mean, RooFormulaVar width, RooRealVar a1, RooRealVar p1, RooRealVar a2, RooRealVar p2,
+void plot_results(string name, RooFormulaVar mean, RooFormulaVar width, RooFormulaVar a1, RooFormulaVar p1, RooFormulaVar a2,RooFormulaVar p2,
                   RooRealVar m, RooDataSet combData, RooSimultaneous simPdf, RooCategory sample){
   // plotting
   // adding text
@@ -246,7 +271,7 @@ void plot_results(string name, RooFormulaVar mean, RooFormulaVar width, RooRealV
 
   string intro[6] = {"#mu = ","#sigma = ","a_{1} = ","p_{1} = ","a_{2} = ","p_{2} = "};
   string values[6] = {to_string(mean.getVal()),to_string(width.getVal()),to_string(a1.getVal()),to_string(p1.getVal()),to_string(a2.getVal()),to_string(p2.getVal())};
-  string errors[6] = {" "," ",to_string(a1.getAsymErrorHi()),to_string(p1.getAsymErrorHi()),to_string(a2.getAsymErrorHi()),to_string(p2.getAsymErrorHi())};
+  string errors[6] = {" "," "," "," "," "," "};
   string pm = " +- ";
 
   TPaveText *text_fit  = new TPaveText(0.9, 0.65, 0.7, 0.9,"NDC");
@@ -257,18 +282,14 @@ void plot_results(string name, RooFormulaVar mean, RooFormulaVar width, RooRealV
   text_fit->AddText("DCB fit:");
   string line;
   for(int j=0; j<6; j++){
-    if (j<2){
-      line = intro[j]+values[j];
-    }else{
-      line = intro[j]+values[j]+pm+errors[j];
-    }
+    line = intro[j]+values[j];
     text_fit->AddText(line.c_str());
   }
 
   TCanvas* c1 = new TCanvas("c1","c1",600,400) ;
   c1->cd();
   const char *title_init = "m_{yy} distribution + DCB global fit [";
-  const char *title_end = " GeV] with #mu(m_{h}) and #sigma(m_{h})";
+  const char *title_end = " GeV] with all params(m_{h})";
   string title_plot = title_init + name + title_end;
   RooPlot* frame = m.frame(Title(title_plot.c_str()));
   const char * name_comb = "sample==sample::myy_";
@@ -298,12 +319,54 @@ void plot_results(string name, RooFormulaVar mean, RooFormulaVar width, RooRealV
 
   // saving plot
   const char *save_init = "Plots/myy_";
-  const char *save_end = "GeV_DCBfit_cutFlow_global.pdf";
+  const char *save_end = "GeV_DCBfit_cutFlow_global_all.pdf";
   string path_plot = save_init + name + save_end;
   c1->SaveAs(path_plot.c_str());
 
   return;
 }
+
+void read_linear_fit(vector<double>& mu_par, vector<double>& sigma_par, vector<double>& a1_par,
+  vector<double>& p1_par, vector<double>& a2_par, vector<double>& p2_par){
+    ifstream input("Fit_Results/linear_fit.txt");
+    string name;
+    double A_par, B_par;
+    while(!input.eof()){
+      input >> name;
+      input >> A_par;
+      input >> B_par;
+
+      //cout << name << " " << A_par << " " << B_par << endl;
+      if(name=="mu"){
+        mu_par.push_back(A_par);
+        mu_par.push_back(B_par);
+      }
+      if(name=="sigma"){
+        sigma_par.push_back(A_par);
+        sigma_par.push_back(B_par);
+      }
+      if(name=="a1"){
+        a1_par.push_back(A_par);
+        a1_par.push_back(B_par);
+      }
+      if(name=="p1"){
+        p1_par.push_back(A_par);
+        p1_par.push_back(B_par);
+      }
+      if(name=="a2"){
+        a2_par.push_back(A_par);
+        a2_par.push_back(B_par);
+      }
+      if(name=="p2"){
+        p2_par.push_back(A_par);
+        p2_par.push_back(B_par);
+      }
+    }
+    input.close();
+
+    return;
+};
+
 
 void plot_param(double P_sing[4], double P_all[4], double Err_all[4], string name){
 
@@ -342,7 +405,7 @@ void plot_param(double P_sing[4], double P_all[4], double Err_all[4], string nam
   c3->BuildLegend();
 
   const char *repo = "Plots/";
-  const char *end = "_param.pdf";
+  const char *end = "_param_all.pdf";
   string path = repo + name + end;
 
   c3->SaveAs(path.c_str());

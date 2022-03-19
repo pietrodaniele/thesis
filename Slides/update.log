@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  16 FEB 2022 07:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  16 MAR 2022 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2365,7 +2365,7 @@ File: t1pbk.fd 2001/06/04 font definitions for T1/pbk.
 )
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <17.28> not available
 (Font)              Font shape `T1/pbk/l/n' tried instead on input line 38.
-<UiB-images/uni_bianco.png, id=21, 602.25pt x 206.7725pt>
+<UiB-images/uni_bianco.png, id=25, 602.25pt x 206.7725pt>
 File: UiB-images/uni_bianco.png Graphic file (type png)
 <use UiB-images/uni_bianco.png>
 Package pdftex.def Info: UiB-images/uni_bianco.png  used on input line 38.
@@ -2437,7 +2437,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<Images/ttre.png, id=57, 254.9525pt x 327.2225pt>
+<Images/ttre.png, id=63, 254.9525pt x 327.2225pt>
 File: Images/ttre.png Graphic file (type png)
 <use Images/ttre.png>
 Package pdftex.def Info: Images/ttre.png  used on input line 83.
@@ -2450,7 +2450,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [6
 
  <./Images/ttre.png>]
-<../Examples/Plots/myy_dist.pdf, id=64, 569.12625pt x 321.2pt>
+<../Examples/Plots/myy_dist.pdf, id=70, 569.12625pt x 321.2pt>
 File: ../Examples/Plots/myy_dist.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy_dist.pdf>
 Package pdftex.def Info: ../Examples/Plots/myy_dist.pdf  used on input line 90.
@@ -2491,7 +2491,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [8
 
 ]
-<../Examples/Plots/myy+fit.pdf, id=129, 569.12625pt x 321.2pt>
+<../Examples/Plots/myy+fit.pdf, id=135, 569.12625pt x 321.2pt>
 File: ../Examples/Plots/myy+fit.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy+fit.pdf>
 Package pdftex.def Info: ../Examples/Plots/myy+fit.pdf  used on input line 125.
@@ -2512,7 +2512,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [10
 
 ]
-<../Examples/Plots/myy_dist_cutFlow.pdf, id=184, 569.12625pt x 321.2pt>
+<../Examples/Plots/myy_dist_cutFlow.pdf, id=190, 569.12625pt x 321.2pt>
 File: ../Examples/Plots/myy_dist_cutFlow.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy_dist_cutFlow.pdf>
 Package pdftex.def Info: ../Examples/Plots/myy_dist_cutFlow.pdf  used on input 
@@ -2526,7 +2526,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [11
 
  <../Examples/Plots/myy_dist_cutFlow.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/myy+fit_cutFlow.pdf, id=234, 569.12625pt x 321.2pt>
+<../Examples/Plots/myy+fit_cutFlow.pdf, id=240, 569.12625pt x 321.2pt>
 File: ../Examples/Plots/myy+fit_cutFlow.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy+fit_cutFlow.pdf>
 Package pdftex.def Info: ../Examples/Plots/myy+fit_cutFlow.pdf  used on input l
@@ -2540,7 +2540,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [12
 
  <../Examples/Plots/myy+fit_cutFlow.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/myy_110GeV_DCBfit.pdf, id=283, 569.12625pt x 321.2pt>
+<../Examples/Plots/myy_110GeV_DCBfit.pdf, id=289, 569.12625pt x 321.2pt>
 File: ../Examples/Plots/myy_110GeV_DCBfit.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy_110GeV_DCBfit.pdf>
 Package pdftex.def Info: ../Examples/Plots/myy_110GeV_DCBfit.pdf  used on input
@@ -2554,7 +2554,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [13
 
  <../Examples/Plots/myy_110GeV_DCBfit.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/myy_125GeV_DCBfit.pdf, id=333, 569.12625pt x 321.2pt>
+<../Examples/Plots/myy_125GeV_DCBfit.pdf, id=339, 569.12625pt x 321.2pt>
 File: ../Examples/Plots/myy_125GeV_DCBfit.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy_125GeV_DCBfit.pdf>
 Package pdftex.def Info: ../Examples/Plots/myy_125GeV_DCBfit.pdf  used on input
@@ -2568,7 +2568,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [14
 
  <../Examples/Plots/myy_125GeV_DCBfit.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/myy_130GeV_DCBfit.pdf, id=382, 569.12625pt x 321.2pt>
+<../Examples/Plots/myy_130GeV_DCBfit.pdf, id=388, 569.12625pt x 321.2pt>
 File: ../Examples/Plots/myy_130GeV_DCBfit.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy_130GeV_DCBfit.pdf>
 Package pdftex.def Info: ../Examples/Plots/myy_130GeV_DCBfit.pdf  used on input
@@ -2582,7 +2582,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [15
 
  <../Examples/Plots/myy_130GeV_DCBfit.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/myy_140GeV_DCBfit.pdf, id=431, 569.12625pt x 321.2pt>
+<../Examples/Plots/myy_140GeV_DCBfit.pdf, id=438, 569.12625pt x 321.2pt>
 File: ../Examples/Plots/myy_140GeV_DCBfit.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy_140GeV_DCBfit.pdf>
 Package pdftex.def Info: ../Examples/Plots/myy_140GeV_DCBfit.pdf  used on input
@@ -2596,7 +2596,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [16
 
  <../Examples/Plots/myy_140GeV_DCBfit.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/myy_110GeV_DCBfit_cutFlow.pdf, id=481, 569.12625pt x 321.2pt
+<../Examples/Plots/myy_110GeV_DCBfit_cutFlow.pdf, id=487, 569.12625pt x 321.2pt
 >
 File: ../Examples/Plots/myy_110GeV_DCBfit_cutFlow.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy_110GeV_DCBfit_cutFlow.pdf>
@@ -2611,7 +2611,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [17
 
  <../Examples/Plots/myy_110GeV_DCBfit_cutFlow.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/myy_125GeV_DCBfit_cutFlow.pdf, id=530, 569.12625pt x 321.2pt
+<../Examples/Plots/myy_125GeV_DCBfit_cutFlow.pdf, id=536, 569.12625pt x 321.2pt
 >
 File: ../Examples/Plots/myy_125GeV_DCBfit_cutFlow.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy_125GeV_DCBfit_cutFlow.pdf>
@@ -2626,7 +2626,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [18
 
  <../Examples/Plots/myy_125GeV_DCBfit_cutFlow.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/myy_130GeV_DCBfit_cutFlow.pdf, id=579, 569.12625pt x 321.2pt
+<../Examples/Plots/myy_130GeV_DCBfit_cutFlow.pdf, id=585, 569.12625pt x 321.2pt
 >
 File: ../Examples/Plots/myy_130GeV_DCBfit_cutFlow.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy_130GeV_DCBfit_cutFlow.pdf>
@@ -2641,7 +2641,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [19
 
  <../Examples/Plots/myy_130GeV_DCBfit_cutFlow.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/myy_140GeV_DCBfit_cutFlow.pdf, id=629, 569.12625pt x 321.2pt
+<../Examples/Plots/myy_140GeV_DCBfit_cutFlow.pdf, id=635, 569.12625pt x 321.2pt
 >
 File: ../Examples/Plots/myy_140GeV_DCBfit_cutFlow.pdf Graphic file (type pdf)
 <use ../Examples/Plots/myy_140GeV_DCBfit_cutFlow.pdf>
@@ -2673,7 +2673,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [23
 
 ]
-<../Examples/Plots/myy_110GeV_DCBfit_cutFlow_multifit.pdf, id=694, 569.12625pt 
+<../Examples/Plots/myy_110GeV_DCBfit_cutFlow_multifit.pdf, id=700, 569.12625pt 
 x 321.2pt>
 File: ../Examples/Plots/myy_110GeV_DCBfit_cutFlow_multifit.pdf Graphic file (ty
 pe pdf)
@@ -2690,7 +2690,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_110GeV_DCBfit_cutFlow_multifit.pdf, page is rotated 90 
 degrees>]
-<../Examples/Plots/myy_125GeV_DCBfit_cutFlow_multifit.pdf, id=743, 569.12625pt 
+<../Examples/Plots/myy_125GeV_DCBfit_cutFlow_multifit.pdf, id=749, 569.12625pt 
 x 321.2pt>
 File: ../Examples/Plots/myy_125GeV_DCBfit_cutFlow_multifit.pdf Graphic file (ty
 pe pdf)
@@ -2707,7 +2707,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_125GeV_DCBfit_cutFlow_multifit.pdf, page is rotated 90 
 degrees>]
-<../Examples/Plots/myy_130GeV_DCBfit_cutFlow_multifit.pdf, id=793, 569.12625pt 
+<../Examples/Plots/myy_130GeV_DCBfit_cutFlow_multifit.pdf, id=799, 569.12625pt 
 x 321.2pt>
 File: ../Examples/Plots/myy_130GeV_DCBfit_cutFlow_multifit.pdf Graphic file (ty
 pe pdf)
@@ -2724,7 +2724,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_130GeV_DCBfit_cutFlow_multifit.pdf, page is rotated 90 
 degrees>]
-<../Examples/Plots/myy_140GeV_DCBfit_cutFlow_multifit.pdf, id=842, 569.12625pt 
+<../Examples/Plots/myy_140GeV_DCBfit_cutFlow_multifit.pdf, id=848, 569.12625pt 
 x 321.2pt>
 File: ../Examples/Plots/myy_140GeV_DCBfit_cutFlow_multifit.pdf Graphic file (ty
 pe pdf)
@@ -2741,7 +2741,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_140GeV_DCBfit_cutFlow_multifit.pdf, page is rotated 90 
 degrees>]
-<../Examples/Plots/mu_fit.pdf, id=892, 569.12625pt x 388.45125pt>
+<../Examples/Plots/mu_fit.pdf, id=898, 569.12625pt x 388.45125pt>
 File: ../Examples/Plots/mu_fit.pdf Graphic file (type pdf)
 <use ../Examples/Plots/mu_fit.pdf>
 Package pdftex.def Info: ../Examples/Plots/mu_fit.pdf  used on input line 265.
@@ -2754,7 +2754,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [28
 
  <../Examples/Plots/mu_fit.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/sigma_fit.pdf, id=942, 569.12625pt x 388.45125pt>
+<../Examples/Plots/sigma_fit.pdf, id=948, 569.12625pt x 388.45125pt>
 File: ../Examples/Plots/sigma_fit.pdf Graphic file (type pdf)
 <use ../Examples/Plots/sigma_fit.pdf>
 Package pdftex.def Info: ../Examples/Plots/sigma_fit.pdf  used on input line 27
@@ -2768,7 +2768,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [29
 
  <../Examples/Plots/sigma_fit.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/a1_fit.pdf, id=991, 569.12625pt x 388.45125pt>
+<../Examples/Plots/a1_fit.pdf, id=997, 569.12625pt x 388.45125pt>
 File: ../Examples/Plots/a1_fit.pdf Graphic file (type pdf)
 <use ../Examples/Plots/a1_fit.pdf>
 Package pdftex.def Info: ../Examples/Plots/a1_fit.pdf  used on input line 287.
@@ -2781,7 +2781,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [30
 
  <../Examples/Plots/a1_fit.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/p1_fit.pdf, id=1040, 569.12625pt x 388.45125pt>
+<../Examples/Plots/p1_fit.pdf, id=1046, 569.12625pt x 388.45125pt>
 File: ../Examples/Plots/p1_fit.pdf Graphic file (type pdf)
 <use ../Examples/Plots/p1_fit.pdf>
 Package pdftex.def Info: ../Examples/Plots/p1_fit.pdf  used on input line 298.
@@ -2794,7 +2794,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [31
 
  <../Examples/Plots/p1_fit.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/a2_fit.pdf, id=1090, 569.12625pt x 388.45125pt>
+<../Examples/Plots/a2_fit.pdf, id=1097, 569.12625pt x 388.45125pt>
 File: ../Examples/Plots/a2_fit.pdf Graphic file (type pdf)
 <use ../Examples/Plots/a2_fit.pdf>
 Package pdftex.def Info: ../Examples/Plots/a2_fit.pdf  used on input line 309.
@@ -2807,7 +2807,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [32
 
  <../Examples/Plots/a2_fit.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/p2_fit.pdf, id=1140, 569.12625pt x 388.45125pt>
+<../Examples/Plots/p2_fit.pdf, id=1146, 569.12625pt x 388.45125pt>
 File: ../Examples/Plots/p2_fit.pdf Graphic file (type pdf)
 <use ../Examples/Plots/p2_fit.pdf>
 Package pdftex.def Info: ../Examples/Plots/p2_fit.pdf  used on input line 320.
@@ -2820,7 +2820,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [33
 
  <../Examples/Plots/p2_fit.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/myy_110GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1189, 569.1262
+<../Examples/Plots/myy_110GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1195, 569.1262
 5pt x 321.2pt>
 File: ../Examples/Plots/myy_110GeV_DCBfit_cutFlow_mu_sigma_mh.pdf Graphic file 
 (type pdf)
@@ -2837,7 +2837,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_110GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, page is rotated 
 90 degrees>]
-<../Examples/Plots/myy_125GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1238, 569.1262
+<../Examples/Plots/myy_125GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1244, 569.1262
 5pt x 321.2pt>
 File: ../Examples/Plots/myy_125GeV_DCBfit_cutFlow_mu_sigma_mh.pdf Graphic file 
 (type pdf)
@@ -2854,7 +2854,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_125GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, page is rotated 
 90 degrees>]
-<../Examples/Plots/myy_130GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1287, 569.1262
+<../Examples/Plots/myy_130GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1293, 569.1262
 5pt x 321.2pt>
 File: ../Examples/Plots/myy_130GeV_DCBfit_cutFlow_mu_sigma_mh.pdf Graphic file 
 (type pdf)
@@ -2871,7 +2871,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_130GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, page is rotated 
 90 degrees>]
-<../Examples/Plots/myy_140GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1337, 569.1262
+<../Examples/Plots/myy_140GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1343, 569.1262
 5pt x 321.2pt>
 File: ../Examples/Plots/myy_140GeV_DCBfit_cutFlow_mu_sigma_mh.pdf Graphic file 
 (type pdf)
@@ -2888,7 +2888,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_140GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, page is rotated 
 90 degrees>]
-<../Examples/Plots/myy_110GeV_DCBfit_cutFlow_all_mh.pdf, id=1387, 569.12625pt x
+<../Examples/Plots/myy_110GeV_DCBfit_cutFlow_all_mh.pdf, id=1393, 569.12625pt x
  321.2pt>
 File: ../Examples/Plots/myy_110GeV_DCBfit_cutFlow_all_mh.pdf Graphic file (type
  pdf)
@@ -2905,7 +2905,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_110GeV_DCBfit_cutFlow_all_mh.pdf, page is rotated 90 de
 grees>]
-<../Examples/Plots/myy_125GeV_DCBfit_cutFlow_all_mh.pdf, id=1436, 569.12625pt x
+<../Examples/Plots/myy_125GeV_DCBfit_cutFlow_all_mh.pdf, id=1442, 569.12625pt x
  321.2pt>
 File: ../Examples/Plots/myy_125GeV_DCBfit_cutFlow_all_mh.pdf Graphic file (type
  pdf)
@@ -2922,7 +2922,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_125GeV_DCBfit_cutFlow_all_mh.pdf, page is rotated 90 de
 grees>]
-<../Examples/Plots/myy_130GeV_DCBfit_cutFlow_all_mh.pdf, id=1485, 569.12625pt x
+<../Examples/Plots/myy_130GeV_DCBfit_cutFlow_all_mh.pdf, id=1491, 569.12625pt x
  321.2pt>
 File: ../Examples/Plots/myy_130GeV_DCBfit_cutFlow_all_mh.pdf Graphic file (type
  pdf)
@@ -2939,7 +2939,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_130GeV_DCBfit_cutFlow_all_mh.pdf, page is rotated 90 de
 grees>]
-<../Examples/Plots/myy_140GeV_DCBfit_cutFlow_all_mh.pdf, id=1534, 569.12625pt x
+<../Examples/Plots/myy_140GeV_DCBfit_cutFlow_all_mh.pdf, id=1540, 569.12625pt x
  321.2pt>
 File: ../Examples/Plots/myy_140GeV_DCBfit_cutFlow_all_mh.pdf Graphic file (type
  pdf)
@@ -2956,7 +2956,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_140GeV_DCBfit_cutFlow_all_mh.pdf, page is rotated 90 de
 grees>]
-<../Examples/Plots/myy_110GeV_DCBfit_cutFlow_global.pdf, id=1584, 569.12625pt x
+<../Examples/Plots/myy_110GeV_DCBfit_cutFlow_global.pdf, id=1590, 569.12625pt x
  357.335pt>
 File: ../Examples/Plots/myy_110GeV_DCBfit_cutFlow_global.pdf Graphic file (type
  pdf)
@@ -2973,7 +2973,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_110GeV_DCBfit_cutFlow_global.pdf, page is rotated 90 de
 grees>]
-<../Examples/Plots/myy_125GeV_DCBfit_cutFlow_global.pdf, id=1633, 569.12625pt x
+<../Examples/Plots/myy_125GeV_DCBfit_cutFlow_global.pdf, id=1639, 569.12625pt x
  357.335pt>
 File: ../Examples/Plots/myy_125GeV_DCBfit_cutFlow_global.pdf Graphic file (type
  pdf)
@@ -2990,7 +2990,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_125GeV_DCBfit_cutFlow_global.pdf, page is rotated 90 de
 grees>]
-<../Examples/Plots/myy_130GeV_DCBfit_cutFlow_global.pdf, id=1683, 569.12625pt x
+<../Examples/Plots/myy_130GeV_DCBfit_cutFlow_global.pdf, id=1689, 569.12625pt x
  357.335pt>
 File: ../Examples/Plots/myy_130GeV_DCBfit_cutFlow_global.pdf Graphic file (type
  pdf)
@@ -3007,7 +3007,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_130GeV_DCBfit_cutFlow_global.pdf, page is rotated 90 de
 grees>]
-<../Examples/Plots/myy_140GeV_DCBfit_cutFlow_global.pdf, id=1732, 569.12625pt x
+<../Examples/Plots/myy_140GeV_DCBfit_cutFlow_global.pdf, id=1738, 569.12625pt x
  357.335pt>
 File: ../Examples/Plots/myy_140GeV_DCBfit_cutFlow_global.pdf Graphic file (type
  pdf)
@@ -3024,7 +3024,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
  <../Examples/Plots/myy_140GeV_DCBfit_cutFlow_global.pdf, page is rotated 90 de
 grees>]
-<../Examples/Plots/mu_param.pdf, id=1782, 569.12625pt x 357.335pt>
+<../Examples/Plots/mu_param.pdf, id=1788, 569.12625pt x 357.335pt>
 File: ../Examples/Plots/mu_param.pdf Graphic file (type pdf)
 <use ../Examples/Plots/mu_param.pdf>
 Package pdftex.def Info: ../Examples/Plots/mu_param.pdf  used on input line 398
@@ -3038,7 +3038,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [46
 
  <../Examples/Plots/mu_param.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/width_param.pdf, id=1831, 569.12625pt x 357.335pt>
+<../Examples/Plots/width_param.pdf, id=1837, 569.12625pt x 357.335pt>
 File: ../Examples/Plots/width_param.pdf Graphic file (type pdf)
 <use ../Examples/Plots/width_param.pdf>
 Package pdftex.def Info: ../Examples/Plots/width_param.pdf  used on input line 
@@ -3052,7 +3052,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [47
 
  <../Examples/Plots/width_param.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/a1_param.pdf, id=1880, 569.12625pt x 357.335pt>
+<../Examples/Plots/a1_param.pdf, id=1886, 569.12625pt x 357.335pt>
 File: ../Examples/Plots/a1_param.pdf Graphic file (type pdf)
 <use ../Examples/Plots/a1_param.pdf>
 Package pdftex.def Info: ../Examples/Plots/a1_param.pdf  used on input line 410
@@ -3066,7 +3066,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [48
 
  <../Examples/Plots/a1_param.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/p1_param.pdf, id=1929, 569.12625pt x 357.335pt>
+<../Examples/Plots/p1_param.pdf, id=1935, 569.12625pt x 357.335pt>
 File: ../Examples/Plots/p1_param.pdf Graphic file (type pdf)
 <use ../Examples/Plots/p1_param.pdf>
 Package pdftex.def Info: ../Examples/Plots/p1_param.pdf  used on input line 416
@@ -3080,7 +3080,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [49
 
  <../Examples/Plots/p1_param.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/a2_param.pdf, id=1979, 569.12625pt x 357.335pt>
+<../Examples/Plots/a2_param.pdf, id=1985, 569.12625pt x 357.335pt>
 File: ../Examples/Plots/a2_param.pdf Graphic file (type pdf)
 <use ../Examples/Plots/a2_param.pdf>
 Package pdftex.def Info: ../Examples/Plots/a2_param.pdf  used on input line 422
@@ -3094,7 +3094,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [50
 
  <../Examples/Plots/a2_param.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/p2_param.pdf, id=2029, 569.12625pt x 357.335pt>
+<../Examples/Plots/p2_param.pdf, id=2035, 569.12625pt x 357.335pt>
 File: ../Examples/Plots/p2_param.pdf Graphic file (type pdf)
 <use ../Examples/Plots/p2_param.pdf>
 Package pdftex.def Info: ../Examples/Plots/p2_param.pdf  used on input line 428
@@ -3108,7 +3108,7 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 [51
 
  <../Examples/Plots/p2_param.pdf, page is rotated 90 degrees>]
-<../Examples/Plots/efficiencies.pdf, id=2078, 569.12625pt x 357.335pt>
+<../Examples/Plots/efficiencies.pdf, id=2084, 569.12625pt x 357.335pt>
 File: ../Examples/Plots/efficiencies.pdf Graphic file (type pdf)
 <use ../Examples/Plots/efficiencies.pdf>
 Package pdftex.def Info: ../Examples/Plots/efficiencies.pdf  used on input line
@@ -3125,7 +3125,177 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 
 [52
 
- <../Examples/Plots/efficiencies.pdf, page is rotated 90 degrees>]
+ <../Examples/Plots/efficiencies.pdf, page is rotated 90 degrees>] [53
+
+]
+Overfull \hbox (1.05997pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[54
+
+]
+<../Examples/Plots/myy_110GeV_DCBfit_cutFlow_global_all.pdf, id=2143, 569.12625
+pt x 357.335pt>
+File: ../Examples/Plots/myy_110GeV_DCBfit_cutFlow_global_all.pdf Graphic file (
+type pdf)
+<use ../Examples/Plots/myy_110GeV_DCBfit_cutFlow_global_all.pdf>
+Package pdftex.def Info: ../Examples/Plots/myy_110GeV_DCBfit_cutFlow_global_all
+.pdf  used on input line 467.
+(pdftex.def)             Requested size: 342.3152pt x 214.937pt.
+
+Overfull \hbox (1.05997pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[55
+
+ <../Examples/Plots/myy_110GeV_DCBfit_cutFlow_global_all.pdf, page is rotated 9
+0 degrees>]
+<../Examples/Plots/myy_125GeV_DCBfit_cutFlow_global_all.pdf, id=2193, 569.12625
+pt x 357.335pt>
+File: ../Examples/Plots/myy_125GeV_DCBfit_cutFlow_global_all.pdf Graphic file (
+type pdf)
+<use ../Examples/Plots/myy_125GeV_DCBfit_cutFlow_global_all.pdf>
+Package pdftex.def Info: ../Examples/Plots/myy_125GeV_DCBfit_cutFlow_global_all
+.pdf  used on input line 473.
+(pdftex.def)             Requested size: 342.3152pt x 214.937pt.
+
+Overfull \hbox (1.05997pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[56
+
+ <../Examples/Plots/myy_125GeV_DCBfit_cutFlow_global_all.pdf, page is rotated 9
+0 degrees>]
+<../Examples/Plots/myy_130GeV_DCBfit_cutFlow_global_all.pdf, id=2243, 569.12625
+pt x 357.335pt>
+File: ../Examples/Plots/myy_130GeV_DCBfit_cutFlow_global_all.pdf Graphic file (
+type pdf)
+<use ../Examples/Plots/myy_130GeV_DCBfit_cutFlow_global_all.pdf>
+Package pdftex.def Info: ../Examples/Plots/myy_130GeV_DCBfit_cutFlow_global_all
+.pdf  used on input line 479.
+(pdftex.def)             Requested size: 342.3152pt x 214.937pt.
+
+Overfull \hbox (1.05997pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[57
+
+ <../Examples/Plots/myy_130GeV_DCBfit_cutFlow_global_all.pdf, page is rotated 9
+0 degrees>]
+<../Examples/Plots/myy_140GeV_DCBfit_cutFlow_global_all.pdf, id=2292, 569.12625
+pt x 357.335pt>
+File: ../Examples/Plots/myy_140GeV_DCBfit_cutFlow_global_all.pdf Graphic file (
+type pdf)
+<use ../Examples/Plots/myy_140GeV_DCBfit_cutFlow_global_all.pdf>
+Package pdftex.def Info: ../Examples/Plots/myy_140GeV_DCBfit_cutFlow_global_all
+.pdf  used on input line 485.
+(pdftex.def)             Requested size: 342.3152pt x 214.937pt.
+
+Overfull \hbox (1.05997pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[58
+
+ <../Examples/Plots/myy_140GeV_DCBfit_cutFlow_global_all.pdf, page is rotated 9
+0 degrees>]
+<../Examples/Plots/myy_125GeV_DCBfit_cutFlow_no125.pdf, id=2341, 569.12625pt x 
+357.335pt>
+File: ../Examples/Plots/myy_125GeV_DCBfit_cutFlow_no125.pdf Graphic file (type 
+pdf)
+<use ../Examples/Plots/myy_125GeV_DCBfit_cutFlow_no125.pdf>
+Package pdftex.def Info: ../Examples/Plots/myy_125GeV_DCBfit_cutFlow_no125.pdf 
+ used on input line 499.
+(pdftex.def)             Requested size: 273.8532pt x 171.94958pt.
+
+Overfull \hbox (1.05997pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[59
+
+ <../Examples/Plots/myy_125GeV_DCBfit_cutFlow_no125.pdf, page is rotated 90 deg
+rees>]
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   a
+l.509 		\end{frame}
+                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \iterate.
+<to be read again> 
+                   a
+l.509 		\end{frame}
+                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \beamer@doifinframe.
+<to be read again> 
+                   a
+l.509 		\end{frame}
+                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.509 		\end{frame}
+                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.509 		\end{frame}
+                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   a
+l.509 		\end{frame}
+                   
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+Overfull \hbox (1.05997pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[60
+
+]
+<../Examples/Plots/backgroundMC_dist.pdf, id=2396, 569.12625pt x 357.335pt>
+File: ../Examples/Plots/backgroundMC_dist.pdf Graphic file (type pdf)
+<use ../Examples/Plots/backgroundMC_dist.pdf>
+Package pdftex.def Info: ../Examples/Plots/backgroundMC_dist.pdf  used on input
+ line 515.
+(pdftex.def)             Requested size: 342.3152pt x 214.937pt.
+
+Overfull \hbox (1.05997pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[61
+
+ <../Examples/Plots/backgroundMC_dist.pdf, page is rotated 90 degrees>]
 \tf@nav=\write6
 \openout6 = `update.nav'.
 
@@ -3135,21 +3305,21 @@ Overfull \hbox (1.05997pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `update.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 437.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 437.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 516.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
 
 (./update.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 437.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 437.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 516.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 516.
 Package rerunfilecheck Info: File `update.out' has not changed.
-(rerunfilecheck)             Checksum: 28E83B5D7CDFA8F099C53732EB9DC341;90.
+(rerunfilecheck)             Checksum: 6949E5EB964ADC69D42031245EFD523C;135.
  ) 
 Here is how much of TeX's memory you used:
- 30655 strings out of 481239
- 617490 string characters out of 5920376
- 926276 words of memory out of 5000000
- 44971 multiletter control sequences out of 15000+600000
- 605482 words of font info for 129 fonts, out of 8000000 for 9000
+ 30734 strings out of 481239
+ 620009 string characters out of 5920376
+ 926278 words of memory out of 5000000
+ 45025 multiletter control sequences out of 15000+600000
+ 605794 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,14n,78p,773b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -3167,10 +3337,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
 f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
 elvetic/uhvro8a.pfb>
-Output written on update.pdf (52 pages, 1057468 bytes).
+Output written on update.pdf (61 pages, 1194547 bytes).
 PDF statistics:
- 2203 PDF objects out of 2487 (max. 8388607)
- 1048 compressed objects within 11 object streams
- 107 named destinations out of 1000 (max. 500000)
- 35602 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 2527 PDF objects out of 2984 (max. 8388607)
+ 1205 compressed objects within 13 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 36152 words of extra memory for PDF output out of 42996 (max. 10000000)
 

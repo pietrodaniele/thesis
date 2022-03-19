@@ -32,7 +32,7 @@ void eff_conf(){
   //gr1->SetFillStyle(0);
 
   gr1->SetTitle("Efficiencies(m_{h})");
-  gr1->GetXaxis()->SetTitle("m_{h} [GeV]");
+  gr1->GetXaxis()->SetTitle("m_{yy} [GeV]");
   gr1->GetYaxis()->SetTitle("Eff");
   gr1->Draw("ALP");
 

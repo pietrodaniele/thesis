@@ -434,4 +434,83 @@
 			\vspace{2.5cm}
 			\includegraphics[width=.85\textwidth]{../Examples/Plots/efficiencies.pdf}
 		\end{frame}
+	
+	%%%%%%%%% 3° week %%%%%%%%%
+	\section{3° week}
+	\SectionPage
+	
+		\begin{frame}{3° week assignments}
+			\vfill
+			\begin{itemize}
+				\item fix the X-axis:" $m_{yy}\ [GeV]$" to "$m_{h}\ [GeV]$";
+				\item create a fit with all parameters as function of $m_H$;
+				\item fit without a dataset:
+				\begin{itemize}
+					\item the fit is build using 110, 130, 140 GeV datasets;
+					\item once the is created, it is applied to the 125 dataset.
+				\end{itemize}
+				\item add errors bars;
+				\item background MC:
+				\begin{itemize}
+					\item plot the mass distribution;
+					\item apply a exp fit.
+				\end{itemize}
+				\item build a p$_{0}$ scan on MC;
+			\end{itemize}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{Global fit all params($m_H$) [110 GeV]}
+			\vfill
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_110GeV_DCBfit_cutFlow_global_all.pdf}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{Global fit all params($m_H$) [125 GeV]}
+			\vfill
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_125GeV_DCBfit_cutFlow_global_all.pdf}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{Global fit all params($m_H$) [130 GeV]}
+			\vfill
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_130GeV_DCBfit_cutFlow_global_all.pdf}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{Global fit all params($m_H$) [140 GeV]}
+			\vfill
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/myy_140GeV_DCBfit_cutFlow_global_all.pdf}
+			\vfill
+		\end{frame}
+	
+		\begin{frame}{Fit without 125 GeV dataset}
+			\vfill
+			\begin{itemize}
+				\item I have created a fit using 110, 130, 140 GeV datasets;
+				\item Problem: How to apply this fit to the 125 GeV dataset?:
+				\begin{itemize}
+					\item create a new fit with the parameters fixed by the previous fit;
+				\end{itemize}
+			\end{itemize}
+			\centering
+			\includegraphics[width=.8\textwidth]{../Examples/Plots/myy_125GeV_DCBfit_cutFlow_no125.pdf}
+			\vfill 
+		\end{frame}
+	
+		\begin{frame}{Add error bars}
+			\vfill
+			I have read the documentation at this \href{https://root.cern.ch/doc/master/classRooAbsReal.html#a8ea9118e0ca9578fee21443e919fa3c0}{link}:
+			\begin{itemize}
+				\item there is the function \texttt{getPropagatedError(const RooFitResult fr)} to obtain the propagated errors
+				\item I tried to create a \texttt{RooFitResult} after a \texttt{RooSimultaneous} fit, but it does not work;
+			\end{itemize}
+			\vfill
+		\end{frame}
+		
+		\begin{frame}{Background MC}
+			\vfill
+			\includegraphics[width=1.\textwidth]{../Examples/Plots/backgroundMC_dist.pdf}
+			\vfill 
+		\end{frame}
 \end{document}
