@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Repositories 
+Asta/
+Carminati/
+Code/
+Data/
+
+# Data root files
+*.root
