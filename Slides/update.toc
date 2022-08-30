@@ -1,0 +1,16 @@
+\babel@toc {UKenglish}{}
+\beamer@sectionintoc {1}{1° week}{4}{0}{1}
+\beamer@sectionintoc {2}{2° week}{21}{0}{2}
+\beamer@sectionintoc {3}{3° week}{53}{0}{3}
+\beamer@sectionintoc {4}{4° week}{74}{0}{4}
+\beamer@sectionintoc {5}{5° week}{102}{0}{5}
+\beamer@sectionintoc {6}{6° week}{108}{0}{6}
+\beamer@sectionintoc {7}{7° week}{113}{0}{7}
+\beamer@sectionintoc {8}{8° week}{127}{0}{8}
+\beamer@sectionintoc {9}{9° week}{139}{0}{9}
+\beamer@sectionintoc {10}{10$^{th}$ week}{157}{0}{10}
+\beamer@sectionintoc {11}{11$^{th}$ week}{183}{0}{11}
+\beamer@sectionintoc {12}{12$^{th}$ week}{188}{0}{12}
+\beamer@sectionintoc {13}{13$^{th}$ week}{207}{0}{13}
+\beamer@sectionintoc {14}{14$^{th}$ week}{222}{0}{14}
+\beamer@sectionintoc {15}{15$^{th}$ week}{229}{0}{15}

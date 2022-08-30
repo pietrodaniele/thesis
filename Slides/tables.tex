@@ -1,0 +1,169 @@
+\documentclass[10pt,UKenglish, leqno, xcolor = dvipsnames]{beamer}
+
+\usetheme{UiB}
+
+% Font choice:
+\usefonttheme{default}
+
+\usepackage{cite}
+\usepackage{amsmath, amsthm, mathtools, color, setspace}
+\usepackage{fancyhdr, braket, etoolbox,booktabs,multirow}
+\usepackage{xfrac, lmodern, ifsym, bm, multicol, booktabs, pdflscape}
+\usepackage[utf8]{inputenx} % For æ, ø, å
+\usepackage{csquotes}       % Quotation marks
+\usepackage{microtype}      % Improved typography
+\usepackage{amssymb}        % Mathematical symbols
+\usepackage{mathtools,physics,centernot,tensor}      % Mathematical symbols
+\usepackage[absolute, overlay]{textpos} % Arbitrary placement
+\setlength{\TPHorizModule}{\paperwidth} % Textpos units
+\setlength{\TPVertModule}{\paperheight} % Textpos units
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{tikzmark,calc,overlay-beamer-styles,arrows,shapes}  % Overlay effects for TikZ
+\newenvironment{proenv}{\only{\setbeamercolor{local structure}{fg=RoyalBlue}}}{}
+\newenvironment{conenv}{\only{\setbeamercolor{local structure}{fg=Maroon}}}{}
+\newenvironment{bibbianoenv}{\only{\setbeamercolor{local structure}{fg=Green}}}{}
+\DeclarePairedDelimiter{\insieme}{\{}{\}}
+\newcommand{\numberset}{\mathbb}
+\newcommand{\alg}{\mathfrak}
+\newcommand{\Z}{\numberset{Z}}
+\newcommand{\R}{\numberset{R}}
+\newcommand{\N}{\numberset{N}}
+\newcommand{\C}{\numberset{C}}
+\newcommand{\A}{\alpha}
+
+
+
+
+\author{Pietro Daniele}
+\title{Tables}
+
+
+\begin{document}
+	\tikzstyle{na} = [baseline=-.5ex]
+	\tikzstyle{every picture}+=[remember picture]
+	
+	\begin{frame}{$\sigma$ comp}
+		\vfill
+		\centering
+		\begin{table}[tbp]
+			\centering
+			\begin{tabular}{lcccc}
+				\toprule[1.5pt]
+				$\sigma$	& 110 GeV	& 125 GeV	& 130 GeV	& 140 GeV	\\
+				\midrule
+				no cat 		& 1.6815 	& 1.7914	& 1.8280	& 1.9013	\\
+				unconv eta1 & 1.3850	& 1.4767	& 1.5073	& 1.5684	\\
+				unconv eta2 & 1.8905	& 2.0592	& 2.1154	& 2.2279	\\
+				unconv eta3 & 1.6011	& 1.7101	& 1.7464	& 1.8191	\\ 
+				1conv eta1 	& 1.5162	& 1.6136	& 1.6461	& 1.7110	\\
+				1conv eta2 	& 2.2108	& 2.4057	& 2.4707	& 2.6006	\\
+				1conv eta3	& 1.8623	& 1.9712	& 2.0075	& 2.0801 	\\
+				\bottomrule[1.5pt]
+			\end{tabular}
+			\caption{DSCB global fit $\sigma$}
+		\end{table}
+		\vfill
+	\end{frame}
+
+	\begin{frame}{Signal events}
+		\vfill
+		\centering
+		\begin{table}[tbp]
+			\resizebox{11cm}{!}{
+				\begin{tabular}{lcccccccc}
+					\toprule[1.5pt]
+					Signal	
+					& \multicolumn{2}{c}{110 GeV}
+					& \multicolumn{2}{c}{125 GeV}	
+					& \multicolumn{2}{c}{130 GeV}
+					& \multicolumn{2}{c}{140 GeV}	\\
+					\midrule
+					
+					& \textbf{MC} & \textbf{WS}
+					& \textbf{MC} & \textbf{WS}
+					& \textbf{MC} & \textbf{WS}
+					& \textbf{MC} & \textbf{WS} \\
+					
+					\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9}
+					nocat		& 5043.55 & 4837.93	& 5470.73 & 4756.55 & 5121.93 & 4497.31 & 3572.26 & 3583.96 \\
+					unc eta1	& 777.589 & 743.637	& 842.152 & 731.715 & 790.323 & 692.004 & 551.257 & 551.719	\\
+					unc eta2	& 371.877 & 355.753	& 397.986 & 345.757	& 369.978 & 325.759	& 257.827 & 257.88 	\\	
+					unc eta3	& 1308.86 & 1248.32	& 1410.78 & 1226.18	& 1333.2  & 1159.02	& 923.673 & 923.147	\\
+					1con eta1	& 480.782 & 462.915	& 526.501 & 457.137	& 491.21  & 432.8	& 343.588 & 345.766	\\
+					1con eta2	& 623.682 & 596.811	& 675.171 & 586.586	& 631.844 & 554.563	& 441.421 & 441.859 \\
+					1con eta3	& 1467.8  & 1415.07	& 1606.79 & 1394.92	& 1493.38 & 1319.94	& 1045.96 & 1053.44	\\
+					\bottomrule[1.5pt]
+				\end{tabular}
+			}
+			\caption{Number of signal events in [-$\infty$,+$\infty$] GeV intervall}
+		\end{table}
+		\vfill
+	\end{frame}
+
+	\begin{frame}{Background events}
+		\vfill
+		\centering
+		\begin{table}[tbp]
+			\resizebox{11.5cm}{!}{
+				\begin{tabular}{lccccccc}
+					\toprule[1.5pt]
+					Bkg			& nocat		& unc eta1	& unc eta2	& unc eta3	& 1con eta1	& 1con eta2	& 1con eta3	\\
+					\midrule
+					\textbf{MC} & 1311646.70& 145293.29	& 104544.26	& 361463.10 & 90428.14	& 178341.24	& 428112.52	\\	
+					\textbf{WS} & 1311646.74& 145296.40	& 104542.14	& 361461.98	& 90430.08 	& 178343.13	& 428112.85	\\
+					\bottomrule[1.5pt]
+				\end{tabular}
+			}
+			\caption{Number of bkg events in [-$\infty$,+$\infty$] GeV intervall}
+		\end{table}
+		\vfill
+	\end{frame}
+
+	\begin{frame}{Sig/Bkg comp}
+		\vfill
+		\centering
+		\begin{table}[tbp]
+			\centering
+			\begin{tabular}{lcccc}
+				\toprule[1.5pt]
+				S/B			& 110 GeV	& 125 GeV	& 130 GeV	& 140 GeV	\\
+				\midrule
+				no cat 		& 0.016654	& 0.028482	& 0.030459	& 0.027733	\\
+				unconv eta1 & 0.022935	& 0.039959	& 0.043401	& 0.040293	\\
+				unconv eta2 & 0.015188	& 0.025486	& 0.027365	& 0.025094	\\
+				unconv eta3 & 0.015641	& 0.026629	& 0.029040	& 0.026555	\\
+				1conv eta1 	& 0.022731	& 0.039530	& 0.042438	& 0.039615	\\
+				1conv eta2 	& 0.014479	& 0.024191	& 0.025957	& 0.023770	\\
+				1conv eta3	& 0.014678	& 0.024909	& 0.026536	& 0.024405	\\
+				\bottomrule[1.5pt]
+			\end{tabular}
+			\caption{Number of signal and bkg events ratio in [peak-5,peak+5] GeV intervall}
+		\end{table}
+		\vfill
+	\end{frame}
+
+	\begin{frame}{Sig/$\sqrt{Bkg}$ comp}
+		\vfill
+		\begin{table}[tbp]
+			\centering
+			\begin{tabular}{lcccc}
+				\toprule[1.5pt]
+				S/$\sqrt{B}$& 110 GeV	& 125 GeV	& 130 GeV	& 140 GeV	\\
+				\midrule
+				nocat		& 0.0242896	& 0.0329867 & 0.0329651 & 0.0262225 \\
+				unc eta1	& 0.0112947	& 0.015498	& 0.0156348	& 0.0125786	\\
+				unc eta2	& 0.0062962	& 0.0084047	& 0.0083935	& 0.0066883 \\
+				unc eta3	& 0.0120645	& 0.0163146	& 0.0165593	& 0.0131567	\\
+				1con eta1	& 0.0087962	& 0.0121206	& 0.0121116	& 0.0097966	\\
+				1con eta2	& 0.0078205	& 0.0104387	& 0.0104291	& 0.0082988	\\
+				1con eta3	& 0.0122576	& 0.0166494	& 0.0165323	& 0.013247	\\
+				
+				\bottomrule[1.5pt]
+			\end{tabular}
+			\caption{Number of signal and $\sqrt{bkg}$ events ratio in [peak-5,peak+5] GeV intervall}
+		\end{table}
+		\vfill
+	\end{frame}
+	
+\end{document}
