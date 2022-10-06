@@ -37,6 +37,11 @@ Carminati/
 Code/
 Data/
 Project/thesis_docu/
+Project/thesis_images/
+images/
 
 # Data root files
 *.root
+
+# pdfs
+*.pdf

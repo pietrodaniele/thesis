@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+The style file: unsrturl.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: biblio.bib
+Warning--empty author in ID_report
+Warning--empty author in LArCalo_report
+Warning--empty author in muon_report
+You've used 13 entries,
+            2555 wiz_defined-function locations,
+            655 strings with 6972 characters,
+and the built_in function-call counts, 4296 in all, are:
+= -- 463
+> -- 107
+< -- 0
++ -- 37
+- -- 24
+* -- 253
+:= -- 572
+add.period$ -- 50
+call.type$ -- 13
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 112
+empty$ -- 483
+format.name$ -- 24
+if$ -- 1227
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 9
+newline$ -- 78
+num.names$ -- 10
+pop$ -- 81
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 354
+stack$ -- 0
+substring$ -- 119
+swap$ -- 28
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 16
+width$ -- 15
+write$ -- 171
+(There were 3 warnings)

@@ -1,0 +1,402 @@
+\documentclass[a4paper, oneside, 11pt, openright]{book}
+
+
+\usepackage[a-1b]{pdfx}
+\usepackage{geometry,url,graphicx, hyperref,subfig,enumitem, amsmath,float}
+\usepackage{amsmath, amssymb, amsthm, mathtools, color, setspace}
+\usepackage{fancyhdr, braket, etoolbox,booktabs,multirow}
+\usepackage{xfrac, lmodern, ifsym, bm, multicol, booktabs, pdflscape} % xfrac gives font errors, add lmodern to remove them. Check whether this re, mains a problem!
+%\usepackage{hyperref}
+%\usepackage[utf8]{inputenc}
+%\usepackage{colorprofiles}
+\usepackage[T1]{fontenc}
+
+
+
+\begin{document}
+	\begin{titlepage}
+		%%%% LOGO %%%%
+		\begin{figure}
+			\includegraphics[width=\linewidth]{thesis_images/logo.jpg}
+		\end{figure}
+		\begin{center}
+			\textsc{\large Corso di laurea in Fisica}\\[0.2cm]
+			\textsc{\normalsize Tesi di laurea magistrale}\\[2cm]
+			%\rule{\linewidth}{0.3mm} \\[1.2cm]
+			
+			% TITLE
+			\begin{doublespace}
+				\textbf{\LARGE Search for resonances in the 105 to 200 GeV diphoton invariant mass range using 140 fb$^{-1}$ of $pp$ collisions collected at $\sqrt{s}$=13 TeV with the ATLAS detector}
+				\\[2cm]
+			\end{doublespace}
+			
+			% AUTHOR
+			\begin{minipage}{0.4\textwidth}
+				\begin{flushleft}
+					\emph{Autore:} \\[0mm]
+					\textbf{Pietro Daniele} \\[4mm]
+					\emph{Matricola:}\\
+					982369 \\[4mm]
+					\emph{Codice P.A.C.S.:}\\[0mm]
+					12.60.Fr
+				\end{flushleft}
+			\end{minipage}
+			%
+			\begin{minipage}{0.4\textwidth}
+				\begin{flushright} 
+					\emph{Relatore:} \\
+					\textbf{Prof. Leonardo Carlo Carminati} \\[1.2em]
+					\emph{Corelatori:} \\
+					\textbf{Dott. Ruggero Turra} \\
+					\textbf{Dott.ssa Elena Mazzeo} \\[1.2em]
+				\end{flushright}
+			\end{minipage}\\[2cm]
+			\vfill
+			Anno accademico 2021-2022
+		\end{center}
+		
+		
+	\end{titlepage}
+	
+	\clearpage\null\thispagestyle{empty}\newpage
+	
+	\tableofcontents
+	
+	\chapter*{Introduction}
+		
+	
+	\chapter{LHC and ATLAS Detector}
+		\section{LHC}
+			The Large Hadron Collider (LHC) \cite{LHC_DESIGN_2004} is a two-ring, superconducting accelerator and collider installed in the 27 km long LEP \cite{LEP_DESIGN_2001} tunnel aiming at the discovery of the Higgs particle and the study of rare events with centre of mass collision energies of up to 14 TeV. 
+			
+			Inside the accelerator, two high-energy particle beams travel close to the speed of light before they are made to collide. To collide two beams of equally charged particles requires opposite magnet dipole fields in both beams. The LHC is therefore designed as a proton-proton collider with separate magnet fields and vacuum chambers in the main arcs and with common sections only at the insertion regions where the experimental detectors are located. 
+		
+			\subsection{LHC layout}
+				The basic layout of the LHC \cite{LHC_DESIGN_2004} follows the LEP tunnel geometry (Figure \ref{fig:LHC_layout}). The LHC has eight arcs and straight sections. Each straight section is approximately 528 m long and can serve as an experimental or utility insertion. The two high luminosity experimental insertions are located at diametrically opposite straight sections: the ATLAS experiment is located at point 1 and the CMS experiment at point 5. Two more experimental insertions are located at point 2 and point 8 which also contain the injection systems for Beam 1 and Beam 2, respectively. The remaining four straight sections do not have beam crossings. Insertion 3 and 7 each contain two collimation systems. Insertion 4 contains two RF systems: one independent system for each LHC beam. The straight section at point 6 contains the beam dump insertion where the two beams are vertically extracted from the machine using a combination of horizontally deflecting fast-pulsed (’kicker’) magnets and vertically-deflecting double steel septum magnets. Each beam features an independent abort system.
+				
+				\begin{figure}[H]
+					\centering
+					\subfloat[][\emph{LHC dipole}]{\includegraphics[width=.57\textwidth]{thesis_images/m_dipole.jpeg}} \quad
+					\subfloat[][\emph{LHC quadpole}]{\includegraphics[width=.4\textwidth]{thesis_images/m_quad.png}} 
+					\caption{LHC's superconducting magnets}
+					\label{fig:magnets}
+				\end{figure}
+				
+				The LHC beams are controlled by superconducting magnets, which have a working temperature of 1.9 K. There are two kinds of superconducting magnets (Figure \ref{fig:magnets}):
+				\begin{itemize}
+					\item the superconducting dipole magnets, which thanks to a 8.33 T magnetic field drive protons along the ring (circular orbit);
+					\item superconducting quadrupole magnets, which keep the beams focused.
+				\end{itemize} 
+				
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.5\textwidth]{thesis_images/LHC_layout.png}
+					\caption{LHC structure}
+					\label{fig:LHC_layout}
+				\end{figure}
+			
+			\subsection{CERN accelerator complex}
+				The aim of the CERN accelerator complex (Figure \ref{fig:CERN_complex}) is to accelerate the particle beam, which could be inserted into LHC ring. The accelerator complex a succession of machines that accelerate particles to increasingly higher energies. Each machine boosts the energy of a beam of particles before injecting it into the next machine in the sequence. In the Large Hadron Collider (LHC), which is the last element in this chain, particle beams are accelerated up to the record energy of 6.5 TeV per beam.
+				
+				Linear accelerator 4 (Linac4) became the source of proton beams for the CERN accelerator complex in 2020. It accelerates negative hydrogen ions to 160 MeV to prepare them to enter the Proton Synchrotron Booster (PSB). The ions are stripped of their two electrons during injection from Linac4 into the PSB, leaving only protons. These are accelerated to 2 GeV for injection into the Proton Synchrotron (PS), which pushes the beam up to 26 GeV. Protons are then sent to the Super Proton Synchrotron (SPS), where they are accelerated up to 450 GeV. The protons are finally transferred to the two beam pipes of the LHC. The beam in one pipe circulates clockwise while the beam in the other pipe circulates anticlockwise. It takes 4 minutes and 20 seconds to fill each LHC ring, and 20 minutes for the protons to reach their maximum energy of \textcolor{red}{6.5 TeV}. Beams circulate for many hours inside the LHC beam pipes under normal operating conditions. The two beams are brought into collision inside four detectors – ALICE, ATLAS, CMS and LHCb – where the total energy at the collision point is equal to \textcolor{red}{13 TeV}. In addition to accelerating protons, the accelerator complex can also accelerate lead ions.
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.7\textwidth]{thesis_images/CERN_complex.png}
+					\caption{CERN accelerator complex}
+					\label{fig:CERN_complex}
+				\end{figure}
+			
+			\subsection{Proton-proton collisions}
+				The number of events per second generated in the LHC collisions is given by:
+				$$
+				N_{i} = L\sigma_{i}
+				$$
+				where $\sigma_{i}$ is the cross section for the process under study and $L$ the instantaneous machine luminosity. $L$ depends only on the beam parameters and can be written for a Gaussian beam distribution as: 
+				$$
+				L = \frac{N_b^2n_bf_{rev}\gamma_r}{4\pi\epsilon_n\beta^*}F
+				$$
+				where $N_b$ is the number of particles per bunch, $n_b$ the number of bunches per beam, $f_{rev}$ the revolution frequency, $\gamma_r$ the relativistic gamma factor, $\epsilon_n$ the normalized transverse beam emittance, $\beta^*$ the beta function at the collision point and $F$ the geometric luminosity reduction factor due to the crossing angle at the IP. The luminosity had various values during ATLAS activity as shown in the Figure \ref{fig:insta lum}.
+				
+				\begin{figure}
+					\centering
+					\includegraphics[width=0.5\textheight]{thesis_images/peakLumiByFill.pdf}
+					\caption{The peak instantaneous luminosity delivered to ATLAS during stable beams for pp collisions at 13 TeV centre-of-mass energy per fill 2018}
+					\label{fig:insta lum}
+				\end{figure}
+				
+				For the nominal value of the luminosity $10^{34}$cm$^{-2}$s$^{-1}$ the total inelastic proton-proton cross-section is about 80 mb at $\sqrt{s} = 14$ TeV. Therefore, the event rate $R$, defined as the number of events produced per second by the pp interactions, is expected to be:
+				$$
+				R = \sigma L = 80 mb\times10^{34}cm^{-2}s^{-1} \simeq 10^{9}s^{-1}.
+				$$ 
+				The number of events for each process is related to luminosity, it is proportional to the integrated luminosity shown in Figure \ref{fig:Integreted Luminosity}.
+				
+				\begin{figure}
+					\centering
+					\includegraphics[width=0.5\textheight]{thesis_images/intlumivsyear.pdf}
+					\caption{Luminosity measured in inverse femtobarn versus time for 2011-2018 (p-p data only)}
+					\label{fig:Integreted Luminosity}
+				\end{figure}
+				
+				There are two types of pp collisions:
+				\begin{itemize}
+					\item \textbf{Soft collisions}: 
+					they are the most of the collisions and they are large-distance collisions between the two incoming protons. They are called "soft" because the momentum transfer of the interaction is small. Due to this feature, particle scattering at large angle is suppressed and so, after collisions, particles have a large longitudinal momentum, but small transverse momentum ($<p_T>\simeq500$ MeV) relative to the beam line. The final states
+					arising from such interactions are called minimum bias events.
+					\item \textbf{Hard collisions}:
+					monochromatic proton beams can be seen as beams of partons (quarks and gluons) with a wide band
+					of energy. Occasionally, head-on collisions occur between two partons of the incoming protons. These are interactions at small distances, and therefore are characterised by large
+					momentum transfers ("hard scattering"). In this case, particles in the final state can be produced at large angles with respect to the beam line (high $p_T$) and massive particles can be created.
+					These are the interesting physics events at a collider but they are, however, rare compared to the soft interactions.
+					
+					In the hard-scattering interactions of quarks and gluons at a hadron collider, the effective centre-of-
+					mass energy of the interaction ($\sqrt{\hat{s}}$) is smaller than the centre-of-mass energy of the machine ($\sqrt{s}$) and is given by: 
+					$$ 
+					\sqrt{\hat{s}} = \sqrt{x_ax_bs}
+					$$
+					where $x_a$ and $x_b$ are the fractions of the proton momentum carried by the two colliding partons. If $x_a \simeq x_b$, then the above relation becomes
+					$$ 
+					\sqrt{\hat{s}} \simeq x\sqrt{s}
+					$$
+					Therefore, in order to produce a particle of mass 100 GeV, two quarks (or gluons) which carry only 1\% of the proton momentum are needed ($x \sim 0.01$), whereas a particle of mass 5 TeV can only be produced if two partons with $x \sim 0.35$ interact. The momentum distributions of quarks and gluons inside the proton are called \textit{parton distribution functions}. % da fuonte p219
+				\end{itemize}
+			
+	
+	
+		\section{ATLAS}
+			The LHC produces an enormous amount of events having unprecedented high energy and luminosity. Inside the LHC, bunches of up to 10$^{11}$ protons
+			will collide 40 million times per second to provide 14 TeV proton-proton collisions at a design luminosity of $10^{34} cm^{-2} s^{-1}$
+			
+			The high interaction rates, radiation doses, particle multiplicities and energies, as well as the requirements for precision measurements have set new standards for the design of particle detectors. Two general purpose detectors, ATLAS (A Toroidal LHC ApparatuS) and CMS (Compact Muon Solenoid) have been built for probing $pp$ collisions.
+	
+			ATLAS \cite{ATLAS_DESIGN_2008} investigates a wide range of physics, from the search for the Higgs boson to extra dimensions and particles that could make up dark matter. It is a forward-backward symmetric detector with respect to the interaction point and it composed by six different detecting subsystems arranged in layers around the collision point, which record the paths, momentum, and energy of the particles, allowing them to be individually identified. A complex magnet system bends the paths of charged particles so that their momenta can be measured. The interactions in the ATLAS detectors create an enormous flow of data. To digest the data, ATLAS uses an advanced “trigger” system to tell the detector which events to record and which to ignore. Complex data-acquisition and computing systems are then used to analyse the recorded collision events. At 46 m long, 25 m high and 25 m wide, the 7000-tonne ATLAS detector is the largest volume particle detector ever constructed.
+			
+			\subsection{Coordinate system}
+				ATLAS has a specific coordinate system and nomenclature. The interaction point, which is where the beams collide and the ATLAS centre, is defined as the origin of the coordinate system. The beam direction defines the $x$-$y$-$z$ coordinates: the $z$-axis is along this direction whereas the $x$-$y$ plane is transverse to it. The positive $x$-axis is defined as pointing from the interaction point to the centre of the LHC ring and the positive $y$-axis is defined as pointing upwards. The azimuthal angle $\phi$ is measured as usual around the beam axis, and the polar angle $\theta$ is the angle from the beam axis. The pseudorapidity is defined as $\eta = - \ln \tan(\theta/2)$. The transverse momentum $p_T$, the transverse energy $E_T$, and the missing transverse energy $E_T^{miss}$ are defined in the $x$-$y$ plane.
+				The distance $\Delta R$ in the pseudorapidity-azimuthal angle space is defined as $\Delta R = \sqrt{\Delta\eta^2 + \Delta\phi^2}$.
+				
+			\subsection{Magnet system}
+				ATLAS features a unique hybrid system of four large superconducting magnets and this magnet structure has driven the design of the rest of the detector. The overall dimensions of the magnet system are 26 m in length and 20 m in diameter, with a stored energy of 1.6 GJ.
+				\begin{itemize}
+					\item a solenoid ("central solenoid" CS), which is aligned on the beam axis and provides a $2$ T axial magnetic field for the inner detector,  while minimising the radiative thickness in front of the barrel electromagnetic calorimeter;
+					\item a  barrel  toroid and  two  end-cap  toroids, which  produce  a toroidal magnetic field of approximately $0.5$ T and $1$ T for the muon detectors in the central and end-cap regions, respectively.
+				\end{itemize}
+			
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.4\textheight]{thesis_images/magnet_system_atlas.png}
+					\caption{ATLAS magnet system}
+				\end{figure}
+			
+			\subsection{Inner Detector}
+				The inner-most layer of ATLAS detector is the Inner Detector (ID). Hermetic and robust pattern recognition, excellent momentum resolution, both primary and secondary vertex measurements for charged tracks within the pseudorapidity range $|\eta|$ < 2.5 and electron identification over $|\eta|$ < 2.0 up to energy of about 150 GeV are provided by the ID. These features are achieved with high-resolution detectors at the inner radii and  with continuous tracking elements at the outer radii, all contained in the CS which provides a nominal magnetic field of 2 T. The ID has a cylindrical 6.2 m long shape with a diameter of 2.1 m.
+				
+				The ID is composed by three independent but complementary sub-detectors \cite{ID_report}:
+				\begin{itemize}
+					\item \textbf{Pixel Detector}
+						\begin{figure}
+							\centering
+							\includegraphics[width=0.3\textheight]{thesis_images/id1_struct.jpeg}
+							\includegraphics[width=0.3\textheight]{thesis_images/id2_struct.jpg}
+							\caption{Inner Detector structure}
+						\end{figure}
+						The pixel detector is designed to provide a very high-granularity, high-precision set of measurements as close to the interaction point as possible. The system consists of three barrels at average radii of $\sim$ 4 cm, 11 cm, and 14 cm, and four disks
+						on each side, between radii of 11 and 20 cm, which complete the angular coverage. The system provides three of the precision measurements over the full acceptance, and determines the impact parameter resolution and the ability of the Inner Detector to find short-lived particles such as b-quarks and $\tau$-leptons. So, due to its high spatial resolution and 3-dimensional space-point measurement the Pixel Detector has a key-role in reconstruction of charged particle tracks. The 4-Layer Pixel Detector is crucial in the reconstruction of primary and secondary vertices which is essential for example in the photon conversions reconstruction. The single point resolution is 12 $\mu m$ in the $R\cdot\phi$ and 66-77 $\mu m$ in $z$ direction.
+					\item \textbf{Semi-Conductor Tracker}
+						The SCT system is designed to provide four precision measurements per track in the intermediate radial range, contributing to the measurement of momentum, impact parameter and vertex position, as well as providing good pattern recognition by the use of high granularity. The SCT covers the radial region from 30 to 52 cm. The barrel SCT uses four layers of silicon microstrip detectors to provide precision points in the $R\cdot\phi$ and $z$ coordinates. Nine annular disks on each end of the barrel form the “endcaps”. The single point resolution is 16 $\mu m$ in the $R\cdot\phi$ and 580 $\mu m$ in $z$ direction.
+					\item \textbf{Transition Radiation Tracer} 
+						 The TRT is the outmost of the three tracking subsystems of the ATLAS Inner Detector. It is a straw-tube tracker. When a charged particle traverses the TRT, it ionises the gas inside the straws. The resulting free electrons drift towards the wire, where they are amplified and read out. The spaces between the straws are filled with polymer fibres (barrel) and foils (endcaps) to create transition radiation, which may be emitted by highly relativistic charged particles as they traverse a material boundary.   This effect depends on the relativistic factor $\gamma=E/m$ and is strongest for electrons, so it could be a discriminating factor. This design  makes the TRT complementary to  the silicon-based tracking devices:  the intrinsic single-point resolution of 170 $\mu$m is larger than that of the silicon trackers, but this is compensated by the large number of hits per track (typically more than 30). 
+						
+					
+				\end{itemize}
+			
+			\subsection{Calorimetry}
+				The calorimeters are designed to absorb most of the particles coming from a collision, forcing them to deposit all of their energy and stop within the detector. \cite{ATLAS_DESIGN_2008} ATLAS calorimeters (Figure \ref{fig:all_calo_struct}) consist of layers of an "absorbing” high-density material that stops incoming particles, interleaved with layers of an "active medium, such as solid lead-glass or liquid argon, that measures their energy. Electromagnetic (EM) calorimeters measure the energy of $e^{\pm}$ and $\gamma$ as they interact with matter, whereas hadronic calorimeters sample the energy of hadrons as they interact with atomic nuclei. Calorimeters are designed to stop most known particles except muons and neutrinos.
+				\begin{figure}
+					\centering
+					\includegraphics[width=0.8\textwidth]{thesis_images/atlas_calo.jpg}
+					\caption{ATLAS Calorimeter structure}
+					\label{fig:all_calo_struct}
+				\end{figure}
+
+				
+				The components of the ATLAS calorimetry system are:
+				\begin{itemize}
+					\item \textbf{LAr Electromagnetic Calorimeter}: the ATLAS EM calorimeter \cite{LArCalo_report} (Figure \ref{fig:calo struct}) is a lead-liquid argon (LAr) sampling detector with accordion-shaped electrodes and lead absorber plates over its full coverage. The calorimeter is divided into a Barrel part ($|\eta|<1.475$) and two End-Caps. Each End-Cap is divided into two coaxial wheels: an outer wheel and an inner wheel covering, respectively, $1.375<|\eta|<2.5$ and $2.5<|\eta|<3.2$. The absorber lead thickness is constant over large areas. The argon gap thickness is constant in the Barrel but changing with the radius in the End-Cap. In the range $|\eta|<1.8$, the calorimeter is preceded by a presampler to recover the energy lost in the upstream material (cryostat, super-conducting coil, inner detector, etc.). The typical energy resolution is:
+					$$ 
+					\frac{\sigma(E)}{E} = \frac{10\%}{\sqrt{E}} \oplus 0.7\%
+					$$
+					
+					\begin{figure}[h!]
+						\centering
+						\includegraphics[width=.6\textwidth]{thesis_images/calo_struct.jpg}
+						\caption{The EM calorimeter accordion geometry}
+						\label{fig:calo struct}
+					\end{figure}
+					\begin{table}[h!]
+						\centering
+						\begin{tabular}{cc}
+							\toprule[1.5pt]
+							\textbf{Layer} & \textbf{Granularity ($\Delta\eta \times \Delta\phi$)} \\
+							\midrule
+							Presampler & $0.025 \times 0.1$ \\
+							Layer 1 & $0.0031 \times 0.1$ \\
+							Layer 2 & $0.025 \times 0.0245$ \\
+							Layer 3 & $0.05 \times 0.245$ \\
+							\bottomrule[1.5pt]
+						\end{tabular}
+						\caption{Granularity of different layers of the EM calorimeter}\label{tab:granularity}
+						
+					\end{table}
+
+					\item \textbf{Hadronic calorimeter}: the Hadronic calorimeter \cite{LArCalo_report} is composed by two parts. The first one is the tile calorimeter, which is placed directly outside the EM calorimeter envelope. Its barrel covers the region $|\eta|$ < 1.0, and its two extended barrels the range 0.8 < $|\eta|$ < 1.7. It is a sampling calorimeter using steel as the absorber and scintillating tiles as the active material. The second part of hadronic calorimeter is the the Hadronic End-cap Calorimeter (HEC), which consists of two independent wheels per end-cap, located directly behind the end-cap electromagnetic calorimeter. It is an LAr sampling calorimeter using copper and tungsten as passive material. It provides full coverage for $1.5<|\eta|<3.2$. The typical resolution for jets is:
+					$$ 
+					\frac{\sigma(E)}{E} = \frac{50\%}{\sqrt{E}} \oplus 3\%
+					$$
+					
+					\item \textbf{Foward Calorimeter}: the Foward Calorimeter \cite{LArCalo_report} covers the high-pseudorapidity range $3.1 < |\eta| < 4.9$. It is divided in three regions in the $z$-direction that uses argon as active material: the first (made of copper) is optimised for electromagnetic showers containment, the other two (made of tungsten) are used for hadronic jets measurements. The typical resolution for jets is:
+					$$ 
+					\frac{\sigma(E)}{E} = \frac{100\%}{\sqrt{E}} \oplus 10\%
+					$$
+				\end{itemize}
+			\subsection{Muon system}
+				The last layer of the ATLAS detector is the muon system	\cite{muon_report} (Figure \ref{fig:muon detector}). It was designed to serve two purposes: an independent muon trigger and high quality stand-alone muon reconstruction over a wide range in transverse momentum, pseudo-rapidity ($|\eta|$ < 2.4 trigger, $|\eta|$ < 2.7 momentum) and azimuthal angle. This is achieved by the use of a large toroidal magnet system together with trigger and high precision tracking chambers. Through the use of a toroidal magnetic field of 0.3 T, the MS deflects charged particles and measures the muon momentum with high precision. Since calorimeters are designed to fully stop EM and hadronic showers, only muons reach the MS. Over most of the $\eta$-range, a precision measurement of the track coordinates in the principal bending direction of the magnetic field is provided by Monitored Drift Tubes (MDT’s) and by and Cathode Strip Chambers (CSCs) in the end-cap region. The trigger system covers the pseudorapidity range $|\eta|$ < 2.4. Resistive Plate Chambers (RPC’s) are used in the barrel and Thin Gap Chambers (TGC’s) in the end-cap regions. The trigger chambers for the muon spectrometer serve a threefold purpose: provide bunch-crossing identification, provide well-defined $p_T$ thresholds, and measure the muon coordinate in the direction orthogonal to that determined by the precision-tracking chambers.
+				
+				The typical energy resolution is resolution is 2-3\% to 10 GeV and goes up to 10\% to 1 TeV.
+				\begin{figure}
+					\centering
+					\includegraphics[width=0.7\textwidth]{thesis_images/3D-muon.jpg}
+					\caption{ATLAS Muon system structure}
+					\label{fig:muon detector}
+				\end{figure}
+			
+			\subsection{Trigger system}
+				ATLAS is designed to observe up to 1.7 billion proton-proton collisions per second, with a combined data volume of more than 60 million megabytes per second. However, only some of these events will contain interesting characteristics that might lead to new discoveries. To reduce the flow of data to manageable levels, ATLAS uses a specialised two-level online event selection system, the Trigger System \cite{trigger}, which selects events with distinguishing characteristics that make them interesting for physics analyses. The Trigger System selects approximately 1000 of the 1.7 billion collisions that occur each second in the centre of the ATLAS detector. 
+				
+				The two independent levels (Figure \ref{fig:Trigger system}) are, a hardware-based first level (L1) and a software-based high level trigger (HLT). 
+				\begin{itemize}
+					\item The L1 trigger is implemented in fast custom-made electronics and runs with a fixed latency of 2.5$\mu$s. L1 reduces the event rate from the LHC interaction rate of 40 MHz to $\approx$ 100 kHz. Up to 512 decision items are built, based on Regions of Interest (RoI) in $\eta/\varphi$ retrieved from the muon (L1Muon) and calorimeter (L1Calo) systems. The L1 trigger decision is formed by the Central Trigger Processor (CTP). The L1Topo trigger, which is a system introduced for Run-2, performs selections based on geometric or kinematic association between trigger objects received from L1Calo or L1Muon. 
+					
+					\item In the HLT, offline-like reconstruction algorithms run in a large farm of $\approx$ 40.000 processor cores and a decision is formed typically within 300 ms. The HLT is a software trigger providing typically 2500 independent trigger chains. These are sequences of offline-like algorithms executed within the L1 RoIs. Furthermore, full-event reconstruction is possible at the HLT. Events accepted by the HLT are written into different data streams to be used for physics analysis, trigger level analysis, monitoring or detector calibration. Depending on the datastream, the full event or only partial event information is written out, allowing for higher rates without consuming a significant amount of the available bandwidth.
+				\end{itemize}
+				
+				\begin{figure}
+					\centering
+					\subfloat[]{\includegraphics[width=.49\textwidth]{thesis_images/L1.png}}					\subfloat[]{\includegraphics[width=.49\textwidth]{thesis_images/HLT.png}} 
+					\caption{L1 (a) and HLT (b) physics trigger rates grouped by trigger signatures as a function of theluminosity block number, in a fill taken in July 2016 with a peak instantaneous luminosity of $1.2 \times 10^{34}$cm$^{-2}$s$^{-1}$}
+					\label{fig:Trigger system}
+				\end{figure}
+		
+	
+	\chapter{Photon reconstruction and selection}
+		Event with photons in the final state are important signatures for many physics analyses envisaged at the LHC. For example, in the Higgs studies, the $H \to \gamma\gamma$ channel, despite the $\gamma\gamma$ branching fraction is subdominant, the analyses in this final state profit from an excellent mass resolution and manageable backgrounds. These events reconstruction mainly exploits data coming from the electromagnetic calorimeter (clusters) and the Inner Detector (ID) systems (tracks) \cite{Aad_2019}:
+		\begin{itemize}
+			\item a converted photon is a cluster matched to either two tracks forming a conversion vertex, or one track with the signature of an electron track without hits in the innermost pixel layer;
+			\item an unconverted photon is a cluster matched to neither an electron track nor a conversion vertex.
+		\end{itemize}
+		About 20\% of photons at low $|\eta|$ convert in the ID, and up to about 65\% convert at $|\eta| \simeq$ 2.3. 
+		
+		\begin{figure}
+			\centering
+			\includegraphics[width=.8\textwidth]{thesis_images/alg_flow.png} 
+			\caption{Algorithm flow diagram for the electron and photon reconstruction.}
+			\label{fig:alg ph}
+		\end{figure}
+		
+		The electron, defined as an object consisting of a cluster built from energy deposits in the calorimeter (supercluster) and a matched track (or tracks), shares a few reconstruction and selection steps with photons. The reconstruction of photons with $|\eta|$ < 2.5 proceeds as shown in Figure \ref{fig:alg ph}. The algorithm first prepares the tracks and clusters it will use. It selects clusters of energy deposits measured in topologically connected EM and hadronic calorimeter cells \cite{topo_cluster}, denoted topo-clusters, reconstructed as described in the next section. These clusters are matched to ID tracks, which are re-fitted accounting for bremsstrahlung. The algorithm also builds conversion vertices and matches them to the selected topo-clusters. The electron and photon supercluster-building steps then run separately using the matched clusters as input. After applying initial position corrections and energy calibrations to the resulting superclusters, the supercluster-building algorithm matches tracks to the electron superclusters and conversion vertices to the photon superclusters. The electron and photon objects to be used for analyses are then built, their energies are calibrated, and discriminating variables used to separate electrons or photons from background are added.
+		
+		\section{The topo-cluster reconstruction}\label{section:topo cluster}
+			The topo-cluster reconstruction algorithm \cite{topo_cluster} use a set of noise thresholds is commonly known as "4-2-0" topo-cluster reconstruction:
+			\begin{itemize}
+				\item The algorithm begins by forming proto-clusters in the EM and hadronic calorimeters using as starting point cells with a significance $|\zeta_{cell}^{EM}| \geq 4$ where 
+				$$
+				\zeta_{cell}^{EM} = \frac{E_{cell}^{EM}}{\sigma_{cell}^{EM}}
+				$$		
+				$E_{cell}^{EM}$ is the energy cell at the EM scale and $\sigma_{cell}^{EM}$ is the expected cell noise, which includes the known electronic noise and an estimate of the pile-up noise corresponding to the average instantaneous luminosity expected for Run 2. In this initial stage, cells from the presampler and the L1 are excluded from initiating proto-clusters, as this suppresses the formation of noise clusters.
+				\item Then the proto-clusters collect neighbouring cells with significance $|\zeta_{cell}^{EM}| \geq 2$ merging with the corresponding \textit{seed} cell. These neighbour cells become seeds cell in the next iteration of the algorithm until there are no cells near a proto-cluster with significance $|\zeta_{cell}^{EM}| \geq 2$.
+				\item A crown of nearest-neighbour cells is added to the cluster independently on their energy, $|\zeta_{cell}^{EM}| \geq 0$.
+			\end{itemize}
+			
+			After the "4-2-0" topo-cluster reconstruction, a check about the local maximum is performed. A local maximum is a cell with $E^{EM}_{cell} > 500$ MeV, at least four neighbours, and when none of the neighbours has a larger signal. Proto-clusters with two or more local maxima are split into separate clusters.
+		
+		\section{Track reconstruction}
+			After the topo-cluster creation, the photon reconstruction algorithm proceeds to the next step: track finding. Track finding is one of the most challenging tasks in reconstructing events from proton-proton  collisions  recorded  by  the  ATLAS  detector. The process consists in finding a track from hits recorded in the ID. The ID track reconstruction consists of several sequences with different strategies and the main sequence is referred to as inside-out track finding \cite{ID_track1}: 
+			\begin{itemize}
+				\item \textbf{Space point formation}: the transformation of clusters in the silicon detectors into 3D space points is the initial step of the track reconstruction.  Clusters are formed by finding connected cells in the pixel and strip detectors. The pixel detector provides a local two-dimensional cluster measurement as one space-point, whereas in the SCT, clusters from both stereo views of a strip layer must be combined to obtain a three-dimensional measurement.
+
+				\item \textbf{Space point seeded track finding}: from the set of the three space-points in the silicon-detector layers created in the previous step the track seeds are formed. There could be different types of track seed depending of the nature of the three space-points: 
+				\begin{itemize}
+					\item PPP seed is built from space points in the pixel detector only;
+					\item SSS seed is built from space points in the strip detector only;
+					\item PSS and PPS are mixed setup;
+				\end{itemize}
+				The number of all possible seeds is then reduced applying initial selections and avoiding the extensive use of space points in multiple seeds. These selected seed are then the input to a track finding algorithm that uses a combinatorial Kalman filter technique \cite{Kalman} and aims to complete the track candidates within the silicon detector.
+				
+				\item \textbf{Ambiguity solving}: before the TRT extension, the track candidates pass through a process which eliminates track candidates from random hit combinations (often referred to as "fakes") or track duplicates, which can be identified by measurements that are shared with other track candidates. This process is called ambiguity solving and it is based on a \textit{track scoring}: tracks with good features, such as unique measurements and good fit quality, are given a positive score, whereas tracks with holes (missing measurements) or shared measurements with other track candidates are penalised. After the scoring, the hits shared between tracks are assigned to the track with higer score, while the remaining track is refitted without the formerly shared hit, and then scored again.
+				
+				\item \textbf{TRT extension}: the tracks used for the TRT extension must successfully pass the ambiguity solving stage and be within the coverage of the TRT detector. A successful TRT extension increases the momentum resolution significantly.
+			\end{itemize}
+			
+		\section{Track-cluster matching and photon conversion reconstruction}
+			Once clusters and tracks have been reconstructed, the next step is their matching \cite{Aad_2019}. Firstly, region-of-interest (ROIs) are created using fixed-size clusters in the calorimeter that have a longitudinal and lateral shower profile compatible with that of an EM shower. A ROI consists of an area of $\Delta R = 0.3$ \footnote{The distance between two points is defined as $\Delta R = \sqrt{(\Delta\eta)^2+(\Delta\phi)^2}$} around the cluster barycenter. Tracks are considered lossely matched to the cluster if they intersect the cluster ROI.
+			
+			
+			Track candidates are then fitted with the global $\chi^2$ fitter \cite{ChiQuadro}. The loosely matched, re-fitted tracks are then matched to the EM topo-clusters following as described in \cite{Aad_2019}. If multiple tracks are matched to a cluster, they are ranked in order to choose the best one. Tracks with hits in the pixel detector are preferred, then tracks with hits in the SCT but not in the pixel detector. Another discriminating feature is $\Delta R$ between the track and cluster barycenter in the second layer coordinates. Tracks with a better $\Delta R$ are preferred. If there are small $\Delta R$ differences, the track with more pixel hits is preferred, giving an extra weight to a hit in the innermost layer. So, the highest-ranked track is used to define the reconstructed electron properties.
+			
+			Tracks loosely matched to fixed-size clusters serve as input to the reconstruction of the conversion vertex. Both tracks with silicon hits and tracks reconstructed only in the TRT are used for the conversion reconstruction. Two-track conversion vertices are reconstructed from two opposite-charge tracks forming a vertex consistent with that of a massless particle, while single-track vertices are essentially tracks without hits in the innermost sensitive layers. To increase the converted-photon purity, the tracks used to build conversion vertices must have a high probability to be electron tracks as determined by the TRT.
+			
+			The conversion vertices are then matched to the EM topo-clusters. If the conversion vertex has tracks with silicon hits, a conversion vertex is considered matched if, after extrapolation, the tracks match the cluster to within $|\Delta\eta| < 0.05$ and $|\Delta\phi| < 0.05$. If the conversion vertex is made of only TRT tracks, then if the first track is in the TRT barrel, a match requires $|\Delta\eta| < 0.35$ and $|\Delta\phi| < 0.02$, and if the first track is in the TRT endcap, a match requires $|\Delta\eta| < 0.2$ and $|\Delta\phi| < 0.02$. If there are multiple conversion vertices matched to a cluster, double-track conversions with two silicon tracks are preferred over other double-track conversions, followed by single-track conversions. Within each category, the vertex with the smallest conversion radius is preferred.
+		
+		\section{Supercluster reconstruction}
+			The reconstruction of electron and photon superclusters proceeds independently, each in two stages:
+			\begin{enumerate}
+				\item EM topo-clusters are tested for use as seed cluster candidates, which form the basis of superclusters;
+				\item EM topo-clusters near the seed candidates are identified as satellite cluster candidates, which may emerge from bremsstrahlung radiation or topo-cluster splitting. The satellite cluster must satisfy selection criteria, described below.
+			\end{enumerate}
+			Therefore, the steps to build superclusters are:
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.6\textheight]{thesis_images/super_cluster.png}
+				\caption{Diagram of the superclustering algorithm for electrons and photons. Seed clusters are shown in red, satellite clusters in blue.}
+				\label{fig:super_cl}
+			\end{figure}
+			\begin{itemize}
+				\item The initial list of EM topo-clusters, created in the Section \ref{section:topo cluster}, is sorted according to descending $E_T$, calculated using the EM energy. Each cluster is tested in the sort order for use as seed cluster. For a cluster to become an electron supercluster seed, it must have $E_T \geq$ 1 GeV must be matched to a track with $\geq$ 4 hits in the silicon tracking detectors. For
+				photon reconstruction, a cluster must have $E_T \geq$ 1.5 GeV with no requirement made on any track or conversion vertex matching. A cluster cannot be used as a seed cluster if it has already been added as a satellite cluster to another seed cluster.
+				\item Once a cluster has been selected as a seed, the algorithm attempts to find satellite clusters (Figure \ref{fig:super_cl}). A $\Delta\eta\times\Delta\phi = 0.075 \times 0.125$ window is setted around the seed cluster barycentre and every cluster which falls in this window is considered as a satellite. For electrons, a cluster is also considered a satellite if it is within a window of $\Delta\eta\times\Delta\phi = 0.125 \times 0.300$ around the seed cluster barycentre, and its "best-matched" track is also the best-matched track for the seed cluster. For photons with conversion vertices made up only of tracks containing silicon hits, a cluster is added as a satellite if its best-matched (electron) track belongs to the conversion vertex matched to the seed cluster. These steps rely on tracking information to discriminate distant radiative photons or conversion electrons from pile-up noise or other unrelated clusters. Seed cluster with its satellite clusters is called \textit{supercluster}.
+				\item The final step in the
+				supercluster-building algorithm is to assign calorimeter cells to a given supercluster. Only cells from the presampler and the first three LAr calorimeter layers are considered, except in the transition region of $1.4 < |\eta| < 1.6$, where the energy measured in the scintillator between the calorimeter cryostats is also added. To limit the superclusters’ sensitivity to pile-up noise, the size of each constituent topo-cluster is restricted to a maximal width of 0.075 or 0.125 in the $\eta$ direction in the barrel or endcap region, respectively. Because the magnetic field in the ID is parallel to the beam-line, interactions between the electron or photon and detector material generally cause the EM shower to spread in the $\phi$ direction, so the restriction in $\eta$ still generally allows the electron or photon energy to be captured. No restriction is applied in the $\phi$-direction.
+			\end{itemize}
+			
+		\section{Electron and photon ambiguity resolution}
+			Since electron and photon superclusters are built independently and thus a given seed cluster can produce both, in such case it is necessary to apply an ambiguity resolution algorithm (Figure \ref{fig:e_ph_alg}). This algorithm purpose is that if a particular object can be easily identified only as a photon (a cluster with no good track attached) or only as an electron (a cluster with a good track attached and no good photon conversion vertex), then only a photon or an electron object is created for analysis; otherwise, both an electron and a photon object are created. Furthermore, these cases are marked explicitly as ambiguous, allowing the final classification of these objects to be determined based upon the specific requirements of each analysis.
+			\begin{figure}
+				\centering
+				\includegraphics[width=.5\textheight]{thesis_images/el_ph_analisi.png}
+				\caption{Flowchart showing the logic of the ambiguity resolution for particles initially reconstructed both as electrons and photons.}
+				\label{fig:e_ph_alg}
+			\end{figure}
+		
+		\section{Calibration}\label{section:Calib}
+			The energy calibration \cite{calibration} covers the region $|\eta|$ < 2.47, which corresponds to the acceptance of the ID and the highly segmented EM calorimeter. Here are reported the various steps of the procedure to calibrate the energy response of electrons and photons from the energy of a cluster of cells in the EM:
+			\begin{itemize}
+				\item The first step is the estimation of the energy of the electron or photon from the energy deposits in the calorimeter. A multivariate regression algorithm used for this estimation is trained on samples of simulated events. the properties of the shower development are used to optimize the energy resolution and to minimize the impact of material in front of the calorimeter.
+				\item Studies of muon energy deposits and electron showers are used in order to adjust the relative energy scales of the different layers of the EM calorimeter, obtaining the correct extrapolation of the energy calibration to the full energy range of electrons and photons. It is applied as a correction to the data before the estimation of the energy of the electron or photon.
+				\item The next step is the correction for residual local non-uniformities in the calorimeter response affecting the data.
+				\item Using a large sample of $Z$ boson decays to electron-positron pairs, the adjustment of the overall energy scale in the data is performed. At the same time, a correction to account for the difference in energy resolution between data and simulation is derived, and applied to the simulation. These correction factors are assumed to be universal for electrons and photons.
+				\item the last step is to check the results comparing data and simulation with independent samples: $J/\psi \rightarrow ee$ decays probe the energy response for low-energy electrons. Radiative $Z$ boson decays are used to check the energy response for photons.
+			\end{itemize}
+		
+		\section{Identification}\label{section:Ident}
+			The identification is fundamental step in the photon reconstruction and selection process. Excellent electron and photon identification capabilities \cite{Identification}\cite{Ident 2} are crucial for many aspects of the ATLAS physics program, from Standard Model measurements (including Higgs boson) to new physics searches. The identification of prompt photons and the rejection of backgrounds, mostly coming from photons from hadron decays, relies on the high granularity of the ATLAS calorimeter. Electron identification is based on a likelihood (LH) discrimination to separate isolated electron candidates from candidates originating from photon conversions, hadron misidentification and heavy flavor decays. 
+			
+			
+	
+	\newpage
+	\bibliography{biblio.bib}
+	\bibliographystyle{unsrturl}
+	\addcontentsline{toc}{chapter}{Bibliography}
+	
+
+\end{document}

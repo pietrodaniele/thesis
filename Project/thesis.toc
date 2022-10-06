@@ -1,0 +1,21 @@
+\contentsline {chapter}{\numberline {1}LHC and ATLAS Detector}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}LHC}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}LHC layout}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}CERN accelerator complex}{6}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Proton-proton collisions}{7}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}ATLAS}{9}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Coordinate system}{9}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Magnet system}{10}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Inner Detector}{10}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Calorimetry}{11}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Muon system}{14}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Trigger system}{15}{subsection.1.2.6}%
+\contentsline {chapter}{\numberline {2}Photon reconstruction and selection}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The topo-cluster reconstruction}{18}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Track reconstruction}{19}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Track-cluster matching and photon conversion reconstruction}{20}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Supercluster reconstruction}{21}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Electron and photon ambiguity resolution}{22}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Calibration}{23}{section.2.6}%
+\contentsline {section}{\numberline {2.7}title}{24}{section.2.7}%
+\contentsline {chapter}{Bibliography}{26}{chapter*.19}%

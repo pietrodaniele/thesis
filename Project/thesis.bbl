@@ -1,0 +1,98 @@
+\begin{thebibliography}{10}
+
+\bibitem{LHC_DESIGN_2004}
+Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
+  Poole, and Paul Proudlock.
+\newblock {\em {LHC Design Report}}.
+\newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2004.
+\newblock URL: \url{https://cds.cern.ch/record/782076}, \href
+  {https://doi.org/10.5170/CERN-2004-003-V-1}
+  {\path{doi:10.5170/CERN-2004-003-V-1}}.
+
+\bibitem{LEP_DESIGN_2001}
+The~{LEP} Collaboration.
+\newblock {A Combination of Preliminary Electroweak Measurements and
+  Constraints on the Standard Model}.
+\newblock Technical report, CERN, Geneva, 2001.
+\newblock URL: \url{https://cds.cern.ch/record/531260}.
+
+\bibitem{ATLAS_DESIGN_2008}
+The~ATLAS Collaboration.
+\newblock The {ATLAS} experiment at the {CERN} large hadron collider.
+\newblock {\em Journal of Instrumentation}, 3(08):S08003--S08003, aug 2008.
+\newblock \href {https://doi.org/10.1088/1748-0221/3/08/s08003}
+  {\path{doi:10.1088/1748-0221/3/08/s08003}}.
+
+\bibitem{ID_report}
+{Technical Design Report for the ATLAS Inner Tracker Pixel Detector}.
+\newblock Technical report, CERN, Geneva, 2017.
+\newblock URL: \url{https://cds.cern.ch/record/2285585}, \href
+  {https://doi.org/10.17181/CERN.FOZZ.ZP3Q}
+  {\path{doi:10.17181/CERN.FOZZ.ZP3Q}}.
+
+\bibitem{LArCalo_report}
+{ATLAS Liquid Argon Calorimeter Phase-II Upgrade: Technical Design Report}.
+\newblock Technical report, CERN, Geneva, 2017.
+\newblock URL: \url{https://cds.cern.ch/record/2285582}, \href
+  {https://doi.org/10.17181/CERN.6QIO.YGHO}
+  {\path{doi:10.17181/CERN.6QIO.YGHO}}.
+
+\bibitem{muon_report}
+{Technical Design Report for the Phase-II Upgrade of the ATLAS Muon
+  Spectrometer}.
+\newblock Technical report, CERN, Geneva, 2017.
+\newblock URL: \url{https://cds.cern.ch/record/2285580}.
+
+\bibitem{trigger}
+Martin zur Nedden.
+\newblock {The Run-2 ATLAS Trigger System: Design, Performance and Plan}.
+\newblock Technical report, CERN, Geneva, 2016.
+\newblock URL: \url{https://cds.cern.ch/record/2238679}.
+
+\bibitem{Aad_2019}
+The~ATLAS Collaboration.
+\newblock Electron and photon performance measurements with the {ATLAS}
+  detector using the 2015{\textendash}2017 {LHC} proton-proton collision data.
+\newblock {\em Journal of Instrumentation}, dec 2019.
+\newblock \href {https://doi.org/10.1088/1748-0221/14/12/p12006}
+  {\path{doi:10.1088/1748-0221/14/12/p12006}}.
+
+\bibitem{topo_cluster}
+The~ATLAS Collaboration.
+\newblock Topological cell clustering in the {ATLAS} calorimeters and its
+  performance in {LHC} run 1.
+\newblock {\em The European Physical Journal C}, jul 2017.
+\newblock \href {https://doi.org/10.1140/epjc/s10052-017-5004-5}
+  {\path{doi:10.1140/epjc/s10052-017-5004-5}}.
+
+\bibitem{ID_track1}
+Andreas Salzburger.
+\newblock Optimisation of the {ATLAS} track reconstruction software for run-2.
+\newblock {\em Journal of Physics: Conference Series}, dec 2015.
+\newblock \href {https://doi.org/10.1088/1742-6596/664/7/072042}
+  {\path{doi:10.1088/1742-6596/664/7/072042}}.
+
+\bibitem{Kalman}
+R.~E. Kalman.
+\newblock {A New Approach to Linear Filtering and Prediction Problems}.
+\newblock {\em Journal of Basic Engineering}, 82(1):35--45, 03 1960.
+\newblock \href {https://doi.org/10.1115/1.3662552}
+  {\path{doi:10.1115/1.3662552}}.
+
+\bibitem{ChiQuadro}
+T~G Cornelissen, M~Elsing, I~Gavrilenko, J-F Laporte, W~Liebig, M~Limper,
+  K~Nikolopoulos, A~Poppleton, and A~Salzburger.
+\newblock The global $\chi^2$ track fitter in {ATLAS}.
+\newblock {\em Journal of Physics: Conference Series}, 119(3):032013, jul 2008.
+\newblock \href {https://doi.org/10.1088/1742-6596/119/3/032013}
+  {\path{doi:10.1088/1742-6596/119/3/032013}}.
+
+\bibitem{calibration}
+The~ATLAS Collaboration.
+\newblock Electron and photon energy calibration with the {ATLAS} detector
+  using 2015{\textendash}2016 {LHC} proton-proton collision data.
+\newblock {\em Journal of Instrumentation}, 14(03):P03017--P03017, mar 2019.
+\newblock \href {https://doi.org/10.1088/1748-0221/14/03/p03017}
+  {\path{doi:10.1088/1748-0221/14/03/p03017}}.
+
+\end{thebibliography}

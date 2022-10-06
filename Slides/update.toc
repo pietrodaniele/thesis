@@ -14,3 +14,7 @@
 \beamer@sectionintoc {13}{13$^{th}$ week}{207}{0}{13}
 \beamer@sectionintoc {14}{14$^{th}$ week}{222}{0}{14}
 \beamer@sectionintoc {15}{15$^{th}$ week}{229}{0}{15}
+\beamer@sectionintoc {16}{16$^{th}$ week}{237}{0}{16}
+\beamer@sectionintoc {17}{17$^{th}$ week}{250}{0}{17}
+\beamer@sectionintoc {18}{18$^{th}$ week}{263}{0}{18}
+\beamer@sectionintoc {19}{19$^{th}$ week}{268}{0}{19}
