@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  6 OCT 2022 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  7 OCT 2022 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -793,7 +793,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<thesis_images/logo.jpg, id=90, 398.4486pt x 156.585pt>
+<thesis_images/logo.jpg, id=106, 398.4486pt x 156.585pt>
 File: thesis_images/logo.jpg Graphic file (type jpg)
 <use thesis_images/logo.jpg>
 Package pdftex.def Info: thesis_images/logo.jpg  used on input line 20.
@@ -866,12 +866,12 @@ l.61 	\clearpage\null\thispagestyle{empty}\newpage
 
 ]
 Chapter 1.
-<thesis_images/m_dipole.jpeg, id=143, 1438.37375pt x 1048.91875pt>
+<thesis_images/m_dipole.jpeg, id=163, 1438.37375pt x 1048.91875pt>
 File: thesis_images/m_dipole.jpeg Graphic file (type jpg)
 <use thesis_images/m_dipole.jpeg>
 Package pdftex.def Info: thesis_images/m_dipole.jpeg  used on input line 79.
 (pdftex.def)             Requested size: 238.40765pt x 173.84837pt.
-<thesis_images/m_quad.png, id=144, 469.755pt x 432.61626pt>
+<thesis_images/m_quad.png, id=164, 469.755pt x 432.61626pt>
 File: thesis_images/m_quad.png Graphic file (type png)
 <use thesis_images/m_quad.png>
 Package pdftex.def Info: thesis_images/m_quad.png  used on input line 80.
@@ -884,14 +884,14 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<thesis_images/LHC_layout.png, id=153, 853.1875pt x 833.1125pt>
+<thesis_images/LHC_layout.png, id=173, 853.1875pt x 833.1125pt>
 File: thesis_images/LHC_layout.png Graphic file (type png)
 <use thesis_images/LHC_layout.png>
 Package pdftex.def Info: thesis_images/LHC_layout.png  used on input line 94.
 (pdftex.def)             Requested size: 209.12683pt x 204.19698pt.
  [5 <./thesis_images/m_dipole.jpeg> <./thesis_images/m_quad.png (PNG copy)> <./
 thesis_images/LHC_layout.png>]
-<thesis_images/CERN_complex.png, id=167, 829.0975pt x 660.4675pt>
+<thesis_images/CERN_complex.png, id=187, 829.0975pt x 660.4675pt>
 File: thesis_images/CERN_complex.png Graphic file (type png)
 <use thesis_images/CERN_complex.png>
 Package pdftex.def Info: thesis_images/CERN_complex.png  used on input line 106
@@ -899,13 +899,13 @@ Package pdftex.def Info: thesis_images/CERN_complex.png  used on input line 106
 (pdftex.def)             Requested size: 292.77629pt x 233.22298pt.
 
 [6 <./thesis_images/CERN_complex.png>]
-<thesis_images/peakLumiByFill.pdf, id=175, 569.12625pt x 408.52625pt>
+<thesis_images/peakLumiByFill.pdf, id=195, 569.12625pt x 408.52625pt>
 File: thesis_images/peakLumiByFill.pdf Graphic file (type pdf)
 <use thesis_images/peakLumiByFill.pdf>
 Package pdftex.def Info: thesis_images/peakLumiByFill.pdf  used on input line 1
 24.
 (pdftex.def)             Requested size: 295.76509pt x 212.3102pt.
-<thesis_images/intlumivsyear.pdf, id=177, 569.12625pt x 408.52625pt>
+<thesis_images/intlumivsyear.pdf, id=197, 569.12625pt x 408.52625pt>
 File: thesis_images/intlumivsyear.pdf Graphic file (type pdf)
 <use thesis_images/intlumivsyear.pdf>
 Package pdftex.def Info: thesis_images/intlumivsyear.pdf  used on input line 13
@@ -913,31 +913,31 @@ Package pdftex.def Info: thesis_images/intlumivsyear.pdf  used on input line 13
 (pdftex.def)             Requested size: 295.76509pt x 212.3102pt.
  [7 <./thesis_images/peakLumiByFill.pdf, page is rotated 90 degrees>] [8 <./the
 sis_images/intlumivsyear.pdf, page is rotated 90 degrees>] [9]
-<thesis_images/magnet_system_atlas.png, id=286, 356.33125pt x 142.5325pt>
+<thesis_images/magnet_system_atlas.png, id=306, 356.33125pt x 142.5325pt>
 File: thesis_images/magnet_system_atlas.png Graphic file (type png)
 <use thesis_images/magnet_system_atlas.png>
 Package pdftex.def Info: thesis_images/magnet_system_atlas.png  used on input l
 ine 188.
 (pdftex.def)             Requested size: 236.60846pt x 94.6437pt.
-<thesis_images/id1_struct.jpeg, id=288, 475.7775pt x 326.21875pt>
+<thesis_images/id1_struct.jpeg, id=308, 475.7775pt x 326.21875pt>
 File: thesis_images/id1_struct.jpeg Graphic file (type jpg)
 <use thesis_images/id1_struct.jpeg>
 Package pdftex.def Info: thesis_images/id1_struct.jpeg  used on input line 200.
 
 (pdftex.def)             Requested size: 177.46086pt x 121.67467pt.
-<thesis_images/id2_struct.jpg, id=289, 481.8pt x 390.45876pt>
+<thesis_images/id2_struct.jpg, id=309, 481.8pt x 390.45876pt>
 File: thesis_images/id2_struct.jpg Graphic file (type jpg)
 <use thesis_images/id2_struct.jpg>
 Package pdftex.def Info: thesis_images/id2_struct.jpg  used on input line 201.
 (pdftex.def)             Requested size: 177.46086pt x 143.8121pt.
  [10 <./thesis_images/magnet_system_atlas.png>]
-<thesis_images/atlas_calo.jpg, id=299, 810.52812pt x 545.53813pt>
+<thesis_images/atlas_calo.jpg, id=319, 810.52812pt x 545.53813pt>
 File: thesis_images/atlas_calo.jpg Graphic file (type jpg)
 <use thesis_images/atlas_calo.jpg>
 Package pdftex.def Info: thesis_images/atlas_calo.jpg  used on input line 218.
 (pdftex.def)             Requested size: 334.60422pt x 225.21207pt.
  [11 <./thesis_images/id1_struct.jpeg> <./thesis_images/id2_struct.jpg>]
-<thesis_images/calo_struct.jpg, id=307, 282.04486pt x 260.29991pt>
+<thesis_images/calo_struct.jpg, id=327, 282.04486pt x 260.29991pt>
 File: thesis_images/calo_struct.jpg Graphic file (type jpg)
 <use thesis_images/calo_struct.jpg>
 Package pdftex.def Info: thesis_images/calo_struct.jpg  used on input line 233.
@@ -951,78 +951,129 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12 <./thesis_images/atlas_calo.jpg>] [13 <./thesis_images/calo_struct.jpg>]
-<thesis_images/3D-muon.jpg, id=325, 587.26967pt x 408.11295pt>
+<thesis_images/3D-muon.jpg, id=345, 587.26967pt x 408.11295pt>
 File: thesis_images/3D-muon.jpg Graphic file (type jpg)
 <use thesis_images/3D-muon.jpg>
 Package pdftex.def Info: thesis_images/3D-muon.jpg  used on input line 269.
-(pdftex.def)             Requested size: 292.77629pt x 203.46437pt.
+(pdftex.def)             Requested size: 271.86234pt x 188.92987pt.
 
 [14 <./thesis_images/3D-muon.jpg>]
-<thesis_images/L1.png, id=334, 606.265pt x 409.53pt>
+<thesis_images/L1.png, id=353, 606.265pt x 409.53pt>
 File: thesis_images/L1.png Graphic file (type png)
 <use thesis_images/L1.png>
-Package pdftex.def Info: thesis_images/L1.png  used on input line 286.
+Package pdftex.def Info: thesis_images/L1.png  used on input line 279.
 (pdftex.def)             Requested size: 204.9466pt x 138.43849pt.
-<thesis_images/HLT.png, id=336, 569.12625pt x 385.44pt>
+<thesis_images/HLT.png, id=355, 569.12625pt x 385.44pt>
 File: thesis_images/HLT.png Graphic file (type png)
 <use thesis_images/HLT.png>
-Package pdftex.def Info: thesis_images/HLT.png  used on input line 286.
+Package pdftex.def Info: thesis_images/HLT.png  used on input line 280.
 (pdftex.def)             Requested size: 204.9466pt x 138.79945pt.
- [15] [16 <./thesis_images/L1.png> <./thesis_images/HLT.png>]
+ [15 <./thesis_images/L1.png> <./thesis_images/HLT.png>] [16]
 Chapter 2.
-<thesis_images/alg_flow.png, id=352, 764.8575pt x 592.2125pt>
+<thesis_images/alg_flow.png, id=372, 764.8575pt x 592.2125pt>
 File: thesis_images/alg_flow.png Graphic file (type png)
 <use thesis_images/alg_flow.png>
-Package pdftex.def Info: thesis_images/alg_flow.png  used on input line 302.
+Package pdftex.def Info: thesis_images/alg_flow.png  used on input line 303.
 (pdftex.def)             Requested size: 334.60422pt x 259.07425pt.
 [17
 
 ] [18 <./thesis_images/alg_flow.png>] [19]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 342.
+(Font)              <9> on input line 343.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 342.
+(Font)              <5> on input line 343.
  [20]
-<thesis_images/super_cluster.png, id=392, 853.1875pt x 546.04pt>
+<thesis_images/super_cluster.png, id=412, 853.1875pt x 546.04pt>
 File: thesis_images/super_cluster.png Graphic file (type png)
 <use thesis_images/super_cluster.png>
 Package pdftex.def Info: thesis_images/super_cluster.png  used on input line 36
-0.
+1.
 (pdftex.def)             Requested size: 354.92172pt x 227.15228pt.
  [21 <./thesis_images/super_cluster.png>]
-<thesis_images/el_ph_analisi.png, id=404, 1027.84pt x 770.88pt>
+<thesis_images/el_ph_analisi.png, id=424, 1027.84pt x 770.88pt>
 File: thesis_images/el_ph_analisi.png Graphic file (type png)
 <use thesis_images/el_ph_analisi.png>
 Package pdftex.def Info: thesis_images/el_ph_analisi.png  used on input line 37
-6.
+7.
 (pdftex.def)             Requested size: 295.76509pt x 221.82036pt.
- [22] [23 <./thesis_images/el_ph_analisi.png>] [24] (./thesis.bbl
+ [22] [23 <./thesis_images/el_ph_analisi.png>]
+Underfull \hbox (badness 1796) in paragraph at lines 447--447
+[]\T1/lmr/m/n/10.95 - Lat-eral shower width $[]$
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 471--471
+[]\T1/lmr/m/n/10.95 - Shower width cal-cu-lated from
+ []
+
+[24] [25] [26]
+
+LaTeX Warning: Citation `El ph isol' on page 27 undefined on input line 497.
+
+[27] [28]
+Chapter 3.
+[29
+
+] (./thesis.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8
 .
-
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [25
+) [30
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 401.
- [26]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 401.
+]
+Underfull \hbox (badness 8151) in paragraph at lines 99--105
+[]\T1/lmr/m/n/10.95 Electron ef-fi-ciency mea-sure-ments with the AT-LAS de-tec
+-tor us-ing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
+\T1/lmr/m/n/10.95 2015 LHC proton-proton col-li-sion data.  Tech-ni-cal re-port
+, CERN,
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 99--105
+\T1/lmr/m/n/10.95 Geneva, 2016.  All fig-ures in-clud-ing aux-il-iary fig-ures 
+are avail-able at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
+\T1/lmr/m/n/10.95 https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLA
+S-
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 536.
+ [31]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 536.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 401.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 401.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F2E7ACCD07F74FEE4E815DDC82A3DFFE;1502.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 401.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 536.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 536.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: FAD640E5E3DB712904332A0DACD77202;1794
+(rerunfilecheck)             After:  1A3BA9BBCBB79F18A5617AA178D5B83B;1808.
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 536.
  ) 
 Here is how much of TeX's memory you used:
- 18280 strings out of 481239
- 275822 string characters out of 5920376
- 526215 words of memory out of 5000000
- 33082 multiletter control sequences out of 15000+600000
- 653580 words of font info for 111 fonts, out of 8000000 for 9000
+ 18309 strings out of 481239
+ 276180 string characters out of 5920376
+ 544665 words of memory out of 5000000
+ 33095 multiletter control sequences out of 15000+600000
+ 660841 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,10n,49p,1445b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,14n,49p,1445b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1031,20 +1082,21 @@ s/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/t
 exmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
 athsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fon
 ts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (27 pages, 2065771 bytes).
+b></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on thesis.pdf (32 pages, 2112723 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 271 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 639 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 

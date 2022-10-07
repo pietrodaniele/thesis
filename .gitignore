@@ -45,3 +45,6 @@ images/
 
 # pdfs
 *.pdf
+*.png
+*.jpg
+*.jpeg

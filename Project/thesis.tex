@@ -63,6 +63,7 @@
 	\tableofcontents
 	
 	\chapter*{Introduction}
+	
 		
 	
 	\chapter{LHC and ATLAS Detector}
@@ -266,7 +267,7 @@
 				The typical energy resolution is resolution is 2-3\% to 10 GeV and goes up to 10\% to 1 TeV.
 				\begin{figure}
 					\centering
-					\includegraphics[width=0.7\textwidth]{thesis_images/3D-muon.jpg}
+					\includegraphics[width=0.65\textwidth]{thesis_images/3D-muon.jpg}
 					\caption{ATLAS Muon system structure}
 					\label{fig:muon detector}
 				\end{figure}
@@ -274,22 +275,23 @@
 			\subsection{Trigger system}
 				ATLAS is designed to observe up to 1.7 billion proton-proton collisions per second, with a combined data volume of more than 60 million megabytes per second. However, only some of these events will contain interesting characteristics that might lead to new discoveries. To reduce the flow of data to manageable levels, ATLAS uses a specialised two-level online event selection system, the Trigger System \cite{trigger}, which selects events with distinguishing characteristics that make them interesting for physics analyses. The Trigger System selects approximately 1000 of the 1.7 billion collisions that occur each second in the centre of the ATLAS detector. 
 				
+				\begin{figure}
+					\centering
+					\subfloat[]{\includegraphics[width=.49\textwidth]{thesis_images/L1.png}}					
+					\subfloat[]{\includegraphics[width=.49\textwidth]{thesis_images/HLT.png}} 
+					\caption{L1 (a) and HLT (b) physics trigger rates grouped by trigger signatures as a function of theluminosity block number, in a fill taken in July 2016 with a peak instantaneous luminosity of $1.2 \times 10^{34}$cm$^{-2}$s$^{-1}$}
+					\label{fig:Trigger system}
+				\end{figure}
+				
 				The two independent levels (Figure \ref{fig:Trigger system}) are, a hardware-based first level (L1) and a software-based high level trigger (HLT). 
 				\begin{itemize}
 					\item The L1 trigger is implemented in fast custom-made electronics and runs with a fixed latency of 2.5$\mu$s. L1 reduces the event rate from the LHC interaction rate of 40 MHz to $\approx$ 100 kHz. Up to 512 decision items are built, based on Regions of Interest (RoI) in $\eta/\varphi$ retrieved from the muon (L1Muon) and calorimeter (L1Calo) systems. The L1 trigger decision is formed by the Central Trigger Processor (CTP). The L1Topo trigger, which is a system introduced for Run-2, performs selections based on geometric or kinematic association between trigger objects received from L1Calo or L1Muon. 
 					
 					\item In the HLT, offline-like reconstruction algorithms run in a large farm of $\approx$ 40.000 processor cores and a decision is formed typically within 300 ms. The HLT is a software trigger providing typically 2500 independent trigger chains. These are sequences of offline-like algorithms executed within the L1 RoIs. Furthermore, full-event reconstruction is possible at the HLT. Events accepted by the HLT are written into different data streams to be used for physics analysis, trigger level analysis, monitoring or detector calibration. Depending on the datastream, the full event or only partial event information is written out, allowing for higher rates without consuming a significant amount of the available bandwidth.
 				\end{itemize}
-				
-				\begin{figure}
-					\centering
-					\subfloat[]{\includegraphics[width=.49\textwidth]{thesis_images/L1.png}}					\subfloat[]{\includegraphics[width=.49\textwidth]{thesis_images/HLT.png}} 
-					\caption{L1 (a) and HLT (b) physics trigger rates grouped by trigger signatures as a function of theluminosity block number, in a fill taken in July 2016 with a peak instantaneous luminosity of $1.2 \times 10^{34}$cm$^{-2}$s$^{-1}$}
-					\label{fig:Trigger system}
-				\end{figure}
 		
 	
-	\chapter{Photon reconstruction and selection}
+	\chapter{Photon reconstruction}
 		Event with photons in the final state are important signatures for many physics analyses envisaged at the LHC. For example, in the Higgs studies, the $H \to \gamma\gamma$ channel, despite the $\gamma\gamma$ branching fraction is subdominant, the analyses in this final state profit from an excellent mass resolution and manageable backgrounds. These events reconstruction mainly exploits data coming from the electromagnetic calorimeter (clusters) and the Inner Detector (ID) systems (tracks) \cite{Aad_2019}:
 		\begin{itemize}
 			\item a converted photon is a cluster matched to either two tracks forming a conversion vertex, or one track with the signature of an electron track without hits in the innermost pixel layer;
@@ -389,10 +391,143 @@
 			\end{itemize}
 		
 		\section{Identification}\label{section:Ident}
-			The identification is fundamental step in the photon reconstruction and selection process. Excellent electron and photon identification capabilities \cite{Identification}\cite{Ident 2} are crucial for many aspects of the ATLAS physics program, from Standard Model measurements (including Higgs boson) to new physics searches. The identification of prompt photons and the rejection of backgrounds, mostly coming from photons from hadron decays, relies on the high granularity of the ATLAS calorimeter. Electron identification is based on a likelihood (LH) discrimination to separate isolated electron candidates from candidates originating from photon conversions, hadron misidentification and heavy flavor decays. 
+			The identification is fundamental step in the photon reconstruction process. Many aspects of the ATLAS physics program, Standard Model measurements (including Higgs boson) and new physics searches require excellent electron and photon identification capabilities \cite{el_id}\cite{ph_id}. The $\gamma$ and $e^\pm$ identification processes use different discriminating variables and techniques:
+			\begin{itemize}
+				\item The identification of prompt photons and the rejection of backgrounds, mostly coming from photons from hadron decays, relies on the high granularity of the ATLAS calorimeter.
+				\item  Electron identification is based on a likelihood (LH) discrimination to separate isolated electron candidates from candidates originating from photon conversions, hadron misidentification and heavy flavor decays.
+			\end{itemize}
 			
+			\subsection{Photon Identification}
+				The photon identification criteria \cite{Aad_2019} are designed to efficiently select prompt, isolated photons and reject backgrounds from hadronic jets. The photon identification is constructed from one-dimensional selection criteria, or a \textit{cut-based selection}, using the shower shape variables described in Table \ref{tab:parameters}. The variables using the EM first layer play a particularly important role in rejecting $\pi^0$ decays into two highly collimated photons. 
+				
+				The primary identification selection is labelled as \textit{Tight}, with less restrictive selections called \textit{Medium} and \textit{Loose}. The \textit{Loose} identification uses the $R_{had}$, $R_{had_1}$, $R_{\eta}$ and $w_{\eta_2}$ shower shape variables. The \textit{Medium} selection adds a loose cut on $E_{ratio}$. Because the reconstruction of photons in the ATLAS trigger system does not differentiate between converted and unconverted photons, the \textit{Loose} and \textit{Medium} identification criteria are the same for converted and unconverted photons. The Tight identification criteria are designed to select a subset of the photon candidates passing the \textit{Medium} criteria. Because the shower shapes vary due to the geometry of the calorimeter, the cut-based selection of \textit{Loose}, \textit{Medium} and \textit{Tight} are optimized separately in bins of $|\eta|$. The \textit{Tight} identification presented here is also optimized in separate bins of $E_T$. The \textit{Tight} identification is performed separately for converted and unconverted photons. The shower shapes of converted photons differ from unconverted photons due to the opening angle of the $e^+e^-$ conversion pair, which is amplified by the magnetic field, and from the additional interaction of the conversion pair with the material upstream of the calorimeters.
+				
+				\vspace{-1.83cm}
+				
+				\begin{center}
+					\begin{table}
+						\resizebox{\textwidth}{!}{
+							\begin{tabular}{lp{12cm}cc}
+								\toprule[1.5pt]
+								\textbf{Type} & \textbf{Description} & \textbf{Name} &  \textbf{Usage}\\
+								\midrule
+								Hadronic leakage
+								& - Ratio of $E_T$ in the first layer of the hadronic calorimeter to $E_T$ of the EM calorimeter (in the pseudorapidity range $|\eta| < 0.8$ or $|\eta| > 1.37$) & $R_{had1}$ & $e/\gamma$ \\ 
+								& - Ratio of $E_T$ in the first layer of the hadronic calorimeter to $E_T$ of the EM calorimeter (in the pseudorapidity range $0.8 < |\eta| < 1.37$) & $R_{had}$ & $e/\gamma$ \\
+								\midrule
+								Layer 3 of the EM calorimeter & Ratio of the energy in the back layer to the total energy in the EM calorimeter. This variable is only used below 100 GeV because it is known to be inefficient at high energies. & $f_3$ & $e$ \\
+								\midrule
+								Layer 2 of the EM calorimeter
+								& - Ratio of the sum of the energies of the cells contained in a $3\times7\times\eta\times\phi$ rectangle (measured in cell units) to the sum of the cell energies in a $7\times7$ rectangle, both centred around the most energetic cell & $R_\eta$ & $e/\gamma$ \\
+								& - Lateral shower width $\sqrt{(\sum_{i}E_i\eta_i^2)/(\sum_{i}E_i) - ((\sum_{i}E_i\eta_i)/(\sum_{i}E_i))^2}$ ,where
+								$E_i$ is the EM calorimeter energy and $\eta_i$ is the pseudorapidity of cell i and the sum is calculated within a window of 3 $\times$ 5 cells & $w_{\eta_2}$ & $e/\gamma$ \\
+								& - Ratio of the sum of the energies of the cells contained in a $3\times3\times\eta\times\phi$ rectangle (measured in cell units) to the sum of the cell energies in a $3\times7$ rectangle, both centred around the most energetic cell & $R_\phi$ & $e/\gamma$ \\
+								\midrule
+								Layer 1 of the EM calorimeter
+								& - Total lateral shower width, $\sqrt{(\sum_{i}E_i(i-i_{max})^2)/(\sum_{i}E_i)}$ where $i$ runs over all strips in a window of $\Delta\eta\approx0.0625$ and $i_{max}$ is the index of the highest-energy strip & $w_{stot}$ & $e/\gamma$ \\
+								& - Lateral shower width, $\sqrt{(\sum_{i}E_i(i-i_{max})^2)/(\sum_{i}E_i)}$, where i runs over all cells in a window of 3 cells around the highest-energy cell & $w_{s3}$ & $\gamma$ \\
+								& - Energy fraction outside core of three central cells, within seven cells & $f_{side}$ & $\gamma$ \\
+								& - Difference between the energy of the cell associated with the second maximum, and the energy reconstructed in the cell with the smallest value found between the first and second maxima & $\Delta E_s$ & $\gamma$ \\
+								& - Ratio of the energy difference between the maximum energy deposit and the energy deposit in a secondary maximum in the cluster to the sum of these energies & $E_{ratio}$ & $e/\gamma$ \\
+								& - Ratio of the energy measured in the first layer of the electromagnetic calorimeter to the total energy of the EM cluster & $f_1$ & $e/\gamma$ \\
+								\midrule
+								Track conditions
+								& - Number of hits in the innermost pixel layer & $n_{innermost}$ & $e$ \\
+								& - Number of hits in the Pixel Detector & $n_{Pixel}$ & $e$ \\
+								& - Number of total hits in the pixel and SCT detectors & $n_{Si}$ & $e$ \\
+								& - Transverse impact parameter  respect to the beam-line & $d_0$ & $e$ \\
+								& - Significance of transverse impact parameter defined as the ratio of $d_0$ and its uncertainty & $|d_0/\sigma_{d_0}|$ & $e$ \\
+								& - Momentum lost by the track between the perigee and the last measurement point divided by the momentum at perigee & $\Delta p/p$ & $e$ \\ 
+								& - Likelihood probability based on transition radiation in the TRT & eProbabilityHT  & $e$ \\
+								\midrule
+								Track-cluster matching
+								& - $\Delta \eta$ between the cluster position in first layer of the EM calorimeter and the extrapolated track & $\Delta \eta_1$ & $e$ \\
+								& - $\Delta \phi$ between the cluster position in the second layer of the EM calorimeter and the momentum-rescaled track, extrapolated from the perigee, times the charge $q$ & $\Delta \phi_res$ & $e$ \\
+								& - Ratio of the cluster energy to the measured track momentum & $E/p$ & $e$ \\
+								\bottomrule[1.5pt]
+						\end{tabular}}
+						\caption{Discriminating variables used for $e^{\pm}$ and $\gamma$ identification \cite{Aad_2019}}
+						\label{tab:parameters}
+					\end{table}
+				\end{center} 
+				\begin{center}
+					\begin{table}
+						\centering
+						\begin{tabular}{lp{6cm}ccc}
+							\toprule[1.5pt]
+							\textbf{Category} & \textbf{Description} & \textbf{Name} & \textbf{\textit{loose}} & \textbf{\textit{tight}}\\
+							\midrule
+							Acceptance & $\eta<2.37$, with $1.37<|\eta|<1.52$ excluded & - & $\ast$ & $\ast$ \\
+							\midrule
+							\multirow[t]{2}{*}{Hadronic leakage} 
+							& {- Ratio of $E_T$ in the first layer of the hadronic calorimeter to $E_T$ of the EM calorimeter (used over range $|\eta| < 0.8$ or $|\eta| > 1.37$)} & $R_{had1}$ & $\ast$ & $\ast$  \\ 
+							& - Ratio of $E_T$ in the first layer of the hadronic calorimeter to $E_T$ of the EM calorimeter (in the pseudorapidity range $0.8 < |\eta| < 1.37$) & $R_{had}$  & $\ast$ & $\ast$ \\
+							\midrule
+							\multirow[t]{3}{*}{EM Middle layer}
+							& - Ratio of 3$\times$7 $\eta\times\phi$ to 7$\times$7 cell energies & $R_{\eta}$ & $\ast$ & $\ast$ \\
+							& - Lateral width of the shower & $w_{\eta2}$ & $\ast$ & $\ast$ \\
+							& - Ratio of 3$\times$3 $\eta\times\phi$ to 7$\times$7 cell energies & $R_{\phi}$ &  & $\ast$ \\
+							\midrule
+							\multirow[t]{5}{*}{EM Strip layer}
+							& - Shower width calculated from three strips around the strip with maximum energy deposit & $w_{s3}$ &  & $\ast$ \\
+							& - Total lateral shower width & $w_{stot}$ &  & $\ast$ \\
+							& - Energy outside the core of the three central strips but within seven strips divided by energy within the three central strips & $F_{side}$ &  & $\ast$ \\
+							& - Difference between the energy associated with the second maximum in strip layer(L1) and the energy reconstructed in the strip with the minimum value found between the first and second maxima & $\Delta E$ &  & $\ast$ \\
+							& - Ratio of the energy difference associated with the largest and second largest energy deposits to sum of these energies & $E_{ratio}$ &  & $\ast$ \\
+							\bottomrule
+						\end{tabular}
+						\caption{Discriminating variables used for \textit{loose} and \textit{tight} photon identification \cite{ph_id}}
+						\label{tab:ph parameters}
+					\end{table}
+				\end{center}
+						
+		\section{Isolation}
+			The last step of the photon reconstruction is the isolation, which fulfils the need to further reduce the backgrounds. The isolation criterium uses variables from the tracking and from the calorimeter \cite{isolation}.
 			
-	
+			The activity near leptons and photons can be quantified from the tracks of nearby charged particles, or from energy deposits in the calorimeters, leading to two classes of isolation variables \cite{Aad_2019}:
+			\begin{itemize}
+				\item The raw calorimeter isolation($E_{T,raw}^{isol}$) is built by summing the transverse energy of positive-energy topological clusters (at EM scale) whose barycentre falls within a cone centred around the electron or photon cluster barycentre. The raw calorimeter isolation includes the EM particle energy ($E_{T,core}$), which is subtracted by removing the energy of the EM calorimeter cells contained in a $\Delta\eta \times \Delta\varphi = 5 \times 7$ (in EM-middle-layer units) rectangular
+				cluster around the barycentre of the EM particle cluster. Other corrections are done to account for the pile-up contribution. %(using MC samples)%
+				
+				The fully corrected calorimeter isolation variable is finally computed as:
+				$$ 
+				E_{T}^{coneXX} = E_{T,raw}^{isolXX} - E_{T}^{core} - E_{T,leakage}(E_T,\eta,\Delta R) -E_{T,pile-up}(\eta,\Delta R)
+				$$
+				where XX refers to the size of the employed cone (a cone size of $\Delta$R = 0.2 is used for the electron or photon working point, whereas
+				cone size of $\Delta$R = 0.4 is only used for photon working points) and the $E_{T,leakage}$ term refers to a correction for the $e/\gamma$ candidate energy leaking in the isolation cone.
+				\item The track isolation variable ($p_T^{coneXX}$) is computed by summing the transverse momentum of selected tracks within a cone centred around the electron track or the photon cluster direction (excluding tracks matched to the electron or converted photon)\cite{El ph isol}. Since for electrons produced in the decay of high-momentum heavy particles can be very close to the electron direction, the track isolation for electrons is defined with a variable cone size:
+				$$
+				\Delta R = min\Bigl({\frac{10}{p_T[GeV]},\Delta R_{max}}\Bigr)
+				$$
+				where $\Delta R_{max}$ is the maximum cone size (typically 0.2).
+				
+				The tracks considered are required to have $p_T >$ 1 GeV and $|\eta| <$ 2.5, at least seven silicon (Pixel + SCT) hits, at most one shared hit, at most two silicon holes and at most one pixel hole. In addition, for electron isolation, the tracks are required to have a loose vertex association, i.e. the track was used in the primary vertex fit, or it was not used in any vertex fit but satisfies $|\Delta z_0|sin{\theta} < 3$ mm, where $|\Delta z_0|$ is the longitudinal impact parameter relative to the chosen primary vertex; for photon
+				isolation, all selected tracks satisfying $|\Delta z_0|sin{\theta} < 3$ mm are used.
+			\end{itemize}
+			
+			\subsection{Photon isolation criteria and efficiency measurements}
+			Three photon isolation operating points are defined using requirements on the calorimeter and track isolation variables, as summarized in Table \ref{tab:ph_crit}. The photon isolation efficiency is studied in two main signatures: radiative $Z$ decays (valid for 10 < $E_T$ < 100 GeV) and inclusive photons (used in the 25 GeV < $E_T$ < $\sim$1.5 TeV range).
+			
+			\begin{center}
+				\small
+				\begin{table}[htbp]
+					\resizebox{\textwidth}{!}{%
+						\begin{tabular}{lcc}
+							\toprule[1.5pt]
+							\textbf{Working point} & \textbf{Calorimeter isolation} & \textbf{Track isolation} \\
+							\midrule
+							Loose		   & $E_T^{cone20} < 0.065 \times E_T$ 			  &  $p_T^{cone20}/E_t < 0.05$ \\
+							Tight		   & $E_T^{cone40} < 0.022 \times E_T + 2.45\,GeV$ &  $p_T^{cone20}/p_t < 0.06$ \\
+							TightCaloOnly  & $E_T^{cone40} < 0.022 \times E_T + 2.45\,GeV$ &  						   \\
+							\bottomrule[1.5pt]
+					\end{tabular}}
+					\caption{Definition of the photon isolation working points.}
+					\label{tab:ph_crit} 
+				\end{table}
+			\end{center}
+
+	\chapter{Statistical techniques}
+			
 	\newpage
 	\bibliography{biblio.bib}
 	\bibliographystyle{unsrturl}

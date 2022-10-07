@@ -50,7 +50,7 @@ Martin zur Nedden.
 \newblock URL: \url{https://cds.cern.ch/record/2238679}.
 
 \bibitem{Aad_2019}
-The~ATLAS Collaboration.
+ATLAS Collaboration.
 \newblock Electron and photon performance measurements with the {ATLAS}
   detector using the 2015{\textendash}2017 {LHC} proton-proton collision data.
 \newblock {\em Journal of Instrumentation}, dec 2019.
@@ -58,7 +58,7 @@ The~ATLAS Collaboration.
   {\path{doi:10.1088/1748-0221/14/12/p12006}}.
 
 \bibitem{topo_cluster}
-The~ATLAS Collaboration.
+ATLAS Collaboration.
 \newblock Topological cell clustering in the {ATLAS} calorimeters and its
   performance in {LHC} run 1.
 \newblock {\em The European Physical Journal C}, jul 2017.
@@ -88,11 +88,38 @@ T~G Cornelissen, M~Elsing, I~Gavrilenko, J-F Laporte, W~Liebig, M~Limper,
   {\path{doi:10.1088/1742-6596/119/3/032013}}.
 
 \bibitem{calibration}
-The~ATLAS Collaboration.
+ATLAS Collaboration.
 \newblock Electron and photon energy calibration with the {ATLAS} detector
   using 2015{\textendash}2016 {LHC} proton-proton collision data.
 \newblock {\em Journal of Instrumentation}, 14(03):P03017--P03017, mar 2019.
 \newblock \href {https://doi.org/10.1088/1748-0221/14/03/p03017}
   {\path{doi:10.1088/1748-0221/14/03/p03017}}.
+
+\bibitem{el_id}
+{Electron efficiency measurements with the ATLAS detector using the 2015 LHC
+  proton-proton collision data}.
+\newblock Technical report, CERN, Geneva, 2016.
+\newblock All figures including auxiliary figures are available at
+  https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2016-024.
+\newblock URL: \url{https://cds.cern.ch/record/2157687}.
+
+\bibitem{ph_id}
+ATLAS Collaboration.
+\newblock Measurement of the photon identification efficiencies with the
+  {ATLAS} detector using {LHC} run 2 data collected in 2015 and 2016.
+\newblock {\em The European Physical Journal C}, 79(3), mar 2019.
+\newblock \href {https://doi.org/10.1140/epjc/s10052-019-6650-6}
+  {\path{doi:10.1140/epjc/s10052-019-6650-6}}.
+
+\bibitem{isolation}
+ATLAS Collaboration.
+\newblock Electron reconstruction and identification in the {ATLAS} experiment
+  using the 2015 and 2016 {LHC} proton{\textendash}proton collision data at
+  {\textdollar}{\textdollar}{\textbackslash}sqrt$\lbrace$s$\rbrace$ =
+  13{\textdollar}{\textdollar}~{\textdollar}{\textdollar}{\textbackslash}text
+  $\lbrace${TeV}$\rbrace${\textdollar}{\textdollar}.
+\newblock {\em The European Physical Journal C}, 79(8), aug 2019.
+\newblock \href {https://doi.org/10.1140/epjc/s10052-019-7140-6}
+  {\path{doi:10.1140/epjc/s10052-019-7140-6}}.
 
 \end{thebibliography}
