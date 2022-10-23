@@ -18,3 +18,5 @@
 \beamer@sectionintoc {17}{17$^{th}$ week}{250}{0}{17}
 \beamer@sectionintoc {18}{18$^{th}$ week}{263}{0}{18}
 \beamer@sectionintoc {19}{19$^{th}$ week}{268}{0}{19}
+\beamer@sectionintoc {20}{20$^{th}$ week}{276}{0}{20}
+\beamer@sectionintoc {21}{21$^{th}$ week}{289}{0}{21}

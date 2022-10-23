@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  5 OCT 2022 10:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  19 OCT 2022 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2646,7 +2646,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 42
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<UiB-images/uni_bianco.png, id=89, 602.25pt x 206.7725pt>
+<UiB-images/uni_bianco.png, id=97, 602.25pt x 206.7725pt>
 File: UiB-images/uni_bianco.png Graphic file (type png)
 <use UiB-images/uni_bianco.png>
 Package pdftex.def Info: UiB-images/uni_bianco.png  used on input line 42.
@@ -2735,7 +2735,21 @@ Overfull \hbox (0.61879pt too wide) detected at line 20
  []\T1/lmss/bx/n/9 19 
  []
 
+
+Overfull \hbox (0.61879pt too wide) detected at line 21
+ []\T1/lmss/bx/n/9 20 
+ []
+
+
+Overfull \hbox (0.61879pt too wide) detected at line 22
+ []\T1/lmss/bx/n/9 21 
+ []
+
 )
+Overfull \vbox (18.05692pt too high) detected at line 48
+ []
+
+
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
  []
@@ -2768,7 +2782,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<Images/ttre.png, id=161, 254.9525pt x 327.2225pt>
+<Images/ttre.png, id=173, 254.9525pt x 327.2225pt>
 File: Images/ttre.png Graphic file (type png)
 <use Images/ttre.png>
 Package pdftex.def Info: Images/ttre.png  used on input line 87.
@@ -2781,7 +2795,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [6
 
  <./Images/ttre.png>]
-<../Code/Examples/Plots/myy_dist.pdf, id=168, 569.12625pt x 321.2pt>
+<../Code/Examples/Plots/myy_dist.pdf, id=180, 569.12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_dist.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/myy_dist.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/myy_dist.pdf  used on input lin
@@ -2845,7 +2859,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [8
 
 ]
-<../Code/Examples/Plots/myy+fit.pdf, id=237, 569.12625pt x 321.2pt>
+<../Code/Examples/Plots/myy+fit.pdf, id=249, 569.12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy+fit.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/myy+fit.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/myy+fit.pdf  used on input line
@@ -2866,7 +2880,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [10
 
 ]
-<../Code/Examples/Plots/myy_dist_cutFlow.pdf, id=292, 569.12625pt x 321.2pt>
+<../Code/Examples/Plots/myy_dist_cutFlow.pdf, id=304, 569.12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_dist_cutFlow.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/myy_dist_cutFlow.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/myy_dist_cutFlow.pdf  used on i
@@ -2880,7 +2894,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [11
 
  <../Code/Examples/Plots/myy_dist_cutFlow.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/myy+fit_cutFlow.pdf, id=341, 569.12625pt x 321.2pt>
+<../Code/Examples/Plots/myy+fit_cutFlow.pdf, id=353, 569.12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy+fit_cutFlow.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/myy+fit_cutFlow.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/myy+fit_cutFlow.pdf  used on in
@@ -2894,7 +2908,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [12
 
  <../Code/Examples/Plots/myy+fit_cutFlow.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/myy_110GeV_DCBfit.pdf, id=390, 569.12625pt x 321.2pt>
+<../Code/Examples/Plots/myy_110GeV_DCBfit.pdf, id=402, 569.12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_110GeV_DCBfit.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/myy_110GeV_DCBfit.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/myy_110GeV_DCBfit.pdf  used on 
@@ -2908,7 +2922,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [13
 
  <../Code/Examples/Plots/myy_110GeV_DCBfit.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/myy_125GeV_DCBfit.pdf, id=441, 569.12625pt x 321.2pt>
+<../Code/Examples/Plots/myy_125GeV_DCBfit.pdf, id=453, 569.12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_125GeV_DCBfit.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/myy_125GeV_DCBfit.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/myy_125GeV_DCBfit.pdf  used on 
@@ -2922,7 +2936,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [14
 
  <../Code/Examples/Plots/myy_125GeV_DCBfit.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/myy_130GeV_DCBfit.pdf, id=490, 569.12625pt x 321.2pt>
+<../Code/Examples/Plots/myy_130GeV_DCBfit.pdf, id=502, 569.12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_130GeV_DCBfit.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/myy_130GeV_DCBfit.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/myy_130GeV_DCBfit.pdf  used on 
@@ -2936,7 +2950,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [15
 
  <../Code/Examples/Plots/myy_130GeV_DCBfit.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/myy_140GeV_DCBfit.pdf, id=539, 569.12625pt x 321.2pt>
+<../Code/Examples/Plots/myy_140GeV_DCBfit.pdf, id=551, 569.12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_140GeV_DCBfit.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/myy_140GeV_DCBfit.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/myy_140GeV_DCBfit.pdf  used on 
@@ -2950,7 +2964,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [16
 
  <../Code/Examples/Plots/myy_140GeV_DCBfit.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow.pdf, id=588, 569.12625pt x 32
+<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow.pdf, id=600, 569.12625pt x 32
 1.2pt>
 File: ../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow.pdf Graphic file (type p
 df)
@@ -2971,7 +2985,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow.pdf, page is rotated 90 degr
 ees>]
-<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow.pdf, id=637, 569.12625pt x 32
+<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow.pdf, id=649, 569.12625pt x 32
 1.2pt>
 File: ../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow.pdf Graphic file (type p
 df)
@@ -2992,7 +3006,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow.pdf, page is rotated 90 degr
 ees>]
-<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow.pdf, id=687, 569.12625pt x 32
+<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow.pdf, id=699, 569.12625pt x 32
 1.2pt>
 File: ../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow.pdf Graphic file (type p
 df)
@@ -3013,7 +3027,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow.pdf, page is rotated 90 degr
 ees>]
-<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow.pdf, id=737, 569.12625pt x 32
+<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow.pdf, id=749, 569.12625pt x 32
 1.2pt>
 File: ../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow.pdf Graphic file (type p
 df)
@@ -3050,7 +3064,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [23
 
 ]
-<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_multifit.pdf, id=802, 569.126
+<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_multifit.pdf, id=814, 569.126
 25pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_multifit.pdf Graphic fil
 e (type pdf)
@@ -3067,7 +3081,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_multifit.pdf, page is rotate
 d 90 degrees>]
-<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_multifit.pdf, id=851, 569.126
+<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_multifit.pdf, id=864, 569.126
 25pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_multifit.pdf Graphic fil
 e (type pdf)
@@ -3084,7 +3098,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_multifit.pdf, page is rotate
 d 90 degrees>]
-<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_multifit.pdf, id=902, 569.126
+<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_multifit.pdf, id=914, 569.126
 25pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_multifit.pdf Graphic fil
 e (type pdf)
@@ -3101,7 +3115,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_multifit.pdf, page is rotate
 d 90 degrees>]
-<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_multifit.pdf, id=951, 569.126
+<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_multifit.pdf, id=963, 569.126
 25pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_multifit.pdf Graphic fil
 e (type pdf)
@@ -3118,7 +3132,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_multifit.pdf, page is rotate
 d 90 degrees>]
-<../Code/Examples/Plots/mu_fit.pdf, id=1000, 569.12625pt x 385.44pt>
+<../Code/Examples/Plots/mu_fit.pdf, id=1012, 569.12625pt x 385.44pt>
 File: ../Code/Examples/Plots/mu_fit.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/mu_fit.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/mu_fit.pdf  used on input line 
@@ -3132,7 +3146,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [28
 
  <../Code/Examples/Plots/mu_fit.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/sigma_fit.pdf, id=1050, 569.12625pt x 385.44pt>
+<../Code/Examples/Plots/sigma_fit.pdf, id=1062, 569.12625pt x 385.44pt>
 File: ../Code/Examples/Plots/sigma_fit.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/sigma_fit.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/sigma_fit.pdf  used on input li
@@ -3146,7 +3160,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [29
 
  <../Code/Examples/Plots/sigma_fit.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/a1_fit.pdf, id=1100, 569.12625pt x 385.44pt>
+<../Code/Examples/Plots/a1_fit.pdf, id=1112, 569.12625pt x 385.44pt>
 File: ../Code/Examples/Plots/a1_fit.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/a1_fit.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/a1_fit.pdf  used on input line 
@@ -3160,7 +3174,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [30
 
  <../Code/Examples/Plots/a1_fit.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/p1_fit.pdf, id=1150, 569.12625pt x 385.44pt>
+<../Code/Examples/Plots/p1_fit.pdf, id=1162, 569.12625pt x 385.44pt>
 File: ../Code/Examples/Plots/p1_fit.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/p1_fit.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/p1_fit.pdf  used on input line 
@@ -3174,7 +3188,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [31
 
  <../Code/Examples/Plots/p1_fit.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/a2_fit.pdf, id=1200, 569.12625pt x 385.44pt>
+<../Code/Examples/Plots/a2_fit.pdf, id=1212, 569.12625pt x 385.44pt>
 File: ../Code/Examples/Plots/a2_fit.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/a2_fit.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/a2_fit.pdf  used on input line 
@@ -3188,7 +3202,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [32
 
  <../Code/Examples/Plots/a2_fit.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/p2_fit.pdf, id=1249, 569.12625pt x 385.44pt>
+<../Code/Examples/Plots/p2_fit.pdf, id=1261, 569.12625pt x 385.44pt>
 File: ../Code/Examples/Plots/p2_fit.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/p2_fit.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/p2_fit.pdf  used on input line 
@@ -3202,7 +3216,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [33
 
  <../Code/Examples/Plots/p2_fit.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1298, 569
+<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1310, 569
 .12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_mu_sigma_mh.pdf Graphic 
 file (type pdf)
@@ -3219,7 +3233,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, page is rot
 ated 90 degrees>]
-<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1348, 569
+<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1360, 569
 .12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_mu_sigma_mh.pdf Graphic 
 file (type pdf)
@@ -3236,7 +3250,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, page is rot
 ated 90 degrees>]
-<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1397, 569
+<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1409, 569
 .12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_mu_sigma_mh.pdf Graphic 
 file (type pdf)
@@ -3253,7 +3267,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, page is rot
 ated 90 degrees>]
-<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1446, 569
+<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, id=1458, 569
 .12625pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_mu_sigma_mh.pdf Graphic 
 file (type pdf)
@@ -3270,7 +3284,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_mu_sigma_mh.pdf, page is rot
 ated 90 degrees>]
-<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_all_mh.pdf, id=1496, 569.1262
+<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_all_mh.pdf, id=1508, 569.1262
 5pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_all_mh.pdf Graphic file 
 (type pdf)
@@ -3287,7 +3301,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_all_mh.pdf, page is rotated 
 90 degrees>]
-<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_all_mh.pdf, id=1546, 569.1262
+<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_all_mh.pdf, id=1558, 569.1262
 5pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_all_mh.pdf Graphic file 
 (type pdf)
@@ -3304,7 +3318,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_all_mh.pdf, page is rotated 
 90 degrees>]
-<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_all_mh.pdf, id=1595, 569.1262
+<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_all_mh.pdf, id=1607, 569.1262
 5pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_all_mh.pdf Graphic file 
 (type pdf)
@@ -3321,7 +3335,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_all_mh.pdf, page is rotated 
 90 degrees>]
-<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_all_mh.pdf, id=1644, 569.1262
+<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_all_mh.pdf, id=1656, 569.1262
 5pt x 321.2pt>
 File: ../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_all_mh.pdf Graphic file 
 (type pdf)
@@ -3338,7 +3352,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_all_mh.pdf, page is rotated 
 90 degrees>]
-<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_global.pdf, id=1693, 569.1262
+<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_global.pdf, id=1705, 569.1262
 5pt x 357.335pt>
 File: ../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_global.pdf Graphic file 
 (type pdf)
@@ -3355,7 +3369,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_global.pdf, page is rotated 
 90 degrees>]
-<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_global.pdf, id=1742, 569.1262
+<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_global.pdf, id=1754, 569.1262
 5pt x 357.335pt>
 File: ../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_global.pdf Graphic file 
 (type pdf)
@@ -3372,7 +3386,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_global.pdf, page is rotated 
 90 degrees>]
-<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_global.pdf, id=1793, 569.1262
+<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_global.pdf, id=1805, 569.1262
 5pt x 357.335pt>
 File: ../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_global.pdf Graphic file 
 (type pdf)
@@ -3389,7 +3403,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_global.pdf, page is rotated 
 90 degrees>]
-<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_global.pdf, id=1842, 569.1262
+<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_global.pdf, id=1854, 569.1262
 5pt x 357.335pt>
 File: ../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_global.pdf Graphic file 
 (type pdf)
@@ -3406,7 +3420,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_global.pdf, page is rotated 
 90 degrees>]
-<../Code/Examples/Plots/mu_param.pdf, id=1891, 569.12625pt x 357.335pt>
+<../Code/Examples/Plots/mu_param.pdf, id=1903, 569.12625pt x 357.335pt>
 File: ../Code/Examples/Plots/mu_param.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/mu_param.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/mu_param.pdf  used on input lin
@@ -3420,7 +3434,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [46
 
  <../Code/Examples/Plots/mu_param.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/width_param.pdf, id=1940, 569.12625pt x 357.335pt>
+<../Code/Examples/Plots/width_param.pdf, id=1952, 569.12625pt x 357.335pt>
 File: ../Code/Examples/Plots/width_param.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/width_param.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/width_param.pdf  used on input 
@@ -3434,7 +3448,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [47
 
  <../Code/Examples/Plots/width_param.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/a1_param.pdf, id=1990, 569.12625pt x 357.335pt>
+<../Code/Examples/Plots/a1_param.pdf, id=2002, 569.12625pt x 357.335pt>
 File: ../Code/Examples/Plots/a1_param.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/a1_param.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/a1_param.pdf  used on input lin
@@ -3448,7 +3462,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [48
 
  <../Code/Examples/Plots/a1_param.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/p1_param.pdf, id=2039, 569.12625pt x 357.335pt>
+<../Code/Examples/Plots/p1_param.pdf, id=2051, 569.12625pt x 357.335pt>
 File: ../Code/Examples/Plots/p1_param.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/p1_param.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/p1_param.pdf  used on input lin
@@ -3462,7 +3476,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [49
 
  <../Code/Examples/Plots/p1_param.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/a2_param.pdf, id=2089, 569.12625pt x 357.335pt>
+<../Code/Examples/Plots/a2_param.pdf, id=2101, 569.12625pt x 357.335pt>
 File: ../Code/Examples/Plots/a2_param.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/a2_param.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/a2_param.pdf  used on input lin
@@ -3476,7 +3490,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [50
 
  <../Code/Examples/Plots/a2_param.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/p2_param.pdf, id=2138, 569.12625pt x 357.335pt>
+<../Code/Examples/Plots/p2_param.pdf, id=2150, 569.12625pt x 357.335pt>
 File: ../Code/Examples/Plots/p2_param.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/p2_param.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/p2_param.pdf  used on input lin
@@ -3490,7 +3504,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [51
 
  <../Code/Examples/Plots/p2_param.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/efficiencies.pdf, id=2187, 569.12625pt x 357.335pt>
+<../Code/Examples/Plots/efficiencies.pdf, id=2199, 569.12625pt x 357.335pt>
 File: ../Code/Examples/Plots/efficiencies.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/efficiencies.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/efficiencies.pdf  used on input
@@ -3518,7 +3532,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [54
 
 ]
-<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_global_all.pdf, id=2247, 569.
+<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_global_all.pdf, id=2259, 569.
 12625pt x 356.33125pt>
 File: ../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_global_all.pdf Graphic f
 ile (type pdf)
@@ -3535,7 +3549,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_global_all.pdf, page is rota
 ted 90 degrees>]
-<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_global_all.pdf, id=2297, 569.
+<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_global_all.pdf, id=2309, 569.
 12625pt x 356.33125pt>
 File: ../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_global_all.pdf Graphic f
 ile (type pdf)
@@ -3552,7 +3566,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_global_all.pdf, page is rota
 ted 90 degrees>]
-<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_global_all.pdf, id=2346, 569.
+<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_global_all.pdf, id=2358, 569.
 12625pt x 356.33125pt>
 File: ../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_global_all.pdf Graphic f
 ile (type pdf)
@@ -3569,7 +3583,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_global_all.pdf, page is rota
 ted 90 degrees>]
-<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_global_all.pdf, id=2395, 569.
+<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_global_all.pdf, id=2407, 569.
 12625pt x 356.33125pt>
 File: ../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_global_all.pdf Graphic f
 ile (type pdf)
@@ -3586,7 +3600,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_global_all.pdf, page is rota
 ted 90 degrees>]
-<../Code/Examples/Plots/mu_param_all.pdf, id=2445, 569.12625pt x 356.33125pt>
+<../Code/Examples/Plots/mu_param_all.pdf, id=2457, 569.12625pt x 356.33125pt>
 File: ../Code/Examples/Plots/mu_param_all.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/mu_param_all.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/mu_param_all.pdf  used on input
@@ -3600,7 +3614,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [59
 
  <../Code/Examples/Plots/mu_param_all.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/width_param_all.pdf, id=2494, 569.12625pt x 356.33125pt
+<../Code/Examples/Plots/width_param_all.pdf, id=2506, 569.12625pt x 356.33125pt
 >
 File: ../Code/Examples/Plots/width_param_all.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/width_param_all.pdf>
@@ -3615,7 +3629,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [60
 
  <../Code/Examples/Plots/width_param_all.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/a1_param_all.pdf, id=2543, 569.12625pt x 356.33125pt>
+<../Code/Examples/Plots/a1_param_all.pdf, id=2555, 569.12625pt x 356.33125pt>
 File: ../Code/Examples/Plots/a1_param_all.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/a1_param_all.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/a1_param_all.pdf  used on input
@@ -3629,7 +3643,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [61
 
  <../Code/Examples/Plots/a1_param_all.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/p1_param_all.pdf, id=2593, 569.12625pt x 356.33125pt>
+<../Code/Examples/Plots/p1_param_all.pdf, id=2605, 569.12625pt x 356.33125pt>
 File: ../Code/Examples/Plots/p1_param_all.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/p1_param_all.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/p1_param_all.pdf  used on input
@@ -3643,7 +3657,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [62
 
  <../Code/Examples/Plots/p1_param_all.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/a2_param_all.pdf, id=2642, 569.12625pt x 356.33125pt>
+<../Code/Examples/Plots/a2_param_all.pdf, id=2655, 569.12625pt x 356.33125pt>
 File: ../Code/Examples/Plots/a2_param_all.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/a2_param_all.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/a2_param_all.pdf  used on input
@@ -3657,7 +3671,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [63
 
  <../Code/Examples/Plots/a2_param_all.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/p2_param_all.pdf, id=2692, 569.12625pt x 356.33125pt>
+<../Code/Examples/Plots/p2_param_all.pdf, id=2704, 569.12625pt x 356.33125pt>
 File: ../Code/Examples/Plots/p2_param_all.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/p2_param_all.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/p2_param_all.pdf  used on input
@@ -3671,7 +3685,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [64
 
  <../Code/Examples/Plots/p2_param_all.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_no125.pdf, id=2741, 569.12625
+<../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_no125.pdf, id=2753, 569.12625
 pt x 356.33125pt>
 File: ../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_no125.pdf Graphic file (
 type pdf)
@@ -3688,7 +3702,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_110GeV_DCBfit_cutFlow_no125.pdf, page is rotated 9
 0 degrees>]
-<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_no125.pdf, id=2790, 569.12625
+<../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_no125.pdf, id=2802, 569.12625
 pt x 356.33125pt>
 File: ../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_no125.pdf Graphic file (
 type pdf)
@@ -3705,7 +3719,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_130GeV_DCBfit_cutFlow_no125.pdf, page is rotated 9
 0 degrees>]
-<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_no125.pdf, id=2839, 569.12625
+<../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_no125.pdf, id=2851, 569.12625
 pt x 356.33125pt>
 File: ../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_no125.pdf Graphic file (
 type pdf)
@@ -3722,7 +3736,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_140GeV_DCBfit_cutFlow_no125.pdf, page is rotated 9
 0 degrees>]
-<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_no125.pdf, id=2890, 569.12625
+<../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_no125.pdf, id=2902, 569.12625
 pt x 356.33125pt>
 File: ../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_no125.pdf Graphic file (
 type pdf)
@@ -3739,7 +3753,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../Code/Examples/Plots/myy_125GeV_DCBfit_cutFlow_no125.pdf, page is rotated 9
 0 degrees>]
-<../Code/Examples/Plots/backgroundMC_dist.pdf, id=2939, 569.12625pt x 357.335pt
+<../Code/Examples/Plots/backgroundMC_dist.pdf, id=2951, 569.12625pt x 357.335pt
 >
 File: ../Code/Examples/Plots/backgroundMC_dist.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/backgroundMC_dist.pdf>
@@ -3754,7 +3768,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [69
 
  <../Code/Examples/Plots/backgroundMC_dist.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/only_bkg_plot.pdf, id=2988, 569.12625pt x 388.45125pt>
+<../Code/Examples/Plots/only_bkg_plot.pdf, id=3000, 569.12625pt x 388.45125pt>
 File: ../Code/Examples/Plots/only_bkg_plot.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/only_bkg_plot.pdf>
 Package pdftex.def Info: ../Code/Examples/Plots/only_bkg_plot.pdf  used on inpu
@@ -3772,7 +3786,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [70
 
  <../Code/Examples/Plots/only_bkg_plot.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/sig_bkg_plot_140GeV.pdf, id=3037, 569.12625pt x 388.451
+<../Code/Examples/Plots/sig_bkg_plot_140GeV.pdf, id=3049, 569.12625pt x 388.451
 25pt>
 File: ../Code/Examples/Plots/sig_bkg_plot_140GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/sig_bkg_plot_140GeV.pdf>
@@ -3791,7 +3805,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [71
 
  <../Code/Examples/Plots/sig_bkg_plot_140GeV.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/sig_bkg_plot_130GeV.pdf, id=3086, 569.12625pt x 388.451
+<../Code/Examples/Plots/sig_bkg_plot_130GeV.pdf, id=3099, 569.12625pt x 388.451
 25pt>
 File: ../Code/Examples/Plots/sig_bkg_plot_130GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/sig_bkg_plot_130GeV.pdf>
@@ -3810,7 +3824,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [72
 
  <../Code/Examples/Plots/sig_bkg_plot_130GeV.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/sig_bkg_plot_125GeV.pdf, id=3136, 569.12625pt x 388.451
+<../Code/Examples/Plots/sig_bkg_plot_125GeV.pdf, id=3148, 569.12625pt x 388.451
 25pt>
 File: ../Code/Examples/Plots/sig_bkg_plot_125GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/sig_bkg_plot_125GeV.pdf>
@@ -3839,7 +3853,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [75
 
 ]
-<../Code/Examples/Plots/chiSquare.png, id=3197, 1009.7725pt x 483.8075pt>
+<../Code/Examples/Plots/chiSquare.png, id=3209, 1009.7725pt x 483.8075pt>
 File: ../Code/Examples/Plots/chiSquare.png Graphic file (type png)
 <use ../Code/Examples/Plots/chiSquare.png>
 Package pdftex.def Info: ../Code/Examples/Plots/chiSquare.png  used on input li
@@ -3853,7 +3867,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [76
 
  <../Code/Examples/Plots/chiSquare.png>]
-<../Code/Examples/Plots/comp_plot_110GeV.pdf, id=3203, 569.12625pt x 357.335pt>
+<../Code/Examples/Plots/comp_plot_110GeV.pdf, id=3215, 569.12625pt x 357.335pt>
 
 File: ../Code/Examples/Plots/comp_plot_110GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/comp_plot_110GeV.pdf>
@@ -3868,7 +3882,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [77
 
  <../Code/Examples/Plots/comp_plot_110GeV.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/comp_plot_110GeV_log.pdf, id=3252, 569.12625pt x 357.33
+<../Code/Examples/Plots/comp_plot_110GeV_log.pdf, id=3264, 569.12625pt x 357.33
 5pt>
 File: ../Code/Examples/Plots/comp_plot_110GeV_log.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/comp_plot_110GeV_log.pdf>
@@ -3883,7 +3897,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [78
 
  <../Code/Examples/Plots/comp_plot_110GeV_log.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/comp_plot_125GeV.pdf, id=3301, 569.12625pt x 357.335pt>
+<../Code/Examples/Plots/comp_plot_125GeV.pdf, id=3314, 569.12625pt x 357.335pt>
 
 File: ../Code/Examples/Plots/comp_plot_125GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/comp_plot_125GeV.pdf>
@@ -3898,7 +3912,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [79
 
  <../Code/Examples/Plots/comp_plot_125GeV.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/comp_plot_125GeV_log.pdf, id=3352, 569.12625pt x 357.33
+<../Code/Examples/Plots/comp_plot_125GeV_log.pdf, id=3364, 569.12625pt x 357.33
 5pt>
 File: ../Code/Examples/Plots/comp_plot_125GeV_log.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/comp_plot_125GeV_log.pdf>
@@ -3913,7 +3927,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [80
 
  <../Code/Examples/Plots/comp_plot_125GeV_log.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/comp_plot_130GeV.pdf, id=3401, 569.12625pt x 357.335pt>
+<../Code/Examples/Plots/comp_plot_130GeV.pdf, id=3413, 569.12625pt x 357.335pt>
 
 File: ../Code/Examples/Plots/comp_plot_130GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/comp_plot_130GeV.pdf>
@@ -3928,7 +3942,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [81
 
  <../Code/Examples/Plots/comp_plot_130GeV.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/comp_plot_130GeV_log.pdf, id=3450, 569.12625pt x 357.33
+<../Code/Examples/Plots/comp_plot_130GeV_log.pdf, id=3462, 569.12625pt x 357.33
 5pt>
 File: ../Code/Examples/Plots/comp_plot_130GeV_log.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/comp_plot_130GeV_log.pdf>
@@ -3943,7 +3957,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [82
 
  <../Code/Examples/Plots/comp_plot_130GeV_log.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/comp_plot_140GeV.pdf, id=3499, 569.12625pt x 357.335pt>
+<../Code/Examples/Plots/comp_plot_140GeV.pdf, id=3511, 569.12625pt x 357.335pt>
 
 File: ../Code/Examples/Plots/comp_plot_140GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/comp_plot_140GeV.pdf>
@@ -3958,7 +3972,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [83
 
  <../Code/Examples/Plots/comp_plot_140GeV.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/comp_plot_140GeV_log.pdf, id=3549, 569.12625pt x 357.33
+<../Code/Examples/Plots/comp_plot_140GeV_log.pdf, id=3561, 569.12625pt x 357.33
 5pt>
 File: ../Code/Examples/Plots/comp_plot_140GeV_log.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/comp_plot_140GeV_log.pdf>
@@ -4015,7 +4029,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [87
 
 ]
-<../Code/Examples/Plots/p0_plot_only_bkg.pdf, id=3616, 569.12625pt x 388.45125p
+<../Code/Examples/Plots/p0_plot_only_bkg.pdf, id=3628, 569.12625pt x 388.45125p
 t>
 File: ../Code/Examples/Plots/p0_plot_only_bkg.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/p0_plot_only_bkg.pdf>
@@ -4034,7 +4048,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [88
 
  <../Code/Examples/Plots/p0_plot_only_bkg.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/limit_plot_only_bkg.pdf, id=3665, 569.12625pt x 388.451
+<../Code/Examples/Plots/limit_plot_only_bkg.pdf, id=3677, 569.12625pt x 388.451
 25pt>
 File: ../Code/Examples/Plots/limit_plot_only_bkg.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/limit_plot_only_bkg.pdf>
@@ -4053,7 +4067,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [89
 
  <../Code/Examples/Plots/limit_plot_only_bkg.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/sig_bkg_plot_110GeV.pdf, id=3714, 569.12625pt x 388.451
+<../Code/Examples/Plots/sig_bkg_plot_110GeV.pdf, id=3726, 569.12625pt x 388.451
 25pt>
 File: ../Code/Examples/Plots/sig_bkg_plot_110GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/sig_bkg_plot_110GeV.pdf>
@@ -4072,7 +4086,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [90
 
  <../Code/Examples/Plots/sig_bkg_plot_110GeV.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/p0_plot_110GeV.pdf, id=3764, 569.12625pt x 388.45125pt>
+<../Code/Examples/Plots/p0_plot_110GeV.pdf, id=3776, 569.12625pt x 388.45125pt>
 
 File: ../Code/Examples/Plots/p0_plot_110GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/p0_plot_110GeV.pdf>
@@ -4091,7 +4105,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [91
 
  <../Code/Examples/Plots/p0_plot_110GeV.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/limit_plot_110GeV.pdf, id=3814, 569.12625pt x 388.45125
+<../Code/Examples/Plots/limit_plot_110GeV.pdf, id=3826, 569.12625pt x 388.45125
 pt>
 File: ../Code/Examples/Plots/limit_plot_110GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/limit_plot_110GeV.pdf>
@@ -4127,7 +4141,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [93
 
 ]
-<../Code/Examples/Plots/p0_plot_125GeV.pdf, id=3868, 569.12625pt x 388.45125pt>
+<../Code/Examples/Plots/p0_plot_125GeV.pdf, id=3880, 569.12625pt x 388.45125pt>
 
 File: ../Code/Examples/Plots/p0_plot_125GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/p0_plot_125GeV.pdf>
@@ -4146,7 +4160,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [94
 
  <../Code/Examples/Plots/p0_plot_125GeV.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/limit_plot_125GeV.pdf, id=3917, 569.12625pt x 388.45125
+<../Code/Examples/Plots/limit_plot_125GeV.pdf, id=3929, 569.12625pt x 388.45125
 pt>
 File: ../Code/Examples/Plots/limit_plot_125GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/limit_plot_125GeV.pdf>
@@ -4182,7 +4196,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [96
 
 ]
-<../Code/Examples/Plots/p0_plot_130GeV.pdf, id=3972, 569.12625pt x 388.45125pt>
+<../Code/Examples/Plots/p0_plot_130GeV.pdf, id=3984, 569.12625pt x 388.45125pt>
 
 File: ../Code/Examples/Plots/p0_plot_130GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/p0_plot_130GeV.pdf>
@@ -4201,7 +4215,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [97
 
  <../Code/Examples/Plots/p0_plot_130GeV.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/limit_plot_130GeV.pdf, id=4022, 569.12625pt x 388.45125
+<../Code/Examples/Plots/limit_plot_130GeV.pdf, id=4034, 569.12625pt x 388.45125
 pt>
 File: ../Code/Examples/Plots/limit_plot_130GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/limit_plot_130GeV.pdf>
@@ -4237,7 +4251,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [99
 
 ]
-<../Code/Examples/Plots/p0_plot_140GeV.pdf, id=4076, 569.12625pt x 388.45125pt>
+<../Code/Examples/Plots/p0_plot_140GeV.pdf, id=4088, 569.12625pt x 388.45125pt>
 
 File: ../Code/Examples/Plots/p0_plot_140GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/p0_plot_140GeV.pdf>
@@ -4256,7 +4270,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [100
 
  <../Code/Examples/Plots/p0_plot_140GeV.pdf, page is rotated 90 degrees>]
-<../Code/Examples/Plots/limit_plot_140GeV.pdf, id=4125, 569.12625pt x 388.45125
+<../Code/Examples/Plots/limit_plot_140GeV.pdf, id=4137, 569.12625pt x 388.45125
 pt>
 File: ../Code/Examples/Plots/limit_plot_140GeV.pdf Graphic file (type pdf)
 <use ../Code/Examples/Plots/limit_plot_140GeV.pdf>
@@ -4278,7 +4292,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 02
 
 ]
-<../images/efficiencies_fit.pdf, id=4180, 569.12625pt x 356.33125pt>
+<../images/efficiencies_fit.pdf, id=4192, 569.12625pt x 356.33125pt>
 File: ../images/efficiencies_fit.pdf Graphic file (type pdf)
 <use ../images/efficiencies_fit.pdf>
 Package pdftex.def Info: ../images/efficiencies_fit.pdf  used on input line 791
@@ -4292,7 +4306,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [103
 
  <../images/efficiencies_fit.pdf, page is rotated 90 degrees>]
-<../images/yields_fit.pdf, id=4230, 569.12625pt x 355.3275pt>
+<../images/yields_fit.pdf, id=4242, 569.12625pt x 355.3275pt>
 File: ../images/yields_fit.pdf Graphic file (type pdf)
 <use ../images/yields_fit.pdf>
 Package pdftex.def Info: ../images/yields_fit.pdf  used on input line 797.
@@ -4305,7 +4319,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [104
 
  <../images/yields_fit.pdf, page is rotated 90 degrees>]
-<../images/ggHyy_rebin10.pdf, id=4279, 569.12625pt x 408.52625pt>
+<../images/ggHyy_rebin10.pdf, id=4291, 569.12625pt x 408.52625pt>
 File: ../images/ggHyy_rebin10.pdf Graphic file (type pdf)
 <use ../images/ggHyy_rebin10.pdf>
 Package pdftex.def Info: ../images/ggHyy_rebin10.pdf  used on input line 803.
@@ -4322,7 +4336,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [105
 
  <../images/ggHyy_rebin10.pdf, page is rotated 90 degrees>]
-<../images/plot_AsimovData_0_ggHyy.pdf, id=4328, 578.16pt x 361.35pt>
+<../images/plot_AsimovData_0_ggHyy.pdf, id=4340, 578.16pt x 361.35pt>
 File: ../images/plot_AsimovData_0_ggHyy.pdf Graphic file (type pdf)
 <use ../images/plot_AsimovData_0_ggHyy.pdf>
 Package pdftex.def Info: ../images/plot_AsimovData_0_ggHyy.pdf  used on input l
@@ -4336,7 +4350,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [106
 
  <../images/plot_AsimovData_0_ggHyy.pdf>]
-<../images/plot_AsimovData_1_125_ggHyy.pdf, id=4398, 578.16pt x 361.35pt>
+<../images/plot_AsimovData_1_125_ggHyy.pdf, id=4410, 578.16pt x 361.35pt>
 File: ../images/plot_AsimovData_1_125_ggHyy.pdf Graphic file (type pdf)
 <use ../images/plot_AsimovData_1_125_ggHyy.pdf>
 Package pdftex.def Info: ../images/plot_AsimovData_1_125_ggHyy.pdf  used on inp
@@ -4352,7 +4366,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
  <../images/plot_AsimovData_1_125_ggHyy.pdf>] [108
 
 ]
-<../images/efficiencies_fit_1.pdf, id=4473, 569.12625pt x 356.33125pt>
+<../images/efficiencies_fit_1.pdf, id=4485, 569.12625pt x 356.33125pt>
 File: ../images/efficiencies_fit_1.pdf Graphic file (type pdf)
 <use ../images/efficiencies_fit_1.pdf>
 Package pdftex.def Info: ../images/efficiencies_fit_1.pdf  used on input line 8
@@ -4366,7 +4380,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [109
 
  <../images/efficiencies_fit_1.pdf, page is rotated 90 degrees>]
-<../images/x_section_fit.pdf, id=4524, 569.12625pt x 356.33125pt>
+<../images/x_section_fit.pdf, id=4536, 569.12625pt x 356.33125pt>
 File: ../images/x_section_fit.pdf Graphic file (type pdf)
 <use ../images/x_section_fit.pdf>
 Package pdftex.def Info: ../images/x_section_fit.pdf  used on input line 833.
@@ -4379,7 +4393,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [110
 
  <../images/x_section_fit.pdf, page is rotated 90 degrees>]
-<../images/br_fit_1.pdf, id=4574, 569.12625pt x 386.44376pt>
+<../images/br_fit_1.pdf, id=4586, 569.12625pt x 386.44376pt>
 File: ../images/br_fit_1.pdf Graphic file (type pdf)
 <use ../images/br_fit_1.pdf>
 Package pdftex.def Info: ../images/br_fit_1.pdf  used on input line 841.
@@ -4392,7 +4406,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [111
 
  <../images/br_fit_1.pdf, page is rotated 90 degrees>]
-<../images/ggHyy_efxsbr.pdf, id=4623, 569.12625pt x 408.52625pt>
+<../images/ggHyy_efxsbr.pdf, id=4635, 569.12625pt x 408.52625pt>
 File: ../images/ggHyy_efxsbr.pdf Graphic file (type pdf)
 <use ../images/ggHyy_efxsbr.pdf>
 Package pdftex.def Info: ../images/ggHyy_efxsbr.pdf  used on input line 847.
@@ -4436,7 +4450,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [115
 
 ]
-<../images/br_fit.pdf, id=4691, 569.12625pt x 300.12125pt>
+<../images/br_fit.pdf, id=4703, 569.12625pt x 300.12125pt>
 File: ../images/br_fit.pdf Graphic file (type pdf)
 <use ../images/br_fit.pdf>
 Package pdftex.def Info: ../images/br_fit.pdf  used on input line 873.
@@ -4449,7 +4463,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [116
 
  <../images/br_fit.pdf, page is rotated 90 degrees>]
-<../images/check_yields.pdf, id=4740, 569.12625pt x 355.3275pt>
+<../images/check_yields.pdf, id=4752, 569.12625pt x 355.3275pt>
 File: ../images/check_yields.pdf Graphic file (type pdf)
 <use ../images/check_yields.pdf>
 Package pdftex.def Info: ../images/check_yields.pdf  used on input line 882.
@@ -4462,7 +4476,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [117
 
  <../images/check_yields.pdf, page is rotated 90 degrees>]
-<../images/ggHyy_MCpdf.pdf, id=4789, 569.12625pt x 408.52625pt>
+<../images/ggHyy_MCpdf.pdf, id=4801, 569.12625pt x 408.52625pt>
 File: ../images/ggHyy_MCpdf.pdf Graphic file (type pdf)
 <use ../images/ggHyy_MCpdf.pdf>
 Package pdftex.def Info: ../images/ggHyy_MCpdf.pdf  used on input line 888.
@@ -4479,7 +4493,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [118
 
  <../images/ggHyy_MCpdf.pdf, page is rotated 90 degrees>]
-<../images/AsimovData_0_ggHyy_MCpdf.pdf, id=4838, 569.12625pt x 356.33125pt>
+<../images/AsimovData_0_ggHyy_MCpdf.pdf, id=4850, 569.12625pt x 356.33125pt>
 File: ../images/AsimovData_0_ggHyy_MCpdf.pdf Graphic file (type pdf)
 <use ../images/AsimovData_0_ggHyy_MCpdf.pdf>
 Package pdftex.def Info: ../images/AsimovData_0_ggHyy_MCpdf.pdf  used on input 
@@ -4493,7 +4507,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [119
 
  <../images/AsimovData_0_ggHyy_MCpdf.pdf, page is rotated 90 degrees>]
-<../images/mu_AsimovData_0_ggHyy_MCpdf_plot.pdf, id=4887, 578.16pt x 361.35pt>
+<../images/mu_AsimovData_0_ggHyy_MCpdf_plot.pdf, id=4900, 578.16pt x 361.35pt>
 File: ../images/mu_AsimovData_0_ggHyy_MCpdf_plot.pdf Graphic file (type pdf)
 <use ../images/mu_AsimovData_0_ggHyy_MCpdf_plot.pdf>
 Package pdftex.def Info: ../images/mu_AsimovData_0_ggHyy_MCpdf_plot.pdf  used o
@@ -4507,7 +4521,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [120
 
  <../images/mu_AsimovData_0_ggHyy_MCpdf_plot.pdf>]
-<../images/AsimovData_1_125_ggHyy_MCpdf.pdf, id=4952, 569.12625pt x 356.33125pt
+<../images/AsimovData_1_125_ggHyy_MCpdf.pdf, id=4964, 569.12625pt x 356.33125pt
 >
 File: ../images/AsimovData_1_125_ggHyy_MCpdf.pdf Graphic file (type pdf)
 <use ../images/AsimovData_1_125_ggHyy_MCpdf.pdf>
@@ -4522,7 +4536,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [121
 
  <../images/AsimovData_1_125_ggHyy_MCpdf.pdf, page is rotated 90 degrees>]
-<../images/mu_AsimovData_1_125_ggHyy_MCpdf_plot.pdf, id=5002, 578.16pt x 361.35
+<../images/mu_AsimovData_1_125_ggHyy_MCpdf_plot.pdf, id=5014, 578.16pt x 361.35
 pt>
 File: ../images/mu_AsimovData_1_125_ggHyy_MCpdf_plot.pdf Graphic file (type pdf
 )
@@ -4538,7 +4552,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [122
 
  <../images/mu_AsimovData_1_125_ggHyy_MCpdf_plot.pdf>]
-<../images/AsimovData_1_125_fit_ggHyy_MCpdf.pdf, id=5066, 569.12625pt x 318.188
+<../images/AsimovData_1_125_fit_ggHyy_MCpdf.pdf, id=5078, 569.12625pt x 318.188
 75pt>
 File: ../images/AsimovData_1_125_fit_ggHyy_MCpdf.pdf Graphic file (type pdf)
 <use ../images/AsimovData_1_125_fit_ggHyy_MCpdf.pdf>
@@ -4553,7 +4567,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [123
 
  <../images/AsimovData_1_125_fit_ggHyy_MCpdf.pdf, page is rotated 90 degrees>]
-<../images/AsimovData_1_125_check_ggHyy_MCpdf.pdf, id=5115, 569.12625pt x 318.1
+<../images/AsimovData_1_125_check_ggHyy_MCpdf.pdf, id=5127, 569.12625pt x 318.1
 8875pt>
 File: ../images/AsimovData_1_125_check_ggHyy_MCpdf.pdf Graphic file (type pdf)
 <use ../images/AsimovData_1_125_check_ggHyy_MCpdf.pdf>
@@ -4569,7 +4583,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/AsimovData_1_125_check_ggHyy_MCpdf.pdf, page is rotated 90 degrees>
 ]
-<../images/plot_AsimovData_0_ggHyy_MCpdf.pdf, id=5164, 578.16pt x 361.35pt>
+<../images/plot_AsimovData_0_ggHyy_MCpdf.pdf, id=5176, 578.16pt x 361.35pt>
 File: ../images/plot_AsimovData_0_ggHyy_MCpdf.pdf Graphic file (type pdf)
 <use ../images/plot_AsimovData_0_ggHyy_MCpdf.pdf>
 Package pdftex.def Info: ../images/plot_AsimovData_0_ggHyy_MCpdf.pdf  used on i
@@ -4583,7 +4597,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [125
 
  <../images/plot_AsimovData_0_ggHyy_MCpdf.pdf>]
-<../images/plot_AsimovData_1_125_ggHyy_MCpdf.pdf, id=5236, 578.16pt x 361.35pt>
+<../images/plot_AsimovData_1_125_ggHyy_MCpdf.pdf, id=5248, 578.16pt x 361.35pt>
 
 File: ../images/plot_AsimovData_1_125_ggHyy_MCpdf.pdf Graphic file (type pdf)
 <use ../images/plot_AsimovData_1_125_ggHyy_MCpdf.pdf>
@@ -4607,7 +4621,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [128
 
 ]
-<../images/background_95_195GeV_fit.pdf, id=5318, 569.12625pt x 355.3275pt>
+<../images/background_95_195GeV_fit.pdf, id=5330, 569.12625pt x 355.3275pt>
 File: ../images/background_95_195GeV_fit.pdf Graphic file (type pdf)
 <use ../images/background_95_195GeV_fit.pdf>
 Package pdftex.def Info: ../images/background_95_195GeV_fit.pdf  used on input 
@@ -4621,7 +4635,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [129
 
  <../images/background_95_195GeV_fit.pdf, page is rotated 90 degrees>]
-<../images/ggHyy_MC.pdf, id=5367, 569.12625pt x 408.52625pt>
+<../images/ggHyy_MC.pdf, id=5379, 569.12625pt x 408.52625pt>
 File: ../images/ggHyy_MC.pdf Graphic file (type pdf)
 <use ../images/ggHyy_MC.pdf>
 Package pdftex.def Info: ../images/ggHyy_MC.pdf  used on input line 963.
@@ -4638,7 +4652,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [130
 
  <../images/ggHyy_MC.pdf, page is rotated 90 degrees>]
-<../images/AsimovData_0_ggHyy_MC.pdf, id=5416, 569.12625pt x 356.33125pt>
+<../images/AsimovData_0_ggHyy_MC.pdf, id=5428, 569.12625pt x 356.33125pt>
 File: ../images/AsimovData_0_ggHyy_MC.pdf Graphic file (type pdf)
 <use ../images/AsimovData_0_ggHyy_MC.pdf>
 Package pdftex.def Info: ../images/AsimovData_0_ggHyy_MC.pdf  used on input lin
@@ -4652,7 +4666,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [131
 
  <../images/AsimovData_0_ggHyy_MC.pdf, page is rotated 90 degrees>]
-<../images/mu_AsimovData_0_ggHyy_MC_plot.pdf, id=5465, 578.16pt x 361.35pt>
+<../images/mu_AsimovData_0_ggHyy_MC_plot.pdf, id=5477, 578.16pt x 361.35pt>
 File: ../images/mu_AsimovData_0_ggHyy_MC_plot.pdf Graphic file (type pdf)
 <use ../images/mu_AsimovData_0_ggHyy_MC_plot.pdf>
 Package pdftex.def Info: ../images/mu_AsimovData_0_ggHyy_MC_plot.pdf  used on i
@@ -4666,7 +4680,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [132
 
  <../images/mu_AsimovData_0_ggHyy_MC_plot.pdf>]
-<../images/AsimovData_1_125_ggHyy_MC.pdf, id=5529, 569.12625pt x 356.33125pt>
+<../images/AsimovData_1_125_ggHyy_MC.pdf, id=5541, 569.12625pt x 356.33125pt>
 File: ../images/AsimovData_1_125_ggHyy_MC.pdf Graphic file (type pdf)
 <use ../images/AsimovData_1_125_ggHyy_MC.pdf>
 Package pdftex.def Info: ../images/AsimovData_1_125_ggHyy_MC.pdf  used on input
@@ -4680,7 +4694,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [133
 
  <../images/AsimovData_1_125_ggHyy_MC.pdf, page is rotated 90 degrees>]
-<../images/mu_AsimovData_1_125_ggHyy_MC_plot.pdf, id=5579, 578.16pt x 361.35pt>
+<../images/mu_AsimovData_1_125_ggHyy_MC_plot.pdf, id=5591, 578.16pt x 361.35pt>
 
 File: ../images/mu_AsimovData_1_125_ggHyy_MC_plot.pdf Graphic file (type pdf)
 <use ../images/mu_AsimovData_1_125_ggHyy_MC_plot.pdf>
@@ -4695,7 +4709,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [134
 
  <../images/mu_AsimovData_1_125_ggHyy_MC_plot.pdf>]
-<../images/AsimovData_1_125_fit_ggHyy_MC.pdf, id=5642, 569.12625pt x 317.185pt>
+<../images/AsimovData_1_125_fit_ggHyy_MC.pdf, id=5654, 569.12625pt x 317.185pt>
 
 File: ../images/AsimovData_1_125_fit_ggHyy_MC.pdf Graphic file (type pdf)
 <use ../images/AsimovData_1_125_fit_ggHyy_MC.pdf>
@@ -4710,7 +4724,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [135
 
  <../images/AsimovData_1_125_fit_ggHyy_MC.pdf, page is rotated 90 degrees>]
-<../images/AsimovData_1_125_check_ggHyy_MC.pdf, id=5691, 569.12625pt x 318.1887
+<../images/AsimovData_1_125_check_ggHyy_MC.pdf, id=5703, 569.12625pt x 318.1887
 5pt>
 File: ../images/AsimovData_1_125_check_ggHyy_MC.pdf Graphic file (type pdf)
 <use ../images/AsimovData_1_125_check_ggHyy_MC.pdf>
@@ -4725,7 +4739,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [136
 
  <../images/AsimovData_1_125_check_ggHyy_MC.pdf, page is rotated 90 degrees>]
-<../images/plot_AsimovData_0_ggHyy_MC.pdf, id=5740, 578.16pt x 361.35pt>
+<../images/plot_AsimovData_0_ggHyy_MC.pdf, id=5752, 578.16pt x 361.35pt>
 File: ../images/plot_AsimovData_0_ggHyy_MC.pdf Graphic file (type pdf)
 <use ../images/plot_AsimovData_0_ggHyy_MC.pdf>
 Package pdftex.def Info: ../images/plot_AsimovData_0_ggHyy_MC.pdf  used on inpu
@@ -4739,7 +4753,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [137
 
  <../images/plot_AsimovData_0_ggHyy_MC.pdf>]
-<../images/plot_AsimovData_1_125_ggHyy_MC.pdf, id=5811, 578.16pt x 361.35pt>
+<../images/plot_AsimovData_1_125_ggHyy_MC.pdf, id=5823, 578.16pt x 361.35pt>
 File: ../images/plot_AsimovData_1_125_ggHyy_MC.pdf Graphic file (type pdf)
 <use ../images/plot_AsimovData_1_125_ggHyy_MC.pdf>
 Package pdftex.def Info: ../images/plot_AsimovData_1_125_ggHyy_MC.pdf  used on 
@@ -4755,7 +4769,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
  <../images/plot_AsimovData_1_125_ggHyy_MC.pdf>] [139
 
 ]
-<../images/week_9/background_100_195GeV_fit.pdf, id=5887, 569.12625pt x 355.327
+<../images/week_9/background_100_195GeV_fit.pdf, id=5899, 569.12625pt x 355.327
 5pt>
 File: ../images/week_9/background_100_195GeV_fit.pdf Graphic file (type pdf)
 <use ../images/week_9/background_100_195GeV_fit.pdf>
@@ -4777,7 +4791,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [141
 
 ]
-<../images/week_9/category.png, id=5941, 531.9875pt x 308.15125pt>
+<../images/week_9/category.png, id=5953, 531.9875pt x 308.15125pt>
 File: ../images/week_9/category.png Graphic file (type png)
 <use ../images/week_9/category.png>
 Package pdftex.def Info: ../images/week_9/category.png  used on input line 1039
@@ -4791,7 +4805,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [142
 
  <../images/week_9/category.png>]
-<../images/week_9/efficiencies_fit_unconv_eta_1.pdf, id=5948, 569.12625pt x 356
+<../images/week_9/efficiencies_fit_unconv_eta_1.pdf, id=5960, 569.12625pt x 356
 .33125pt>
 File: ../images/week_9/efficiencies_fit_unconv_eta_1.pdf Graphic file (type pdf
 )
@@ -4808,7 +4822,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/efficiencies_fit_unconv_eta_1.pdf, page is rotated 90 degree
 s>]
-<../images/week_9/efficiencies_fit_unconv_eta_2.pdf, id=5997, 569.12625pt x 356
+<../images/week_9/efficiencies_fit_unconv_eta_2.pdf, id=6009, 569.12625pt x 356
 .33125pt>
 File: ../images/week_9/efficiencies_fit_unconv_eta_2.pdf Graphic file (type pdf
 )
@@ -4825,7 +4839,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/efficiencies_fit_unconv_eta_2.pdf, page is rotated 90 degree
 s>]
-<../images/week_9/efficiencies_fit_unconv_eta_3.pdf, id=6046, 569.12625pt x 356
+<../images/week_9/efficiencies_fit_unconv_eta_3.pdf, id=6059, 569.12625pt x 356
 .33125pt>
 File: ../images/week_9/efficiencies_fit_unconv_eta_3.pdf Graphic file (type pdf
 )
@@ -4842,7 +4856,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/efficiencies_fit_unconv_eta_3.pdf, page is rotated 90 degree
 s>]
-<../images/week_9/efficiencies_fit_1_conv_eta_1.pdf, id=6097, 569.12625pt x 356
+<../images/week_9/efficiencies_fit_1_conv_eta_1.pdf, id=6109, 569.12625pt x 356
 .33125pt>
 File: ../images/week_9/efficiencies_fit_1_conv_eta_1.pdf Graphic file (type pdf
 )
@@ -4859,7 +4873,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/efficiencies_fit_1_conv_eta_1.pdf, page is rotated 90 degree
 s>]
-<../images/week_9/efficiencies_fit_1_conv_eta_2.pdf, id=6146, 569.12625pt x 356
+<../images/week_9/efficiencies_fit_1_conv_eta_2.pdf, id=6158, 569.12625pt x 356
 .33125pt>
 File: ../images/week_9/efficiencies_fit_1_conv_eta_2.pdf Graphic file (type pdf
 )
@@ -4876,7 +4890,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/efficiencies_fit_1_conv_eta_2.pdf, page is rotated 90 degree
 s>]
-<../images/week_9/efficiencies_fit_1_conv_eta_3.pdf, id=6195, 569.12625pt x 356
+<../images/week_9/efficiencies_fit_1_conv_eta_3.pdf, id=6207, 569.12625pt x 356
 .33125pt>
 File: ../images/week_9/efficiencies_fit_1_conv_eta_3.pdf Graphic file (type pdf
 )
@@ -4893,7 +4907,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/efficiencies_fit_1_conv_eta_3.pdf, page is rotated 90 degree
 s>]
-<../images/week_9/bkg_100_195GeV_fit_unconv_eta_1.pdf, id=6244, 569.12625pt x 3
+<../images/week_9/bkg_100_195GeV_fit_unconv_eta_1.pdf, id=6256, 569.12625pt x 3
 55.3275pt>
 File: ../images/week_9/bkg_100_195GeV_fit_unconv_eta_1.pdf Graphic file (type p
 df)
@@ -4910,7 +4924,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/bkg_100_195GeV_fit_unconv_eta_1.pdf, page is rotated 90 degr
 ees>]
-<../images/week_9/bkg_100_195GeV_fit_unconv_eta_2.pdf, id=6294, 569.12625pt x 3
+<../images/week_9/bkg_100_195GeV_fit_unconv_eta_2.pdf, id=6306, 569.12625pt x 3
 55.3275pt>
 File: ../images/week_9/bkg_100_195GeV_fit_unconv_eta_2.pdf Graphic file (type p
 df)
@@ -4927,7 +4941,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/bkg_100_195GeV_fit_unconv_eta_2.pdf, page is rotated 90 degr
 ees>]
-<../images/week_9/bkg_100_195GeV_fit_unconv_eta_3.pdf, id=6343, 569.12625pt x 3
+<../images/week_9/bkg_100_195GeV_fit_unconv_eta_3.pdf, id=6355, 569.12625pt x 3
 55.3275pt>
 File: ../images/week_9/bkg_100_195GeV_fit_unconv_eta_3.pdf Graphic file (type p
 df)
@@ -4944,7 +4958,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/bkg_100_195GeV_fit_unconv_eta_3.pdf, page is rotated 90 degr
 ees>]
-<../images/week_9/bkg_100_195GeV_fit_1_conv_eta_1.pdf, id=6393, 569.12625pt x 3
+<../images/week_9/bkg_100_195GeV_fit_1_conv_eta_1.pdf, id=6405, 569.12625pt x 3
 55.3275pt>
 File: ../images/week_9/bkg_100_195GeV_fit_1_conv_eta_1.pdf Graphic file (type p
 df)
@@ -4961,7 +4975,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/bkg_100_195GeV_fit_1_conv_eta_1.pdf, page is rotated 90 degr
 ees>]
-<../images/week_9/bkg_100_195GeV_fit_1_conv_eta_2.pdf, id=6442, 569.12625pt x 3
+<../images/week_9/bkg_100_195GeV_fit_1_conv_eta_2.pdf, id=6454, 569.12625pt x 3
 55.3275pt>
 File: ../images/week_9/bkg_100_195GeV_fit_1_conv_eta_2.pdf Graphic file (type p
 df)
@@ -4978,7 +4992,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/bkg_100_195GeV_fit_1_conv_eta_2.pdf, page is rotated 90 degr
 ees>]
-<../images/week_9/bkg_100_195GeV_fit_1_conv_eta_3.pdf, id=6491, 569.12625pt x 3
+<../images/week_9/bkg_100_195GeV_fit_1_conv_eta_3.pdf, id=6503, 569.12625pt x 3
 55.3275pt>
 File: ../images/week_9/bkg_100_195GeV_fit_1_conv_eta_3.pdf Graphic file (type p
 df)
@@ -4995,7 +5009,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_9/bkg_100_195GeV_fit_1_conv_eta_3.pdf, page is rotated 90 degr
 ees>]
-<../images/week_9/plot_AsimovData_0_ggHyy_MC_all_cat.pdf, id=6541, 578.16pt x 3
+<../images/week_9/plot_AsimovData_0_ggHyy_MC_all_cat.pdf, id=6553, 578.16pt x 3
 61.35pt>
 File: ../images/week_9/plot_AsimovData_0_ggHyy_MC_all_cat.pdf Graphic file (typ
 e pdf)
@@ -5011,7 +5025,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [155
 
  <../images/week_9/plot_AsimovData_0_ggHyy_MC_all_cat.pdf>]
-<../images/week_9/plot_AsimovData_1_125_ggHyy_MC_all_cat.pdf, id=6611, 578.16pt
+<../images/week_9/plot_AsimovData_1_125_ggHyy_MC_all_cat.pdf, id=6623, 578.16pt
  x 361.35pt>
 File: ../images/week_9/plot_AsimovData_1_125_ggHyy_MC_all_cat.pdf Graphic file 
 (type pdf)
@@ -5058,7 +5072,7 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <20.74> not available
 [157
 
 ]
-<../images/week_10/bkg_100_195GeV_fit_no_no.pdf, id=6687, 569.12625pt x 355.327
+<../images/week_10/bkg_100_195GeV_fit_no_no.pdf, id=6699, 569.12625pt x 355.327
 5pt>
 File: ../images/week_10/bkg_100_195GeV_fit_no_no.pdf Graphic file (type pdf)
 <use ../images/week_10/bkg_100_195GeV_fit_no_no.pdf>
@@ -5073,7 +5087,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [158
 
  <../images/week_10/bkg_100_195GeV_fit_no_no.pdf, page is rotated 90 degrees>]
-<../images/week_10/bkg_100_195GeV_fit_unconv_eta_1.pdf, id=6736, 569.12625pt x 
+<../images/week_10/bkg_100_195GeV_fit_unconv_eta_1.pdf, id=6748, 569.12625pt x 
 355.3275pt>
 File: ../images/week_10/bkg_100_195GeV_fit_unconv_eta_1.pdf Graphic file (type 
 pdf)
@@ -5090,7 +5104,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/bkg_100_195GeV_fit_unconv_eta_1.pdf, page is rotated 90 deg
 rees>]
-<../images/week_10/efficiencies_fit_unconv_eta_1.pdf, id=6785, 569.12625pt x 35
+<../images/week_10/efficiencies_fit_unconv_eta_1.pdf, id=6797, 569.12625pt x 35
 5.3275pt>
 File: ../images/week_10/efficiencies_fit_unconv_eta_1.pdf Graphic file (type pd
 f)
@@ -5107,7 +5121,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/efficiencies_fit_unconv_eta_1.pdf, page is rotated 90 degre
 es>]
-<../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_1_fit.pdf, id=6835, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_1_fit.pdf, id=6847, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_1_fit.pdf Graphic fi
 le (type pdf)
@@ -5115,7 +5129,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_1
 _fit.pdf  used on input line 1157.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_1_fit.pdf, id=6836, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_1_fit.pdf, id=6848, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_1_fit.pdf Graphic fi
 le (type pdf)
@@ -5123,7 +5137,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_1
 _fit.pdf  used on input line 1157.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_1_fit.pdf, id=6837, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_1_fit.pdf, id=6849, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_1_fit.pdf Graphic fi
 le (type pdf)
@@ -5131,7 +5145,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_1
 _fit.pdf  used on input line 1157.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH140_unconv_eta_1_fit.pdf, id=6838, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH140_unconv_eta_1_fit.pdf, id=6850, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH140_unconv_eta_1_fit.pdf Graphic fi
 le (type pdf)
@@ -5151,7 +5165,7 @@ ed 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_1_fit.pdf,
  page is rotated 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_
 eta_1_fit.pdf, page is rotated 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_
 ggH140_unconv_eta_1_fit.pdf, page is rotated 90 degrees>]
-<../images/week_10/bkg_100_195GeV_fit_unconv_eta_2.pdf, id=7016, 569.12625pt x 
+<../images/week_10/bkg_100_195GeV_fit_unconv_eta_2.pdf, id=7028, 569.12625pt x 
 356.33125pt>
 File: ../images/week_10/bkg_100_195GeV_fit_unconv_eta_2.pdf Graphic file (type 
 pdf)
@@ -5168,7 +5182,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/bkg_100_195GeV_fit_unconv_eta_2.pdf, page is rotated 90 deg
 rees>]
-<../images/week_10/efficiencies_fit_unconv_eta_2.pdf, id=7066, 569.12625pt x 35
+<../images/week_10/efficiencies_fit_unconv_eta_2.pdf, id=7078, 569.12625pt x 35
 5.3275pt>
 File: ../images/week_10/efficiencies_fit_unconv_eta_2.pdf Graphic file (type pd
 f)
@@ -5185,7 +5199,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/efficiencies_fit_unconv_eta_2.pdf, page is rotated 90 degre
 es>]
-<../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_2_fit.pdf, id=7116, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_2_fit.pdf, id=7128, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_2_fit.pdf Graphic fi
 le (type pdf)
@@ -5193,7 +5207,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_2
 _fit.pdf  used on input line 1180.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_2_fit.pdf, id=7117, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_2_fit.pdf, id=7129, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_2_fit.pdf Graphic fi
 le (type pdf)
@@ -5201,7 +5215,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_2
 _fit.pdf  used on input line 1180.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_2_fit.pdf, id=7118, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_2_fit.pdf, id=7130, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_2_fit.pdf Graphic fi
 le (type pdf)
@@ -5209,7 +5223,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_2
 _fit.pdf  used on input line 1180.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH140_unconv_eta_2_fit.pdf, id=7119, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH140_unconv_eta_2_fit.pdf, id=7131, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH140_unconv_eta_2_fit.pdf Graphic fi
 le (type pdf)
@@ -5229,7 +5243,7 @@ ed 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_2_fit.pdf,
  page is rotated 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_
 eta_2_fit.pdf, page is rotated 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_
 ggH140_unconv_eta_2_fit.pdf, page is rotated 90 degrees>]
-<../images/week_10/bkg_100_195GeV_fit_unconv_eta_3.pdf, id=7298, 569.12625pt x 
+<../images/week_10/bkg_100_195GeV_fit_unconv_eta_3.pdf, id=7310, 569.12625pt x 
 356.33125pt>
 File: ../images/week_10/bkg_100_195GeV_fit_unconv_eta_3.pdf Graphic file (type 
 pdf)
@@ -5246,7 +5260,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/bkg_100_195GeV_fit_unconv_eta_3.pdf, page is rotated 90 deg
 rees>]
-<../images/week_10/efficiencies_fit_unconv_eta_3.pdf, id=7347, 569.12625pt x 35
+<../images/week_10/efficiencies_fit_unconv_eta_3.pdf, id=7359, 569.12625pt x 35
 5.3275pt>
 File: ../images/week_10/efficiencies_fit_unconv_eta_3.pdf Graphic file (type pd
 f)
@@ -5263,7 +5277,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/efficiencies_fit_unconv_eta_3.pdf, page is rotated 90 degre
 es>]
-<../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_3_fit.pdf, id=7396, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_3_fit.pdf, id=7408, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_3_fit.pdf Graphic fi
 le (type pdf)
@@ -5271,7 +5285,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH110_unconv_eta_3
 _fit.pdf  used on input line 1203.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_3_fit.pdf, id=7397, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_3_fit.pdf, id=7409, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_3_fit.pdf Graphic fi
 le (type pdf)
@@ -5279,7 +5293,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_3
 _fit.pdf  used on input line 1203.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_3_fit.pdf, id=7398, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_3_fit.pdf, id=7410, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_3_fit.pdf Graphic fi
 le (type pdf)
@@ -5287,7 +5301,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_eta_3
 _fit.pdf  used on input line 1203.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH140_unconv_eta_3_fit.pdf, id=7399, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH140_unconv_eta_3_fit.pdf, id=7411, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH140_unconv_eta_3_fit.pdf Graphic fi
 le (type pdf)
@@ -5307,7 +5321,7 @@ ed 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_ggH125_unconv_eta_3_fit.pdf,
  page is rotated 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_ggH130_unconv_
 eta_3_fit.pdf, page is rotated 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_
 ggH140_unconv_eta_3_fit.pdf, page is rotated 90 degrees>]
-<../images/week_10/bkg_100_195GeV_fit_1_conv_eta_1.pdf, id=7578, 569.12625pt x 
+<../images/week_10/bkg_100_195GeV_fit_1_conv_eta_1.pdf, id=7590, 569.12625pt x 
 356.33125pt>
 File: ../images/week_10/bkg_100_195GeV_fit_1_conv_eta_1.pdf Graphic file (type 
 pdf)
@@ -5324,7 +5338,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/bkg_100_195GeV_fit_1_conv_eta_1.pdf, page is rotated 90 deg
 rees>]
-<../images/week_10/efficiencies_fit_1_conv_eta_1.pdf, id=7627, 569.12625pt x 35
+<../images/week_10/efficiencies_fit_1_conv_eta_1.pdf, id=7639, 569.12625pt x 35
 6.33125pt>
 File: ../images/week_10/efficiencies_fit_1_conv_eta_1.pdf Graphic file (type pd
 f)
@@ -5341,7 +5355,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/efficiencies_fit_1_conv_eta_1.pdf, page is rotated 90 degre
 es>]
-<../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_1_fit.pdf, id=7677, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_1_fit.pdf, id=7689, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_1_fit.pdf Graphic fi
 le (type pdf)
@@ -5349,7 +5363,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_1
 _fit.pdf  used on input line 1226.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_1_fit.pdf, id=7678, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_1_fit.pdf, id=7690, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_1_fit.pdf Graphic fi
 le (type pdf)
@@ -5357,7 +5371,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_1
 _fit.pdf  used on input line 1226.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_1_fit.pdf, id=7679, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_1_fit.pdf, id=7691, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_1_fit.pdf Graphic fi
 le (type pdf)
@@ -5365,7 +5379,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_1
 _fit.pdf  used on input line 1226.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH140_1_conv_eta_1_fit.pdf, id=7680, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH140_1_conv_eta_1_fit.pdf, id=7692, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH140_1_conv_eta_1_fit.pdf Graphic fi
 le (type pdf)
@@ -5385,7 +5399,7 @@ ed 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_1_fit.pdf,
  page is rotated 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_
 eta_1_fit.pdf, page is rotated 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_
 ggH140_1_conv_eta_1_fit.pdf, page is rotated 90 degrees>]
-<../images/week_10/bkg_100_195GeV_fit_1_conv_eta_2.pdf, id=7859, 569.12625pt x 
+<../images/week_10/bkg_100_195GeV_fit_1_conv_eta_2.pdf, id=7871, 569.12625pt x 
 355.3275pt>
 File: ../images/week_10/bkg_100_195GeV_fit_1_conv_eta_2.pdf Graphic file (type 
 pdf)
@@ -5402,7 +5416,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/bkg_100_195GeV_fit_1_conv_eta_2.pdf, page is rotated 90 deg
 rees>]
-<../images/week_10/efficiencies_fit_1_conv_eta_2.pdf, id=7908, 569.12625pt x 35
+<../images/week_10/efficiencies_fit_1_conv_eta_2.pdf, id=7920, 569.12625pt x 35
 6.33125pt>
 File: ../images/week_10/efficiencies_fit_1_conv_eta_2.pdf Graphic file (type pd
 f)
@@ -5419,7 +5433,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/efficiencies_fit_1_conv_eta_2.pdf, page is rotated 90 degre
 es>]
-<../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_2_fit.pdf, id=7957, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_2_fit.pdf, id=7970, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_2_fit.pdf Graphic fi
 le (type pdf)
@@ -5427,7 +5441,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_2
 _fit.pdf  used on input line 1249.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_2_fit.pdf, id=7958, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_2_fit.pdf, id=7971, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_2_fit.pdf Graphic fi
 le (type pdf)
@@ -5435,7 +5449,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_2
 _fit.pdf  used on input line 1249.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_2_fit.pdf, id=7959, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_2_fit.pdf, id=7972, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_2_fit.pdf Graphic fi
 le (type pdf)
@@ -5443,7 +5457,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_2
 _fit.pdf  used on input line 1249.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH140_1_conv_eta_2_fit.pdf, id=7960, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH140_1_conv_eta_2_fit.pdf, id=7973, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH140_1_conv_eta_2_fit.pdf Graphic fi
 le (type pdf)
@@ -5463,7 +5477,7 @@ ed 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_2_fit.pdf,
  page is rotated 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_
 eta_2_fit.pdf, page is rotated 90 degrees> <../images/week_10/PowhegPy8_NNLOPS_
 ggH140_1_conv_eta_2_fit.pdf, page is rotated 90 degrees>]
-<../images/week_10/bkg_100_195GeV_fit_1_conv_eta_3.pdf, id=8139, 569.12625pt x 
+<../images/week_10/bkg_100_195GeV_fit_1_conv_eta_3.pdf, id=8151, 569.12625pt x 
 355.3275pt>
 File: ../images/week_10/bkg_100_195GeV_fit_1_conv_eta_3.pdf Graphic file (type 
 pdf)
@@ -5480,7 +5494,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/bkg_100_195GeV_fit_1_conv_eta_3.pdf, page is rotated 90 deg
 rees>]
-<../images/week_10/efficiencies_fit_1_conv_eta_3.pdf, id=8188, 569.12625pt x 35
+<../images/week_10/efficiencies_fit_1_conv_eta_3.pdf, id=8200, 569.12625pt x 35
 6.33125pt>
 File: ../images/week_10/efficiencies_fit_1_conv_eta_3.pdf Graphic file (type pd
 f)
@@ -5497,7 +5511,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_10/efficiencies_fit_1_conv_eta_3.pdf, page is rotated 90 degre
 es>]
-<../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_3_fit.pdf, id=8239, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_3_fit.pdf, id=8251, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_3_fit.pdf Graphic fi
 le (type pdf)
@@ -5505,7 +5519,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH110_1_conv_eta_3
 _fit.pdf  used on input line 1272.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_3_fit.pdf, id=8240, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_3_fit.pdf, id=8252, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_3_fit.pdf Graphic fi
 le (type pdf)
@@ -5513,7 +5527,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH125_1_conv_eta_3
 _fit.pdf  used on input line 1272.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_3_fit.pdf, id=8241, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_3_fit.pdf, id=8253, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_3_fit.pdf Graphic fi
 le (type pdf)
@@ -5521,7 +5535,7 @@ le (type pdf)
 Package pdftex.def Info: ../images/week_10/PowhegPy8_NNLOPS_ggH130_1_conv_eta_3
 _fit.pdf  used on input line 1272.
 (pdftex.def)             Requested size: 154.04079pt x 96.44452pt.
-<../images/week_10/PowhegPy8_NNLOPS_ggH140_1_conv_eta_3_fit.pdf, id=8242, 569.1
+<../images/week_10/PowhegPy8_NNLOPS_ggH140_1_conv_eta_3_fit.pdf, id=8254, 569.1
 2625pt x 356.33125pt>
 File: ../images/week_10/PowhegPy8_NNLOPS_ggH140_1_conv_eta_3_fit.pdf Graphic fi
 le (type pdf)
@@ -5562,7 +5576,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [179
 
 ]
-<../images/week_10/check_yields.pdf, id=8437, 569.12625pt x 355.3275pt>
+<../images/week_10/check_yields.pdf, id=8449, 569.12625pt x 355.3275pt>
 File: ../images/week_10/check_yields.pdf Graphic file (type pdf)
 <use ../images/week_10/check_yields.pdf>
 Package pdftex.def Info: ../images/week_10/check_yields.pdf  used on input line
@@ -5576,7 +5590,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [180
 
  <../images/week_10/check_yields.pdf, page is rotated 90 degrees>]
-<../images/week_10/plot_AsimovData_0_ggHyy_MC_all_cat.pdf, id=8486, 578.16pt x 
+<../images/week_10/plot_AsimovData_0_ggHyy_MC_all_cat.pdf, id=8498, 578.16pt x 
 361.35pt>
 File: ../images/week_10/plot_AsimovData_0_ggHyy_MC_all_cat.pdf Graphic file (ty
 pe pdf)
@@ -5592,7 +5606,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [181
 
  <../images/week_10/plot_AsimovData_0_ggHyy_MC_all_cat.pdf>]
-<../images/week_10/plot_AsimovData_1_125_ggHyy_MC_all_cat.pdf, id=8557, 578.16p
+<../images/week_10/plot_AsimovData_1_125_ggHyy_MC_all_cat.pdf, id=8569, 578.16p
 t x 361.35pt>
 File: ../images/week_10/plot_AsimovData_1_125_ggHyy_MC_all_cat.pdf Graphic file
  (type pdf)
@@ -5623,7 +5637,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [183
 
 ]
-<../images/week_11/eff_all_prod_no_no.pdf, id=8632, 569.12625pt x 356.33125pt>
+<../images/week_11/eff_all_prod_no_no.pdf, id=8644, 569.12625pt x 356.33125pt>
 File: ../images/week_11/eff_all_prod_no_no.pdf Graphic file (type pdf)
 <use ../images/week_11/eff_all_prod_no_no.pdf>
 Package pdftex.def Info: ../images/week_11/eff_all_prod_no_no.pdf  used on inpu
@@ -5637,21 +5651,21 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [184
 
  <../images/week_11/eff_all_prod_no_no.pdf, page is rotated 90 degrees>]
-<../images/week_11/eff_all_prod_unconv_eta_1.pdf, id=8681, 569.12625pt x 356.33
+<../images/week_11/eff_all_prod_unconv_eta_1.pdf, id=8693, 569.12625pt x 356.33
 125pt>
 File: ../images/week_11/eff_all_prod_unconv_eta_1.pdf Graphic file (type pdf)
 <use ../images/week_11/eff_all_prod_unconv_eta_1.pdf>
 Package pdftex.def Info: ../images/week_11/eff_all_prod_unconv_eta_1.pdf  used 
 on input line 1381.
 (pdftex.def)             Requested size: 162.6018pt x 101.80556pt.
-<../images/week_11/eff_all_prod_unconv_eta_2.pdf, id=8682, 569.12625pt x 356.33
+<../images/week_11/eff_all_prod_unconv_eta_2.pdf, id=8694, 569.12625pt x 356.33
 125pt>
 File: ../images/week_11/eff_all_prod_unconv_eta_2.pdf Graphic file (type pdf)
 <use ../images/week_11/eff_all_prod_unconv_eta_2.pdf>
 Package pdftex.def Info: ../images/week_11/eff_all_prod_unconv_eta_2.pdf  used 
 on input line 1381.
 (pdftex.def)             Requested size: 162.6018pt x 101.80556pt.
-<../images/week_11/eff_all_prod_unconv_eta_3.pdf, id=8683, 569.12625pt x 356.33
+<../images/week_11/eff_all_prod_unconv_eta_3.pdf, id=8695, 569.12625pt x 356.33
 125pt>
 File: ../images/week_11/eff_all_prod_unconv_eta_3.pdf Graphic file (type pdf)
 <use ../images/week_11/eff_all_prod_unconv_eta_3.pdf>
@@ -5668,21 +5682,21 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
  <../images/week_11/eff_all_prod_unconv_eta_1.pdf, page is rotated 90 degrees> 
 <../images/week_11/eff_all_prod_unconv_eta_2.pdf, page is rotated 90 degrees> <
 ../images/week_11/eff_all_prod_unconv_eta_3.pdf, page is rotated 90 degrees>]
-<../images/week_11/eff_all_prod_1_conv_eta_1.pdf, id=8819, 569.12625pt x 356.33
+<../images/week_11/eff_all_prod_1_conv_eta_1.pdf, id=8831, 569.12625pt x 356.33
 125pt>
 File: ../images/week_11/eff_all_prod_1_conv_eta_1.pdf Graphic file (type pdf)
 <use ../images/week_11/eff_all_prod_1_conv_eta_1.pdf>
 Package pdftex.def Info: ../images/week_11/eff_all_prod_1_conv_eta_1.pdf  used 
 on input line 1390.
 (pdftex.def)             Requested size: 162.6018pt x 101.80556pt.
-<../images/week_11/eff_all_prod_1_conv_eta_2.pdf, id=8820, 569.12625pt x 356.33
+<../images/week_11/eff_all_prod_1_conv_eta_2.pdf, id=8832, 569.12625pt x 356.33
 125pt>
 File: ../images/week_11/eff_all_prod_1_conv_eta_2.pdf Graphic file (type pdf)
 <use ../images/week_11/eff_all_prod_1_conv_eta_2.pdf>
 Package pdftex.def Info: ../images/week_11/eff_all_prod_1_conv_eta_2.pdf  used 
 on input line 1390.
 (pdftex.def)             Requested size: 162.6018pt x 101.80556pt.
-<../images/week_11/eff_all_prod_1_conv_eta_3.pdf, id=8821, 569.12625pt x 356.33
+<../images/week_11/eff_all_prod_1_conv_eta_3.pdf, id=8833, 569.12625pt x 356.33
 125pt>
 File: ../images/week_11/eff_all_prod_1_conv_eta_3.pdf Graphic file (type pdf)
 <use ../images/week_11/eff_all_prod_1_conv_eta_3.pdf>
@@ -5776,7 +5790,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [193
 
 ]
-<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_no.pdf, id=8996, 569.12625pt x 35
+<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_no.pdf, id=9008, 569.12625pt x 35
 5.3275pt>
 File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_no.pdf Graphic file (type pd
 f)
@@ -5793,7 +5807,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_12/Bkg/bkg_100_195GeV_fit_cat_no.pdf, page is rotated 90 degre
 es>]
-<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_1.pdf, id=9045, 569.12625pt x 355
+<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_1.pdf, id=9057, 569.12625pt x 355
 .3275pt>
 File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_1.pdf Graphic file (type pdf
 )
@@ -5801,7 +5815,7 @@ File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_1.pdf Graphic file (type pdf
 Package pdftex.def Info: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_1.pdf  us
 ed on input line 1570.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_2.pdf, id=9046, 569.12625pt x 355
+<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_2.pdf, id=9058, 569.12625pt x 355
 .3275pt>
 File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_2.pdf Graphic file (type pdf
 )
@@ -5809,7 +5823,7 @@ File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_2.pdf Graphic file (type pdf
 Package pdftex.def Info: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_2.pdf  us
 ed on input line 1570.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_3.pdf, id=9047, 569.12625pt x 355
+<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_3.pdf, id=9059, 569.12625pt x 355
 .3275pt>
 File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_3.pdf Graphic file (type pdf
 )
@@ -5817,7 +5831,7 @@ File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_3.pdf Graphic file (type pdf
 Package pdftex.def Info: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_3.pdf  us
 ed on input line 1570.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_4.pdf, id=9048, 569.12625pt x 355
+<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_4.pdf, id=9060, 569.12625pt x 355
 .3275pt>
 File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_4.pdf Graphic file (type pdf
 )
@@ -5825,7 +5839,7 @@ File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_4.pdf Graphic file (type pdf
 Package pdftex.def Info: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_4.pdf  us
 ed on input line 1570.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_5.pdf, id=9049, 569.12625pt x 355
+<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_5.pdf, id=9061, 569.12625pt x 355
 .3275pt>
 File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_5.pdf Graphic file (type pdf
 )
@@ -5846,7 +5860,7 @@ ees> <../images/week_12/Bkg/bkg_100_195GeV_fit_cat_3.pdf, page is rotated 90 de
 grees> <../images/week_12/Bkg/bkg_100_195GeV_fit_cat_4.pdf, page is rotated 90 
 degrees> <../images/week_12/Bkg/bkg_100_195GeV_fit_cat_5.pdf, page is rotated 9
 0 degrees>]
-<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_6.pdf, id=9271, 569.12625pt x 355
+<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_6.pdf, id=9283, 569.12625pt x 355
 .3275pt>
 File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_6.pdf Graphic file (type pdf
 )
@@ -5854,7 +5868,7 @@ File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_6.pdf Graphic file (type pdf
 Package pdftex.def Info: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_6.pdf  us
 ed on input line 1579.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_7.pdf, id=9272, 569.12625pt x 355
+<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_7.pdf, id=9284, 569.12625pt x 355
 .3275pt>
 File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_7.pdf Graphic file (type pdf
 )
@@ -5862,7 +5876,7 @@ File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_7.pdf Graphic file (type pdf
 Package pdftex.def Info: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_7.pdf  us
 ed on input line 1579.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_8.pdf, id=9273, 569.12625pt x 355
+<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_8.pdf, id=9285, 569.12625pt x 355
 .3275pt>
 File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_8.pdf Graphic file (type pdf
 )
@@ -5870,7 +5884,7 @@ File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_8.pdf Graphic file (type pdf
 Package pdftex.def Info: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_8.pdf  us
 ed on input line 1579.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_9.pdf, id=9274, 569.12625pt x 355
+<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_9.pdf, id=9286, 569.12625pt x 355
 .3275pt>
 File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_9.pdf Graphic file (type pdf
 )
@@ -5878,7 +5892,7 @@ File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_9.pdf Graphic file (type pdf
 Package pdftex.def Info: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_9.pdf  us
 ed on input line 1579.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_10.pdf, id=9275, 569.12625pt x 35
+<../images/week_12/Bkg/bkg_100_195GeV_fit_cat_10.pdf, id=9287, 569.12625pt x 35
 5.3275pt>
 File: ../images/week_12/Bkg/bkg_100_195GeV_fit_cat_10.pdf Graphic file (type pd
 f)
@@ -5920,7 +5934,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [199
 
 ]
-<../images/week_12/Signal/eff_all_prod_cat_no.pdf, id=9514, 569.12625pt x 356.3
+<../images/week_12/Signal/eff_all_prod_cat_no.pdf, id=9526, 569.12625pt x 356.3
 3125pt>
 File: ../images/week_12/Signal/eff_all_prod_cat_no.pdf Graphic file (type pdf)
 <use ../images/week_12/Signal/eff_all_prod_cat_no.pdf>
@@ -5936,35 +5950,35 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_12/Signal/eff_all_prod_cat_no.pdf, page is rotated 90 degrees>
 ]
-<../images/week_12/Signal/eff_all_prod_cat_1.pdf, id=9563, 569.12625pt x 356.33
+<../images/week_12/Signal/eff_all_prod_cat_1.pdf, id=9575, 569.12625pt x 356.33
 125pt>
 File: ../images/week_12/Signal/eff_all_prod_cat_1.pdf Graphic file (type pdf)
 <use ../images/week_12/Signal/eff_all_prod_cat_1.pdf>
 Package pdftex.def Info: ../images/week_12/Signal/eff_all_prod_cat_1.pdf  used 
 on input line 1679.
 (pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
-<../images/week_12/Signal/eff_all_prod_cat_2.pdf, id=9564, 569.12625pt x 356.33
+<../images/week_12/Signal/eff_all_prod_cat_2.pdf, id=9576, 569.12625pt x 356.33
 125pt>
 File: ../images/week_12/Signal/eff_all_prod_cat_2.pdf Graphic file (type pdf)
 <use ../images/week_12/Signal/eff_all_prod_cat_2.pdf>
 Package pdftex.def Info: ../images/week_12/Signal/eff_all_prod_cat_2.pdf  used 
 on input line 1679.
 (pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
-<../images/week_12/Signal/eff_all_prod_cat_3.pdf, id=9565, 569.12625pt x 356.33
+<../images/week_12/Signal/eff_all_prod_cat_3.pdf, id=9577, 569.12625pt x 356.33
 125pt>
 File: ../images/week_12/Signal/eff_all_prod_cat_3.pdf Graphic file (type pdf)
 <use ../images/week_12/Signal/eff_all_prod_cat_3.pdf>
 Package pdftex.def Info: ../images/week_12/Signal/eff_all_prod_cat_3.pdf  used 
 on input line 1679.
 (pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
-<../images/week_12/Signal/eff_all_prod_cat_4.pdf, id=9566, 569.12625pt x 356.33
+<../images/week_12/Signal/eff_all_prod_cat_4.pdf, id=9578, 569.12625pt x 356.33
 125pt>
 File: ../images/week_12/Signal/eff_all_prod_cat_4.pdf Graphic file (type pdf)
 <use ../images/week_12/Signal/eff_all_prod_cat_4.pdf>
 Package pdftex.def Info: ../images/week_12/Signal/eff_all_prod_cat_4.pdf  used 
 on input line 1679.
 (pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
-<../images/week_12/Signal/eff_all_prod_cat_5.pdf, id=9567, 569.12625pt x 356.33
+<../images/week_12/Signal/eff_all_prod_cat_5.pdf, id=9579, 569.12625pt x 356.33
 125pt>
 File: ../images/week_12/Signal/eff_all_prod_cat_5.pdf Graphic file (type pdf)
 <use ../images/week_12/Signal/eff_all_prod_cat_5.pdf>
@@ -5983,35 +5997,35 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 ../images/week_12/Signal/eff_all_prod_cat_3.pdf, page is rotated 90 degrees> <.
 ./images/week_12/Signal/eff_all_prod_cat_4.pdf, page is rotated 90 degrees> <..
 /images/week_12/Signal/eff_all_prod_cat_5.pdf, page is rotated 90 degrees>]
-<../images/week_12/Signal/eff_all_prod_cat_6.pdf, id=9789, 569.12625pt x 356.33
+<../images/week_12/Signal/eff_all_prod_cat_6.pdf, id=9801, 569.12625pt x 356.33
 125pt>
 File: ../images/week_12/Signal/eff_all_prod_cat_6.pdf Graphic file (type pdf)
 <use ../images/week_12/Signal/eff_all_prod_cat_6.pdf>
 Package pdftex.def Info: ../images/week_12/Signal/eff_all_prod_cat_6.pdf  used 
 on input line 1690.
 (pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
-<../images/week_12/Signal/eff_all_prod_cat_7.pdf, id=9790, 569.12625pt x 356.33
+<../images/week_12/Signal/eff_all_prod_cat_7.pdf, id=9802, 569.12625pt x 356.33
 125pt>
 File: ../images/week_12/Signal/eff_all_prod_cat_7.pdf Graphic file (type pdf)
 <use ../images/week_12/Signal/eff_all_prod_cat_7.pdf>
 Package pdftex.def Info: ../images/week_12/Signal/eff_all_prod_cat_7.pdf  used 
 on input line 1690.
 (pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
-<../images/week_12/Signal/eff_all_prod_cat_8.pdf, id=9791, 569.12625pt x 356.33
+<../images/week_12/Signal/eff_all_prod_cat_8.pdf, id=9803, 569.12625pt x 356.33
 125pt>
 File: ../images/week_12/Signal/eff_all_prod_cat_8.pdf Graphic file (type pdf)
 <use ../images/week_12/Signal/eff_all_prod_cat_8.pdf>
 Package pdftex.def Info: ../images/week_12/Signal/eff_all_prod_cat_8.pdf  used 
 on input line 1690.
 (pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
-<../images/week_12/Signal/eff_all_prod_cat_9.pdf, id=9792, 569.12625pt x 356.33
+<../images/week_12/Signal/eff_all_prod_cat_9.pdf, id=9804, 569.12625pt x 356.33
 125pt>
 File: ../images/week_12/Signal/eff_all_prod_cat_9.pdf Graphic file (type pdf)
 <use ../images/week_12/Signal/eff_all_prod_cat_9.pdf>
 Package pdftex.def Info: ../images/week_12/Signal/eff_all_prod_cat_9.pdf  used 
 on input line 1690.
 (pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
-<../images/week_12/Signal/eff_all_prod_cat_10.pdf, id=9793, 569.12625pt x 356.3
+<../images/week_12/Signal/eff_all_prod_cat_10.pdf, id=9805, 569.12625pt x 356.3
 3125pt>
 File: ../images/week_12/Signal/eff_all_prod_cat_10.pdf Graphic file (type pdf)
 <use ../images/week_12/Signal/eff_all_prod_cat_10.pdf>
@@ -6037,7 +6051,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [203
 
 ]
-<../images/week_12/Syst/var_cat_no.pdf, id=10020, 569.12625pt x 386.44376pt>
+<../images/week_12/Syst/var_cat_no.pdf, id=10032, 569.12625pt x 386.44376pt>
 File: ../images/week_12/Syst/var_cat_no.pdf Graphic file (type pdf)
 <use ../images/week_12/Syst/var_cat_no.pdf>
 Package pdftex.def Info: ../images/week_12/Syst/var_cat_no.pdf  used on input l
@@ -6051,31 +6065,31 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [204
 
  <../images/week_12/Syst/var_cat_no.pdf, page is rotated 90 degrees>]
-<../images/week_12/Syst/var_cat_1.pdf, id=10069, 569.12625pt x 386.44376pt>
+<../images/week_12/Syst/var_cat_1.pdf, id=10081, 569.12625pt x 386.44376pt>
 File: ../images/week_12/Syst/var_cat_1.pdf Graphic file (type pdf)
 <use ../images/week_12/Syst/var_cat_1.pdf>
 Package pdftex.def Info: ../images/week_12/Syst/var_cat_1.pdf  used on input li
 ne 1779.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_12/Syst/var_cat_2.pdf, id=10070, 569.12625pt x 386.44376pt>
+<../images/week_12/Syst/var_cat_2.pdf, id=10082, 569.12625pt x 386.44376pt>
 File: ../images/week_12/Syst/var_cat_2.pdf Graphic file (type pdf)
 <use ../images/week_12/Syst/var_cat_2.pdf>
 Package pdftex.def Info: ../images/week_12/Syst/var_cat_2.pdf  used on input li
 ne 1779.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_12/Syst/var_cat_3.pdf, id=10071, 569.12625pt x 386.44376pt>
+<../images/week_12/Syst/var_cat_3.pdf, id=10083, 569.12625pt x 386.44376pt>
 File: ../images/week_12/Syst/var_cat_3.pdf Graphic file (type pdf)
 <use ../images/week_12/Syst/var_cat_3.pdf>
 Package pdftex.def Info: ../images/week_12/Syst/var_cat_3.pdf  used on input li
 ne 1779.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_12/Syst/var_cat_4.pdf, id=10072, 569.12625pt x 386.44376pt>
+<../images/week_12/Syst/var_cat_4.pdf, id=10084, 569.12625pt x 386.44376pt>
 File: ../images/week_12/Syst/var_cat_4.pdf Graphic file (type pdf)
 <use ../images/week_12/Syst/var_cat_4.pdf>
 Package pdftex.def Info: ../images/week_12/Syst/var_cat_4.pdf  used on input li
 ne 1779.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_12/Syst/var_cat_5.pdf, id=10073, 569.12625pt x 386.44376pt>
+<../images/week_12/Syst/var_cat_5.pdf, id=10085, 569.12625pt x 386.44376pt>
 File: ../images/week_12/Syst/var_cat_5.pdf Graphic file (type pdf)
 <use ../images/week_12/Syst/var_cat_5.pdf>
 Package pdftex.def Info: ../images/week_12/Syst/var_cat_5.pdf  used on input li
@@ -6093,31 +6107,31 @@ week_12/Syst/var_cat_2.pdf, page is rotated 90 degrees> <../images/week_12/Syst
 /var_cat_3.pdf, page is rotated 90 degrees> <../images/week_12/Syst/var_cat_4.p
 df, page is rotated 90 degrees> <../images/week_12/Syst/var_cat_5.pdf, page is 
 rotated 90 degrees>]
-<../images/week_12/Syst/var_cat_6.pdf, id=10296, 569.12625pt x 386.44376pt>
+<../images/week_12/Syst/var_cat_6.pdf, id=10308, 569.12625pt x 386.44376pt>
 File: ../images/week_12/Syst/var_cat_6.pdf Graphic file (type pdf)
 <use ../images/week_12/Syst/var_cat_6.pdf>
 Package pdftex.def Info: ../images/week_12/Syst/var_cat_6.pdf  used on input li
 ne 1788.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_12/Syst/var_cat_7.pdf, id=10297, 569.12625pt x 386.44376pt>
+<../images/week_12/Syst/var_cat_7.pdf, id=10309, 569.12625pt x 386.44376pt>
 File: ../images/week_12/Syst/var_cat_7.pdf Graphic file (type pdf)
 <use ../images/week_12/Syst/var_cat_7.pdf>
 Package pdftex.def Info: ../images/week_12/Syst/var_cat_7.pdf  used on input li
 ne 1788.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_12/Syst/var_cat_8.pdf, id=10298, 569.12625pt x 386.44376pt>
+<../images/week_12/Syst/var_cat_8.pdf, id=10310, 569.12625pt x 386.44376pt>
 File: ../images/week_12/Syst/var_cat_8.pdf Graphic file (type pdf)
 <use ../images/week_12/Syst/var_cat_8.pdf>
 Package pdftex.def Info: ../images/week_12/Syst/var_cat_8.pdf  used on input li
 ne 1788.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_12/Syst/var_cat_9.pdf, id=10299, 569.12625pt x 386.44376pt>
+<../images/week_12/Syst/var_cat_9.pdf, id=10311, 569.12625pt x 386.44376pt>
 File: ../images/week_12/Syst/var_cat_9.pdf Graphic file (type pdf)
 <use ../images/week_12/Syst/var_cat_9.pdf>
 Package pdftex.def Info: ../images/week_12/Syst/var_cat_9.pdf  used on input li
 ne 1788.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_12/Syst/var_cat_10.pdf, id=10300, 569.12625pt x 386.44376pt>
+<../images/week_12/Syst/var_cat_10.pdf, id=10312, 569.12625pt x 386.44376pt>
 File: ../images/week_12/Syst/var_cat_10.pdf Graphic file (type pdf)
 <use ../images/week_12/Syst/var_cat_10.pdf>
 Package pdftex.def Info: ../images/week_12/Syst/var_cat_10.pdf  used on input l
@@ -6171,7 +6185,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [210
 
 ]
-<../images/week_13/plot_AsimovData_0_ggHyy_MC_no_conv_eta.pdf, id=10542, 578.16
+<../images/week_13/plot_AsimovData_0_ggHyy_MC_no_conv_eta.pdf, id=10554, 578.16
 pt x 361.35pt>
 File: ../images/week_13/plot_AsimovData_0_ggHyy_MC_no_conv_eta.pdf Graphic file
  (type pdf)
@@ -6179,7 +6193,7 @@ File: ../images/week_13/plot_AsimovData_0_ggHyy_MC_no_conv_eta.pdf Graphic file
 Package pdftex.def Info: ../images/week_13/plot_AsimovData_0_ggHyy_MC_no_conv_e
 ta.pdf  used on input line 1881.
 (pdftex.def)             Requested size: 154.04079pt x 96.27559pt.
-<../images/week_13/plot_AsimovData_0_ggHyy_MC_no_cat.pdf, id=10543, 578.16pt x 
+<../images/week_13/plot_AsimovData_0_ggHyy_MC_no_cat.pdf, id=10555, 578.16pt x 
 361.35pt>
 File: ../images/week_13/plot_AsimovData_0_ggHyy_MC_no_cat.pdf Graphic file (typ
 e pdf)
@@ -6187,7 +6201,7 @@ e pdf)
 Package pdftex.def Info: ../images/week_13/plot_AsimovData_0_ggHyy_MC_no_cat.pd
 f  used on input line 1881.
 (pdftex.def)             Requested size: 154.04079pt x 96.27559pt.
-<../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta.pdf, id=10544, 578.16pt 
+<../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta.pdf, id=10556, 578.16pt 
 x 361.35pt>
 File: ../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta.pdf Graphic file (t
 ype pdf)
@@ -6195,7 +6209,7 @@ ype pdf)
 Package pdftex.def Info: ../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta.
 pdf  used on input line 1881.
 (pdftex.def)             Requested size: 154.04079pt x 96.27559pt.
-<../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta_pt.pdf, id=10545, 578.16
+<../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta_pt.pdf, id=10557, 578.16
 pt x 361.35pt>
 File: ../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta_pt.pdf Graphic file
  (type pdf)
@@ -6227,7 +6241,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ../images/week_13/plot_AsimovData_0_ggH
 yy_MC_conv_eta_pt.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
 >]
-<../images/week_13/plot_AsimovData_1_125_ggHyy_MC_no_conv_eta.pdf, id=10806, 57
+<../images/week_13/plot_AsimovData_1_125_ggHyy_MC_no_conv_eta.pdf, id=10818, 57
 8.16pt x 361.35pt>
 File: ../images/week_13/plot_AsimovData_1_125_ggHyy_MC_no_conv_eta.pdf Graphic 
 file (type pdf)
@@ -6235,7 +6249,7 @@ file (type pdf)
 Package pdftex.def Info: ../images/week_13/plot_AsimovData_1_125_ggHyy_MC_no_co
 nv_eta.pdf  used on input line 1890.
 (pdftex.def)             Requested size: 154.04079pt x 96.27559pt.
-<../images/week_13/plot_AsimovData_1_125_ggHyy_MC_no_cat.pdf, id=10807, 578.16p
+<../images/week_13/plot_AsimovData_1_125_ggHyy_MC_no_cat.pdf, id=10819, 578.16p
 t x 361.35pt>
 File: ../images/week_13/plot_AsimovData_1_125_ggHyy_MC_no_cat.pdf Graphic file 
 (type pdf)
@@ -6243,7 +6257,7 @@ File: ../images/week_13/plot_AsimovData_1_125_ggHyy_MC_no_cat.pdf Graphic file
 Package pdftex.def Info: ../images/week_13/plot_AsimovData_1_125_ggHyy_MC_no_ca
 t.pdf  used on input line 1890.
 (pdftex.def)             Requested size: 154.04079pt x 96.27559pt.
-<../images/week_13/plot_AsimovData_1_125_ggHyy_MC_conv_eta.pdf, id=10808, 578.1
+<../images/week_13/plot_AsimovData_1_125_ggHyy_MC_conv_eta.pdf, id=10820, 578.1
 6pt x 361.35pt>
 File: ../images/week_13/plot_AsimovData_1_125_ggHyy_MC_conv_eta.pdf Graphic fil
 e (type pdf)
@@ -6251,7 +6265,7 @@ e (type pdf)
 Package pdftex.def Info: ../images/week_13/plot_AsimovData_1_125_ggHyy_MC_conv_
 eta.pdf  used on input line 1890.
 (pdftex.def)             Requested size: 154.04079pt x 96.27559pt.
-<../images/week_13/plot_AsimovData_1_125_ggHyy_MC_conv_eta_pt.pdf, id=10809, 57
+<../images/week_13/plot_AsimovData_1_125_ggHyy_MC_conv_eta_pt.pdf, id=10821, 57
 8.16pt x 361.35pt>
 File: ../images/week_13/plot_AsimovData_1_125_ggHyy_MC_conv_eta_pt.pdf Graphic 
 file (type pdf)
@@ -6283,7 +6297,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ../images/week_13/plot_AsimovData_1_125
 _ggHyy_MC_conv_eta_pt.pdf): PDF inclusion: multiple pdfs with page group includ
 ed in a single page
 >]
-<../images/week_13/plot_ws_comp.pdf, id=11068, 578.16pt x 361.35pt>
+<../images/week_13/plot_ws_comp.pdf, id=11080, 578.16pt x 361.35pt>
 File: ../images/week_13/plot_ws_comp.pdf Graphic file (type pdf)
 <use ../images/week_13/plot_ws_comp.pdf>
 Package pdftex.def Info: ../images/week_13/plot_ws_comp.pdf  used on input line
@@ -6297,7 +6311,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [213
 
  <../images/week_13/plot_ws_comp.pdf>]
-<../images/week_13/p0_plot_comp.pdf, id=11132, 569.12625pt x 386.44376pt>
+<../images/week_13/p0_plot_comp.pdf, id=11144, 569.12625pt x 386.44376pt>
 File: ../images/week_13/p0_plot_comp.pdf Graphic file (type pdf)
 <use ../images/week_13/p0_plot_comp.pdf>
 Package pdftex.def Info: ../images/week_13/p0_plot_comp.pdf  used on input line
@@ -6325,7 +6339,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [216
 
 ]
-<../images/week_13/Syst/var_cat_no.pdf, id=11192, 569.12625pt x 386.44376pt>
+<../images/week_13/Syst/var_cat_no.pdf, id=11204, 569.12625pt x 386.44376pt>
 File: ../images/week_13/Syst/var_cat_no.pdf Graphic file (type pdf)
 <use ../images/week_13/Syst/var_cat_no.pdf>
 Package pdftex.def Info: ../images/week_13/Syst/var_cat_no.pdf  used on input l
@@ -6339,31 +6353,31 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [217
 
  <../images/week_13/Syst/var_cat_no.pdf, page is rotated 90 degrees>]
-<../images/week_13/Syst/var_cat_1.pdf, id=11242, 569.12625pt x 386.44376pt>
+<../images/week_13/Syst/var_cat_1.pdf, id=11254, 569.12625pt x 386.44376pt>
 File: ../images/week_13/Syst/var_cat_1.pdf Graphic file (type pdf)
 <use ../images/week_13/Syst/var_cat_1.pdf>
 Package pdftex.def Info: ../images/week_13/Syst/var_cat_1.pdf  used on input li
 ne 2054.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_13/Syst/var_cat_2.pdf, id=11243, 569.12625pt x 386.44376pt>
+<../images/week_13/Syst/var_cat_2.pdf, id=11255, 569.12625pt x 386.44376pt>
 File: ../images/week_13/Syst/var_cat_2.pdf Graphic file (type pdf)
 <use ../images/week_13/Syst/var_cat_2.pdf>
 Package pdftex.def Info: ../images/week_13/Syst/var_cat_2.pdf  used on input li
 ne 2054.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_13/Syst/var_cat_3.pdf, id=11244, 569.12625pt x 386.44376pt>
+<../images/week_13/Syst/var_cat_3.pdf, id=11256, 569.12625pt x 386.44376pt>
 File: ../images/week_13/Syst/var_cat_3.pdf Graphic file (type pdf)
 <use ../images/week_13/Syst/var_cat_3.pdf>
 Package pdftex.def Info: ../images/week_13/Syst/var_cat_3.pdf  used on input li
 ne 2054.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_13/Syst/var_cat_4.pdf, id=11245, 569.12625pt x 386.44376pt>
+<../images/week_13/Syst/var_cat_4.pdf, id=11257, 569.12625pt x 386.44376pt>
 File: ../images/week_13/Syst/var_cat_4.pdf Graphic file (type pdf)
 <use ../images/week_13/Syst/var_cat_4.pdf>
 Package pdftex.def Info: ../images/week_13/Syst/var_cat_4.pdf  used on input li
 ne 2054.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_13/Syst/var_cat_5.pdf, id=11246, 569.12625pt x 386.44376pt>
+<../images/week_13/Syst/var_cat_5.pdf, id=11258, 569.12625pt x 386.44376pt>
 File: ../images/week_13/Syst/var_cat_5.pdf Graphic file (type pdf)
 <use ../images/week_13/Syst/var_cat_5.pdf>
 Package pdftex.def Info: ../images/week_13/Syst/var_cat_5.pdf  used on input li
@@ -6381,31 +6395,31 @@ week_13/Syst/var_cat_2.pdf, page is rotated 90 degrees> <../images/week_13/Syst
 /var_cat_3.pdf, page is rotated 90 degrees> <../images/week_13/Syst/var_cat_4.p
 df, page is rotated 90 degrees> <../images/week_13/Syst/var_cat_5.pdf, page is 
 rotated 90 degrees>]
-<../images/week_13/Syst/var_cat_6.pdf, id=11468, 569.12625pt x 386.44376pt>
+<../images/week_13/Syst/var_cat_6.pdf, id=11480, 569.12625pt x 386.44376pt>
 File: ../images/week_13/Syst/var_cat_6.pdf Graphic file (type pdf)
 <use ../images/week_13/Syst/var_cat_6.pdf>
 Package pdftex.def Info: ../images/week_13/Syst/var_cat_6.pdf  used on input li
 ne 2063.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_13/Syst/var_cat_7.pdf, id=11469, 569.12625pt x 386.44376pt>
+<../images/week_13/Syst/var_cat_7.pdf, id=11481, 569.12625pt x 386.44376pt>
 File: ../images/week_13/Syst/var_cat_7.pdf Graphic file (type pdf)
 <use ../images/week_13/Syst/var_cat_7.pdf>
 Package pdftex.def Info: ../images/week_13/Syst/var_cat_7.pdf  used on input li
 ne 2063.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_13/Syst/var_cat_8.pdf, id=11470, 569.12625pt x 386.44376pt>
+<../images/week_13/Syst/var_cat_8.pdf, id=11482, 569.12625pt x 386.44376pt>
 File: ../images/week_13/Syst/var_cat_8.pdf Graphic file (type pdf)
 <use ../images/week_13/Syst/var_cat_8.pdf>
 Package pdftex.def Info: ../images/week_13/Syst/var_cat_8.pdf  used on input li
 ne 2063.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_13/Syst/var_cat_9.pdf, id=11471, 569.12625pt x 386.44376pt>
+<../images/week_13/Syst/var_cat_9.pdf, id=11483, 569.12625pt x 386.44376pt>
 File: ../images/week_13/Syst/var_cat_9.pdf Graphic file (type pdf)
 <use ../images/week_13/Syst/var_cat_9.pdf>
 Package pdftex.def Info: ../images/week_13/Syst/var_cat_9.pdf  used on input li
 ne 2063.
 (pdftex.def)             Requested size: 109.54337pt x 74.38033pt.
-<../images/week_13/Syst/var_cat_10.pdf, id=11472, 569.12625pt x 386.44376pt>
+<../images/week_13/Syst/var_cat_10.pdf, id=11484, 569.12625pt x 386.44376pt>
 File: ../images/week_13/Syst/var_cat_10.pdf Graphic file (type pdf)
 <use ../images/week_13/Syst/var_cat_10.pdf>
 Package pdftex.def Info: ../images/week_13/Syst/var_cat_10.pdf  used on input l
@@ -6423,7 +6437,7 @@ week_13/Syst/var_cat_7.pdf, page is rotated 90 degrees> <../images/week_13/Syst
 /var_cat_8.pdf, page is rotated 90 degrees> <../images/week_13/Syst/var_cat_9.p
 df, page is rotated 90 degrees> <../images/week_13/Syst/var_cat_10.pdf, page is
  rotated 90 degrees>]
-<../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta_pt_syst.pdf, id=11694, 5
+<../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta_pt_syst.pdf, id=11706, 5
 78.16pt x 361.35pt>
 File: ../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta_pt_syst.pdf Graphic
  file (type pdf)
@@ -6431,8 +6445,8 @@ File: ../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta_pt_syst.pdf Graphic
 Package pdftex.def Info: ../images/week_13/plot_AsimovData_0_ggHyy_MC_conv_eta_
 pt_syst.pdf  used on input line 2071.
 (pdftex.def)             Requested size: 167.73633pt x 104.83292pt.
-<../images/week_13/plot_AsimovData_1_125_ggHyy_MC_conv_eta_pt_syst.pdf, id=1169
-5, 578.16pt x 361.35pt>
+<../images/week_13/plot_AsimovData_1_125_ggHyy_MC_conv_eta_pt_syst.pdf, id=1170
+7, 578.16pt x 361.35pt>
 File: ../images/week_13/plot_AsimovData_1_125_ggHyy_MC_conv_eta_pt_syst.pdf Gra
 phic file (type pdf)
 <use ../images/week_13/plot_AsimovData_1_125_ggHyy_MC_conv_eta_pt_syst.pdf>
@@ -6453,7 +6467,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ../images/week_13/plot_AsimovData_1_125
 _ggHyy_MC_conv_eta_pt_syst.pdf): PDF inclusion: multiple pdfs with page group i
 ncluded in a single page
 >]
-<../images/week_13/p0_plot_comp_syst.pdf, id=11828, 569.12625pt x 386.44376pt>
+<../images/week_13/p0_plot_comp_syst.pdf, id=11840, 569.12625pt x 386.44376pt>
 File: ../images/week_13/p0_plot_comp_syst.pdf Graphic file (type pdf)
 <use ../images/week_13/p0_plot_comp_syst.pdf>
 Package pdftex.def Info: ../images/week_13/p0_plot_comp_syst.pdf  used on input
@@ -6496,7 +6510,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [224
 
 ]
-<../images/week_14/HSM_AsimovData_1_140_catConvEta_1.pdf, id=11893, 569.12625pt
+<../images/week_14/HSM_AsimovData_1_140_catConvEta_1.pdf, id=11905, 569.12625pt
  x 355.3275pt>
 File: ../images/week_14/HSM_AsimovData_1_140_catConvEta_1.pdf Graphic file (typ
 e pdf)
@@ -6513,7 +6527,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_14/HSM_AsimovData_1_140_catConvEta_1.pdf, page is rotated 90 d
 egrees>]
-<../images/week_14/HSM_AsimovData_1_125_catConvEta_1.pdf, id=11943, 569.12625pt
+<../images/week_14/HSM_AsimovData_1_125_catConvEta_1.pdf, id=11955, 569.12625pt
  x 355.3275pt>
 File: ../images/week_14/HSM_AsimovData_1_125_catConvEta_1.pdf Graphic file (typ
 e pdf)
@@ -6530,7 +6544,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_14/HSM_AsimovData_1_125_catConvEta_1.pdf, page is rotated 90 d
 egrees>]
-<../images/week_14/HSM_AsimovData_0_catConvEta_1_140.pdf, id=11992, 569.12625pt
+<../images/week_14/HSM_AsimovData_0_catConvEta_1_140.pdf, id=12004, 569.12625pt
  x 355.3275pt>
 File: ../images/week_14/HSM_AsimovData_0_catConvEta_1_140.pdf Graphic file (typ
 e pdf)
@@ -6547,7 +6561,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_14/HSM_AsimovData_0_catConvEta_1_140.pdf, page is rotated 90 d
 egrees>]
-<../images/week_14/HSM_AsimovData_0_catConvEta_1.pdf, id=12041, 569.12625pt x 3
+<../images/week_14/HSM_AsimovData_0_catConvEta_1.pdf, id=12053, 569.12625pt x 3
 55.3275pt>
 File: ../images/week_14/HSM_AsimovData_0_catConvEta_1.pdf Graphic file (type pd
 f)
@@ -6586,7 +6600,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [230
 
 ]
-<../images/week_15/HSM_AsimovData_1_140_catConvEta_1.pdf, id=12101, 569.12625pt
+<../images/week_15/HSM_AsimovData_1_140_catConvEta_1.pdf, id=12113, 569.12625pt
  x 355.3275pt>
 File: ../images/week_15/HSM_AsimovData_1_140_catConvEta_1.pdf Graphic file (typ
 e pdf)
@@ -6603,7 +6617,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_15/HSM_AsimovData_1_140_catConvEta_1.pdf, page is rotated 90 d
 egrees>]
-<../images/week_15/HSM_AsimovData_1_125_catConvEta_1.pdf, id=12151, 569.12625pt
+<../images/week_15/HSM_AsimovData_1_125_catConvEta_1.pdf, id=12163, 569.12625pt
  x 355.3275pt>
 File: ../images/week_15/HSM_AsimovData_1_125_catConvEta_1.pdf Graphic file (typ
 e pdf)
@@ -6620,7 +6634,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_15/HSM_AsimovData_1_125_catConvEta_1.pdf, page is rotated 90 d
 egrees>]
-<../images/week_15/HSM_AsimovData_0_catConvEta_1.pdf, id=12200, 569.12625pt x 3
+<../images/week_15/HSM_AsimovData_0_catConvEta_1.pdf, id=12212, 569.12625pt x 3
 55.3275pt>
 File: ../images/week_15/HSM_AsimovData_0_catConvEta_1.pdf Graphic file (type pd
 f)
@@ -6680,7 +6694,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [238
 
 ]
-<../images/week_16/HSM_fit_catConvEta_no.pdf, id=12275, 569.12625pt x 355.3275p
+<../images/week_16/HSM_fit_catConvEta_no.pdf, id=12287, 569.12625pt x 355.3275p
 t>
 File: ../images/week_16/HSM_fit_catConvEta_no.pdf Graphic file (type pdf)
 <use ../images/week_16/HSM_fit_catConvEta_no.pdf>
@@ -6709,37 +6723,37 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [241
 
 ]
-<../images/week_16/Syst/var_cat_1_HSM.pdf, id=12336, 569.12625pt x 385.44pt>
+<../images/week_16/Syst/var_cat_1_HSM.pdf, id=12348, 569.12625pt x 385.44pt>
 File: ../images/week_16/Syst/var_cat_1_HSM.pdf Graphic file (type pdf)
 <use ../images/week_16/Syst/var_cat_1_HSM.pdf>
 Package pdftex.def Info: ../images/week_16/Syst/var_cat_1_HSM.pdf  used on inpu
 t line 2409.
 (pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
-<../images/week_16/Syst/var_cat_2_HSM.pdf, id=12337, 569.12625pt x 385.44pt>
+<../images/week_16/Syst/var_cat_2_HSM.pdf, id=12349, 569.12625pt x 385.44pt>
 File: ../images/week_16/Syst/var_cat_2_HSM.pdf Graphic file (type pdf)
 <use ../images/week_16/Syst/var_cat_2_HSM.pdf>
 Package pdftex.def Info: ../images/week_16/Syst/var_cat_2_HSM.pdf  used on inpu
 t line 2409.
 (pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
-<../images/week_16/Syst/var_cat_3_HSM.pdf, id=12338, 569.12625pt x 385.44pt>
+<../images/week_16/Syst/var_cat_3_HSM.pdf, id=12350, 569.12625pt x 385.44pt>
 File: ../images/week_16/Syst/var_cat_3_HSM.pdf Graphic file (type pdf)
 <use ../images/week_16/Syst/var_cat_3_HSM.pdf>
 Package pdftex.def Info: ../images/week_16/Syst/var_cat_3_HSM.pdf  used on inpu
 t line 2409.
 (pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
-<../images/week_16/Syst/var_cat_4_HSM.pdf, id=12339, 569.12625pt x 385.44pt>
+<../images/week_16/Syst/var_cat_4_HSM.pdf, id=12351, 569.12625pt x 385.44pt>
 File: ../images/week_16/Syst/var_cat_4_HSM.pdf Graphic file (type pdf)
 <use ../images/week_16/Syst/var_cat_4_HSM.pdf>
 Package pdftex.def Info: ../images/week_16/Syst/var_cat_4_HSM.pdf  used on inpu
 t line 2409.
 (pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
-<../images/week_16/Syst/var_cat_5_HSM.pdf, id=12340, 569.12625pt x 385.44pt>
+<../images/week_16/Syst/var_cat_5_HSM.pdf, id=12352, 569.12625pt x 385.44pt>
 File: ../images/week_16/Syst/var_cat_5_HSM.pdf Graphic file (type pdf)
 <use ../images/week_16/Syst/var_cat_5_HSM.pdf>
 Package pdftex.def Info: ../images/week_16/Syst/var_cat_5_HSM.pdf  used on inpu
 t line 2409.
 (pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
-<../images/week_16/Syst/var_cat_6_HSM.pdf, id=12341, 569.12625pt x 385.44pt>
+<../images/week_16/Syst/var_cat_6_HSM.pdf, id=12353, 569.12625pt x 385.44pt>
 File: ../images/week_16/Syst/var_cat_6_HSM.pdf Graphic file (type pdf)
 <use ../images/week_16/Syst/var_cat_6_HSM.pdf>
 Package pdftex.def Info: ../images/week_16/Syst/var_cat_6_HSM.pdf  used on inpu
@@ -6765,7 +6779,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [243
 
 ]
-<../images/week_16/HSM_AsimovData_1_140_catConvEta_1.pdf, id=12611, 569.12625pt
+<../images/week_16/HSM_AsimovData_1_140_catConvEta_1.pdf, id=12623, 569.12625pt
  x 355.3275pt>
 File: ../images/week_16/HSM_AsimovData_1_140_catConvEta_1.pdf Graphic file (typ
 e pdf)
@@ -6782,7 +6796,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_16/HSM_AsimovData_1_140_catConvEta_1.pdf, page is rotated 90 d
 egrees>]
-<../images/week_16/HSM_AsimovData_1_125_catConvEta_1.pdf, id=12660, 569.12625pt
+<../images/week_16/HSM_AsimovData_1_125_catConvEta_1.pdf, id=12672, 569.12625pt
  x 355.3275pt>
 File: ../images/week_16/HSM_AsimovData_1_125_catConvEta_1.pdf Graphic file (typ
 e pdf)
@@ -6799,7 +6813,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_16/HSM_AsimovData_1_125_catConvEta_1.pdf, page is rotated 90 d
 egrees>]
-<../images/week_16/HSM_AsimovData_0_catConvEta_1.pdf, id=12709, 569.12625pt x 3
+<../images/week_16/HSM_AsimovData_0_catConvEta_1.pdf, id=12721, 569.12625pt x 3
 55.3275pt>
 File: ../images/week_16/HSM_AsimovData_0_catConvEta_1.pdf Graphic file (type pd
 f)
@@ -6816,7 +6830,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_16/HSM_AsimovData_0_catConvEta_1.pdf, page is rotated 90 degre
 es>]
-<../images/week_16/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM.pdf, id=12758
+<../images/week_16/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM.pdf, id=12770
 , 578.16pt x 361.35pt>
 File: ../images/week_16/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM.pdf Grap
 hic file (type pdf)
@@ -6825,7 +6839,7 @@ Package pdftex.def Info: ../images/week_16/plot_AsimovData_0_ggHyy_MC_catConvEt
 a_syst_HSM.pdf  used on input line 2476.
 (pdftex.def)             Requested size: 167.73633pt x 104.83292pt.
 <../images/week_16/plot_AsimovData_1_125_ggHyy_MC_catConvEta_syst_HSM.pdf, id=1
-2759, 578.16pt x 361.35pt>
+2771, 578.16pt x 361.35pt>
 File: ../images/week_16/plot_AsimovData_1_125_ggHyy_MC_catConvEta_syst_HSM.pdf 
 Graphic file (type pdf)
 <use ../images/week_16/plot_AsimovData_1_125_ggHyy_MC_catConvEta_syst_HSM.pdf>
@@ -6833,7 +6847,7 @@ Package pdftex.def Info: ../images/week_16/plot_AsimovData_1_125_ggHyy_MC_catCo
 nvEta_syst_HSM.pdf  used on input line 2476.
 (pdftex.def)             Requested size: 167.73633pt x 104.83292pt.
 <../images/week_16/plot_AsimovData_1_140_ggHyy_MC_catConvEta_syst_HSM.pdf, id=1
-2760, 578.16pt x 361.35pt>
+2772, 578.16pt x 361.35pt>
 File: ../images/week_16/plot_AsimovData_1_140_ggHyy_MC_catConvEta_syst_HSM.pdf 
 Graphic file (type pdf)
 <use ../images/week_16/plot_AsimovData_1_140_ggHyy_MC_catConvEta_syst_HSM.pdf>
@@ -6930,7 +6944,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [256
 
 ]
-<../images/week_17/cx_all_prod_catConvEta_no.pdf, id=13008, 569.12625pt x 355.3
+<../images/week_17/cx_all_prod_catConvEta_no.pdf, id=13020, 569.12625pt x 355.3
 275pt>
 File: ../images/week_17/cx_all_prod_catConvEta_no.pdf Graphic file (type pdf)
 <use ../images/week_17/cx_all_prod_catConvEta_no.pdf>
@@ -6945,42 +6959,42 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [257
 
  <../images/week_17/cx_all_prod_catConvEta_no.pdf, page is rotated 90 degrees>]
-<../images/week_17/cx_all_prod_catConvEta_1.pdf, id=13057, 569.12625pt x 355.32
+<../images/week_17/cx_all_prod_catConvEta_1.pdf, id=13069, 569.12625pt x 355.32
 75pt>
 File: ../images/week_17/cx_all_prod_catConvEta_1.pdf Graphic file (type pdf)
 <use ../images/week_17/cx_all_prod_catConvEta_1.pdf>
 Package pdftex.def Info: ../images/week_17/cx_all_prod_catConvEta_1.pdf  used o
 n input line 2720.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_17/cx_all_prod_catConvEta_2.pdf, id=13058, 569.12625pt x 355.32
+<../images/week_17/cx_all_prod_catConvEta_2.pdf, id=13070, 569.12625pt x 355.32
 75pt>
 File: ../images/week_17/cx_all_prod_catConvEta_2.pdf Graphic file (type pdf)
 <use ../images/week_17/cx_all_prod_catConvEta_2.pdf>
 Package pdftex.def Info: ../images/week_17/cx_all_prod_catConvEta_2.pdf  used o
 n input line 2720.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_17/cx_all_prod_catConvEta_3.pdf, id=13059, 569.12625pt x 355.32
+<../images/week_17/cx_all_prod_catConvEta_3.pdf, id=13071, 569.12625pt x 355.32
 75pt>
 File: ../images/week_17/cx_all_prod_catConvEta_3.pdf Graphic file (type pdf)
 <use ../images/week_17/cx_all_prod_catConvEta_3.pdf>
 Package pdftex.def Info: ../images/week_17/cx_all_prod_catConvEta_3.pdf  used o
 n input line 2720.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_17/cx_all_prod_catConvEta_4.pdf, id=13060, 569.12625pt x 355.32
+<../images/week_17/cx_all_prod_catConvEta_4.pdf, id=13072, 569.12625pt x 355.32
 75pt>
 File: ../images/week_17/cx_all_prod_catConvEta_4.pdf Graphic file (type pdf)
 <use ../images/week_17/cx_all_prod_catConvEta_4.pdf>
 Package pdftex.def Info: ../images/week_17/cx_all_prod_catConvEta_4.pdf  used o
 n input line 2720.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_17/cx_all_prod_catConvEta_5.pdf, id=13061, 569.12625pt x 355.32
+<../images/week_17/cx_all_prod_catConvEta_5.pdf, id=13073, 569.12625pt x 355.32
 75pt>
 File: ../images/week_17/cx_all_prod_catConvEta_5.pdf Graphic file (type pdf)
 <use ../images/week_17/cx_all_prod_catConvEta_5.pdf>
 Package pdftex.def Info: ../images/week_17/cx_all_prod_catConvEta_5.pdf  used o
 n input line 2720.
 (pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../images/week_17/cx_all_prod_catConvEta_6.pdf, id=13062, 569.12625pt x 355.32
+<../images/week_17/cx_all_prod_catConvEta_6.pdf, id=13074, 569.12625pt x 355.32
 75pt>
 File: ../images/week_17/cx_all_prod_catConvEta_6.pdf Graphic file (type pdf)
 <use ../images/week_17/cx_all_prod_catConvEta_6.pdf>
@@ -7000,7 +7014,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 mages/week_17/cx_all_prod_catConvEta_4.pdf, page is rotated 90 degrees> <../ima
 ges/week_17/cx_all_prod_catConvEta_5.pdf, page is rotated 90 degrees> <../image
 s/week_17/cx_all_prod_catConvEta_6.pdf, page is rotated 90 degrees>]
-<../images/week_17/ax_linear_fit.pdf, id=13327, 569.12625pt x 355.3275pt>
+<../images/week_17/ax_linear_fit.pdf, id=13339, 569.12625pt x 355.3275pt>
 File: ../images/week_17/ax_linear_fit.pdf Graphic file (type pdf)
 <use ../images/week_17/ax_linear_fit.pdf>
 Package pdftex.def Info: ../images/week_17/ax_linear_fit.pdf  used on input lin
@@ -7015,7 +7029,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_17/ax_linear_fit.pdf, page is rotated 90 degrees>]
 <../images/week_17/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid.pdf, id=1
-3378, 578.16pt x 361.35pt>
+3390, 578.16pt x 361.35pt>
 File: ../images/week_17/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid.pdf 
 Graphic file (type pdf)
 <use ../images/week_17/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid.pdf>
@@ -7030,7 +7044,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [260
 
  <../images/week_17/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid.pdf>]
-<../images/week_17/plot_fid.pdf, id=13453, 722.7pt x 505.89pt>
+<../images/week_17/plot_fid.pdf, id=13465, 722.7pt x 505.89pt>
 File: ../images/week_17/plot_fid.pdf Graphic file (type pdf)
 <use ../images/week_17/plot_fid.pdf>
 Package pdftex.def Info: ../images/week_17/plot_fid.pdf  used on input line 274
@@ -7044,7 +7058,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [261
 
  <../images/week_17/plot_fid.pdf>]
-<../images/week_17/p0_catConvEta_syst_HSM_fid.pdf, id=13523, 569.12625pt x 385.
+<../images/week_17/p0_catConvEta_syst_HSM_fid.pdf, id=13535, 569.12625pt x 385.
 44pt>
 File: ../images/week_17/p0_catConvEta_syst_HSM_fid.pdf Graphic file (type pdf)
 <use ../images/week_17/p0_catConvEta_syst_HSM_fid.pdf>
@@ -7079,13 +7093,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [263
 
 ]
-<../images/week_18/ph1_eta.pdf, id=13577, 569.12625pt x 355.3275pt>
+<../images/week_18/ph1_eta.pdf, id=13589, 569.12625pt x 355.3275pt>
 File: ../images/week_18/ph1_eta.pdf Graphic file (type pdf)
 <use ../images/week_18/ph1_eta.pdf>
 Package pdftex.def Info: ../images/week_18/ph1_eta.pdf  used on input line 2773
 .
 (pdftex.def)             Requested size: 342.3152pt x 213.72948pt.
-<Pres_Images/HGam/white.jpeg, id=13578, 475.7775pt x 317.185pt>
+<Pres_Images/HGam/white.jpeg, id=13590, 475.7775pt x 317.185pt>
 File: Pres_Images/HGam/white.jpeg Graphic file (type jpg)
 <use Pres_Images/HGam/white.jpeg>
 Package pdftex.def Info: Pres_Images/HGam/white.jpeg  used on input line 2773.
@@ -7099,7 +7113,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_18/ph1_eta.pdf, page is rotated 90 degrees> <./Pres_Images/HGa
 m/white.jpeg>]
-<../images/week_18/ph2_eta.pdf, id=13627, 569.12625pt x 355.3275pt>
+<../images/week_18/ph2_eta.pdf, id=13639, 569.12625pt x 355.3275pt>
 File: ../images/week_18/ph2_eta.pdf Graphic file (type pdf)
 <use ../images/week_18/ph2_eta.pdf>
 Package pdftex.def Info: ../images/week_18/ph2_eta.pdf  used on input line 2786
@@ -7160,7 +7174,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [270
 
 ]
-<../images/week_19/cx_all_prod_catConvEta_1_2_3.pdf, id=13703, 569.12625pt x 35
+<../images/week_19/cx_all_prod_catConvEta_1_2_3.pdf, id=13715, 569.12625pt x 35
 5.3275pt>
 File: ../images/week_19/cx_all_prod_catConvEta_1_2_3.pdf Graphic file (type pdf
 )
@@ -7177,7 +7191,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_19/cx_all_prod_catConvEta_1_2_3.pdf, page is rotated 90 degree
 s>]
-<../images/week_19/cx_all_prod_catConvEta_4_5_6.pdf, id=13753, 569.12625pt x 35
+<../images/week_19/cx_all_prod_catConvEta_4_5_6.pdf, id=13765, 569.12625pt x 35
 5.3275pt>
 File: ../images/week_19/cx_all_prod_catConvEta_4_5_6.pdf Graphic file (type pdf
 )
@@ -7194,7 +7208,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_19/cx_all_prod_catConvEta_4_5_6.pdf, page is rotated 90 degree
 s>]
-<../images/week_19/cx_all_prod_catConvEta_1_4.pdf, id=13802, 569.12625pt x 355.
+<../images/week_19/cx_all_prod_catConvEta_1_4.pdf, id=13814, 569.12625pt x 355.
 3275pt>
 File: ../images/week_19/cx_all_prod_catConvEta_1_4.pdf Graphic file (type pdf)
 <use ../images/week_19/cx_all_prod_catConvEta_1_4.pdf>
@@ -7210,7 +7224,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_19/cx_all_prod_catConvEta_1_4.pdf, page is rotated 90 degrees>
 ]
-<../images/week_19/cx_all_prod_catConvEta_2_5.pdf, id=13851, 569.12625pt x 355.
+<../images/week_19/cx_all_prod_catConvEta_2_5.pdf, id=13864, 569.12625pt x 355.
 3275pt>
 File: ../images/week_19/cx_all_prod_catConvEta_2_5.pdf Graphic file (type pdf)
 <use ../images/week_19/cx_all_prod_catConvEta_2_5.pdf>
@@ -7226,7 +7240,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_19/cx_all_prod_catConvEta_2_5.pdf, page is rotated 90 degrees>
 ]
-<../images/week_19/cx_all_prod_catConvEta_3_6.pdf, id=13901, 569.12625pt x 355.
+<../images/week_19/cx_all_prod_catConvEta_3_6.pdf, id=13913, 569.12625pt x 355.
 3275pt>
 File: ../images/week_19/cx_all_prod_catConvEta_3_6.pdf Graphic file (type pdf)
 <use ../images/week_19/cx_all_prod_catConvEta_3_6.pdf>
@@ -7242,6 +7256,806 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../images/week_19/cx_all_prod_catConvEta_3_6.pdf, page is rotated 90 degrees>
 ]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3016.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 3016.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3016.
+
+[276
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[277
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[278
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[279
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[280
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[281
+
+]
+<../images/week_20/ax_fit.pdf, id=13993, 569.12625pt x 356.33125pt>
+File: ../images/week_20/ax_fit.pdf Graphic file (type pdf)
+<use ../images/week_20/ax_fit.pdf>
+Package pdftex.def Info: ../images/week_20/ax_fit.pdf  used on input line 3168.
+
+(pdftex.def)             Requested size: 342.3152pt x 214.33324pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[282
+
+ <../images/week_20/ax_fit.pdf, page is rotated 90 degrees>]
+<../images/week_20/cx_all_prod_catConvEta_no.pdf, id=14042, 569.12625pt x 356.3
+3125pt>
+File: ../images/week_20/cx_all_prod_catConvEta_no.pdf Graphic file (type pdf)
+<use ../images/week_20/cx_all_prod_catConvEta_no.pdf>
+Package pdftex.def Info: ../images/week_20/cx_all_prod_catConvEta_no.pdf  used 
+on input line 3175.
+(pdftex.def)             Requested size: 308.08159pt x 192.8999pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[283
+
+ <../images/week_20/cx_all_prod_catConvEta_no.pdf, page is rotated 90 degrees>]
+<../images/week_20/cx_all_prod_catConvEta_1.pdf, id=14093, 569.12625pt x 356.33
+125pt>
+File: ../images/week_20/cx_all_prod_catConvEta_1.pdf Graphic file (type pdf)
+<use ../images/week_20/cx_all_prod_catConvEta_1.pdf>
+Package pdftex.def Info: ../images/week_20/cx_all_prod_catConvEta_1.pdf  used o
+n input line 3187.
+(pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
+<../images/week_20/cx_all_prod_catConvEta_2.pdf, id=14094, 569.12625pt x 356.33
+125pt>
+File: ../images/week_20/cx_all_prod_catConvEta_2.pdf Graphic file (type pdf)
+<use ../images/week_20/cx_all_prod_catConvEta_2.pdf>
+Package pdftex.def Info: ../images/week_20/cx_all_prod_catConvEta_2.pdf  used o
+n input line 3187.
+(pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
+<../images/week_20/cx_all_prod_catConvEta_3.pdf, id=14095, 569.12625pt x 356.33
+125pt>
+File: ../images/week_20/cx_all_prod_catConvEta_3.pdf Graphic file (type pdf)
+<use ../images/week_20/cx_all_prod_catConvEta_3.pdf>
+Package pdftex.def Info: ../images/week_20/cx_all_prod_catConvEta_3.pdf  used o
+n input line 3187.
+(pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
+<../images/week_20/cx_all_prod_catConvEta_4.pdf, id=14096, 569.12625pt x 356.33
+125pt>
+File: ../images/week_20/cx_all_prod_catConvEta_4.pdf Graphic file (type pdf)
+<use ../images/week_20/cx_all_prod_catConvEta_4.pdf>
+Package pdftex.def Info: ../images/week_20/cx_all_prod_catConvEta_4.pdf  used o
+n input line 3187.
+(pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
+<../images/week_20/cx_all_prod_catConvEta_5.pdf, id=14097, 569.12625pt x 356.33
+125pt>
+File: ../images/week_20/cx_all_prod_catConvEta_5.pdf Graphic file (type pdf)
+<use ../images/week_20/cx_all_prod_catConvEta_5.pdf>
+Package pdftex.def Info: ../images/week_20/cx_all_prod_catConvEta_5.pdf  used o
+n input line 3187.
+(pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
+<../images/week_20/cx_all_prod_catConvEta_6.pdf, id=14098, 569.12625pt x 356.33
+125pt>
+File: ../images/week_20/cx_all_prod_catConvEta_6.pdf Graphic file (type pdf)
+<use ../images/week_20/cx_all_prod_catConvEta_6.pdf>
+Package pdftex.def Info: ../images/week_20/cx_all_prod_catConvEta_6.pdf  used o
+n input line 3187.
+(pdftex.def)             Requested size: 119.81241pt x 75.01118pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[284
+
+ <../images/week_20/cx_all_prod_catConvEta_1.pdf, page is rotated 90 degrees> <
+../images/week_20/cx_all_prod_catConvEta_2.pdf, page is rotated 90 degrees> <..
+/images/week_20/cx_all_prod_catConvEta_3.pdf, page is rotated 90 degrees> <../i
+mages/week_20/cx_all_prod_catConvEta_4.pdf, page is rotated 90 degrees> <../ima
+ges/week_20/cx_all_prod_catConvEta_5.pdf, page is rotated 90 degrees> <../image
+s/week_20/cx_all_prod_catConvEta_6.pdf, page is rotated 90 degrees>]
+<../images/week_20/cx_all_prod_catConv_1.pdf, id=14363, 569.12625pt x 356.33125
+pt>
+File: ../images/week_20/cx_all_prod_catConv_1.pdf Graphic file (type pdf)
+<use ../images/week_20/cx_all_prod_catConv_1.pdf>
+Package pdftex.def Info: ../images/week_20/cx_all_prod_catConv_1.pdf  used on i
+nput line 3195.
+(pdftex.def)             Requested size: 167.73633pt x 105.01894pt.
+<../images/week_20/cx_all_prod_catConv_2.pdf, id=14364, 569.12625pt x 356.33125
+pt>
+File: ../images/week_20/cx_all_prod_catConv_2.pdf Graphic file (type pdf)
+<use ../images/week_20/cx_all_prod_catConv_2.pdf>
+Package pdftex.def Info: ../images/week_20/cx_all_prod_catConv_2.pdf  used on i
+nput line 3195.
+(pdftex.def)             Requested size: 167.73633pt x 105.01894pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[285
+
+ <../images/week_20/cx_all_prod_catConv_1.pdf, page is rotated 90 degrees> <../
+images/week_20/cx_all_prod_catConv_2.pdf, page is rotated 90 degrees>]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[286
+
+]
+<../images/week_20/plot_AsimovData_0_ggHyy_MC_no_catConvEta_HSM_fid.pdf, id=144
+61, 578.16pt x 361.35pt>
+File: ../images/week_20/plot_AsimovData_0_ggHyy_MC_no_catConvEta_HSM_fid.pdf Gr
+aphic file (type pdf)
+<use ../images/week_20/plot_AsimovData_0_ggHyy_MC_no_catConvEta_HSM_fid.pdf>
+Package pdftex.def Info: ../images/week_20/plot_AsimovData_0_ggHyy_MC_no_catCon
+vEta_HSM_fid.pdf  used on input line 3231.
+(pdftex.def)             Requested size: 167.73633pt x 104.83292pt.
+<../images/week_20/plot_AsimovData_0_ggHyy_MC_catConvEta_HSM_fid.pdf, id=14462,
+ 578.16pt x 361.35pt>
+File: ../images/week_20/plot_AsimovData_0_ggHyy_MC_catConvEta_HSM_fid.pdf Graph
+ic file (type pdf)
+<use ../images/week_20/plot_AsimovData_0_ggHyy_MC_catConvEta_HSM_fid.pdf>
+Package pdftex.def Info: ../images/week_20/plot_AsimovData_0_ggHyy_MC_catConvEt
+a_HSM_fid.pdf  used on input line 3231.
+(pdftex.def)             Requested size: 167.73633pt x 104.83292pt.
+<../images/week_20/plot_AsimovData_0_ggHyy_MC_catConv_HSM_fid.pdf, id=14463, 57
+8.16pt x 361.35pt>
+File: ../images/week_20/plot_AsimovData_0_ggHyy_MC_catConv_HSM_fid.pdf Graphic 
+file (type pdf)
+<use ../images/week_20/plot_AsimovData_0_ggHyy_MC_catConv_HSM_fid.pdf>
+Package pdftex.def Info: ../images/week_20/plot_AsimovData_0_ggHyy_MC_catConv_H
+SM_fid.pdf  used on input line 3231.
+(pdftex.def)             Requested size: 167.73633pt x 104.83292pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[287
+
+ <../images/week_20/plot_AsimovData_0_ggHyy_MC_no_catConvEta_HSM_fid.pdf> <../i
+mages/week_20/plot_AsimovData_0_ggHyy_MC_catConvEta_HSM_fid.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ../images/week_20/plot_AsimovData_0_ggH
+yy_MC_catConvEta_HSM_fid.pdf): PDF inclusion: multiple pdfs with page group inc
+luded in a single page
+> <../images/week_20/plot_AsimovData_0_ggHyy_MC_catConv_HSM_fid.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ../images/week_20/plot_AsimovData_0_ggH
+yy_MC_catConv_HSM_fid.pdf): PDF inclusion: multiple pdfs with page group includ
+ed in a single page
+>]
+<../images/week_20/plot_HSM_fid_comp.pdf, id=14675, 578.16pt x 361.35pt>
+File: ../images/week_20/plot_HSM_fid_comp.pdf Graphic file (type pdf)
+<use ../images/week_20/plot_HSM_fid_comp.pdf>
+Package pdftex.def Info: ../images/week_20/plot_HSM_fid_comp.pdf  used on input
+ line 3238.
+(pdftex.def)             Requested size: 342.3152pt x 213.94452pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[288
+
+ <../images/week_20/plot_HSM_fid_comp.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 3241.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3241.
+
+[289
+
+]
+<../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf, id=147
+53, 569.12625pt x 355.3275pt>
+File: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf Gr
+aphic file (type pdf)
+<use ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catCo
+nvEta_no_fit.pdf  used on input line 3249.
+(pdftex.def)             Requested size: 342.3152pt x 213.72948pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[290
+
+ <../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf, page 
+is rotated 90 degrees>]
+<../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_1_fit.pdf, id=1480
+2, 569.12625pt x 355.3275pt>
+File: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_1_fit.pdf Gra
+phic file (type pdf)
+<use ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_1_fit.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catCo
+nvEta_1_fit.pdf  used on input line 3261.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+<../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_2_fit.pdf, id=1480
+3, 569.12625pt x 355.3275pt>
+File: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_2_fit.pdf Gra
+phic file (type pdf)
+<use ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_2_fit.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catCo
+nvEta_2_fit.pdf  used on input line 3261.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+<../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_3_fit.pdf, id=1480
+4, 569.12625pt x 355.3275pt>
+File: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_3_fit.pdf Gra
+phic file (type pdf)
+<use ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_3_fit.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catCo
+nvEta_3_fit.pdf  used on input line 3261.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+<../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_4_fit.pdf, id=1480
+5, 569.12625pt x 355.3275pt>
+File: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_4_fit.pdf Gra
+phic file (type pdf)
+<use ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_4_fit.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catCo
+nvEta_4_fit.pdf  used on input line 3261.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+<../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_5_fit.pdf, id=1480
+6, 569.12625pt x 355.3275pt>
+File: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_5_fit.pdf Gra
+phic file (type pdf)
+<use ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_5_fit.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catCo
+nvEta_5_fit.pdf  used on input line 3261.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+<../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_6_fit.pdf, id=1480
+7, 569.12625pt x 355.3275pt>
+File: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_6_fit.pdf Gra
+phic file (type pdf)
+<use ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_6_fit.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catCo
+nvEta_6_fit.pdf  used on input line 3261.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[291
+
+ <../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_1_fit.pdf, page i
+s rotated 90 degrees> <../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConv
+Eta_2_fit.pdf, page is rotated 90 degrees> <../images/week_21/Signal/PowhegPy8_
+NNLOPS_ggH125_catConvEta_3_fit.pdf, page is rotated 90 degrees> <../images/week
+_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_4_fit.pdf, page is rotated 90 deg
+rees> <../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConvEta_5_fit.pdf, p
+age is rotated 90 degrees> <../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_ca
+tConvEta_6_fit.pdf, page is rotated 90 degrees>]
+<../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConv_1_fit.pdf, id=15072, 
+569.12625pt x 355.3275pt>
+File: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConv_1_fit.pdf Graphi
+c file (type pdf)
+<use ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConv_1_fit.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catCo
+nv_1_fit.pdf  used on input line 3269.
+(pdftex.def)             Requested size: 167.73633pt x 104.7231pt.
+<../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConv_2_fit.pdf, id=15073, 
+569.12625pt x 355.3275pt>
+File: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConv_2_fit.pdf Graphi
+c file (type pdf)
+<use ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConv_2_fit.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catCo
+nv_2_fit.pdf  used on input line 3269.
+(pdftex.def)             Requested size: 167.73633pt x 104.7231pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[292
+
+ <../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConv_1_fit.pdf, page is r
+otated 90 degrees> <../images/week_21/Signal/PowhegPy8_NNLOPS_ggH125_catConv_2_
+fit.pdf, page is rotated 90 degrees>]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[293
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[294
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[295
+
+]
+<../images/week_21/Signal/ax_isFiducialMediumMyy_linear_fit.pdf, id=15182, 569.
+12625pt x 355.3275pt>
+File: ../images/week_21/Signal/ax_isFiducialMediumMyy_linear_fit.pdf Graphic fi
+le (type pdf)
+<use ../images/week_21/Signal/ax_isFiducialMediumMyy_linear_fit.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/ax_isFiducialMediumMyy_linear
+_fit.pdf  used on input line 3397.
+(pdftex.def)             Requested size: 342.3152pt x 213.72948pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[296
+
+ <../images/week_21/Signal/ax_isFiducialMediumMyy_linear_fit.pdf, page is rotat
+ed 90 degrees>]
+<../images/week_21/Signal/cx_fit_catConvEta_no.pdf, id=15231, 569.12625pt x 355
+.3275pt>
+File: ../images/week_21/Signal/cx_fit_catConvEta_no.pdf Graphic file (type pdf)
+
+<use ../images/week_21/Signal/cx_fit_catConvEta_no.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/cx_fit_catConvEta_no.pdf  use
+d on input line 3412.
+(pdftex.def)             Requested size: 102.6956pt x 64.11342pt.
+<../images/week_21/Signal/cx_fit_catConvEta_1.pdf, id=15232, 569.12625pt x 355.
+3275pt>
+File: ../images/week_21/Signal/cx_fit_catConvEta_1.pdf Graphic file (type pdf)
+<use ../images/week_21/Signal/cx_fit_catConvEta_1.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/cx_fit_catConvEta_1.pdf  used
+ on input line 3412.
+(pdftex.def)             Requested size: 102.6956pt x 64.11342pt.
+<../images/week_21/Signal/cx_fit_catConvEta_2.pdf, id=15233, 569.12625pt x 355.
+3275pt>
+File: ../images/week_21/Signal/cx_fit_catConvEta_2.pdf Graphic file (type pdf)
+<use ../images/week_21/Signal/cx_fit_catConvEta_2.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/cx_fit_catConvEta_2.pdf  used
+ on input line 3412.
+(pdftex.def)             Requested size: 102.6956pt x 64.11342pt.
+<../images/week_21/Signal/cx_fit_catConvEta_3.pdf, id=15234, 569.12625pt x 355.
+3275pt>
+File: ../images/week_21/Signal/cx_fit_catConvEta_3.pdf Graphic file (type pdf)
+<use ../images/week_21/Signal/cx_fit_catConvEta_3.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/cx_fit_catConvEta_3.pdf  used
+ on input line 3412.
+(pdftex.def)             Requested size: 102.6956pt x 64.11342pt.
+<../images/week_21/Signal/cx_fit_catConvEta_4.pdf, id=15235, 569.12625pt x 355.
+3275pt>
+File: ../images/week_21/Signal/cx_fit_catConvEta_4.pdf Graphic file (type pdf)
+<use ../images/week_21/Signal/cx_fit_catConvEta_4.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/cx_fit_catConvEta_4.pdf  used
+ on input line 3412.
+(pdftex.def)             Requested size: 102.6956pt x 64.11342pt.
+<../images/week_21/Signal/cx_fit_catConvEta_5.pdf, id=15236, 569.12625pt x 355.
+3275pt>
+File: ../images/week_21/Signal/cx_fit_catConvEta_5.pdf Graphic file (type pdf)
+<use ../images/week_21/Signal/cx_fit_catConvEta_5.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/cx_fit_catConvEta_5.pdf  used
+ on input line 3412.
+(pdftex.def)             Requested size: 102.6956pt x 64.11342pt.
+<../images/week_21/Signal/cx_fit_catConvEta_6.pdf, id=15237, 569.12625pt x 355.
+3275pt>
+File: ../images/week_21/Signal/cx_fit_catConvEta_6.pdf Graphic file (type pdf)
+<use ../images/week_21/Signal/cx_fit_catConvEta_6.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/cx_fit_catConvEta_6.pdf  used
+ on input line 3412.
+(pdftex.def)             Requested size: 102.6956pt x 64.11342pt.
+<../images/week_21/Signal/cx_fit_catConv_1.pdf, id=15238, 569.12625pt x 355.327
+5pt>
+File: ../images/week_21/Signal/cx_fit_catConv_1.pdf Graphic file (type pdf)
+<use ../images/week_21/Signal/cx_fit_catConv_1.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/cx_fit_catConv_1.pdf  used on
+ input line 3412.
+(pdftex.def)             Requested size: 102.6956pt x 64.11342pt.
+<../images/week_21/Signal/cx_fit_catConv_2.pdf, id=15239, 569.12625pt x 355.327
+5pt>
+File: ../images/week_21/Signal/cx_fit_catConv_2.pdf Graphic file (type pdf)
+<use ../images/week_21/Signal/cx_fit_catConv_2.pdf>
+Package pdftex.def Info: ../images/week_21/Signal/cx_fit_catConv_2.pdf  used on
+ input line 3412.
+(pdftex.def)             Requested size: 102.6956pt x 64.11342pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[297
+
+ <../images/week_21/Signal/cx_fit_catConvEta_no.pdf, page is rotated 90 degrees
+> <../images/week_21/Signal/cx_fit_catConvEta_1.pdf, page is rotated 90 degrees
+> <../images/week_21/Signal/cx_fit_catConvEta_2.pdf, page is rotated 90 degrees
+> <../images/week_21/Signal/cx_fit_catConvEta_3.pdf, page is rotated 90 degrees
+> <../images/week_21/Signal/cx_fit_catConvEta_4.pdf, page is rotated 90 degrees
+> <../images/week_21/Signal/cx_fit_catConvEta_5.pdf, page is rotated 90 degrees
+> <../images/week_21/Signal/cx_fit_catConvEta_6.pdf, page is rotated 90 degrees
+> <../images/week_21/Signal/cx_fit_catConv_1.pdf, page is rotated 90 degrees> <
+../images/week_21/Signal/cx_fit_catConv_2.pdf, page is rotated 90 degrees>]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[298
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[299
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[300
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[301
+
+]
+<../images/week_21/Bkg/HSM_fit_catConvEta_no.pdf, id=15655, 569.12625pt x 355.3
+275pt>
+File: ../images/week_21/Bkg/HSM_fit_catConvEta_no.pdf Graphic file (type pdf)
+<use ../images/week_21/Bkg/HSM_fit_catConvEta_no.pdf>
+Package pdftex.def Info: ../images/week_21/Bkg/HSM_fit_catConvEta_no.pdf  used 
+on input line 3535.
+(pdftex.def)             Requested size: 342.3152pt x 213.72948pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[302
+
+ <../images/week_21/Bkg/HSM_fit_catConvEta_no.pdf, page is rotated 90 degrees>]
+<../images/week_21/Bkg/HSM_fit_catConvEta_1.pdf, id=15704, 569.12625pt x 355.32
+75pt>
+File: ../images/week_21/Bkg/HSM_fit_catConvEta_1.pdf Graphic file (type pdf)
+<use ../images/week_21/Bkg/HSM_fit_catConvEta_1.pdf>
+Package pdftex.def Info: ../images/week_21/Bkg/HSM_fit_catConvEta_1.pdf  used o
+n input line 3547.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+<../images/week_21/Bkg/HSM_fit_catConvEta_2.pdf, id=15705, 569.12625pt x 355.32
+75pt>
+File: ../images/week_21/Bkg/HSM_fit_catConvEta_2.pdf Graphic file (type pdf)
+<use ../images/week_21/Bkg/HSM_fit_catConvEta_2.pdf>
+Package pdftex.def Info: ../images/week_21/Bkg/HSM_fit_catConvEta_2.pdf  used o
+n input line 3547.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+<../images/week_21/Bkg/HSM_fit_catConvEta_3.pdf, id=15706, 569.12625pt x 355.32
+75pt>
+File: ../images/week_21/Bkg/HSM_fit_catConvEta_3.pdf Graphic file (type pdf)
+<use ../images/week_21/Bkg/HSM_fit_catConvEta_3.pdf>
+Package pdftex.def Info: ../images/week_21/Bkg/HSM_fit_catConvEta_3.pdf  used o
+n input line 3547.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+<../images/week_21/Bkg/HSM_fit_catConvEta_4.pdf, id=15707, 569.12625pt x 355.32
+75pt>
+File: ../images/week_21/Bkg/HSM_fit_catConvEta_4.pdf Graphic file (type pdf)
+<use ../images/week_21/Bkg/HSM_fit_catConvEta_4.pdf>
+Package pdftex.def Info: ../images/week_21/Bkg/HSM_fit_catConvEta_4.pdf  used o
+n input line 3547.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+<../images/week_21/Bkg/HSM_fit_catConvEta_5.pdf, id=15708, 569.12625pt x 355.32
+75pt>
+File: ../images/week_21/Bkg/HSM_fit_catConvEta_5.pdf Graphic file (type pdf)
+<use ../images/week_21/Bkg/HSM_fit_catConvEta_5.pdf>
+Package pdftex.def Info: ../images/week_21/Bkg/HSM_fit_catConvEta_5.pdf  used o
+n input line 3547.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+<../images/week_21/Bkg/HSM_fit_catConvEta_6.pdf, id=15709, 569.12625pt x 355.32
+75pt>
+File: ../images/week_21/Bkg/HSM_fit_catConvEta_6.pdf Graphic file (type pdf)
+<use ../images/week_21/Bkg/HSM_fit_catConvEta_6.pdf>
+Package pdftex.def Info: ../images/week_21/Bkg/HSM_fit_catConvEta_6.pdf  used o
+n input line 3547.
+(pdftex.def)             Requested size: 112.96463pt x 70.52747pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[303
+
+ <../images/week_21/Bkg/HSM_fit_catConvEta_1.pdf, page is rotated 90 degrees> <
+../images/week_21/Bkg/HSM_fit_catConvEta_2.pdf, page is rotated 90 degrees> <..
+/images/week_21/Bkg/HSM_fit_catConvEta_3.pdf, page is rotated 90 degrees> <../i
+mages/week_21/Bkg/HSM_fit_catConvEta_4.pdf, page is rotated 90 degrees> <../ima
+ges/week_21/Bkg/HSM_fit_catConvEta_5.pdf, page is rotated 90 degrees> <../image
+s/week_21/Bkg/HSM_fit_catConvEta_6.pdf, page is rotated 90 degrees>]
+<../images/week_21/Bkg/HSM_fit_catConv_1.pdf, id=15974, 569.12625pt x 355.3275p
+t>
+File: ../images/week_21/Bkg/HSM_fit_catConv_1.pdf Graphic file (type pdf)
+<use ../images/week_21/Bkg/HSM_fit_catConv_1.pdf>
+Package pdftex.def Info: ../images/week_21/Bkg/HSM_fit_catConv_1.pdf  used on i
+nput line 3555.
+(pdftex.def)             Requested size: 167.73633pt x 104.7231pt.
+<../images/week_21/Bkg/HSM_fit_catConv_2.pdf, id=15975, 569.12625pt x 355.3275p
+t>
+File: ../images/week_21/Bkg/HSM_fit_catConv_2.pdf Graphic file (type pdf)
+<use ../images/week_21/Bkg/HSM_fit_catConv_2.pdf>
+Package pdftex.def Info: ../images/week_21/Bkg/HSM_fit_catConv_2.pdf  used on i
+nput line 3555.
+(pdftex.def)             Requested size: 167.73633pt x 104.7231pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[304
+
+ <../images/week_21/Bkg/HSM_fit_catConv_1.pdf, page is rotated 90 degrees> <../
+images/week_21/Bkg/HSM_fit_catConv_2.pdf, page is rotated 90 degrees>]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[305
+
+]
+<../images/week_21/Syst/var_catConvEta_no_sig_fid.pdf, id=16072, 569.12625pt x 
+385.44pt>
+File: ../images/week_21/Syst/var_catConvEta_no_sig_fid.pdf Graphic file (type p
+df)
+<use ../images/week_21/Syst/var_catConvEta_no_sig_fid.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_no_sig_fid.pdf  
+used on input line 3591.
+(pdftex.def)             Requested size: 342.3152pt x 231.84215pt.
+
+Overfull \vbox (2.2491pt too high) detected at line 3591
+ []
+
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[306
+
+ <../images/week_21/Syst/var_catConvEta_no_sig_fid.pdf, page is rotated 90 degr
+ees>]
+<../images/week_21/Syst/var_catConvEta_no_HSM.pdf, id=16122, 569.12625pt x 385.
+44pt>
+File: ../images/week_21/Syst/var_catConvEta_no_HSM.pdf Graphic file (type pdf)
+<use ../images/week_21/Syst/var_catConvEta_no_HSM.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_no_HSM.pdf  used
+ on input line 3598.
+(pdftex.def)             Requested size: 342.3152pt x 231.84215pt.
+
+Overfull \vbox (2.2491pt too high) detected at line 3598
+ []
+
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[307
+
+ <../images/week_21/Syst/var_catConvEta_no_HSM.pdf, page is rotated 90 degrees>
+]
+<../images/week_21/Syst/var_catConvEta_1_sig_fid.pdf, id=16172, 569.12625pt x 3
+85.44pt>
+File: ../images/week_21/Syst/var_catConvEta_1_sig_fid.pdf Graphic file (type pd
+f)
+<use ../images/week_21/Syst/var_catConvEta_1_sig_fid.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_1_sig_fid.pdf  u
+sed on input line 3610.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+<../images/week_21/Syst/var_catConvEta_2_sig_fid.pdf, id=16173, 569.12625pt x 3
+85.44pt>
+File: ../images/week_21/Syst/var_catConvEta_2_sig_fid.pdf Graphic file (type pd
+f)
+<use ../images/week_21/Syst/var_catConvEta_2_sig_fid.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_2_sig_fid.pdf  u
+sed on input line 3610.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+<../images/week_21/Syst/var_catConvEta_3_sig_fid.pdf, id=16174, 569.12625pt x 3
+85.44pt>
+File: ../images/week_21/Syst/var_catConvEta_3_sig_fid.pdf Graphic file (type pd
+f)
+<use ../images/week_21/Syst/var_catConvEta_3_sig_fid.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_3_sig_fid.pdf  u
+sed on input line 3610.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+<../images/week_21/Syst/var_catConvEta_4_sig_fid.pdf, id=16175, 569.12625pt x 3
+85.44pt>
+File: ../images/week_21/Syst/var_catConvEta_4_sig_fid.pdf Graphic file (type pd
+f)
+<use ../images/week_21/Syst/var_catConvEta_4_sig_fid.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_4_sig_fid.pdf  u
+sed on input line 3610.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+<../images/week_21/Syst/var_catConvEta_5_sig_fid.pdf, id=16176, 569.12625pt x 3
+85.44pt>
+File: ../images/week_21/Syst/var_catConvEta_5_sig_fid.pdf Graphic file (type pd
+f)
+<use ../images/week_21/Syst/var_catConvEta_5_sig_fid.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_5_sig_fid.pdf  u
+sed on input line 3610.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+<../images/week_21/Syst/var_catConvEta_6_sig_fid.pdf, id=16177, 569.12625pt x 3
+85.44pt>
+File: ../images/week_21/Syst/var_catConvEta_6_sig_fid.pdf Graphic file (type pd
+f)
+<use ../images/week_21/Syst/var_catConvEta_6_sig_fid.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_6_sig_fid.pdf  u
+sed on input line 3610.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[308
+
+ <../images/week_21/Syst/var_catConvEta_1_sig_fid.pdf, page is rotated 90 degre
+es> <../images/week_21/Syst/var_catConvEta_2_sig_fid.pdf, page is rotated 90 de
+grees> <../images/week_21/Syst/var_catConvEta_3_sig_fid.pdf, page is rotated 90
+ degrees> <../images/week_21/Syst/var_catConvEta_4_sig_fid.pdf, page is rotated
+ 90 degrees> <../images/week_21/Syst/var_catConvEta_5_sig_fid.pdf, page is rota
+ted 90 degrees> <../images/week_21/Syst/var_catConvEta_6_sig_fid.pdf, page is r
+otated 90 degrees>]
+<../images/week_21/Syst/var_catConvEta_1_HSM.pdf, id=16442, 569.12625pt x 385.4
+4pt>
+File: ../images/week_21/Syst/var_catConvEta_1_HSM.pdf Graphic file (type pdf)
+<use ../images/week_21/Syst/var_catConvEta_1_HSM.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_1_HSM.pdf  used 
+on input line 3622.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+<../images/week_21/Syst/var_catConvEta_2_HSM.pdf, id=16443, 569.12625pt x 385.4
+4pt>
+File: ../images/week_21/Syst/var_catConvEta_2_HSM.pdf Graphic file (type pdf)
+<use ../images/week_21/Syst/var_catConvEta_2_HSM.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_2_HSM.pdf  used 
+on input line 3622.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+<../images/week_21/Syst/var_catConvEta_3_HSM.pdf, id=16444, 569.12625pt x 385.4
+4pt>
+File: ../images/week_21/Syst/var_catConvEta_3_HSM.pdf Graphic file (type pdf)
+<use ../images/week_21/Syst/var_catConvEta_3_HSM.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_3_HSM.pdf  used 
+on input line 3622.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+<../images/week_21/Syst/var_catConvEta_4_HSM.pdf, id=16445, 569.12625pt x 385.4
+4pt>
+File: ../images/week_21/Syst/var_catConvEta_4_HSM.pdf Graphic file (type pdf)
+<use ../images/week_21/Syst/var_catConvEta_4_HSM.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_4_HSM.pdf  used 
+on input line 3622.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+<../images/week_21/Syst/var_catConvEta_5_HSM.pdf, id=16446, 569.12625pt x 385.4
+4pt>
+File: ../images/week_21/Syst/var_catConvEta_5_HSM.pdf Graphic file (type pdf)
+<use ../images/week_21/Syst/var_catConvEta_5_HSM.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_5_HSM.pdf  used 
+on input line 3622.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+<../images/week_21/Syst/var_catConvEta_6_HSM.pdf, id=16447, 569.12625pt x 385.4
+4pt>
+File: ../images/week_21/Syst/var_catConvEta_6_HSM.pdf Graphic file (type pdf)
+<use ../images/week_21/Syst/var_catConvEta_6_HSM.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConvEta_6_HSM.pdf  used 
+on input line 3622.
+(pdftex.def)             Requested size: 109.54337pt x 74.18713pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[309
+
+ <../images/week_21/Syst/var_catConvEta_1_HSM.pdf, page is rotated 90 degrees> 
+<../images/week_21/Syst/var_catConvEta_2_HSM.pdf, page is rotated 90 degrees> <
+../images/week_21/Syst/var_catConvEta_3_HSM.pdf, page is rotated 90 degrees> <.
+./images/week_21/Syst/var_catConvEta_4_HSM.pdf, page is rotated 90 degrees> <..
+/images/week_21/Syst/var_catConvEta_5_HSM.pdf, page is rotated 90 degrees> <../
+images/week_21/Syst/var_catConvEta_6_HSM.pdf, page is rotated 90 degrees>]
+<../images/week_21/Syst/var_catConv_1_sig_fid.pdf, id=16712, 569.12625pt x 385.
+44pt>
+File: ../images/week_21/Syst/var_catConv_1_sig_fid.pdf Graphic file (type pdf)
+<use ../images/week_21/Syst/var_catConv_1_sig_fid.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConv_1_sig_fid.pdf  used
+ on input line 3630.
+(pdftex.def)             Requested size: 167.73633pt x 113.59795pt.
+<../images/week_21/Syst/var_catConv_2_sig_fid.pdf, id=16713, 569.12625pt x 385.
+44pt>
+File: ../images/week_21/Syst/var_catConv_2_sig_fid.pdf Graphic file (type pdf)
+<use ../images/week_21/Syst/var_catConv_2_sig_fid.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConv_2_sig_fid.pdf  used
+ on input line 3630.
+(pdftex.def)             Requested size: 167.73633pt x 113.59795pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[310
+
+ <../images/week_21/Syst/var_catConv_1_sig_fid.pdf, page is rotated 90 degrees>
+ <../images/week_21/Syst/var_catConv_2_sig_fid.pdf, page is rotated 90 degrees>
+]
+<../images/week_21/Syst/var_catConv_1_HSM.pdf, id=16806, 569.12625pt x 385.44pt
+>
+File: ../images/week_21/Syst/var_catConv_1_HSM.pdf Graphic file (type pdf)
+<use ../images/week_21/Syst/var_catConv_1_HSM.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConv_1_HSM.pdf  used on 
+input line 3638.
+(pdftex.def)             Requested size: 167.73633pt x 113.59795pt.
+<../images/week_21/Syst/var_catConv_2_HSM.pdf, id=16807, 569.12625pt x 385.44pt
+>
+File: ../images/week_21/Syst/var_catConv_2_HSM.pdf Graphic file (type pdf)
+<use ../images/week_21/Syst/var_catConv_2_HSM.pdf>
+Package pdftex.def Info: ../images/week_21/Syst/var_catConv_2_HSM.pdf  used on 
+input line 3638.
+(pdftex.def)             Requested size: 167.73633pt x 113.59795pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[311
+
+ <../images/week_21/Syst/var_catConv_1_HSM.pdf, page is rotated 90 degrees> <..
+/images/week_21/Syst/var_catConv_2_HSM.pdf, page is rotated 90 degrees>]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[312
+
+]
 \tf@nav=\write6
 \openout6 = `update.nav'.
 
@@ -7251,23 +8065,23 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `update.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3016.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3016.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3718.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3718.
  (./update.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3016.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3016.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3718.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3718.
 
 Package rerunfilecheck Info: File `update.out' has not changed.
-(rerunfilecheck)             Checksum: 5681668D2496768EC12E6F66DCD40304;865.
+(rerunfilecheck)             Checksum: EDB5C43965326549B6AD67A67FDC2B4D;957.
  ) 
 Here is how much of TeX's memory you used:
- 34576 strings out of 481239
- 729435 string characters out of 5920376
- 1015200 words of memory out of 5000000
- 48119 multiletter control sequences out of 15000+600000
+ 35090 strings out of 481239
+ 750497 string characters out of 5920376
+ 1017935 words of memory out of 5000000
+ 48501 multiletter control sequences out of 15000+600000
  718703 words of font info for 176 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,14n,78p,773b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,78p,773b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -7288,10 +8102,10 @@ s/type1/public/lm/lmsso9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
 1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on update.pdf (275 pages, 5976416 bytes).
+Output written on update.pdf (312 pages, 6979772 bytes).
 PDF statistics:
- 14169 PDF objects out of 15390 (max. 8388607)
- 6031 compressed objects within 61 object streams
- 570 named destinations out of 1000 (max. 500000)
- 51214 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 17139 PDF objects out of 18468 (max. 8388607)
+ 7259 compressed objects within 73 object streams
+ 646 named destinations out of 1000 (max. 500000)
+ 51530 words of extra memory for PDF output out of 51595 (max. 10000000)
 
