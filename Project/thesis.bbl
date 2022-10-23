@@ -99,8 +99,6 @@ ATLAS Collaboration.
 {Electron efficiency measurements with the ATLAS detector using the 2015 LHC
   proton-proton collision data}.
 \newblock Technical report, CERN, Geneva, 2016.
-\newblock All figures including auxiliary figures are available at
-  https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2016-024.
 \newblock URL: \url{https://cds.cern.ch/record/2157687}.
 
 \bibitem{ph_id}
@@ -114,12 +112,72 @@ ATLAS Collaboration.
 \bibitem{isolation}
 ATLAS Collaboration.
 \newblock Electron reconstruction and identification in the {ATLAS} experiment
-  using the 2015 and 2016 {LHC} proton{\textendash}proton collision data at
-  {\textdollar}{\textdollar}{\textbackslash}sqrt$\lbrace$s$\rbrace$ =
-  13{\textdollar}{\textdollar}~{\textdollar}{\textdollar}{\textbackslash}text
-  $\lbrace${TeV}$\rbrace${\textdollar}{\textdollar}.
+  using the 2015 and 2016 {LHC} proton-proton collision data at $\sqrt{s} = 13$
+  {TeV}.
 \newblock {\em The European Physical Journal C}, 79(8), aug 2019.
 \newblock \href {https://doi.org/10.1140/epjc/s10052-019-7140-6}
   {\path{doi:10.1140/epjc/s10052-019-7140-6}}.
+
+\bibitem{Higgs_statistic}
+David~A. van Dyk.
+\newblock The {Role} of {Statistics} in the {Discovery} of a {Higgs} {Boson}.
+\newblock {\em Annual Review of Statistics and Its Application}, 1(1):41--59,
+  2014.
+\newblock \href {https://doi.org/10.1146/annurev-statistics-062713-085841}
+  {\path{doi:10.1146/annurev-statistics-062713-085841}}.
+
+\bibitem{Statistic}
+Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
+\newblock Asymptotic formulae for likelihood-based tests of new physics.
+\newblock {\em The European Physical Journal C}, 71(2), feb 2011.
+\newblock \href {https://doi.org/10.1140/epjc/s10052-011-1554-0}
+  {\path{doi:10.1140/epjc/s10052-011-1554-0}}.
+
+\bibitem{Asimov}
+Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
+\newblock Asymptotic formulae for likelihood-based tests of new physics.
+\newblock {\em The European Physical Journal C}, 71(2), feb 2011.
+\newblock \href {https://doi.org/10.1140/epjc/s10052-011-1554-0}
+  {\path{doi:10.1140/epjc/s10052-011-1554-0}}.
+
+\bibitem{BSM}
+Robert Schabinger and James~D. Wells.
+\newblock Minimal spontaneously broken hidden sector and its impact on higgs
+  boson physics at the cern large hadron collider.
+\newblock {\em Phys. Rev. D}, 72:093007, Nov 2005.
+\newblock \href {https://doi.org/10.1103/PhysRevD.72.093007}
+  {\path{doi:10.1103/PhysRevD.72.093007}}.
+
+\bibitem{Pow_1}
+Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock A general framework for implementing {NLO} calculations in shower
+  monte carlo programs: the {POWHEG} {BOX}.
+\newblock {\em Journal of High Energy Physics}, 2010(6), jun 2010.
+\newblock \href {https://doi.org/10.1007/jhep06(2010)043}
+  {\path{doi:10.1007/jhep06(2010)043}}.
+
+\bibitem{Pow_2}
+Paolo Nason.
+\newblock A new method for combining nlo qcd with shower monte carlo
+  algorithms.
+\newblock {\em Journal of High Energy Physics}, 2004(11):040, dec 2004.
+\newblock \href {https://doi.org/10.1088/1126-6708/2004/11/040}
+  {\path{doi:10.1088/1126-6708/2004/11/040}}.
+
+\bibitem{Pow_3}
+Stefano Frixione, Paolo Nason, and Carlo Oleari.
+\newblock Matching nlo qcd computations with parton shower simulations: the
+  powheg method.
+\newblock {\em Journal of High Energy Physics}, 2007(11):070, nov 2007.
+\newblock \href {https://doi.org/10.1088/1126-6708/2007/11/070}
+  {\path{doi:10.1088/1126-6708/2007/11/070}}.
+
+\bibitem{Pow_4}
+H.~B. Hartanto, B.~J\"ager, L.~Reina, and D.~Wackeroth.
+\newblock Higgs boson production in association with top quarks in the powheg
+  box.
+\newblock {\em Phys. Rev. D}, 91:094003, May 2015.
+\newblock \href {https://doi.org/10.1103/PhysRevD.91.094003}
+  {\path{doi:10.1103/PhysRevD.91.094003}}.
 
 \end{thebibliography}

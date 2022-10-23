@@ -2,6 +2,7 @@
 
 
 \usepackage[a-1b]{pdfx}
+\usepackage{cite}
 \usepackage{geometry,url,graphicx, hyperref,subfig,enumitem, amsmath,float}
 \usepackage{amsmath, amssymb, amsthm, mathtools, color, setspace}
 \usepackage{fancyhdr, braket, etoolbox,booktabs,multirow}
@@ -10,6 +11,29 @@
 %\usepackage[utf8]{inputenc}
 %\usepackage{colorprofiles}
 \usepackage[T1]{fontenc}
+
+\usepackage{tikz-cd}
+
+\usepackage{stackengine}
+\def\tanslant{.25}
+\newcommand\hatsrm[2][2]{\ensurestackMath{%
+		\ifnum#1>1%
+		\stackengine{-4pt}{\hatsrm[\numexpr#1-1\relax]{#2}}{%
+			\scriptstyle\char'136}{O}{c}{F}{T}{S}%
+		\else%
+		\stackengine{-3pt}{#2}{\scriptstyle\char'136}{O}{c}{F}{T}{S}%
+		\fi%
+}}
+\newcommand\hatsit[2][2]{\ensurestackMath{%
+		\sbox0{$#2$}%
+		\ifnum#1>1%
+		\stackengine{-4pt}{\hatsit[\numexpr#1-1\relax]{#2}}{%
+			\kern\tanslant\ht0\scriptstyle\char'136}{O}{c}{F}{T}{S}%
+		\else%
+		\stackengine{-3pt}{#2}{\kern\tanslant\ht0\scriptstyle\char'136}%
+		{O}{c}{F}{T}{S}%
+		\fi%
+}}
 
 
 
@@ -62,8 +86,21 @@
 	
 	\tableofcontents
 	
-	\chapter*{Introduction}
-	
+	\chapter*{Introduction}\addcontentsline{toc}{chapter}{Introduction}
+	\iffalse
+		In 2012, the ATLAS and CMS Collaborations discovered a new boson \cite{higgs_atlas},\cite{higgs_cms} that was consistent with the Higgs boson predicted by the Standard Model of particle physics (SM). Its discovery confirmed the Higgs mechanism for the electroweak symmetry breaking.
+		
+		While the measurements of the production and decay rates of the 125-GeV Higgs boson ($h_{125}$) are presently consistent with the predictions for the Higgs boson in the Standard Model, there is no requirement for the Higgs sector to be minimal. Extended Higgs sectors can address some of the shortcomings of the SM. For example, the SM provides no dark matter candidate and no explanation for the matter-antimatter asymmetry in the universe, so there must be physics beyond the Standard Model (BSM). On a more theoretical level, %the vast discrepancy between aspects of the weak nuclear force and gravity, 
+		the difference in scales between the mass of the Higgs boson and the Planck mass, called hierarchy problem, has puzzled physicists for a long time and continues to do so. Moreover, the SM does not explain its own flavor structure, nor does it yield coupling unification at high energy scales\cite{ext_higgs}.
+		
+		The Higgs field in the SM forms a complex doublet under the weak isospin SU(2) symmetry group. Larger scalar sectors that include a boson consistent with the $h_{125}$ observation typically incorporate this complex doublet and add additional structure. There can be additional real or complex singlets, doublets, triplets, and forth, or a combination of them. One of such completion could be a two-Higgs-doublet model (2HDM)\cite{Branco_2012}, that gives rise to two neutral and two charged additional Higgs bosons. The extended Higgs sector also can be embedded in a larger theoretical scenario, such as supersymmetry (SUSY) \cite{dine_2016}, or it can be extended to include dark matter candidates. The theoretical approaches can be divided into two categories, bottom-up and top-down approaches. In bottom-up approaches, pure extended scalar sectors are explored in a general fashion and can be considered as low-energy representations of an unknown larger theory at higher scales. In top-down approaches, the extended scalar sector is an intrinsic part of a concrete larger theoretical scenario. The most well-studied full model is the minimal supersymmetric Standard Model (MSSM) \cite{Djouadi_2008}. The MSSM addresses several shortcomings of the SM: it provides a dark matter candidate, allows for the unification of the gauge couplings, and mitigates the hierarchy problem. The MSSM requires a 2HDM-like Higgs sector. More complex models, such as a 2HDM with an additional singlet or a model with an additional triplet, typically reproduce at least part of the phenomenology of singlets and 2HDMs but can add interesting new phenomenology \cite{Dawson_2019}\cite{PhysRevD.98.030001}.
+		
+		
+		
+		Extended scalar sectors have two main phenomenological consequences \cite{ext_higgs}\cite{Englert_2014}. Firstly, they lead to additional states, which can come in the form of additional neutral and charged scalars (commonly referred to as additional Higgs bosons). These states can be produced directly at high-energy colliders or leave imprints in precision electroweak measurements. Secondly, extended scalar sectors may modify $h_{125}$ couplings compared with the SM. Therefore, focusing on the first consequence, extended Higgs models give rise to neutral and charged Higgs bosons, which in turn decay into various final states based on their mass and couplings. One of them is the di-photon final state: a search for spin-0 new resonances, in addition to $h_{125}$ Higgs boson, can be performed using the di-photon channel. While the $\gamma\gamma$ branching fraction is subdominant, the searches in this final state profit from an excellent mass resolution and manageable backgrounds.
+		
+		Therefore, searching for additional Higgs boson from $pp$ collisions in the two photons final states provides a great opportunity to test BSM physics.
+		\fi
 		
 	
 	\chapter{LHC and ATLAS Detector}
@@ -73,7 +110,7 @@
 			Inside the accelerator, two high-energy particle beams travel close to the speed of light before they are made to collide. To collide two beams of equally charged particles requires opposite magnet dipole fields in both beams. The LHC is therefore designed as a proton-proton collider with separate magnet fields and vacuum chambers in the main arcs and with common sections only at the insertion regions where the experimental detectors are located. 
 		
 			\subsection{LHC layout}
-				The basic layout of the LHC \cite{LHC_DESIGN_2004} follows the LEP tunnel geometry (Figure \ref{fig:LHC_layout}). The LHC has eight arcs and straight sections. Each straight section is approximately 528 m long and can serve as an experimental or utility insertion. The two high luminosity experimental insertions are located at diametrically opposite straight sections: the ATLAS experiment is located at point 1 and the CMS experiment at point 5. Two more experimental insertions are located at point 2 and point 8 which also contain the injection systems for Beam 1 and Beam 2, respectively. The remaining four straight sections do not have beam crossings. Insertion 3 and 7 each contain two collimation systems. Insertion 4 contains two RF systems: one independent system for each LHC beam. The straight section at point 6 contains the beam dump insertion where the two beams are vertically extracted from the machine using a combination of horizontally deflecting fast-pulsed (’kicker’) magnets and vertically-deflecting double steel septum magnets. Each beam features an independent abort system.
+				The basic layout of the LHC \cite{LHC_DESIGN_2004} follows the LEP tunnel geometry (Figure \ref{fig:LHC_layout}). The LHC has eight arcs and straight sections. Each straight section is approximately 528 m long and can serve as an experimental or utility insertion. The two high luminosity experimental insertions are located at diametrically opposite straight sections: the {ATLAS} experiment is located at point 1 and the CMS experiment at point 5. Two more experimental insertions are located at point 2 and point 8 which also contain the injection systems for Beam 1 and Beam 2, respectively. The remaining four straight sections do not have beam crossings. Insertion 3 and 7 each contain two collimation systems. Insertion 4 contains two RF systems: one independent system for each LHC beam. The straight section at point 6 contains the beam dump insertion where the two beams are vertically extracted from the machine using a combination of horizontally deflecting fast-pulsed ("kicker") magnets and vertically-deflecting double steel septum magnets. Each beam features an independent abort system.
 				
 				\begin{figure}[H]
 					\centering
@@ -98,9 +135,9 @@
 				\end{figure}
 			
 			\subsection{CERN accelerator complex}
-				The aim of the CERN accelerator complex (Figure \ref{fig:CERN_complex}) is to accelerate the particle beam, which could be inserted into LHC ring. The accelerator complex a succession of machines that accelerate particles to increasingly higher energies. Each machine boosts the energy of a beam of particles before injecting it into the next machine in the sequence. In the Large Hadron Collider (LHC), which is the last element in this chain, particle beams are accelerated up to the record energy of 6.5 TeV per beam.
+				The aim of the CERN accelerator complex (Figure \ref{fig:CERN_complex}) is to accelerate the particle beam, which could be inserted into LHC ring. The accelerator complex a succession of machines that accelerate particles to increasingly higher energies. Each machine boosts the energy of a beam of particles before injecting it into the next machine in the sequence. In the Large Hadron Collider (LHC), which is the last element in this chain, particle beams are accelerated up to the record energy of \textcolor{red}{6.5 TeV} per beam.
 				
-				Linear accelerator 4 (Linac4) became the source of proton beams for the CERN accelerator complex in 2020. It accelerates negative hydrogen ions to 160 MeV to prepare them to enter the Proton Synchrotron Booster (PSB). The ions are stripped of their two electrons during injection from Linac4 into the PSB, leaving only protons. These are accelerated to 2 GeV for injection into the Proton Synchrotron (PS), which pushes the beam up to 26 GeV. Protons are then sent to the Super Proton Synchrotron (SPS), where they are accelerated up to 450 GeV. The protons are finally transferred to the two beam pipes of the LHC. The beam in one pipe circulates clockwise while the beam in the other pipe circulates anticlockwise. It takes 4 minutes and 20 seconds to fill each LHC ring, and 20 minutes for the protons to reach their maximum energy of \textcolor{red}{6.5 TeV}. Beams circulate for many hours inside the LHC beam pipes under normal operating conditions. The two beams are brought into collision inside four detectors – ALICE, ATLAS, CMS and LHCb – where the total energy at the collision point is equal to \textcolor{red}{13 TeV}. In addition to accelerating protons, the accelerator complex can also accelerate lead ions.
+				Linear accelerator 4 (Linac4) became the source of proton beams for the CERN accelerator complex in 2020. It accelerates negative hydrogen ions to 160 MeV to prepare them to enter the Proton Synchrotron Booster (PSB). The ions are stripped of their two electrons during injection from Linac4 into the PSB, leaving only protons. These are accelerated to 2 GeV for injection into the Proton Synchrotron (PS), which pushes the beam up to 26 GeV. Protons are then sent to the Super Proton Synchrotron (SPS), where they are accelerated up to 450 GeV. The protons are finally transferred to the two beam pipes of the LHC. The beam in one pipe circulates clockwise while the beam in the other pipe circulates anticlockwise. It takes 4 minutes and 20 seconds to fill each LHC ring, and 20 minutes for the protons to reach their maximum energy of \textcolor{red}{6.5 TeV}. Beams circulate for many hours inside the LHC beam pipes under normal operating conditions. The two beams are brought into collision inside four detectors (ALICE, ATLAS, CMS and LHCb) where the total energy at the collision point is equal to \textcolor{red}{13 TeV}. In addition to accelerating protons, the accelerator complex can also accelerate lead ions.
 				
 				\begin{figure}[H]
 					\centering
@@ -291,7 +328,7 @@
 				\end{itemize}
 		
 	
-	\chapter{Photon reconstruction}
+	\chapter{Photon reconstruction}\label{chapter:ph_reco}
 		Event with photons in the final state are important signatures for many physics analyses envisaged at the LHC. For example, in the Higgs studies, the $H \to \gamma\gamma$ channel, despite the $\gamma\gamma$ branching fraction is subdominant, the analyses in this final state profit from an excellent mass resolution and manageable backgrounds. These events reconstruction mainly exploits data coming from the electromagnetic calorimeter (clusters) and the Inner Detector (ID) systems (tracks) \cite{Aad_2019}:
 		\begin{itemize}
 			\item a converted photon is a cluster matched to either two tracks forming a conversion vertex, or one track with the signature of an electron track without hits in the innermost pixel layer;
@@ -400,7 +437,7 @@
 			\subsection{Photon Identification}
 				The photon identification criteria \cite{Aad_2019} are designed to efficiently select prompt, isolated photons and reject backgrounds from hadronic jets. The photon identification is constructed from one-dimensional selection criteria, or a \textit{cut-based selection}, using the shower shape variables described in Table \ref{tab:parameters}. The variables using the EM first layer play a particularly important role in rejecting $\pi^0$ decays into two highly collimated photons. 
 				
-				The primary identification selection is labelled as \textit{Tight}, with less restrictive selections called \textit{Medium} and \textit{Loose}. The \textit{Loose} identification uses the $R_{had}$, $R_{had_1}$, $R_{\eta}$ and $w_{\eta_2}$ shower shape variables. The \textit{Medium} selection adds a loose cut on $E_{ratio}$. Because the reconstruction of photons in the ATLAS trigger system does not differentiate between converted and unconverted photons, the \textit{Loose} and \textit{Medium} identification criteria are the same for converted and unconverted photons. The Tight identification criteria are designed to select a subset of the photon candidates passing the \textit{Medium} criteria. Because the shower shapes vary due to the geometry of the calorimeter, the cut-based selection of \textit{Loose}, \textit{Medium} and \textit{Tight} are optimized separately in bins of $|\eta|$. The \textit{Tight} identification presented here is also optimized in separate bins of $E_T$. The \textit{Tight} identification is performed separately for converted and unconverted photons. The shower shapes of converted photons differ from unconverted photons due to the opening angle of the $e^+e^-$ conversion pair, which is amplified by the magnetic field, and from the additional interaction of the conversion pair with the material upstream of the calorimeters.
+				The primary identification selection is labelled as \textit{Tight}, with less restrictive selections called \textit{Medium} and \textit{Loose}. The \textit{Loose} identification uses the $R_{had}$, $R_{had_1}$, $R_{\eta}$ and $w_{\eta_2}$ shower shape variables. The \textit{Medium} selection adds a loose cut on $E_{ratio}$. Because the reconstruction of photons in the ATLAS trigger system does not differentiate between converted and unconverted photons, the \textit{Loose} and \textit{Medium} identification criteria are the same for converted and unconverted photons. The \textit{Tight} identification criteria are designed to select a subset of the photon candidates passing the \textit{Medium} criteria. Because the shower shapes vary due to the geometry of the calorimeter, the cut-based selection of \textit{Loose}, \textit{Medium} and \textit{Tight} are optimized separately in bins of $|\eta|$. The \textit{Tight} identification presented here is also optimized in separate bins of $E_T$. The \textit{Tight} identification is performed separately for converted and unconverted photons. The shower shapes of converted photons differ from unconverted photons due to the opening angle of the $e^+e^-$ conversion pair, which is amplified by the magnetic field, and from the additional interaction of the conversion pair with the material upstream of the calorimeters.
 				
 				\vspace{-1.83cm}
 				
@@ -527,7 +564,213 @@
 			\end{center}
 
 	\chapter{Statistical techniques}
-			
+		In particle physics experiments one often searches for processes that have been predicted but not yet seen, such as production of a Higgs boson. 
+		Typically, there are two forms for searches for new physics \cite{Higgs_statistic}:
+		\begin{itemize}
+			\item in the first, the total number of events is counted, which includes backgrounds and possible new physical events;
+			\item in the second form, we consider the distribution of the so-called invariant mass of the particles formed in high-energy collisions. When compared with known background physics, new physics is expected to result in excess events with invariant mass near that of the new physical particle.
+		\end{itemize}
+		Either type of search can be formalized statistically as a hypothesis test: in the first form as a contaminated Poisson count and in the second as a search for a bump above a background distribution. In either case, the statistical search may involve one of several outcomes:
+		\begin{enumerate}
+			\item the conclusion that the data are inconsistent with the null hypothesis of the known background physics but consistent with the hypothesized new physics, resulting in the sought-after discovery of a new physical particle;
+			\item the conclusion that the data are inconsistent with the hypothesized new physics;
+			\item an upper limit on a possible signal strength generated by the new physics;
+			\item a determination that the experiment is not sensitive enough to distinguish between new physics and the background;
+		\end{enumerate}
+	
+		\section{Formalism of a search as a statistical test}
+ 			The general procedure, used to search for a new phenomenon in the context of a frequentist statistical test, starts defining the null hypothesis, $H_0$, as describing only known processes, here designated as background. This is to be tested against the alternative $H_1$, which includes both background as well as the sought-after signal \cite{Statistic}. In order to quantify the level of agreement of the observed data with a given hypothesis $H$, the $p$-value is computed. The $p$-value is the probability, under assumption of $H$, of finding data of equal or greater incompatibility with the predictions of $H$. The measure of incompatibility can be based, for example, on the number of events found in designated regions of certain distributions or on the corresponding likelihood ratio for signal and background. One can regard the hypothesis as excluded if its $p$-value is observed below a specified threshold.
+ 			
+ 			In particle physics one usually converts the $p$-value into an equivalent significance, $Z$, defined such that a Gaussian distributed variable found $Z$ standard deviations above its mean has an upper-tail probability equal to $p$. That is,
+ 			\begin{equation}\label{eq:Z}
+ 				Z = \Phi^{-1}(1-p)
+ 			\end{equation}
+ 			where $\Phi^{-1}$ is the quantile (inverse of the cumulative distribution) of the standard Gaussian. In the particle physics community, the background hypothesis with a significance of at least $Z$ = 5 ($p = 2.87\times10^{-7}$) is considered rejected and this is assumed as an appropriate level to constitute a discovery. For purposes of excluding a signal hypothesis, a threshold $p$-value of 0.05 (95\% confidence level) is often used, which corresponds to $Z$ = 1.64.
+ 			
+ 			A widely used procedure to establish discovery (or exclusion) in particle physics is based on a frequentist significance test using a likelihood ratio as a test statistic. In addition to parameters of interest such as the rate (cross section) of the signal process, the signal and background models will contain in general \textit{nuisance parameters} whose values are not taken as known \textit{a priori} but rather must be fitted from the data. In an experiment for each event in the signal sample a variable $x$ is measured and it is used to construct a histogram $n = (n_1,\dots, n_N)$. The expectation value of $n_i$ can be written as
+ 			\begin{equation}
+ 				E[n_i] = \mu s_i + b_i
+ 			\end{equation}
+ 			where the mean number of entries in the $i$-th bin from signal and background are
+ 			\begin{equation}
+ 				s_i = s_{tot} \int_{i-bin} f_s(x;\boldsymbol{\theta_s}) dx
+ 			\end{equation}
+ 			\begin{equation}
+ 				b_i = b_{tot} \int_{i-bin} f_b(x;\boldsymbol{\theta_b}) dx
+ 			\end{equation}
+ 			$\mu$ is the strength of the signal process, with $\mu$ = 0 corresponding to the background-only hypothesis and $\mu$ = 1 being the nominal signal hypothesis. The functions $f_s(x;\boldsymbol{\theta_s})$ and $f_b(x;\boldsymbol{\theta_b})$ are the probability density functions (pdfs) of the variable $x$ for signal and background events, and $\boldsymbol{\theta_s}$ and $\boldsymbol{\theta_b}$ represent parameters that characterize the shapes of pdfs. $s_{tot}$ and $b_{tot}$ are the total mean numbers of signal and background events. $s_{tot}$ is fixed to the value predicted by the nominal signal model.
+ 			
+ 			In addition to the measured histogram \textbf{n} further subsidiary measurements are made in order to help constrain the nuisance parameters. Using a control sample, where one expects mainly background events, an other histogram $\textbf{m} = (m_1;\dots;m_M)$ is created, measuring the chosen variable. The expectation value of $m_i$ can be written as
+ 			\begin{equation}
+ 				E[m_i] = u_i(\boldsymbol{\theta})  
+ 			\end{equation}
+ 			where the $u_i$ are calculable quantities depending on the parameters $\boldsymbol{\theta} = (\boldsymbol{\theta}_b,\boldsymbol{\theta}_s,b_{tot})$. One often constructs this measurement so as to provide information on the background normalization parameter $b_{tot}$ and also possibly on the signal and background shape parameters.
+ 			
+ 			The likelihood function is the product of Poisson probabilities for all bins:
+ 			\begin{equation}
+ 				L(\mu,\boldsymbol{\theta}) = \prod_{j=1}^{N}\frac{(\mu s_j + b_j)^{n_j}}{n_j!}e^{-(\mu s_j + b_j)} \prod_{k=1}^{M}\frac{u_k^{m_k}}{m_k!}e^{-u_k}
+ 			\end{equation}
+ 			
+ 			To test a hypothesized value of $\mu$, the profile likelihood ratio is considered
+ 			\begin{equation}\label{eq:ML}
+ 				\lambda(\mu) = \frac{L(\mu,\hatsrm{\boldsymbol{\theta}})}{L(\hat{\mu},\hat{\boldsymbol{\theta}})}
+ 			\end{equation}
+ 			where $\hatsrm{\boldsymbol{\theta}}$ is the value of $\boldsymbol{\theta}$ that maximizes $L$ for the specified $\mu$. It is the conditional maximum-likelihood (ML) estimator of $\boldsymbol{\theta}$ (and thus is a function of $\mu$). The denominator of Eq. \ref{eq:ML} is the maximized (unconditional) likelihood function, so $\hat{\mu}$ and $\hat{\boldsymbol{\theta}}$ are their ML estimators.
+ 		
+ 		\section{Test statistic}
+ 			The likelihood-ratio test \cite{Statistic} is the basis for formal detection and, under the unified approach, the construction of upper limits and intervals. %Considering the null hypothesis, $H_0$: $\mu = \mu_0$, where $\mu_0$ is typically zero and the alternative hypothesis $H_{\mu}$: $\mu>0$, it is defined 
+ 			From the definition of $\lambda(\mu)$ in Eq. \ref{eq:ML}, one can see that $0 \leq \lambda \leq 1$, with $\lambda$ near 1 implying good agreement between the data and the hypothesized value of $\mu$. Equivalently it is convenient to use the statistic:
+ 			\begin{equation}\label{eq:t_mu}
+ 				t_{\mu} = -2\ln\lambda(\mu)
+ 			\end{equation}
+ 			as the basis of a statistical test. Higher values of $t_{\mu}$ thus correspond to increasing incompatibility between the data and $\mu$. To measure discrepancy between the data and the hypothesis, the $p$-value is calculated
+ 			\begin{equation}\label{eq:p_mu}
+ 				p_{\mu} = \int_{t_{\mu,obs}}^{\infty} f(t_{\mu}|\mu) dt_{\mu}
+ 			\end{equation}
+ 			where $t_{\mu,obs}$ is the value of the statistic $t_{\mu}$ observed from the data and $f(t_{\mu}|\mu)$ denotes the pdf of $t_{\mu}$ under the assumption of the signal strength $\mu$. The relation between the $p$-value and the observed $t_{\mu}$ and also with the significance $Z$ are illustrated in Figure \ref{fig:p_mu_Z}
+ 			\begin{figure}
+ 				\centering
+ 				\subfloat[]{\includegraphics[width=.49\textwidth,height=.245\textheight]{thesis_images/t_p_mu.png}}					
+ 				\subfloat[]{\includegraphics[width=.49\textwidth,height=.245\textheight]{thesis_images/Z_p_mu.png}} 
+ 				\caption{(a) Illustration of the relation between the $p$-value obtained from an observed value of the test statistic $t_{\mu}$.\\ (b) The standard normal distribution $\varphi(x)=(1/\sqrt{2\pi})\exp(-x^2/2)$ showing the relation between the significance $Z$ and the $p$-value.}
+ 				\label{fig:p_mu_Z}
+ 			\end{figure}
+ 			\vspace{-3cm}
+ 			Specific statistical tests are created starting from Eq. \ref{eq:t_mu} and used in specific cases:
+ 			\begin{itemize}
+ 				\item \textbf{Test statistic $\tilde{t}_\mu$ for $\mu\geq0$}: It is often assumed that the presence of a new signal can only increase the mean event rate beyond what is expected from background alone. Therefore, the signal process necessarily has $\mu\geq0$, and to take this into account, an alternative test statistic called $\tilde{t}_\mu$ is defined
+ 				\begin{equation}\label{eq:t_mu_tilde}
+ 					\tilde{t}_\mu = -2\ln\tilde{\lambda}(\mu) = 
+ 					\begin{cases}
+ 						-2\ln\frac{L(\mu,\hatsrm{\boldsymbol{\theta}}(\mu))}{L(0,\hatsrm{\boldsymbol{\theta}}(0))} & \hat{\mu}<0 \\
+ 						-2\ln\frac{L(\mu,\hatsrm{\boldsymbol{\theta}}(\mu))}{L(\hat{\mu},\hat{\boldsymbol{\theta}})} & \hat{\mu}\geq0 \\
+ 					\end{cases}
+ 				\end{equation}
+ 				Here $\hatsrm{\boldsymbol{\theta}}(0)$ and $\hatsrm{\boldsymbol{\theta}}(\mu$) refer to the conditional ML estimators of $\boldsymbol{\theta}$ given a strength parameter of $0$ or $\mu$, respectively. As was done with the statistic $t_\mu$, one can quantify the level of disagreement between the data and the hypothesized value of $\mu$ with the $p$-value, just as in Eq. \ref{eq:p_mu}.
+ 				
+ 				\item  \textbf{Test statistic $q_0$ for discovery of a positive signal}: An important special case of the statistic $\tilde{t}_\mu$ described above is used to test $\mu = 0$ in a class of model where it is assumed $\mu \geq 0$. Rejecting the $\mu=0$ hypothesis effectively leads to the discovery of a new signal. This statistical test is called $q_0=\tilde{t}_0$
+ 				\begin{equation}\label{eq:q_0}
+ 					q_0 = 
+ 					\begin{cases}
+ 						-2\ln\lambda(0) & \hat{\mu}\geq0 \\
+ 						0 & \hat{\mu}<0 \\
+ 					\end{cases}
+ 				\end{equation}
+ 				If the data fluctuate such that one finds fewer events than even predicted by background processes alone, then $\hat{\mu}<0$ and one has $q_0 = 0$. As the event yield increases above the expected background (increasing $\hat{\mu}$), one finds increasingly large values of $q_0$, corresponding to an increasing level of incompatibility between the data and the $\mu=0$ hypothesis. To quantify the level of disagreement between the data and the hypothesis of $\mu=0$ using the observed value of $q_0$ the $p$-value is computed
+ 				\begin{equation}\label{eq:p_0}
+ 					p_0 = \int_{q_{0,obs}}^{\infty} f(q_0|0)\ dq_0
+ 				\end{equation}
+ 				It is common to plot the local significance as a function of the Higgs mass, $m_H$ (Figure \ref{fig:p_0}).
+ 				\begin{figure}
+ 					\centering
+ 					\includegraphics[width=.6\textwidth]{thesis_images/p_0.png}			
+ 					\caption{Local significance as a function of the Higgs mass, $m_H$. Values are based on preliminary results from ATLAS and are compared with the expected local significance under the $\mu=1$ hypothesis.}
+ 					\label{fig:p_0}
+ 				\end{figure}
+ 			
+ 				\item \textbf{Test statistic $q_\mu$ for upper limits}: For purposes of establishing an upper limit on the strength parameter $\mu$, a test statistic $q_\mu$ is defined
+ 				\begin{equation}\label{eq:q_mu_limit}
+ 					q_\mu = 
+ 					\begin{cases}
+ 						-2\ln\lambda(\mu) & \hat{\mu}\leq\mu \\
+ 						0 & \hat{\mu}>\mu \\
+ 					\end{cases}
+ 				\end{equation}
+ 				The reason for setting $q_\mu=0$ for $\hat{\mu}>\mu$ is that when setting an upper limit, one would not regard data with $\hat{\mu}>\mu$ as representing less compatibility with $\mu$ than the data obtained, and therefore this is not taken as part of the rejection region of the test. From the definition of the test statistic one sees that higher values of $q_\mu$ represent greater incompatibility between the data and the hypothesized value of $\mu$. Then the level of agreement between the data and hypothesized $\mu$ can be quantified with $p$-value, which can be expressed as a significance using Eq. \ref{eq:Z}.
+ 				
+ 				In a search for a signal of unknown mass, the procedure of finding upper limit on $\mu$ for a specific value of the peak position (mass)(Figure \ref{fig:mu_limit}) would be repeated for all masses producing Figure \ref{fig:limits}, which shows the median upper limit at 95\% CL as a function of mass. The upper limit on $\mu$ at a confidence level CL$=1-\alpha$ is the value of $\mu$ for which the $p$-value is $p_\mu=\alpha$. The value $p_\mu = 0.05$ corresponds to the 95\% CL upper limit. The median (central blue line) and error bands ($\pm1\sigma$ in green, $\pm2\sigma$ in yellow) are obtained using Asimov datasets, which are dataset generated for a particular set of model parameters such that the maximum likelihood best-fit value of all those parameters are equal to their generated values \cite{Asimov}. 
+ 				\begin{figure}
+ 					\centering
+ 					\includegraphics[width=.6\textwidth]{thesis_images/mu_limit.png}			
+ 					\caption{Distribution of the upper limit on $\mu$ at 95\% CL, assuming data corresponding to the background-only hypothesis}
+ 					\label{fig:mu_limit}
+ 				\end{figure}
+	 			\begin{figure}[!h]
+	 				\centering
+	 				\includegraphics[width=.6\textwidth]{thesis_images/limits.png}			
+	 				\caption{CL$_S$ upper limits as a function of the Higgs mass, $m_H$, for ATLAS.}
+	 				\label{fig:limits}
+	 			\end{figure}
+ 			\end{itemize}
+ 			
+ 	\chapter{Medium mass $m_{\gamma\gamma}$ analysis}
+ 		As said before, this analysis focuses on the search for new spin-0 resonances in the [105,200] GeV diphoton invariant mass range, using data that have been collected by the ATLAS experiment during the Run2 of the LHC. A spin-0 resonant state, which is predicted by many models that include extensions to the Higgs sector \cite{BSM}, could provide clues about BSM physics. 	
+ 		
+ 		Since this analysis is in search of new physics, a model independent of the Standard Model is created. In order to have the most general model possible, only the gluon-gluon Fusion \textit{ggF} is considered in the analysis. This allows to avoid making any assumption on the production modes for the new resonances. The other production modes, which contribute to Higgs$_{125}$ SM production, are included as a signal yield systematic uncertainty. It is therefore possible to include and parameterise the ignorance of the relative importance of different production modes for additional scalar Higgs bosons. 
+ 		
+ 	 	Despite its small branching fraction (Figure \ref{fig: br}), thanks to its clean signature, the $H\to\gamma\gamma$ channel is an ideal channel for the discovery of a low-mass Higgs boson. The QCD di-photon production processes constitute the irreducible background component (Figure \ref{fig:irr bkg}), whereas the event composed by a $\gamma$ and a jet wrongly identified as $\gamma$ constitute the reducible one (Figure \ref{fig:rid bkg}). This last component can be suppressed by requiring events with good-quality photons. Therefore, the analysis is based on the selection of pairs of high-$p_T$ and isolated photons. In order to maximise the signal and background ratio an accurate study of these background components is essential.
+ 		\begin{figure}
+ 			\centering
+ 			\includegraphics[width=.5\textwidth]{thesis_images/br.jpg}
+ 			\caption{SM Higgs branching ratio}
+ 			\label{fig: br}
+ 		\end{figure}
+	 	\begin{figure}
+	 		\centering
+	 		\subfloat[$H\rightarrow\gamma\gamma$ irreducible background]{\includegraphics[width=.7\textwidth]{thesis_images/irr_bkg.png}\label{fig:irr bkg}}\\				
+	 		\subfloat[$H\rightarrow\gamma\gamma$ reducible background]{\includegraphics[width=.7\textwidth]{thesis_images/rid_bkg.png}\label{fig:rid bkg}}	
+	 		\caption{$H\rightarrow\gamma\gamma$ backgrounds}
+	 		\label{fig:bkgs}
+	 	\end{figure}
+ 		Then, the selected events are classified into mutually exclusive categories designed to enhance the analysis sensitivity. The signal in each category is modelled using simulated MC samples of SM (spin0) Higgs bosons decaying into two photons as a function of the mass of the resonance. For background modelling, a smoothly falling function fitted to data is used.
+ 		
+ 		A combined maximum likelihood fit in all the categories is performed to investigate the presence of a signal by computing the compatibility of the observed data with the background-only hypothesis. Limits on the signal cross section will be placed if no statistically significant excess with respect to the background expectation will be observed.
+ 		
+ 	
+ 		\section{Data and simulation samples}
+ 			\subsection{Data}
+ 			
+ 			\subsection{Simulation samples}
+ 				In order to optimize the analysis selections and characterize the signal and backgrounds, simulated Monte Carlo (MC) events are used. No data recorded by the ATLAS experiment are used for these steps, so as to avoid any bias in the analysis. 
+ 				
+ 				To model the spin-0 resonance signals, MC samples were generated for a hypothetical resonance mass $m_X$ (110, 125, 130 and 140 GeV) assuming a decay width $\Gamma_X$ of 4 MeV to describe a hypothetical resonance in the narrow-width approximation (NWA). Different type of Standard Model Higgs production modes are generated. \textit{ggF},\textit{VBF}, \textit{VH}, \textit{t$\bar{t}$H} and \textit{b$\bar{b}$H} are generated using PowhegBoxv2 \cite{Pow_1,Pow_2,Pow_3,Pow_4}. The \textit{ggF} 
+ 				
+
+ 	
+ 		\section{Event selection}
+ 			As described in Chapter \ref{chapter:ph_reco}, photons are reconstructed from calorimeter energy deposits, which are created using a dynamical, topological cell-clustering algorithm \cite{topo_cluster}. In order to fall inside the region of the electromagnetic (EM) calorimeter with a finely segmented first layer, reconstructed photons must satisfy $|\eta| < 2.37$ , and outside the range $1.37 < |\eta| < 1.52$ corresponding to the transition region between the barrel and endcap EM calorimeters. To reduce the impact of the contamination of jets photon candidates must satisfy identification criteria based on calorimeter shower shape variables \cite{Aad_2019}.
+ 			
+ 			Once the photon events are reconstructed, they pass through the selection step. Events are selected by first requiring at least two photons satisfying the \textit{loose} identification preselection criteria. The two highest-$p_T$ preselected photons are designated as the candidates for the diphoton system. Then the two preselected photons are required to satisfy the tight identification criteria and the isolation selection. This selection of photons includes isolation requirements, which are based on both calorimeter and track features, to further suppress jets misidentified as photons. Then additional kinematic requirements are required on the photon $p_T$ relative to the diphoton invariant mass: the leading photon must have $p_T/m_{\gamma\gamma} > 0.3$ and and the subleading photon must satisfy $p_T/m_{\gamma\gamma} > 0.25$.
+ 			
+ 			The fiducial volume for the spin-0 interpretation is defined in order to mimic the selection at the reconstruction level. Therefore, at truth level, two photons with $|\eta|<2.37$, $p_T/m_{\gamma\gamma} > 0.3$ and $p_T/m_{\gamma\gamma} > 0.25$ for the leading and subleading photons, respectively, are required. A isolation cut to the two photons is also applied by requiring that the sum of $E_T$ of all the stable particles (except neutrinos) found within a $\Delta = 0.2$ cone around the photon direction, less than $0.065\cdot p_T$. 
+ 			
+ 			\textcolor{red}{Aggiungere magari tabella con tutti i numeri dei vari prod modes per le due selezioni, magari mettere in appendice}
+ 			
+ 			\begin{table}[tbp]
+ 				\centering
+					\begin{tabular}{llcc}
+						\toprule[1.5pt]
+						Parameter									& Name						& Reconstruction Level	& Truth Level		\\
+						\midrule
+						$|\eta^{\gamma_1}|$							& $\eta$ cut				& $<2.37$ 				& $<2.37$			\\
+						$|\eta^{\gamma_2}|$							& $\eta$ cut				& $<2.37$ 				& $<2.37$			\\
+						$p_T^{\gamma_1}/m_{\gamma\gamma}^{Truth}$	& Scalar relative $p_T$ cut & > 0.3					& > 0.3    			\\
+						$p_T^{\gamma_2}/m_{\gamma\gamma}^{Truth}$	& Scalar relative $p_T$ cut & > 0.25				& > 0.25			\\
+						$E_{T}^{cone20\ \gamma_1}/p_T^{\gamma_1}$ 	& Isolation cut 			& $\neg$				& < 0.065 			\\
+						$E_{T}^{cone20\ \gamma_2}/p_T^{\gamma_2}$ 	& Isolation cut 			& $\neg$				& < 0.065			\\
+						\bottomrule[1.5pt]
+					\end{tabular}
+ 				\caption{Selection cuts of reconstructed and fiducial events }
+ 			\end{table}
+ 			
+ 		\section{Categorisation}
+ 			\begin{figure}
+ 				\centering
+ 				\subfloat[Inclusive categorisation]{\includegraphics[width=1.\textwidth]{thesis_images/inclusive_tree.pdf}\label{fig:inclusive}}\\
+ 				\subfloat[\texttt{catConvEta} categorisation]{\includegraphics[width=1.\textwidth]{thesis_images/catConvEta_tree.pdf}\label{fig:catConvEta}}\\				
+ 				\subfloat[\texttt{catConv} categorisation]{\includegraphics[width=1.\textwidth]{thesis_images/catConv_tree.pdf}\label{fig:catConv}}	
+ 				\caption{Different type of categorisation}
+ 				\label{fig:Cats}
+ 			\end{figure}
+ 		\section{Models}
+ 		
+ 			\subsection{Signal Modelling}
+ 			
+ 			\subsection{Non resonant background}
+ 			
+ 			\subsection{Higgs Standard Model background}
+ 				
+ 		\subsection{Systematic uncertainties}
 	\newpage
 	\bibliography{biblio.bib}
 	\bibliographystyle{unsrturl}
