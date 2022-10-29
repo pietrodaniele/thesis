@@ -20,3 +20,4 @@
 \beamer@sectionintoc {19}{19$^{th}$ week}{268}{0}{19}
 \beamer@sectionintoc {20}{20$^{th}$ week}{276}{0}{20}
 \beamer@sectionintoc {21}{21$^{th}$ week}{289}{0}{21}
+\beamer@sectionintoc {22}{22$^{th}$ week}{313}{0}{22}
