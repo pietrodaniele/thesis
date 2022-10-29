@@ -87,7 +87,7 @@
 	\tableofcontents
 	
 	\chapter*{Introduction}\addcontentsline{toc}{chapter}{Introduction}
-	\iffalse
+	
 		In 2012, the ATLAS and CMS Collaborations discovered a new boson \cite{higgs_atlas},\cite{higgs_cms} that was consistent with the Higgs boson predicted by the Standard Model of particle physics (SM). Its discovery confirmed the Higgs mechanism for the electroweak symmetry breaking.
 		
 		While the measurements of the production and decay rates of the 125-GeV Higgs boson ($h_{125}$) are presently consistent with the predictions for the Higgs boson in the Standard Model, there is no requirement for the Higgs sector to be minimal. Extended Higgs sectors can address some of the shortcomings of the SM. For example, the SM provides no dark matter candidate and no explanation for the matter-antimatter asymmetry in the universe, so there must be physics beyond the Standard Model (BSM). On a more theoretical level, %the vast discrepancy between aspects of the weak nuclear force and gravity, 
@@ -97,10 +97,11 @@
 		
 		
 		
-		Extended scalar sectors have two main phenomenological consequences \cite{ext_higgs}\cite{Englert_2014}. Firstly, they lead to additional states, which can come in the form of additional neutral and charged scalars (commonly referred to as additional Higgs bosons). These states can be produced directly at high-energy colliders or leave imprints in precision electroweak measurements. Secondly, extended scalar sectors may modify $h_{125}$ couplings compared with the SM. Therefore, focusing on the first consequence, extended Higgs models give rise to neutral and charged Higgs bosons, which in turn decay into various final states based on their mass and couplings. One of them is the di-photon final state: a search for spin-0 new resonances, in addition to $h_{125}$ Higgs boson, can be performed using the di-photon channel. While the $\gamma\gamma$ branching fraction is subdominant, the searches in this final state profit from an excellent mass resolution and manageable backgrounds.
+		Extended scalar sectors have two main phenomenological consequences \cite{ext_higgs}\cite{Englert_2014}. Firstly, they lead to additional states, which can come in the form of additional neutral and charged scalars (commonly referred to as additional Higgs bosons). These states can be produced directly at high-energy colliders or leave imprints in precision electroweak measurements. Secondly, extended scalar sectors may modify $h_{125}$ couplings compared with the SM. Therefore, focusing on the first consequence, extended Higgs models give rise to neutral and charged Higgs bosons, which in turn decay into various final states based on their mass and couplings. One of them is the di-photon final state: a search for spin-0 new resonances, in addition to $h_{125}$ Higgs boson, can be performed using the di-photon channel. While the $\gamma\gamma$ branching fraction is subdominant, the searches in this final state profit from an excellent mass resolution and manageable backgrounds. 
 		
-		Therefore, searching for additional Higgs boson from $pp$ collisions in the two photons final states provides a great opportunity to test BSM physics.
-		\fi
+		Searching for additional Higgs boson from $pp$ collisions in the two photons final states provides a great opportunity to test BSM physics. Therefore, in this thesis, a search for spin-0 new resonances, in addition to the 125-GeV Standard Model (SM) Higgs boson, will be performed in the $\gamma\gamma$ channel in the [105,200] GeV invariant mass range. Searches have been carried out for $m_H$ near 125 GeV in the context of the SM Higgs boson analysis \cite{Lanyov_2014} as well as for higher \cite{2021136651}\cite{2017105} and lower masses (65 < $m_H $ < 110 GeV) \cite{ATLAS-CONF-2018-025}. None of these analyses showed a significant signal excess above the background-only expectations.  The analysis is based on the selection of pairs of high-$p_T$ and isolated photons. The events will be classified into mutually exclusive categories designed to enhance the analysis sensitivity. Different categorisations are tested and compared with each other. The signal in each category is defined as a function of the mass of the resonance and its model is created using simulated MC samples of SM (spin0) Higgs bosons decaying into two photons. The background in each category is described by a smoothly falling function whose normalization and shape parameters will be determined from \textcolor{red}{MC samples}. Since the model must be SM independent in order to investigate the presence of new spin-0 resonances, the SM Higgs$_{125}$ is also included as background. A combined maximum likelihood fit in all the categories is performed to investigate the presence of a signal by computing the compatibility of the observed data with the background-only hypothesis. Looking at limits on the signal cross for each models built with different categorisation, the best working point is selected. \textcolor{red}{Credo di dover aggiungere i risultati brevemente quando finito}
+		
+		 L section will be placed if no statistically significant excess with respect to the background expectation will be observed.
 		
 	
 	\chapter{LHC and ATLAS Detector}
@@ -727,7 +728,7 @@
  				
 
  	
- 		\section{Event selection}
+ 		\section{Event selection}\label{section:selection}
  			As described in Chapter \ref{chapter:ph_reco}, photons are reconstructed from calorimeter energy deposits, which are created using a dynamical, topological cell-clustering algorithm \cite{topo_cluster}. In order to fall inside the region of the electromagnetic (EM) calorimeter with a finely segmented first layer, reconstructed photons must satisfy $|\eta| < 2.37$ , and outside the range $1.37 < |\eta| < 1.52$ corresponding to the transition region between the barrel and endcap EM calorimeters. To reduce the impact of the contamination of jets photon candidates must satisfy identification criteria based on calorimeter shower shape variables \cite{Aad_2019}.
  			
  			Once the photon events are reconstructed, they pass through the selection step. Events are selected by first requiring at least two photons satisfying the \textit{loose} identification preselection criteria. The two highest-$p_T$ preselected photons are designated as the candidates for the diphoton system. Then the two preselected photons are required to satisfy the tight identification criteria and the isolation selection. This selection of photons includes isolation requirements, which are based on both calorimeter and track features, to further suppress jets misidentified as photons. Then additional kinematic requirements are required on the photon $p_T$ relative to the diphoton invariant mass: the leading photon must have $p_T/m_{\gamma\gamma} > 0.3$ and and the subleading photon must satisfy $p_T/m_{\gamma\gamma} > 0.25$.
@@ -744,17 +745,25 @@
 						\midrule
 						$|\eta^{\gamma_1}|$							& $\eta$ cut				& $<2.37$ 				& $<2.37$			\\
 						$|\eta^{\gamma_2}|$							& $\eta$ cut				& $<2.37$ 				& $<2.37$			\\
-						$p_T^{\gamma_1}/m_{\gamma\gamma}^{Truth}$	& Scalar relative $p_T$ cut & > 0.3					& > 0.3    			\\
-						$p_T^{\gamma_2}/m_{\gamma\gamma}^{Truth}$	& Scalar relative $p_T$ cut & > 0.25				& > 0.25			\\
-						$E_{T}^{cone20\ \gamma_1}/p_T^{\gamma_1}$ 	& Isolation cut 			& $\neg$				& < 0.065 			\\
-						$E_{T}^{cone20\ \gamma_2}/p_T^{\gamma_2}$ 	& Isolation cut 			& $\neg$				& < 0.065			\\
+						$p_T^{\gamma_1}/m_{\gamma\gamma}$			& Scalar relative $p_T$ cut & > 0.3					& > 0.3    			\\
+						$p_T^{\gamma_2}/m_{\gamma\gamma}$			& Scalar relative $p_T$ cut & > 0.25				& > 0.25			\\
+						$E_{T}^{cone20\ \gamma_1}/p_T^{\gamma_1}$ 	& Isolation cut 			& < 0.065				& < 0.065 			\\
+						$E_{T}^{cone20\ \gamma_2}/p_T^{\gamma_2}$ 	& Isolation cut 			& < 0.065				& < 0.065			\\
+						$p_{T}^{cone20\ \gamma_1}/p_T^{\gamma_1}$ 	& Isolation cut 			& < 0.05				& X		 			\\
+						$p_{T}^{cone20\ \gamma_2}/p_T^{\gamma_2}$ 	& Isolation cut 			& < 0.05				& X					\\
 						\bottomrule[1.5pt]
 					\end{tabular}
  				\caption{Selection cuts of reconstructed and fiducial events }
  			\end{table}
  			
  		\section{Categorisation}
- 			\begin{figure}
+ 			The selected events, described in Section \ref{section:selection}, are classified into mutually exclusive categories. Their definition is a crucial step: an appropriate choice of categories makes it possible to maximise the signal over background (S/B) ratio and thus provide an analysis as sensitive to new spin-0 resonances as possible. In 2012, the commonly used categorization, which is based on photon conversion, $|\eta_{S2}|$ and $p_{Tt_{\gamma\gamma}}$, was used for the Higgs boson discovery with the Run1 data \cite{higgs_atlas}. It is not possible to apply this categorization in a model independent analysis, in which only \textit{ggF} production mode is used whereas the others are included as a systematic uncertain. Indeed, due to the different production modes $p_{Tt_{\gamma\gamma}}$ distribution, applying the di-photon system transverse momentum selections of the Run1 discovery categorization would produce unacceptable values of this uncertainty (\textcolor{red}{Approfondimento appendice?}). Therefore three different type of categorisation have been created by simplifying Run1 discovery one:
+ 			\begin{itemize}
+ 				\item \textbf{Incluisive}: the first one is the simplest type of categorisation, no cuts are applied (Figure \ref{fig:inclusive}). So, all selected events are included in the analysis in a single group. The \texttt{Inclusive} categorisation is used as benchmark for how much improvement stronger categorisations bring and whether it is worth using them. 
+ 				\item \textbf{catConvEta}: the \texttt{catConvEta} categorisation is the Run1 discovery one without the $p_{Tt_{\gamma\gamma}}$ selections. Therefore there are 6 different categories: events with two unconverted photons are separated into \textit{unconverted} central ($|\eta|<0.75$ for both candidates), \textit{unconverted} transition (at least one photon with $1.3<|\eta|<1.75$) and \textit{unconverted} rest (all other events), events with at least one converted photon are separated into \textit{converted} central ($|\eta|<0.75$ for both candidates), \textit{converted} transition (at least one photon with $1.3<|\eta|<1.75$) and \textit{converted} rest (all other events). Therefore the \texttt{catConvEta} categorisation is based on conversion and $\eta$ cuts (Figure \ref{fig:catConvEta}).
+ 				\item \textbf{catConv}: the \texttt{catConv} categorisation is a further simplification of the Higgs$_{125}$ discovery categories. It is composed only of the conversion cut, therefore there are only two categories: events with two unconverted photons and events with at least one converted photon (Figure \ref{fig:catConv}).
+ 			\end{itemize}
+ 			\begin{figure}[h!]
  				\centering
  				\subfloat[Inclusive categorisation]{\includegraphics[width=1.\textwidth]{thesis_images/inclusive_tree.pdf}\label{fig:inclusive}}\\
  				\subfloat[\texttt{catConvEta} categorisation]{\includegraphics[width=1.\textwidth]{thesis_images/catConvEta_tree.pdf}\label{fig:catConvEta}}\\				
@@ -763,14 +772,98 @@
  				\label{fig:Cats}
  			\end{figure}
  		\section{Models}
- 		
+ 			The signal and backgrounds modelling process is completely led and determined by the specific $H\to\gamma\gamma$ channel $m_{\gamma\gamma}$ distribution. This distribution in each category is described by an extended probability density function (pdf) in which the signal and background shapes are analytic functions of $m_{\gamma\gamma}$. In this analysis, the analytic functions are defined over the [100,195] GeV di-photon invariant mass range, with a blind search in [110,170] GeV $m_X$ range. Then a simultaneous fit of these pdfs is applied to the $m_{\gamma\gamma}$ distributions in the categories. Systematic uncertainties related to yield, shape of signal and background modelling are incorporated into the likelihood model as nuisance parameters. 
+ 			
  			\subsection{Signal Modelling}
- 			
- 			\subsection{Non resonant background}
- 			
- 			\subsection{Higgs Standard Model background}
+ 				The signal shape is described by a Double-Sided Crystal Ball (DSCB) distribution: a gaussian core, which is useful to describe the mass of $H\to\gamma\gamma$ candidates, completed by power-law tails at lower and higher $m_{\gamma\gamma}$ values. To create an analysis sensitive to additional spin-0 resonances, the signal model will be function of $m_H$. Therefore, in the model, each DSCB parameter is inserted as a linear distribution of $m_H$:
+ 				\begin{equation}\label{eq:DSCB_par}
+ 					p^{DSCB} = A_p + B_p\cdot m_H
+ 				\end{equation}
+ 				where $p^{DSCB}$ is a DSCB parameter. The $A_p$ and $B_p$ for each DSCB parameters in each category are obtained by a simultaneous fit to four different resonance mass (110, 125, 130 and 140 GeV) \textit{ggF} MC samples.
+ 				\begin{figure}
+ 					\centering
+ 					\includegraphics[width=.8\textwidth]{thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf}
+ 					\caption{Signal fit using a DSCB for the \texttt{Inclusive} categorisation}
+ 					\label{fig:sig_fit}
+ 				\end{figure}
  				
- 		\subsection{Systematic uncertainties}
+ 				In each category $i$, the normalization of the signal pdf, called signal yield, is expressed as:
+ 				\begin{equation}\label{eq:signal_yield}
+ 					N^i = \sigma_{ggF}(m_H) \cdot A_X(m_H) \cdot Br_{\gamma\gamma}(m_H) \cdot \mathcal{L}_{Run2} \cdot C_X^i(m_H)
+ 				\end{equation}
+ 				where:
+ 				\begin{itemize}
+ 					\item $\sigma_{ggF}(m_H)$ is the cross-section value for the specific $m_H$ obtained by fitting the $\sigma$ values for different masses, showed in Figure \ref{fig:xs_fit}.
+ 					\item $A_X(m_H)$ is the acceptance value for the specific mass obtained from the linear fit of the four $A_X$ values for the four resonance masses showed in Figure \ref{fig:ax_fit}. The $A_X$ factor for each resonance mass is defined as the ratio of the number of events that pass the fiducial selection $n_{fid}$ and the total number of MC sample events $n_{all}$: $A_X = n_{fid}/n_{all}$.
+ 					\item $Br_{\gamma\gamma}(m_H)$ is the branching fraction value for the specific $m_H$ obtained by fitting the $Br_{\gamma\gamma}$ values for different masses, showed in Figure \ref{fig:br_fit}.  
+ 					\item $\mathcal{L}_{Run2}$ is the value of the luminosity of LHC Run2 and it is 140 fb$^{-1}$.
+ 					\item $C_X^i(m_H)$ for the specific mass is obtained from the linear fit of the four $C_X^i$ values for the four resonance masses showed in Figure \ref{fig:cx_fit}. $C_X^i$ is the ratio of the number of events that pass the selection after the reconstruction $n_{reco}$ and the number of those that pass the fiducial selection $n_{fid}$: $A_X = n_{reco}/n_{fid}$.. Therefore, the $C_X^i$ factors are calculated for each resonance mass and for $i$ category. It is the 
+ 				
+ 					\begin{figure}[h!]
+ 						\centering
+ 						\subfloat[$\sigma$ fit]{\includegraphics[width=.49\textwidth]{thesis_images/x_section_fit.pdf}\label{fig:xs_fit}}
+ 						\subfloat[$A_X$ fit]{\includegraphics[width=.49\textwidth]{thesis_images/ax_fit.pdf}\label{fig:ax_fit}}\\
+ 						\subfloat[$Br_{\gamma\gamma}$ fit]{\includegraphics[width=.49\textwidth]{thesis_images/br_fit.pdf}\label{fig:br_fit}}				
+ 						\subfloat[$C_X^i(m_H)$ fit for the \texttt{Inclusive} categorisation]{\includegraphics[width=.49\textwidth]{thesis_images/cx_fit_catConvEta_no.pdf}\label{fig:cx_fit}}	
+ 						\caption{Signal yield fit component}
+ 						\label{fig:signal_yiels}
+ 					\end{figure}
+ 				\end{itemize}
+ 				
+ 			\subsection{Non resonant background}
+ 				The non-resonant background in the $m_{\gamma\gamma}$ spectrum comes mainly from the non-resonant production of photon pairs ($\gamma\gamma$ events Figure \ref{fig:irr bkg}), smaller background components come from events containing a photon and a jet ($\gamma j$ events) and events with two jets ($jj$ events), where the jets are misidentified as photons (Figure \ref{fig:rid bkg}). Therefore, the background in each category is estimated from \texttt{Sherpa} di-photon MC samples by fitting the $m_{\gamma\gamma}$ spectrum in the mass range [100,195] GeV with a selected model with free parameters of shape and normalisation. The fitting range is set wider than the blind search range ([110,170] GeV $m_X$) in order to have enough events in the $m_{\gamma\gamma}$ side-bands to ensure a good description by the analytic form.
+ 				
+ 				\begin{figure}[h]
+ 					\centering
+ 					\includegraphics[width=.8\textwidth]{thesis_images/bkg_100_195GeV_fit_catConvEta_no.pdf}
+ 					\caption{Non-resonant background fit using the \ref{eq:bkg} function form for the \texttt{Inclusive} categorisation}
+ 					\label{fig:bkg_fit}
+ 				\end{figure}
+ 				The functional form used for the description of the non-resonant background in the $i$ category is (Figure \ref{fig:bkg_fit}):
+ 				\begin{equation}\label{eq:bkg}
+ 					f^i_{bkg}(m_{\gamma\gamma},N_{bkg}^i,a^i,b^i) = N_{bkg}^i\cdot\exp^{(a\cdot m_{\gamma\gamma}+b\cdot m_{\gamma\gamma}^2)}
+ 				\end{equation}
+ 				where $N_{bkg}^i$, which is the non-resonant background normalisation, $a^i$ and $b^i$ are free parameters.
+ 				
+ 			\subsection{Higgs Standard Model background}
+ 				Since the model must be SM independent in order to investigate the presence of new spin-0 resonances, the SM Higgs$_{125}$ is included as a resonant background (HSM). It is described by a DSCB fit to HSM sample, which is obtained by merging all SM Higgs$_{125}$ production MC samples generated with a resonance mass $m_H=125$ GeV (Figure \ref{fig:HSM_fit}) Therefore for the $i$ category:
+ 				\begin{itemize}
+ 					\item the DSCB fit is applied to $i$ category HSM sample;
+ 					\item all DSCB parameters are fixed at their value after the fit and inserted in the analysis;
+ 					\item the HSM background yield is obtained by counting the total number of events of $i$ category HSM sample;
+ 				\end{itemize}  
+ 				Therefore, the HSM model has no free parameter, but they can be shifted due to the systematic experimental uncertainties that are included into the analysis, described in the next Section \ref{section:syst}
+ 				\begin{table}
+ 					\centering
+						\begin{tabular}{lc}
+							\toprule[1.5pt]
+							Cat &  HSM\_events \\
+							\midrule
+							Inclusive & 6232.25 \\
+							\midrule
+							catConvEta\_1 & 960.525 \\
+							catConvEta\_2 & 1600.96 \\
+							catConvEta\_3 & 466.921 \\
+							catConvEta\_4 & 599.439 \\
+							catConvEta\_5 & 1820.56 \\
+							catConvEta\_6 & 787.967\\
+							\midrule
+							catConv\_1 & 3028.29 \\
+							catConv\_2 & 3207.86 \\
+							\bottomrule[1.5pt]
+						\end{tabular}
+ 					\caption{\centering Number of SM Higgs$_{125}$ events for each category}
+ 				\end{table}
+ 				\begin{figure}[]
+ 					\centering
+ 					\includegraphics[width=.8\textwidth]{thesis_images/HSM_fit_catConvEta_no.pdf}
+ 					\caption{SM Higgs$_{125}$ resonant background fit using a DSCB for the \texttt{Inclusive} categorisation}
+ 					\label{fig:HSM_fit}
+ 				\end{figure}
+ 			
+ 			
+ 			
+ 		\subsection{Systematic uncertainties}\label{section:syst}
 	\newpage
 	\bibliography{biblio.bib}
 	\bibliographystyle{unsrturl}

@@ -1,39 +1,39 @@
 \contentsline {chapter}{Introduction}{4}{chapter*.3}%
-\contentsline {chapter}{\numberline {1}LHC and ATLAS Detector}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}LHC}{5}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}LHC layout}{5}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}CERN accelerator complex}{7}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Proton-proton collisions}{8}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}ATLAS}{10}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Coordinate system}{10}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Magnet system}{11}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Inner Detector}{11}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Calorimetry}{12}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Muon system}{15}{subsection.1.2.5}%
-\contentsline {subsection}{\numberline {1.2.6}Trigger system}{16}{subsection.1.2.6}%
-\contentsline {chapter}{\numberline {2}Photon reconstruction}{18}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The topo-cluster reconstruction}{19}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Track reconstruction}{20}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Track-cluster matching and photon conversion reconstruction}{21}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Supercluster reconstruction}{22}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Electron and photon ambiguity resolution}{23}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Calibration}{23}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Identification}{25}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Photon Identification}{25}{subsection.2.7.1}%
-\contentsline {section}{\numberline {2.8}Isolation}{25}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}Photon isolation criteria and efficiency measurements}{28}{subsection.2.8.1}%
-\contentsline {chapter}{\numberline {3}Statistical techniques}{30}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Formalism of a search as a statistical test}{30}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Test statistic}{32}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Medium mass $m_{\gamma \gamma }$ analysis}{36}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Data and simulation samples}{38}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Data}{38}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Simulation samples}{38}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Event selection}{38}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Categorisation}{39}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Models}{39}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Signal Modelling}{39}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Non resonant background}{39}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Higgs Standard Model background}{39}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Systematic uncertainties}{39}{subsection.4.4.4}%
-\contentsline {chapter}{Bibliography}{43}{chapter*.30}%
+\contentsline {chapter}{\numberline {1}LHC and ATLAS Detector}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}LHC}{6}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}LHC layout}{6}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}CERN accelerator complex}{8}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Proton-proton collisions}{9}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}ATLAS}{11}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Coordinate system}{11}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Magnet system}{12}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Inner Detector}{12}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Calorimetry}{13}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Muon system}{16}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Trigger system}{17}{subsection.1.2.6}%
+\contentsline {chapter}{\numberline {2}Photon reconstruction}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The topo-cluster reconstruction}{20}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Track reconstruction}{21}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Track-cluster matching and photon conversion reconstruction}{22}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Supercluster reconstruction}{23}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Electron and photon ambiguity resolution}{24}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Calibration}{24}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Identification}{26}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Photon Identification}{26}{subsection.2.7.1}%
+\contentsline {section}{\numberline {2.8}Isolation}{26}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Photon isolation criteria and efficiency measurements}{29}{subsection.2.8.1}%
+\contentsline {chapter}{\numberline {3}Statistical techniques}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Formalism of a search as a statistical test}{31}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Test statistic}{33}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Medium mass $m_{\gamma \gamma }$ analysis}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Data and simulation samples}{39}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Data}{39}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Simulation samples}{39}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Event selection}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Categorisation}{40}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Models}{42}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Signal Modelling}{42}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Non resonant background}{43}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Higgs Standard Model background}{44}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Systematic uncertainties}{45}{subsection.4.4.4}%
+\contentsline {chapter}{Bibliography}{50}{chapter*.35}%

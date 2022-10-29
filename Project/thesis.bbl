@@ -1,5 +1,105 @@
 \begin{thebibliography}{10}
 
+\bibitem{higgs_atlas}
+ATLAS Collaboration.
+\newblock Observation of a new particle in the search for the standard model
+  higgs boson with the {ATLAS} detector at the {LHC}.
+\newblock {\em Physics Letters B}, 716(1):1--29, 2012.
+\newblock \href {https://doi.org/10.1016/j.physletb.2012.08.020}
+  {\path{doi:10.1016/j.physletb.2012.08.020}}.
+
+\bibitem{higgs_cms}
+CMS Collaboration.
+\newblock Observation of a new boson at a mass of 125 {GeV} with the {CMS}
+  experiment at the {LHC}.
+\newblock {\em Physics Letters B}, 716(1):30--61, sep 2012.
+\newblock \href {https://doi.org/10.1016/j.physletb.2012.08.021}
+  {\path{doi:10.1016/j.physletb.2012.08.021}}.
+
+\bibitem{ext_higgs}
+Jan Steggemann.
+\newblock {Extended Scalar Sectors}.
+\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 70:197--223. 29 p, 2020.
+\newblock \href {https://doi.org/10.1146/annurev-nucl-032620-043846}
+  {\path{doi:10.1146/annurev-nucl-032620-043846}}.
+
+\bibitem{Branco_2012}
+G.C. Branco, P.M. Ferreira, L.~Lavoura, M.N. Rebelo, Marc Sher, and
+  Jo{\~{a}}o~P. Silva.
+\newblock Theory and phenomenology of two-higgs-doublet models.
+\newblock {\em Physics Reports}, 516(1-2):1--102, jul 2012.
+\newblock \href {https://doi.org/10.1016/j.physrep.2012.02.002}
+  {\path{doi:10.1016/j.physrep.2012.02.002}}.
+
+\bibitem{dine_2016}
+Michael Dine.
+\newblock {\em Supersymmetry and String Theory: Beyond the Standard Model}.
+\newblock Cambridge University Press, 2 edition, 2016.
+\newblock \href {https://doi.org/10.1017/CBO9781107261426}
+  {\path{doi:10.1017/CBO9781107261426}}.
+
+\bibitem{Djouadi_2008}
+A~Djouadi, M~Drees, U~Ellwanger, R~Godbole, C~Hugonie, S.F King, S~Lehti,
+  S~Moretti, A~Nikitenko, I~Rottländer, M~Schumacher, and A.M Teixeira.
+\newblock Benchmark scenarios for the {NMSSM}.
+\newblock {\em Journal of High Energy Physics}, 2008(07):002--002, jul 2008.
+\newblock \href {https://doi.org/10.1088/1126-6708/2008/07/002}
+  {\path{doi:10.1088/1126-6708/2008/07/002}}.
+
+\bibitem{Dawson_2019}
+Sally Dawson, Christoph Englert, and Tilman Plehn.
+\newblock Higgs physics: It ain't over till it is over.
+\newblock {\em Physics Reports}, 816:1--85, jul 2019.
+\newblock \href {https://doi.org/10.1016/j.physrep.2019.05.001}
+  {\path{doi:10.1016/j.physrep.2019.05.001}}.
+
+\bibitem{PhysRevD.98.030001}
+M.~et~al Tanabashi.
+\newblock Review of particle physics.
+\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
+\newblock \href {https://doi.org/10.1103/PhysRevD.98.030001}
+  {\path{doi:10.1103/PhysRevD.98.030001}}.
+
+\bibitem{Englert_2014}
+C~Englert, A~Freitas, M~M Mühlleitner, T~Plehn, M~Rauch, M~Spira, and K~Walz.
+\newblock Precision measurements of higgs couplings: implications for new
+  physics scales.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics},
+  41(11):113001, sep 2014.
+\newblock \href {https://doi.org/10.1088/0954-3899/41/11/113001}
+  {\path{doi:10.1088/0954-3899/41/11/113001}}.
+
+\bibitem{Lanyov_2014}
+A~V Lanyov.
+\newblock {CMS} collaboration results: Higgs boson and search for new physics.
+\newblock {\em Physics-Uspekhi}, 57(9):923--930, sep 2014.
+\newblock \href {https://doi.org/10.3367/ufne.0184.201409i.0996}
+  {\path{doi:10.3367/ufne.0184.201409i.0996}}.
+
+\bibitem{2021136651}
+ATLAS Collaboration.
+\newblock Search for resonances decaying into photon pairs in 139 fb-1 of pp
+  collisions at $\sqrt{s}$=13 tev with the atlas detector.
+\newblock {\em Physics Letters B}, 822:136651, 2021.
+\newblock \href {https://doi.org/10.1016/j.physletb.2021.136651}
+  {\path{doi:10.1016/j.physletb.2021.136651}}.
+
+\bibitem{2017105}
+ATLAS Collaboration.
+\newblock Search for new phenomena in high-mass diphoton final states using 37
+  fb$^{-1}$ of proton–proton collisions collected at $\sqrt{s}$=13 tev with
+  the atlas detector.
+\newblock {\em Physics Letters B}, 775:105--125, 2017.
+\newblock \href {https://doi.org/10.1016/j.physletb.2017.10.039}
+  {\path{doi:10.1016/j.physletb.2017.10.039}}.
+
+\bibitem{ATLAS-CONF-2018-025}
+{Search for resonances in the 65 to 110 GeV diphoton invariant mass range using
+  80 fb$^{-1}$ of $pp$ collisions collected at $\sqrt{s}=13$ TeV with the ATLAS
+  detector}.
+\newblock Technical report, CERN, Geneva, Jul 2018.
+\newblock URL: \url{https://cds.cern.ch/record/2628760}.
+
 \bibitem{LHC_DESIGN_2004}
 Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
   Poole, and Paul Proudlock.
