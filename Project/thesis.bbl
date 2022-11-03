@@ -100,6 +100,20 @@ ATLAS Collaboration.
 \newblock Technical report, CERN, Geneva, Jul 2018.
 \newblock URL: \url{https://cds.cern.ch/record/2628760}.
 
+\bibitem{LHC_DESIGN_2008}
+Lyndon Evans and Philip Bryant.
+\newblock Lhc machine.
+\newblock {\em Journal of Instrumentation}, 3(08):S08001, aug 2008.
+\newblock \href {https://doi.org/10.1088/1748-0221/3/08/S08001}
+  {\path{doi:10.1088/1748-0221/3/08/S08001}}.
+
+\bibitem{LEP_DESIGN_2001}
+The~{LEP} Collaboration.
+\newblock {A Combination of Preliminary Electroweak Measurements and
+  Constraints on the Standard Model}.
+\newblock Technical report, CERN, Geneva, 2001.
+\newblock URL: \url{https://cds.cern.ch/record/531260}.
+
 \bibitem{LHC_DESIGN_2004}
 Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
   Poole, and Paul Proudlock.
@@ -109,13 +123,6 @@ Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
   {https://doi.org/10.5170/CERN-2004-003-V-1}
   {\path{doi:10.5170/CERN-2004-003-V-1}}.
 
-\bibitem{LEP_DESIGN_2001}
-The~{LEP} Collaboration.
-\newblock {A Combination of Preliminary Electroweak Measurements and
-  Constraints on the Standard Model}.
-\newblock Technical report, CERN, Geneva, 2001.
-\newblock URL: \url{https://cds.cern.ch/record/531260}.
-
 \bibitem{ATLAS_DESIGN_2008}
 The~ATLAS Collaboration.
 \newblock The {ATLAS} experiment at the {CERN} large hadron collider.
@@ -124,30 +131,60 @@ The~ATLAS Collaboration.
   {\path{doi:10.1088/1748-0221/3/08/s08003}}.
 
 \bibitem{ID_report}
+{\em {ATLAS inner detector: Technical Design Report, 1}}.
+\newblock Technical design report. ATLAS. CERN, Geneva, 1997.
+\newblock URL: \url{https://cds.cern.ch/record/331063}.
+
+\bibitem{ID_inner_report}
 {Technical Design Report for the ATLAS Inner Tracker Pixel Detector}.
 \newblock Technical report, CERN, Geneva, 2017.
-\newblock URL: \url{https://cds.cern.ch/record/2285585}, \href
-  {https://doi.org/10.17181/CERN.FOZZ.ZP3Q}
+\newblock \href {https://doi.org/10.17181/CERN.FOZZ.ZP3Q}
   {\path{doi:10.17181/CERN.FOZZ.ZP3Q}}.
 
+\bibitem{IBL_report}
+M~Capeans, G~Darbo, K~Einsweiller, M~Elsing, T~Flick, M~Garcia-Sciveres,
+  C~Gemme, H~Pernegger, O~Rohne, and R~Vuillermet.
+\newblock {ATLAS Insertable B-Layer Technical Design Report}.
+\newblock Technical report, 2010.
+\newblock URL: \url{https://cds.cern.ch/record/1291633}.
+
 \bibitem{LArCalo_report}
-{ATLAS Liquid Argon Calorimeter Phase-II Upgrade: Technical Design Report}.
-\newblock Technical report, CERN, Geneva, 2017.
-\newblock URL: \url{https://cds.cern.ch/record/2285582}, \href
-  {https://doi.org/10.17181/CERN.6QIO.YGHO}
-  {\path{doi:10.17181/CERN.6QIO.YGHO}}.
+{\em {ATLAS liquid-argon calorimeter: Technical Design Report}}.
+\newblock Technical design report. ATLAS. CERN, Geneva, 1996.
+\newblock URL: \url{https://cds.cern.ch/record/331061}.
+
+\bibitem{TileCalo_report}
+{\em {ATLAS tile calorimeter: Technical Design Report}}.
+\newblock Technical design report. ATLAS. CERN, Geneva, 1996.
+\newblock URL: \url{https://cds.cern.ch/record/331062}.
+
+\bibitem{FowardCalo_report}
+A~Artamonov, D~Bailey, G~Belanger, M~Cadabeschi, T~Y Chen, V~Epshteyn,
+  P~Gorbounov, K~K Joo, M~Khakzad, V~Khovanskiy, P~Krieger, P~Loch, J~Mayer,
+  E~Neuheimer, F~G Oakham, M~O'Neill, R~S Orr, M~Qi, J~Rutherfoord, A~Savine,
+  M~Schram, P~Shatalov, L~Shaver, M~Shupe, G~Stairs, V~Strickland, D~Tompkins,
+  I~Tsukerman, and K~Vincent.
+\newblock The atlas forward calorimeter.
+\newblock {\em Journal of Instrumentation}, 3(02):P02010, feb 2008.
+\newblock \href {https://doi.org/10.1088/1748-0221/3/02/P02010}
+  {\path{doi:10.1088/1748-0221/3/02/P02010}}.
 
 \bibitem{muon_report}
-{Technical Design Report for the Phase-II Upgrade of the ATLAS Muon
-  Spectrometer}.
-\newblock Technical report, CERN, Geneva, 2017.
-\newblock URL: \url{https://cds.cern.ch/record/2285580}.
+{\em {ATLAS muon spectrometer: Technical Design Report}}.
+\newblock Technical design report. ATLAS. CERN, Geneva, 1997.
+\newblock URL: \url{https://cds.cern.ch/record/331068}.
 
-\bibitem{trigger}
-Martin zur Nedden.
-\newblock {The Run-2 ATLAS Trigger System: Design, Performance and Plan}.
-\newblock Technical report, CERN, Geneva, 2016.
-\newblock URL: \url{https://cds.cern.ch/record/2238679}.
+\bibitem{L1_trigger}
+{\em {ATLAS level-1 trigger: Technical Design Report}}.
+\newblock Technical design report. ATLAS. CERN, Geneva, 1998.
+\newblock URL: \url{https://cds.cern.ch/record/381429}.
+
+\bibitem{HLT_trigger}
+Peter Jenni, Marzio Nessi, Markus Nordberg, and Kenway Smith.
+\newblock {\em {ATLAS high-level trigger, data-acquisition and controls:
+  Technical Design Report}}.
+\newblock Technical design report. ATLAS. CERN, Geneva, 2003.
+\newblock URL: \url{https://cds.cern.ch/record/616089}.
 
 \bibitem{Aad_2019}
 ATLAS Collaboration.
@@ -178,6 +215,13 @@ R.~E. Kalman.
 \newblock {\em Journal of Basic Engineering}, 82(1):35--45, 03 1960.
 \newblock \href {https://doi.org/10.1115/1.3662552}
   {\path{doi:10.1115/1.3662552}}.
+
+\bibitem{inside_out_inside}
+T~Cornelissen, M~Elsing, S~Fleischmann, W~Liebig, E~Moyse, and A~Salzburger.
+\newblock {Concepts, Design and Implementation of the ATLAS New Tracking
+  (NEWT)}.
+\newblock Technical report, CERN, Geneva, 2007.
+\newblock URL: \url{https://cds.cern.ch/record/1020106}.
 
 \bibitem{ChiQuadro}
 T~G Cornelissen, M~Elsing, I~Gavrilenko, J-F Laporte, W~Liebig, M~Limper,
@@ -279,5 +323,29 @@ H.~B. Hartanto, B.~J\"ager, L.~Reina, and D.~Wackeroth.
 \newblock {\em Phys. Rev. D}, 91:094003, May 2015.
 \newblock \href {https://doi.org/10.1103/PhysRevD.91.094003}
   {\path{doi:10.1103/PhysRevD.91.094003}}.
+
+\bibitem{Pythia}
+Torbjörn Sjöstrand, Stefan Ask, Jesper~R. Christiansen, Richard Corke,
+  Nishita Desai, Philip Ilten, Stephen Mrenna, Stefan Prestel, Christine~O.
+  Rasmussen, and Peter~Z. Skands.
+\newblock An introduction to {PYTHIA} 8.2.
+\newblock {\em Computer Physics Communications}, 191:159--177, jun 2015.
+\newblock \href {https://doi.org/10.1016/j.cpc.2015.01.024}
+  {\path{doi:10.1016/j.cpc.2015.01.024}}.
+
+\bibitem{yellow4}
+{SM Higgs production cross sections at $\sqrt{s}$ = 14 TeV (update in CERN
+  Report4 2016)}.
+\newblock Technical report, CERN.
+\newblock URL:
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt13TeV}.
+
+\bibitem{e_trigger}
+ATLAS Collaboration.
+\newblock Performance of electron and photon triggers in {ATLAS} during {LHC}
+  run 2.
+\newblock {\em The European Physical Journal C}, 80(1), jan 2020.
+\newblock \href {https://doi.org/10.1140/epjc/s10052-019-7500-2}
+  {\path{doi:10.1140/epjc/s10052-019-7500-2}}.
 
 \end{thebibliography}

@@ -124,6 +124,20 @@
 	doi           = "10.5170/CERN-2004-003-V-1",
 }
 
+@article{LHC_DESIGN_2008,
+	doi = {10.1088/1748-0221/3/08/S08001},
+	year = {2008},
+	month = {aug},
+	publisher = {},
+	volume = {3},
+	number = {08},
+	pages = {S08001},
+	author = {Lyndon Evans and  Philip Bryant},
+	title = {LHC Machine},
+	journal = {Journal of Instrumentation},
+	abstract = {The Large Hadron Collider (LHC) at CERN near Geneva is the world's newest and most powerful tool for Particle Physics research. It is designed to collide proton beams with a centre-of-mass energy of 14 TeV and an unprecedented luminosity of 1034 cm−2 s−1. It can also collide heavy (Pb) ions with an energy of 2.8 TeV per nucleon and a peak luminosity of 1027 cm−2 s−1. In this paper, the machine design is described.}
+}
+
 @techreport{LEP_DESIGN_2001,
 	author        = "The {LEP} Collaboration",
 	title         = "{A Combination of Preliminary Electroweak Measurements and Constraints on the Standard Model}",
@@ -137,7 +151,6 @@
 
 @article{ATLAS_DESIGN_2008,
 	doi = {10.1088/1748-0221/3/08/s08003},
-	url = {https://doi.org/10.1088/1748-0221/3/08/s08003},
 	year = 2008,
 	month = {aug},
 	publisher = {{IOP} Publishing},
@@ -150,7 +163,17 @@
 	abstract = {The ATLAS detector as installed in its experimental cavern at point 1 at CERN is described in this paper. A brief overview of the expected performance of the detector when the Large Hadron Collider begins operation is also presented.}
 }
 
-@techreport{ID_report,
+@book{ID_report,
+	collaboration = "ATLAS",
+	title         = "{ATLAS inner detector: Technical Design Report, 1}",
+	publisher     = "CERN",
+	address       = "Geneva",
+	series        = "Technical design report. ATLAS",
+	year          = "1997",
+	url           = "https://cds.cern.ch/record/331063",
+}
+
+@techreport{ID_inner_report,
 	title         = "{Technical Design Report for the ATLAS Inner Tracker Pixel
 	Detector}",
 	institution   = "CERN",
@@ -158,43 +181,86 @@
 	address       = "Geneva",
 	reportNumber  = "CERN-LHCC-2017-021, ATLAS-TDR-030",
 	year          = "2017",
-	url           = "https://cds.cern.ch/record/2285585",
 	doi           = "10.17181/CERN.FOZZ.ZP3Q",
 }
 
-@techreport{LArCalo_report,
-	title         = "{ATLAS Liquid Argon Calorimeter Phase-II Upgrade:
+@techreport{IBL_report,
+	author        = "Capeans, M and Darbo, G and Einsweiller, K and Elsing, M
+	and Flick, T and Garcia-Sciveres, M and Gemme, C and
+	Pernegger, H and Rohne, O and Vuillermet, R",
+	collaboration = "ATLAS",
+	title         = "{ATLAS Insertable B-Layer Technical Design Report}",
+	reportNumber  = "CERN-LHCC-2010-013, ATLAS-TDR-19",
+	year          = "2010",
+	url           = "https://cds.cern.ch/record/1291633",
+}
+
+
+@book{LArCalo_report,
+	collaboration = "ATLAS",
+	title         = "{ATLAS liquid-argon calorimeter: Technical Design Report}",
+	publisher     = "CERN",
+	address       = "Geneva",
+	series        = "Technical design report. ATLAS",
+	year          = "1996",
+	url           = "https://cds.cern.ch/record/331061",
+}
+
+@book{TileCalo_report,
+    collaboration = "ATLAS",
+	title         = "{ATLAS tile calorimeter: Technical Design Report}",
+	publisher     = "CERN",
+	address       = "Geneva",
+	series        = "Technical design report. ATLAS",
+	year          = "1996",
+	url           = "https://cds.cern.ch/record/331062",
+}
+
+@article{FowardCalo_report,
+	doi = {10.1088/1748-0221/3/02/P02010},
+	year = {2008},
+	month = {feb},
+	publisher = {},
+	volume = {3},
+	number = {02},
+	pages = {P02010},
+	author = {A Artamonov and  D Bailey and  G Belanger and  M Cadabeschi and  T -Y Chen and  V Epshteyn and  P Gorbounov and  K K Joo and  M Khakzad and  V Khovanskiy and  P Krieger and  P Loch and  J Mayer and  E Neuheimer and  F G Oakham and  M O'Neill and  R S Orr and  M Qi and  J Rutherfoord and  A Savine and  M Schram and  P Shatalov and  L Shaver and  M Shupe and  G Stairs and  V Strickland and  D Tompkins and  I Tsukerman and  K Vincent},
+	title = {The ATLAS Forward Calorimeter},
+	journal = {Journal of Instrumentation},
+	abstract = {Forward calorimeters, located near the incident beams, complete the nearly 4π coverage for high pT particles resulting from proton-proton collisions in the ATLAS detector at the Large Hadron Collider at CERN. Both the technology and the deployment of the forward calorimeters in ATLAS are novel. The liquid argon rod/tube electrode structure for the forward calorimeters was invented specifically for applications in high rate environments. The placement of the forward calorimeters adjacent to the other calorimeters relatively close to the interaction point provides several advantages including nearly seamless calorimetry and natural shielding for the muon system. The forward calorimeter performance requirements are driven by events with missing ET and tagging jets.}
+}
+
+@book{muon_report,
+	collaboration = "ATLAS",
+	title         = "{ATLAS muon spectrometer: Technical Design Report}",
+	publisher     = "CERN",
+	address       = "Geneva",
+	series        = "Technical design report. ATLAS",
+	year          = "1997",
+	url           = "https://cds.cern.ch/record/331068",
+}
+
+@book{L1_trigger,
+	collaboration = "ATLAS",
+	title         = "{ATLAS level-1 trigger: Technical Design Report}",
+	publisher     = "CERN",
+	address       = "Geneva",
+	series        = "Technical design report. ATLAS",
+	year          = "1998",
+	url           = "https://cds.cern.ch/record/381429",
+}
+
+@book{HLT_trigger,
+	author        = "Jenni, Peter and Nessi, Marzio and Nordberg, Markus and
+	Smith, Kenway",
+	collaboration = "ATLAS",
+	title         = "{ATLAS high-level trigger, data-acquisition and controls:
 	Technical Design Report}",
-	institution   = "CERN",
-	collaboration = "ATLAS Collaboration",
+	publisher     = "CERN",
 	address       = "Geneva",
-	reportNumber  = "CERN-LHCC-2017-018, ATLAS-TDR-027",
-	year          = "2017",
-	url           = "https://cds.cern.ch/record/2285582",
-	doi           = "10.17181/CERN.6QIO.YGHO",
-}
-
-@techreport{muon_report,
-	title         = "{Technical Design Report for the Phase-II Upgrade of the
-	ATLAS Muon Spectrometer}",
-	institution   = "CERN",
-	collaboration = "ATLAS Collaboration",
-	address       = "Geneva",
-	reportNumber  = "CERN-LHCC-2017-017, ATLAS-TDR-026",
-	year          = "2017",
-	url           = "https://cds.cern.ch/record/2285580",
-}
-
-@techreport{trigger,
-	author        = "zur Nedden, Martin",
-	title         = "{The Run-2 ATLAS Trigger System: Design, Performance and
-	Plan}",
-	institution   = "CERN",
-	collaboration = "ATLAS Collaboration",
-	address       = "Geneva",
-	reportNumber  = "ATL-DAQ-PROC-2016-039",
-	year          = "2016",
-	url           = "https://cds.cern.ch/record/2238679",
+	series        = "Technical design report. ATLAS",
+	year          = "2003",
+	url           = "https://cds.cern.ch/record/616089",
 }
 
 @article{Aad_2019,
@@ -485,3 +551,44 @@
 	url           = "https://cds.cern.ch/record/2628760",
 }
 
+@article{e_trigger,
+	doi = {10.1140/epjc/s10052-019-7500-2},
+	year = 2020,
+	month = {jan},
+	publisher = {Springer Science and Business Media {LLC}},
+	volume = {80},
+	number = {1},
+	author = {ATLAS Collaboration},
+	title = {Performance of electron and photon triggers in {ATLAS} during {LHC} Run 2},
+	journal = {The European Physical Journal C}
+}
+
+@techreport{yellow4,
+	title         = "{SM Higgs production cross sections at $\sqrt{s}$ = 14 TeV (update in CERN Report4 2016)}",
+	institution   = "CERN",
+	url           = "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt13TeV",
+}
+
+@article{Pythia,
+	doi = {10.1016/j.cpc.2015.01.024},
+	year = 2015,
+	month = {jun},
+	publisher = {Elsevier {BV}},
+	volume = {191},
+	pages = {159--177},
+	author = {Torbjörn Sjöstrand and Stefan Ask and Jesper R. Christiansen and Richard Corke and Nishita Desai and Philip Ilten and Stephen Mrenna and Stefan Prestel and Christine O. Rasmussen and Peter Z. Skands},
+	title = {An introduction to {PYTHIA} 8.2},
+	journal = {Computer Physics Communications}
+}
+
+@techreport{inside_out_inside,
+	author        = "Cornelissen, T and Elsing, M and Fleischmann, S and
+	Liebig, W and Moyse, E and Salzburger, A",
+	title         = "{Concepts, Design and Implementation of the ATLAS New
+	Tracking (NEWT)}",
+	institution   = "CERN",
+	reportNumber  = "ATL-SOFT-PUB-2007-007, ATL-COM-SOFT-2007-002",
+	address       = "Geneva",
+	year          = "2007",
+	url           = "https://cds.cern.ch/record/1020106",
+}
