@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  2 NOV 2022 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  4 NOV 2022 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8445,6 +8445,171 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [330
 
  <../images/week_23/plot_scalefix_mass.pdf>]
+<../images/week_23/mu_analisys/mu_AsimovData_0_ggHyy_MC_no_catConvEta_syst_HSM_
+fid_plot_nom.pdf, id=18445, 578.16pt x 361.35pt>
+File: ../images/week_23/mu_analisys/mu_AsimovData_0_ggHyy_MC_no_catConvEta_syst
+_HSM_fid_plot_nom.pdf Graphic file (type pdf)
+<use ../images/week_23/mu_analisys/mu_AsimovData_0_ggHyy_MC_no_catConvEta_syst_
+HSM_fid_plot_nom.pdf>
+Package pdftex.def Info: ../images/week_23/mu_analisys/mu_AsimovData_0_ggHyy_MC
+_no_catConvEta_syst_HSM_fid_plot_nom.pdf  used on input line 3895.
+(pdftex.def)             Requested size: 167.73633pt x 104.83292pt.
+<../images/week_23/mu_analisys/scale_AsimovData_0_ggHyy_MC_no_catConvEta_syst_H
+SM_fid_plot_nom.pdf, id=18446, 578.16pt x 361.35pt>
+File: ../images/week_23/mu_analisys/scale_AsimovData_0_ggHyy_MC_no_catConvEta_s
+yst_HSM_fid_plot_nom.pdf Graphic file (type pdf)
+<use ../images/week_23/mu_analisys/scale_AsimovData_0_ggHyy_MC_no_catConvEta_sy
+st_HSM_fid_plot_nom.pdf>
+Package pdftex.def Info: ../images/week_23/mu_analisys/scale_AsimovData_0_ggHyy
+_MC_no_catConvEta_syst_HSM_fid_plot_nom.pdf  used on input line 3895.
+(pdftex.def)             Requested size: 167.73633pt x 104.83292pt.
+<../images/week_23/mu_analisys/LHCmass_AsimovData_0_ggHyy_MC_no_catConvEta_syst
+_HSM_fid_plot_nom.pdf, id=18447, 578.16pt x 361.35pt>
+File: ../images/week_23/mu_analisys/LHCmass_AsimovData_0_ggHyy_MC_no_catConvEta
+_syst_HSM_fid_plot_nom.pdf Graphic file (type pdf)
+<use ../images/week_23/mu_analisys/LHCmass_AsimovData_0_ggHyy_MC_no_catConvEta_
+syst_HSM_fid_plot_nom.pdf>
+Package pdftex.def Info: ../images/week_23/mu_analisys/LHCmass_AsimovData_0_ggH
+yy_MC_no_catConvEta_syst_HSM_fid_plot_nom.pdf  used on input line 3895.
+(pdftex.def)             Requested size: 167.73633pt x 104.83292pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[331
+
+ <../images/week_23/mu_analisys/mu_AsimovData_0_ggHyy_MC_no_catConvEta_syst_HSM
+_fid_plot_nom.pdf> <../images/week_23/mu_analisys/scale_AsimovData_0_ggHyy_MC_n
+o_catConvEta_syst_HSM_fid_plot_nom.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ../images/week_23/mu_analisys/scale_Asi
+movData_0_ggHyy_MC_no_catConvEta_syst_HSM_fid_plot_nom.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+> <../images/week_23/mu_analisys/LHCmass_AsimovData_0_ggHyy_MC_no_catConvEta_sy
+st_HSM_fid_plot_nom.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ../images/week_23/mu_analisys/LHCmass_A
+simovData_0_ggHyy_MC_no_catConvEta_syst_HSM_fid_plot_nom.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]
+<../images/week_23/HSM_AsimovData_0_catConvEta_no_122.600000_nom.pdf, id=18627,
+ 569.12625pt x 355.3275pt>
+File: ../images/week_23/HSM_AsimovData_0_catConvEta_no_122.600000_nom.pdf Graph
+ic file (type pdf)
+<use ../images/week_23/HSM_AsimovData_0_catConvEta_no_122.600000_nom.pdf>
+Package pdftex.def Info: ../images/week_23/HSM_AsimovData_0_catConvEta_no_122.6
+00000_nom.pdf  used on input line 3904.
+(pdftex.def)             Requested size: 167.73633pt x 104.7231pt.
+<../images/week_23/HSM_AsimovData_0_catConvEta_no_125.000000_nom.pdf, id=18628,
+ 569.12625pt x 355.3275pt>
+File: ../images/week_23/HSM_AsimovData_0_catConvEta_no_125.000000_nom.pdf Graph
+ic file (type pdf)
+<use ../images/week_23/HSM_AsimovData_0_catConvEta_no_125.000000_nom.pdf>
+Package pdftex.def Info: ../images/week_23/HSM_AsimovData_0_catConvEta_no_125.0
+00000_nom.pdf  used on input line 3904.
+(pdftex.def)             Requested size: 167.73633pt x 104.7231pt.
+<../images/week_23/HSM_AsimovData_0_catConvEta_no_127.400000_nom.pdf, id=18629,
+ 569.12625pt x 355.3275pt>
+File: ../images/week_23/HSM_AsimovData_0_catConvEta_no_127.400000_nom.pdf Graph
+ic file (type pdf)
+<use ../images/week_23/HSM_AsimovData_0_catConvEta_no_127.400000_nom.pdf>
+Package pdftex.def Info: ../images/week_23/HSM_AsimovData_0_catConvEta_no_127.4
+00000_nom.pdf  used on input line 3904.
+(pdftex.def)             Requested size: 167.73633pt x 104.7231pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[332
+
+ <../images/week_23/HSM_AsimovData_0_catConvEta_no_122.600000_nom.pdf, page is 
+rotated 90 degrees> <../images/week_23/HSM_AsimovData_0_catConvEta_no_125.00000
+0_nom.pdf, page is rotated 90 degrees> <../images/week_23/HSM_AsimovData_0_catC
+onvEta_no_127.400000_nom.pdf, page is rotated 90 degrees>]
+<../images/week_23/mu_analisys/mu_AsimovData_0_ggHyy_MC_no_catConvEta_syst_HSM_
+fid_plot_corr.pdf, id=18765, 578.16pt x 361.35pt>
+File: ../images/week_23/mu_analisys/mu_AsimovData_0_ggHyy_MC_no_catConvEta_syst
+_HSM_fid_plot_corr.pdf Graphic file (type pdf)
+<use ../images/week_23/mu_analisys/mu_AsimovData_0_ggHyy_MC_no_catConvEta_syst_
+HSM_fid_plot_corr.pdf>
+Package pdftex.def Info: ../images/week_23/mu_analisys/mu_AsimovData_0_ggHyy_MC
+_no_catConvEta_syst_HSM_fid_plot_corr.pdf  used on input line 3913.
+(pdftex.def)             Requested size: 167.73633pt x 104.83292pt.
+<../images/week_23/mu_analisys/scale_AsimovData_0_ggHyy_MC_no_catConvEta_syst_H
+SM_fid_plot_corr.pdf, id=18766, 578.16pt x 361.35pt>
+File: ../images/week_23/mu_analisys/scale_AsimovData_0_ggHyy_MC_no_catConvEta_s
+yst_HSM_fid_plot_corr.pdf Graphic file (type pdf)
+<use ../images/week_23/mu_analisys/scale_AsimovData_0_ggHyy_MC_no_catConvEta_sy
+st_HSM_fid_plot_corr.pdf>
+Package pdftex.def Info: ../images/week_23/mu_analisys/scale_AsimovData_0_ggHyy
+_MC_no_catConvEta_syst_HSM_fid_plot_corr.pdf  used on input line 3913.
+(pdftex.def)             Requested size: 167.73633pt x 104.83292pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[333
+
+ <../images/week_23/mu_analisys/mu_AsimovData_0_ggHyy_MC_no_catConvEta_syst_HSM
+_fid_plot_corr.pdf> <../images/week_23/mu_analisys/scale_AsimovData_0_ggHyy_MC_
+no_catConvEta_syst_HSM_fid_plot_corr.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ../images/week_23/mu_analisys/scale_Asi
+movData_0_ggHyy_MC_no_catConvEta_syst_HSM_fid_plot_corr.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>]
+<../images/week_23/HSM_AsimovData_0_catConvEta_no_122.600000_corr.pdf, id=18888
+, 569.12625pt x 355.3275pt>
+File: ../images/week_23/HSM_AsimovData_0_catConvEta_no_122.600000_corr.pdf Grap
+hic file (type pdf)
+<use ../images/week_23/HSM_AsimovData_0_catConvEta_no_122.600000_corr.pdf>
+Package pdftex.def Info: ../images/week_23/HSM_AsimovData_0_catConvEta_no_122.6
+00000_corr.pdf  used on input line 3922.
+(pdftex.def)             Requested size: 167.73633pt x 104.7231pt.
+<../images/week_23/HSM_AsimovData_0_catConvEta_no_125.000000_corr.pdf, id=18889
+, 569.12625pt x 355.3275pt>
+File: ../images/week_23/HSM_AsimovData_0_catConvEta_no_125.000000_corr.pdf Grap
+hic file (type pdf)
+<use ../images/week_23/HSM_AsimovData_0_catConvEta_no_125.000000_corr.pdf>
+Package pdftex.def Info: ../images/week_23/HSM_AsimovData_0_catConvEta_no_125.0
+00000_corr.pdf  used on input line 3922.
+(pdftex.def)             Requested size: 167.73633pt x 104.7231pt.
+<../images/week_23/HSM_AsimovData_0_catConvEta_no_127.400000_corr.pdf, id=18890
+, 569.12625pt x 355.3275pt>
+File: ../images/week_23/HSM_AsimovData_0_catConvEta_no_127.400000_corr.pdf Grap
+hic file (type pdf)
+<use ../images/week_23/HSM_AsimovData_0_catConvEta_no_127.400000_corr.pdf>
+Package pdftex.def Info: ../images/week_23/HSM_AsimovData_0_catConvEta_no_127.4
+00000_corr.pdf  used on input line 3922.
+(pdftex.def)             Requested size: 167.73633pt x 104.7231pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[334
+
+ <../images/week_23/HSM_AsimovData_0_catConvEta_no_122.600000_corr.pdf, page is
+ rotated 90 degrees> <../images/week_23/HSM_AsimovData_0_catConvEta_no_125.0000
+00_corr.pdf, page is rotated 90 degrees> <../images/week_23/HSM_AsimovData_0_ca
+tConvEta_no_127.400000_corr.pdf, page is rotated 90 degrees>]
+<../images/week_23/plot_0_gobbe.pdf, id=19026, 722.7pt x 505.89pt>
+File: ../images/week_23/plot_0_gobbe.pdf Graphic file (type pdf)
+<use ../images/week_23/plot_0_gobbe.pdf>
+Package pdftex.def Info: ../images/week_23/plot_0_gobbe.pdf  used on input line
+ 3930.
+(pdftex.def)             Requested size: 167.73633pt x 117.40977pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[335
+
+ <../images/week_23/plot_0_gobbe.pdf>]
 \tf@nav=\write6
 \openout6 = `update.nav'.
 
@@ -8454,23 +8619,23 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `update.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3887.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3887.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3932.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3932.
  (./update.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3887.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3887.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3932.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3932.
 
 Package rerunfilecheck Info: File `update.out' has not changed.
 (rerunfilecheck)             Checksum: AC794E744B1209D47AEDF9A23A4FA1DA;1049.
  ) 
 Here is how much of TeX's memory you used:
- 35304 strings out of 481239
- 759081 string characters out of 5920376
- 1018763 words of memory out of 5000000
- 48663 multiletter control sequences out of 15000+600000
+ 35397 strings out of 481239
+ 765078 string characters out of 5920376
+ 1018968 words of memory out of 5000000
+ 48733 multiletter control sequences out of 15000+600000
  718703 words of font info for 176 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,14n,78p,773b,743s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,78p,773b,753s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -8491,10 +8656,10 @@ s/type1/public/lm/lmsso9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
 1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on update.pdf (330 pages, 7483364 bytes).
+Output written on update.pdf (335 pages, 7739624 bytes).
 PDF statistics:
- 18689 PDF objects out of 22161 (max. 8388607)
- 7663 compressed objects within 77 object streams
- 684 named destinations out of 1000 (max. 500000)
- 51666 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 19343 PDF objects out of 22161 (max. 8388607)
+ 7852 compressed objects within 79 object streams
+ 694 named destinations out of 1000 (max. 500000)
+ 51726 words of extra memory for PDF output out of 61914 (max. 10000000)
 
