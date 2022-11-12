@@ -19,45 +19,45 @@ Warning--empty author and editor in L1_trigger
 Warning--empty author in el_id
 Warning--empty author in yellow4
 Warning--empty year in yellow4
-You've used 47 entries,
+You've used 45 entries,
             2555 wiz_defined-function locations,
-            869 strings with 13347 characters,
-and the built_in function-call counts, 16434 in all, are:
-= -- 1659
-> -- 582
+            853 strings with 12982 characters,
+and the built_in function-call counts, 15659 in all, are:
+= -- 1584
+> -- 548
 < -- 0
-+ -- 193
-- -- 146
-* -- 1068
-:= -- 2170
-add.period$ -- 186
-call.type$ -- 47
-change.case$ -- 47
++ -- 182
+- -- 137
+* -- 1012
+:= -- 2064
+add.period$ -- 178
+call.type$ -- 45
+change.case$ -- 45
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 432
-empty$ -- 1785
-format.name$ -- 146
-if$ -- 4611
+cite$ -- 56
+duplicate$ -- 414
+empty$ -- 1707
+format.name$ -- 137
+if$ -- 4403
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 43
-newline$ -- 276
-num.names$ -- 38
-pop$ -- 287
+int.to.str$ -- 45
+missing$ -- 41
+newline$ -- 264
+num.names$ -- 36
+pop$ -- 277
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1291
+skip$ -- 1235
 stack$ -- 0
-substring$ -- 479
-swap$ -- 110
+substring$ -- 445
+swap$ -- 104
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 11
-while$ -- 69
-width$ -- 49
-write$ -- 603
+while$ -- 64
+width$ -- 47
+write$ -- 577
 (There were 11 warnings)

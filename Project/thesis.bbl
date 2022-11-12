@@ -38,28 +38,6 @@ Michael Dine.
 \newblock \href {https://doi.org/10.1017/CBO9781107261426}
   {\path{doi:10.1017/CBO9781107261426}}.
 
-\bibitem{Djouadi_2008}
-A~Djouadi, M~Drees, U~Ellwanger, R~Godbole, C~Hugonie, S.F King, S~Lehti,
-  S~Moretti, A~Nikitenko, I~Rottländer, M~Schumacher, and A.M Teixeira.
-\newblock Benchmark scenarios for the {NMSSM}.
-\newblock {\em Journal of High Energy Physics}, 2008(07):002--002, jul 2008.
-\newblock \href {https://doi.org/10.1088/1126-6708/2008/07/002}
-  {\path{doi:10.1088/1126-6708/2008/07/002}}.
-
-\bibitem{Dawson_2019}
-Sally Dawson, Christoph Englert, and Tilman Plehn.
-\newblock Higgs physics: It ain't over till it is over.
-\newblock {\em Physics Reports}, 816:1--85, jul 2019.
-\newblock \href {https://doi.org/10.1016/j.physrep.2019.05.001}
-  {\path{doi:10.1016/j.physrep.2019.05.001}}.
-
-\bibitem{PhysRevD.98.030001}
-M.~et~al Tanabashi.
-\newblock Review of particle physics.
-\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
-\newblock \href {https://doi.org/10.1103/PhysRevD.98.030001}
-  {\path{doi:10.1103/PhysRevD.98.030001}}.
-
 \bibitem{Englert_2014}
 C~Englert, A~Freitas, M~M Mühlleitner, T~Plehn, M~Rauch, M~Spira, and K~Walz.
 \newblock Precision measurements of higgs couplings: implications for new
@@ -99,6 +77,13 @@ ATLAS Collaboration.
   detector}.
 \newblock Technical report, CERN, Geneva, Jul 2018.
 \newblock URL: \url{https://cds.cern.ch/record/2628760}.
+
+\bibitem{Statistic}
+Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
+\newblock Asymptotic formulae for likelihood-based tests of new physics.
+\newblock {\em The European Physical Journal C}, 71(2), feb 2011.
+\newblock \href {https://doi.org/10.1140/epjc/s10052-011-1554-0}
+  {\path{doi:10.1140/epjc/s10052-011-1554-0}}.
 
 \bibitem{LHC_DESIGN_2008}
 Lyndon Evans and Philip Bryant.
@@ -270,13 +255,6 @@ David~A. van Dyk.
 \newblock \href {https://doi.org/10.1146/annurev-statistics-062713-085841}
   {\path{doi:10.1146/annurev-statistics-062713-085841}}.
 
-\bibitem{Statistic}
-Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
-\newblock Asymptotic formulae for likelihood-based tests of new physics.
-\newblock {\em The European Physical Journal C}, 71(2), feb 2011.
-\newblock \href {https://doi.org/10.1140/epjc/s10052-011-1554-0}
-  {\path{doi:10.1140/epjc/s10052-011-1554-0}}.
-
 \bibitem{Asimov}
 Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
 \newblock Asymptotic formulae for likelihood-based tests of new physics.
@@ -339,6 +317,14 @@ Torbjörn Sjöstrand, Stefan Ask, Jesper~R. Christiansen, Richard Corke,
 \newblock Technical report, CERN.
 \newblock URL:
   \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt13TeV}.
+
+\bibitem{sherpa}
+T~Gleisberg, S~Höche, F~Krauss, M~Schönherr, S~Schumann, F~Siegert, and
+  J~Winter.
+\newblock Event generation with {SHERPA} 1.1.
+\newblock {\em Journal of High Energy Physics}, 2009(02):007--007, feb 2009.
+\newblock \href {https://doi.org/10.1088/1126-6708/2009/02/007}
+  {\path{doi:10.1088/1126-6708/2009/02/007}}.
 
 \bibitem{e_trigger}
 ATLAS Collaboration.

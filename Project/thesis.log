@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  4 NOV 2022 21:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  12 NOV 2022 19:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1102,7 +1102,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<thesis_images/logo.jpg, id=161, 398.4486pt x 156.585pt>
+<thesis_images/logo.jpg, id=169, 398.4486pt x 156.585pt>
 File: thesis_images/logo.jpg Graphic file (type jpg)
 <use thesis_images/logo.jpg>
 Package pdftex.def Info: thesis_images/logo.jpg  used on input line 44.
@@ -1173,181 +1173,186 @@ l.85 	\clearpage\null\thispagestyle{empty}\newpage
 
 [3] [4
 
-] [5]
+]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+02.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [5]
 Chapter 1.
-<thesis_images/lhc.jpg, id=269, 498.86375pt x 433.62pt>
+<thesis_images/lhc.jpg, id=278, 498.86375pt x 433.62pt>
 File: thesis_images/lhc.jpg Graphic file (type jpg)
 <use thesis_images/lhc.jpg>
-Package pdftex.def Info: thesis_images/lhc.jpg  used on input line 119.
+Package pdftex.def Info: thesis_images/lhc.jpg  used on input line 117.
 (pdftex.def)             Requested size: 209.12683pt x 181.7751pt.
 [6
 
 ]
-<thesis_images/m_dipole.jpeg, id=279, 1438.37375pt x 1048.91875pt>
+<thesis_images/m_dipole.jpeg, id=288, 1438.37375pt x 1048.91875pt>
 File: thesis_images/m_dipole.jpeg Graphic file (type jpg)
 <use thesis_images/m_dipole.jpeg>
-Package pdftex.def Info: thesis_images/m_dipole.jpeg  used on input line 126.
+Package pdftex.def Info: thesis_images/m_dipole.jpeg  used on input line 124.
 (pdftex.def)             Requested size: 238.40765pt x 173.84837pt.
-<thesis_images/m_quad.png, id=280, 469.755pt x 432.61626pt>
+<thesis_images/m_quad.png, id=289, 469.755pt x 432.61626pt>
 File: thesis_images/m_quad.png Graphic file (type png)
 <use thesis_images/m_quad.png>
-Package pdftex.def Info: thesis_images/m_quad.png  used on input line 127.
+Package pdftex.def Info: thesis_images/m_quad.png  used on input line 125.
 (pdftex.def)             Requested size: 167.2989pt x 154.07162pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-34.
+32.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [7 <./thesis_images/lhc.jpg> <./thesis_images/m_dipole.jpeg> <./thesis_images
 /m_quad.png (PNG copy)>]
-<thesis_images/CERN_complex.png, id=294, 829.0975pt x 660.4675pt>
+<thesis_images/CERN_complex.png, id=303, 829.0975pt x 660.4675pt>
 File: thesis_images/CERN_complex.png Graphic file (type png)
 <use thesis_images/CERN_complex.png>
-Package pdftex.def Info: thesis_images/CERN_complex.png  used on input line 145
+Package pdftex.def Info: thesis_images/CERN_complex.png  used on input line 143
 .
 (pdftex.def)             Requested size: 376.42575pt x 299.85811pt.
-<thesis_images/peakLumiByFill.pdf, id=295, 569.12625pt x 408.52625pt>
+<thesis_images/peakLumiByFill.pdf, id=304, 569.12625pt x 408.52625pt>
 File: thesis_images/peakLumiByFill.pdf Graphic file (type pdf)
 <use thesis_images/peakLumiByFill.pdf>
 Package pdftex.def Info: thesis_images/peakLumiByFill.pdf  used on input line 1
-63.
+61.
 (pdftex.def)             Requested size: 295.76509pt x 212.3102pt.
  [8]
 [9 <./thesis_images/CERN_complex.png> <./thesis_images/peakLumiByFill.pdf, page
  is rotated 90 degrees>]
-<thesis_images/intlumivsyear.pdf, id=352, 569.12625pt x 408.52625pt>
+<thesis_images/intlumivsyear.pdf, id=360, 569.12625pt x 408.52625pt>
 File: thesis_images/intlumivsyear.pdf Graphic file (type pdf)
 <use thesis_images/intlumivsyear.pdf>
 Package pdftex.def Info: thesis_images/intlumivsyear.pdf  used on input line 17
-6.
+4.
 (pdftex.def)             Requested size: 295.76509pt x 212.3102pt.
  [10 <./thesis_images/intlumivsyear.pdf, page is rotated 90 degrees>] [11]
-<thesis_images/atlas_coord.jpeg, id=407, 504.88625pt x 241.90375pt>
+<thesis_images/atlas_coord.jpeg, id=415, 504.88625pt x 241.90375pt>
 File: thesis_images/atlas_coord.jpeg Graphic file (type jpg)
 <use thesis_images/atlas_coord.jpeg>
-Package pdftex.def Info: thesis_images/atlas_coord.jpeg  used on input line 218
+Package pdftex.def Info: thesis_images/atlas_coord.jpeg  used on input line 216
 .
 (pdftex.def)             Requested size: 295.76509pt x 141.71059pt.
-<thesis_images/magnet_system_atlas.png, id=408, 356.33125pt x 142.5325pt>
+<thesis_images/magnet_system_atlas.png, id=416, 356.33125pt x 142.5325pt>
 File: thesis_images/magnet_system_atlas.png Graphic file (type png)
 <use thesis_images/magnet_system_atlas.png>
 Package pdftex.def Info: thesis_images/magnet_system_atlas.png  used on input l
-ine 231.
+ine 229.
 (pdftex.def)             Requested size: 354.92172pt x 141.97536pt.
  [12 <./thesis_images/atlas_coord.jpeg>]
-<thesis_images/id1_struct.jpeg, id=418, 475.7775pt x 326.21875pt>
+<thesis_images/id1_struct.jpeg, id=426, 475.7775pt x 326.21875pt>
 File: thesis_images/id1_struct.jpeg Graphic file (type jpg)
 <use thesis_images/id1_struct.jpeg>
-Package pdftex.def Info: thesis_images/id1_struct.jpeg  used on input line 243.
+Package pdftex.def Info: thesis_images/id1_struct.jpeg  used on input line 241.
 
 (pdftex.def)             Requested size: 204.9466pt x 140.52518pt.
-<thesis_images/id2_struct.jpg, id=419, 481.8pt x 390.45876pt>
+<thesis_images/id2_struct.jpg, id=427, 481.8pt x 390.45876pt>
 File: thesis_images/id2_struct.jpg Graphic file (type jpg)
 <use thesis_images/id2_struct.jpg>
-Package pdftex.def Info: thesis_images/id2_struct.jpg  used on input line 244.
+Package pdftex.def Info: thesis_images/id2_struct.jpg  used on input line 242.
 (pdftex.def)             Requested size: 204.9466pt x 166.08873pt.
 
-Overfull \hbox (10.70488pt too wide) in paragraph at lines 240--249
+Overfull \hbox (10.70488pt too wide) in paragraph at lines 238--247
 []\T1/lmr/bx/n/10.95 Pixel De-tec-tor \T1/lmr/m/n/10.95 The pixel de-tec-tor [[
-]19[]] is de-signed to pro-vide a very high-granularity,
+]17[]] is de-signed to pro-vide a very high-granularity,
  []
 
 [13 <./thesis_images/magnet_system_atlas.png> <./thesis_images/id1_struct.jpeg>
  <./thesis_images/id2_struct.jpg>]
-<thesis_images/atlas_calo.jpg, id=434, 810.52812pt x 545.53813pt>
+<thesis_images/atlas_calo.jpg, id=442, 810.52812pt x 545.53813pt>
 File: thesis_images/atlas_calo.jpg Graphic file (type jpg)
 <use thesis_images/atlas_calo.jpg>
-Package pdftex.def Info: thesis_images/atlas_calo.jpg  used on input line 262.
+Package pdftex.def Info: thesis_images/atlas_calo.jpg  used on input line 260.
 (pdftex.def)             Requested size: 334.60422pt x 225.21207pt.
  [14]
-<thesis_images/calo_struct.jpg, id=445, 282.04486pt x 260.29991pt>
+<thesis_images/calo_struct.jpg, id=453, 282.04486pt x 260.29991pt>
 File: thesis_images/calo_struct.jpg Graphic file (type jpg)
 <use thesis_images/calo_struct.jpg>
-Package pdftex.def Info: thesis_images/calo_struct.jpg  used on input line 280.
+Package pdftex.def Info: thesis_images/calo_struct.jpg  used on input line 278.
 
 (pdftex.def)             Requested size: 250.95476pt x 231.61455pt.
  [15 <./thesis_images/atlas_calo.jpg>]
 [16 <./thesis_images/calo_struct.jpg>]
-Overfull \hbox (2.42337pt too wide) in paragraph at lines 305--306
+Overfull \hbox (2.42337pt too wide) in paragraph at lines 303--304
 []\T1/lmr/bx/n/10.95 Foward Calorime-ter\T1/lmr/m/n/10.95 : the Foward Calorime
--ter [[]23[]] cov-ers the high-pseudorapidity
+-ter [[]21[]] cov-ers the high-pseudorapidity
  []
 
-<thesis_images/3D-muon.jpg, id=462, 587.26967pt x 408.11295pt>
+<thesis_images/3D-muon.jpg, id=470, 587.26967pt x 408.11295pt>
 File: thesis_images/3D-muon.jpg Graphic file (type jpg)
 <use thesis_images/3D-muon.jpg>
-Package pdftex.def Info: thesis_images/3D-muon.jpg  used on input line 316.
+Package pdftex.def Info: thesis_images/3D-muon.jpg  used on input line 314.
 (pdftex.def)             Requested size: 271.86234pt x 188.92987pt.
-<thesis_images/L1.png, id=465, 606.265pt x 409.53pt>
+<thesis_images/L1.png, id=473, 606.265pt x 409.53pt>
 File: thesis_images/L1.png Graphic file (type png)
 <use thesis_images/L1.png>
-Package pdftex.def Info: thesis_images/L1.png  used on input line 326.
+Package pdftex.def Info: thesis_images/L1.png  used on input line 324.
 (pdftex.def)             Requested size: 204.9466pt x 138.43849pt.
-<thesis_images/HLT.png, id=467, 569.12625pt x 385.44pt>
+<thesis_images/HLT.png, id=475, 569.12625pt x 385.44pt>
 File: thesis_images/HLT.png Graphic file (type png)
 <use thesis_images/HLT.png>
-Package pdftex.def Info: thesis_images/HLT.png  used on input line 327.
+Package pdftex.def Info: thesis_images/HLT.png  used on input line 325.
 (pdftex.def)             Requested size: 204.9466pt x 138.79945pt.
 [17] [18 <./thesis_images/3D-muon.jpg> <./thesis_images/L1.png> <./thesis_image
 s/HLT.png>] [19]
 Chapter 2.
-<thesis_images/alg_flow.png, id=495, 764.8575pt x 592.2125pt>
+<thesis_images/alg_flow.png, id=503, 764.8575pt x 592.2125pt>
 File: thesis_images/alg_flow.png Graphic file (type png)
 <use thesis_images/alg_flow.png>
-Package pdftex.def Info: thesis_images/alg_flow.png  used on input line 350.
+Package pdftex.def Info: thesis_images/alg_flow.png  used on input line 348.
 (pdftex.def)             Requested size: 334.60422pt x 259.07425pt.
 [20
 
 ] [21 <./thesis_images/alg_flow.png>] [22]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 391.
+(Font)              <9> on input line 389.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 391.
+(Font)              <5> on input line 389.
  [23]
-<thesis_images/super_cluster.png, id=536, 853.1875pt x 546.04pt>
+<thesis_images/super_cluster.png, id=544, 853.1875pt x 546.04pt>
 File: thesis_images/super_cluster.png Graphic file (type png)
 <use thesis_images/super_cluster.png>
 Package pdftex.def Info: thesis_images/super_cluster.png  used on input line 40
-8.
+6.
 (pdftex.def)             Requested size: 354.92172pt x 227.15228pt.
  [24 <./thesis_images/super_cluster.png>]
-<thesis_images/el_ph_analisi.png, id=549, 1027.84pt x 770.88pt>
+<thesis_images/el_ph_analisi.png, id=557, 1027.84pt x 770.88pt>
 File: thesis_images/el_ph_analisi.png Graphic file (type png)
 <use thesis_images/el_ph_analisi.png>
 Package pdftex.def Info: thesis_images/el_ph_analisi.png  used on input line 42
-4.
+2.
 (pdftex.def)             Requested size: 295.76509pt x 221.82036pt.
  [25] [26 <./thesis_images/el_ph_analisi.png>] [27]
-<thesis_images/tight_id.png, id=576, 1017.8025pt x 484.81125pt>
+<thesis_images/tight_id.png, id=584, 1017.8025pt x 484.81125pt>
 File: thesis_images/tight_id.png Graphic file (type png)
 <use thesis_images/tight_id.png>
-Package pdftex.def Info: thesis_images/tight_id.png  used on input line 458.
+Package pdftex.def Info: thesis_images/tight_id.png  used on input line 456.
 (pdftex.def)             Requested size: 418.25368pt x 199.22514pt.
 
-Underfull \hbox (badness 1796) in paragraph at lines 504--504
+Underfull \hbox (badness 1796) in paragraph at lines 502--502
 []\T1/lmr/m/n/10.95 - Lat-eral shower width $[]$
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 528--528
+Underfull \hbox (badness 2277) in paragraph at lines 526--526
 []\T1/lmr/m/n/10.95 - Shower width cal-cu-lated from
  []
 
 [28 <./thesis_images/tight_id.png>] [29] [30]
-<thesis_images/Z_iso.png, id=607, 707.64375pt x 685.56125pt>
+<thesis_images/Z_iso.png, id=615, 707.64375pt x 685.56125pt>
 File: thesis_images/Z_iso.png Graphic file (type png)
 <use thesis_images/Z_iso.png>
-Package pdftex.def Info: thesis_images/Z_iso.png  used on input line 571.
+Package pdftex.def Info: thesis_images/Z_iso.png  used on input line 569.
 (pdftex.def)             Requested size: 334.60422pt x 324.17pt.
-<thesis_images/ph_calo_iso.png, id=610, 700.6175pt x 684.5575pt>
+<thesis_images/ph_calo_iso.png, id=618, 700.6175pt x 684.5575pt>
 File: thesis_images/ph_calo_iso.png Graphic file (type png)
 <use thesis_images/ph_calo_iso.png>
-Package pdftex.def Info: thesis_images/ph_calo_iso.png  used on input line 577.
+Package pdftex.def Info: thesis_images/ph_calo_iso.png  used on input line 575.
 
 (pdftex.def)             Requested size: 334.60422pt x 326.94392pt.
-<thesis_images/ph_track_iso.png, id=611, 701.62125pt x 682.55pt>
+<thesis_images/ph_track_iso.png, id=619, 701.62125pt x 682.55pt>
 File: thesis_images/ph_track_iso.png Graphic file (type png)
 <use thesis_images/ph_track_iso.png>
-Package pdftex.def Info: thesis_images/ph_track_iso.png  used on input line 583
+Package pdftex.def Info: thesis_images/ph_track_iso.png  used on input line 581
 .
 (pdftex.def)             Requested size: 334.60422pt x 325.51648pt.
  [31] [32 <./thesis_images/Z_iso.png>] [33 <./thesis_images/ph_calo_iso.png>] [
@@ -1356,32 +1361,32 @@ Chapter 3.
 [35
 
 ] [36]
-<thesis_images/t_p_mu.png, id=659, 623.32875pt x 465.74pt>
+<thesis_images/t_p_mu.png, id=666, 623.32875pt x 465.74pt>
 File: thesis_images/t_p_mu.png Graphic file (type png)
 <use thesis_images/t_p_mu.png>
-Package pdftex.def Info: thesis_images/t_p_mu.png  used on input line 672.
+Package pdftex.def Info: thesis_images/t_p_mu.png  used on input line 670.
 (pdftex.def)             Requested size: 204.94774pt x 144.918pt.
-<thesis_images/Z_p_mu.png, id=660, 641.39626pt x 455.7025pt>
+<thesis_images/Z_p_mu.png, id=667, 641.39626pt x 455.7025pt>
 File: thesis_images/Z_p_mu.png Graphic file (type png)
 <use thesis_images/Z_p_mu.png>
-Package pdftex.def Info: thesis_images/Z_p_mu.png  used on input line 673.
+Package pdftex.def Info: thesis_images/Z_p_mu.png  used on input line 671.
 (pdftex.def)             Requested size: 204.9476pt x 144.92381pt.
  [37]
-<thesis_images/p_0.png, id=673, 828.09375pt x 580.1675pt>
+<thesis_images/p_0.png, id=680, 828.09375pt x 580.1675pt>
 File: thesis_images/p_0.png Graphic file (type png)
 <use thesis_images/p_0.png>
-Package pdftex.def Info: thesis_images/p_0.png  used on input line 705.
+Package pdftex.def Info: thesis_images/p_0.png  used on input line 703.
 (pdftex.def)             Requested size: 250.95476pt x 175.82211pt.
  [38 <./thesis_images/t_p_mu.png> <./thesis_images/Z_p_mu.png>]
-<thesis_images/mu_limit.png, id=687, 788.9475pt x 615.29875pt>
+<thesis_images/mu_limit.png, id=694, 788.9475pt x 615.29875pt>
 File: thesis_images/mu_limit.png Graphic file (type png)
 <use thesis_images/mu_limit.png>
-Package pdftex.def Info: thesis_images/mu_limit.png  used on input line 723.
+Package pdftex.def Info: thesis_images/mu_limit.png  used on input line 721.
 (pdftex.def)             Requested size: 250.95476pt x 195.71664pt.
-<thesis_images/limits.png, id=688, 773.89125pt x 581.17125pt>
+<thesis_images/limits.png, id=695, 773.89125pt x 581.17125pt>
 File: thesis_images/limits.png Graphic file (type png)
 <use thesis_images/limits.png>
-Package pdftex.def Info: thesis_images/limits.png  used on input line 729.
+Package pdftex.def Info: thesis_images/limits.png  used on input line 727.
 (pdftex.def)             Requested size: 250.95476pt x 188.46162pt.
 
 
@@ -1392,191 +1397,272 @@ ges/limits.png>]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 735.
+(hyperref)                removing `math shift' on input line 733.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 735.
+(hyperref)                removing `subscript' on input line 733.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 735.
+(hyperref)                removing `math shift' on input line 733.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 735.
+(Font)              <24.88> on input line 733.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 735.
-<thesis_images/br.jpg, id=706, 569.4876pt x 546.3612pt>
+(Font)              <20.74> on input line 733.
+<thesis_images/br.jpg, id=716, 569.4876pt x 546.3612pt>
 File: thesis_images/br.jpg Graphic file (type jpg)
 <use thesis_images/br.jpg>
-Package pdftex.def Info: thesis_images/br.jpg  used on input line 743.
+Package pdftex.def Info: thesis_images/br.jpg  used on input line 741.
 (pdftex.def)             Requested size: 209.12683pt x 200.63318pt.
-<thesis_images/irr_bkg.png, id=707, 547.04375pt x 141.52875pt>
+<thesis_images/irr_bkg.png, id=717, 547.04375pt x 141.52875pt>
 File: thesis_images/irr_bkg.png Graphic file (type png)
 <use thesis_images/irr_bkg.png>
-Package pdftex.def Info: thesis_images/irr_bkg.png  used on input line 749.
+Package pdftex.def Info: thesis_images/irr_bkg.png  used on input line 747.
 (pdftex.def)             Requested size: 292.77629pt x 75.74628pt.
-<thesis_images/rid_bkg.png, id=708, 558.085pt x 165.61874pt>
+<thesis_images/rid_bkg.png, id=718, 558.085pt x 165.61874pt>
 File: thesis_images/rid_bkg.png Graphic file (type png)
 <use thesis_images/rid_bkg.png>
-Package pdftex.def Info: thesis_images/rid_bkg.png  used on input line 750.
+Package pdftex.def Info: thesis_images/rid_bkg.png  used on input line 748.
 (pdftex.def)             Requested size: 292.77629pt x 86.88795pt.
 [41
 
 ] [42 <./thesis_images/br.jpg> <./thesis_images/irr_bkg.png> <./thesis_images/r
-id_bkg.png>]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
-61.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [43] [44] [45]
-<thesis_images/inclusive_tree.pdf, id=765, 197.18167pt x 35.12122pt>
+id_bkg.png>] [43] [44] [45]
+<thesis_images/inclusive_tree.pdf, id=771, 197.18167pt x 35.12122pt>
 File: thesis_images/inclusive_tree.pdf Graphic file (type pdf)
 <use thesis_images/inclusive_tree.pdf>
 Package pdftex.def Info: thesis_images/inclusive_tree.pdf  used on input line 8
-51.
+55.
 (pdftex.def)             Requested size: 418.25368pt x 74.50697pt.
-<thesis_images/catConvEta_tree.pdf, id=766, 450.30734pt x 178.32922pt>
+<thesis_images/catConvEta_tree.pdf, id=772, 450.30734pt x 178.32922pt>
 File: thesis_images/catConvEta_tree.pdf Graphic file (type pdf)
 <use thesis_images/catConvEta_tree.pdf>
 Package pdftex.def Info: thesis_images/catConvEta_tree.pdf  used on input line 
-852.
+856.
 (pdftex.def)             Requested size: 418.25368pt x 165.6431pt.
-<thesis_images/catConv_tree.pdf, id=767, 322.4326pt x 120.48012pt>
+<thesis_images/catConv_tree.pdf, id=773, 322.4326pt x 120.48012pt>
 File: thesis_images/catConv_tree.pdf Graphic file (type pdf)
 <use thesis_images/catConv_tree.pdf>
-Package pdftex.def Info: thesis_images/catConv_tree.pdf  used on input line 853
+Package pdftex.def Info: thesis_images/catConv_tree.pdf  used on input line 857
 .
 (pdftex.def)             Requested size: 418.25368pt x 156.29689pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<thesis_images/sigma_comp.pdf, id=770, 569.12625pt x 355.3275pt>
+<thesis_images/sigma_comp.pdf, id=776, 569.12625pt x 355.3275pt>
 File: thesis_images/sigma_comp.pdf Graphic file (type pdf)
 <use thesis_images/sigma_comp.pdf>
-Package pdftex.def Info: thesis_images/sigma_comp.pdf  used on input line 864.
+Package pdftex.def Info: thesis_images/sigma_comp.pdf  used on input line 869.
 (pdftex.def)             Requested size: 334.60422pt x 208.91487pt.
-<thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf, id=771, 569.12625
+[46]
+<thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf, id=785, 569.12625
 pt x 355.3275pt>
 File: thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf Graphic file 
 (type pdf)
 <use thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf>
 Package pdftex.def Info: thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fi
-t.pdf  used on input line 874.
+t.pdf  used on input line 879.
 (pdftex.def)             Requested size: 334.60422pt x 208.91487pt.
-[46] [47 <./thesis_images/inclusive_tree.pdf> <./thesis_images/catConvEta_tree.
-pdf> <./thesis_images/catConv_tree.pdf>] [48 <./thesis_images/sigma_comp.pdf, p
-age is rotated 90 degrees> <./thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_
-no_fit.pdf, page is rotated 90 degrees>]
-<thesis_images/x_section_fit.pdf, id=952, 569.12625pt x 355.3275pt>
+ [47 <./thesis_images/inclusive_tree.pdf> <./thesis_images/catConvEta_tree.pdf>
+ <./thesis_images/catConv_tree.pdf>]
+<thesis_images/x_section_fit.pdf, id=866, 569.12625pt x 355.3275pt>
 File: thesis_images/x_section_fit.pdf Graphic file (type pdf)
 <use thesis_images/x_section_fit.pdf>
 Package pdftex.def Info: thesis_images/x_section_fit.pdf  used on input line 89
-3.
+8.
 (pdftex.def)             Requested size: 204.9466pt x 127.95575pt.
-<thesis_images/ax_fit.pdf, id=953, 569.12625pt x 355.3275pt>
+<thesis_images/ax_fit.pdf, id=867, 569.12625pt x 355.3275pt>
 File: thesis_images/ax_fit.pdf Graphic file (type pdf)
 <use thesis_images/ax_fit.pdf>
-Package pdftex.def Info: thesis_images/ax_fit.pdf  used on input line 894.
+Package pdftex.def Info: thesis_images/ax_fit.pdf  used on input line 899.
 (pdftex.def)             Requested size: 204.9466pt x 127.95575pt.
-<thesis_images/br_fit.pdf, id=954, 569.12625pt x 355.3275pt>
+<thesis_images/br_fit.pdf, id=868, 569.12625pt x 355.3275pt>
 File: thesis_images/br_fit.pdf Graphic file (type pdf)
 <use thesis_images/br_fit.pdf>
-Package pdftex.def Info: thesis_images/br_fit.pdf  used on input line 895.
+Package pdftex.def Info: thesis_images/br_fit.pdf  used on input line 900.
 (pdftex.def)             Requested size: 204.9466pt x 127.95575pt.
-<thesis_images/cx_fit_catConvEta_no.pdf, id=955, 569.12625pt x 355.3275pt>
+<thesis_images/cx_fit_catConvEta_no.pdf, id=869, 569.12625pt x 355.3275pt>
 File: thesis_images/cx_fit_catConvEta_no.pdf Graphic file (type pdf)
 <use thesis_images/cx_fit_catConvEta_no.pdf>
 Package pdftex.def Info: thesis_images/cx_fit_catConvEta_no.pdf  used on input 
-line 896.
+line 901.
 (pdftex.def)             Requested size: 204.9466pt x 127.95575pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<thesis_images/bkg_100_195GeV_fit_catConvEta_no.pdf, id=958, 569.12625pt x 355.
-3275pt>
-File: thesis_images/bkg_100_195GeV_fit_catConvEta_no.pdf Graphic file (type pdf
-)
-<use thesis_images/bkg_100_195GeV_fit_catConvEta_no.pdf>
-Package pdftex.def Info: thesis_images/bkg_100_195GeV_fit_catConvEta_no.pdf  us
-ed on input line 907.
+[48 <./thesis_images/sigma_comp.pdf, page is rotated 90 degrees>]
+<thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.pdf, id=925, 569.12625pt 
+x 355.3275pt>
+File: thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.pdf Graphic file (ty
+pe pdf)
+<use thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.pdf>
+Package pdftex.def Info: thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.p
+df  used on input line 912.
 (pdftex.def)             Requested size: 334.60422pt x 208.91487pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49]
+[49 <./thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf, page is rot
+ated 90 degrees>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 947.
+               Default added (so using `tbp') on input line 952.
 
-<thesis_images/HSM_fit_catConvEta_no.pdf, id=974, 569.12625pt x 355.3275pt>
+<thesis_images/HSM_fit_catConvEta_no.pdf, id=982, 569.12625pt x 355.3275pt>
 File: thesis_images/HSM_fit_catConvEta_no.pdf Graphic file (type pdf)
 <use thesis_images/HSM_fit_catConvEta_no.pdf>
 Package pdftex.def Info: thesis_images/HSM_fit_catConvEta_no.pdf  used on input
- line 949.
+ line 954.
 (pdftex.def)             Requested size: 334.60422pt x 208.91487pt.
-<thesis_images/var_shape_scale_catConvEta_no.pdf, id=977, 569.12625pt x 385.44p
+<thesis_images/var_shape_scale_catConvEta_no.pdf, id=985, 569.12625pt x 385.44p
 t>
 File: thesis_images/var_shape_scale_catConvEta_no.pdf Graphic file (type pdf)
 <use thesis_images/var_shape_scale_catConvEta_no.pdf>
 Package pdftex.def Info: thesis_images/var_shape_scale_catConvEta_no.pdf  used 
-on input line 962.
+on input line 967.
 (pdftex.def)             Requested size: 334.60422pt x 226.61952pt.
 [50 <./thesis_images/x_section_fit.pdf, page is rotated 90 degrees> <./thesis_i
 mages/ax_fit.pdf, page is rotated 90 degrees> <./thesis_images/br_fit.pdf, page
  is rotated 90 degrees> <./thesis_images/cx_fit_catConvEta_no.pdf, page is rota
 ted 90 degrees>]
-<thesis_images/var_shape_res_catConvEta_no.pdf, id=1159, 569.12625pt x 385.44pt
+<thesis_images/var_shape_res_catConvEta_no.pdf, id=1166, 569.12625pt x 385.44pt
 >
 File: thesis_images/var_shape_res_catConvEta_no.pdf Graphic file (type pdf)
 <use thesis_images/var_shape_res_catConvEta_no.pdf>
 Package pdftex.def Info: thesis_images/var_shape_res_catConvEta_no.pdf  used on
- input line 972.
+ input line 977.
 (pdftex.def)             Requested size: 334.60422pt x 226.61952pt.
- [51 <./thesis_images/bkg_100_195GeV_fit_catConvEta_no.pdf, page is rotated 90 
-degrees>] [52 <./thesis_images/HSM_fit_catConvEta_no.pdf, page is rotated 90 de
-grees>] [53 <./thesis_images/var_shape_scale_catConvEta_no.pdf, page is rotated
- 90 degrees> <./thesis_images/var_shape_res_catConvEta_no.pdf, page is rotated 
-90 degrees>]
-<thesis_images/var_catConvEta_no_sig_fid.pdf, id=1356, 569.12625pt x 385.44pt>
+ [51 <./thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.pdf, page is rotat
+ed 90 degrees>] [52 <./thesis_images/HSM_fit_catConvEta_no.pdf, page is rotated
+ 90 degrees>] [53 <./thesis_images/var_shape_scale_catConvEta_no.pdf, page is r
+otated 90 degrees> <./thesis_images/var_shape_res_catConvEta_no.pdf, page is ro
+tated 90 degrees>]
+<thesis_images/var_catConvEta_no_sig_fid.pdf, id=1363, 569.12625pt x 385.44pt>
 File: thesis_images/var_catConvEta_no_sig_fid.pdf Graphic file (type pdf)
 <use thesis_images/var_catConvEta_no_sig_fid.pdf>
 Package pdftex.def Info: thesis_images/var_catConvEta_no_sig_fid.pdf  used on i
-nput line 983.
+nput line 988.
 (pdftex.def)             Requested size: 334.60422pt x 226.61952pt.
-<thesis_images/cx_all_prod_catConvEta_no.pdf, id=1357, 569.12625pt x 355.3275pt
+<thesis_images/cx_all_prod_catConvEta_no.pdf, id=1364, 569.12625pt x 355.3275pt
 >
 File: thesis_images/cx_all_prod_catConvEta_no.pdf Graphic file (type pdf)
 <use thesis_images/cx_all_prod_catConvEta_no.pdf>
 Package pdftex.def Info: thesis_images/cx_all_prod_catConvEta_no.pdf  used on i
-nput line 1014.
+nput line 1019.
 (pdftex.def)             Requested size: 334.60422pt x 208.91487pt.
  [54 <./thesis_images/var_catConvEta_no_sig_fid.pdf, page is rotated 90 degrees
 >] [55 <./thesis_images/cx_all_prod_catConvEta_no.pdf, page is rotated 90 degre
-es>] (./thesis.bbl [56] [57
+es>] [56]
+<thesis_images/p0_no_catConvEta.pdf, id=1473, 578.16pt x 361.35pt>
+File: thesis_images/p0_no_catConvEta.pdf Graphic file (type pdf)
+<use thesis_images/p0_no_catConvEta.pdf>
+Package pdftex.def Info: thesis_images/p0_no_catConvEta.pdf  used on input line
+ 1122.
+(pdftex.def)             Requested size: 292.77629pt x 182.98482pt.
+<thesis_images/p0_catConvEta.pdf, id=1474, 578.16pt x 361.35pt>
+File: thesis_images/p0_catConvEta.pdf Graphic file (type pdf)
+<use thesis_images/p0_catConvEta.pdf>
+Package pdftex.def Info: thesis_images/p0_catConvEta.pdf  used on input line 11
+23.
+(pdftex.def)             Requested size: 292.77629pt x 182.98482pt.
+<thesis_images/p0_catConv.pdf, id=1475, 578.16pt x 361.35pt>
+File: thesis_images/p0_catConv.pdf Graphic file (type pdf)
+<use thesis_images/p0_catConv.pdf>
+Package pdftex.def Info: thesis_images/p0_catConv.pdf  used on input line 1124.
 
-] [58] [59] [60])
-[61]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1063.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1063.
+(pdftex.def)             Requested size: 292.77629pt x 182.98482pt.
+
+
+LaTeX Warning: Float too large for page by 75.22426pt on input line 1127.
+
+<thesis_images/plot_AsimovData_0_ggHyy_MC_no_catConvEta_syst_HSM_fid_nom_gaus.p
+df, id=1478, 578.16pt x 361.35pt>
+File: thesis_images/plot_AsimovData_0_ggHyy_MC_no_catConvEta_syst_HSM_fid_nom_g
+aus.pdf Graphic file (type pdf)
+<use thesis_images/plot_AsimovData_0_ggHyy_MC_no_catConvEta_syst_HSM_fid_nom_ga
+us.pdf>
+Package pdftex.def Info: thesis_images/plot_AsimovData_0_ggHyy_MC_no_catConvEta
+_syst_HSM_fid_nom_gaus.pdf  used on input line 1134.
+(pdftex.def)             Requested size: 292.77629pt x 182.98482pt.
+<thesis_images/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid_nom_gaus.pdf,
+ id=1479, 578.16pt x 361.35pt>
+File: thesis_images/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid_nom_gaus
+.pdf Graphic file (type pdf)
+<use thesis_images/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid_nom_gaus.
+pdf>
+Package pdftex.def Info: thesis_images/plot_AsimovData_0_ggHyy_MC_catConvEta_sy
+st_HSM_fid_nom_gaus.pdf  used on input line 1135.
+(pdftex.def)             Requested size: 292.77629pt x 182.98482pt.
+<thesis_images/plot_AsimovData_0_ggHyy_MC_catConv_syst_HSM_fid_nom_gaus.pdf, id
+=1480, 578.16pt x 361.35pt>
+File: thesis_images/plot_AsimovData_0_ggHyy_MC_catConv_syst_HSM_fid_nom_gaus.pd
+f Graphic file (type pdf)
+<use thesis_images/plot_AsimovData_0_ggHyy_MC_catConv_syst_HSM_fid_nom_gaus.pdf
+>
+Package pdftex.def Info: thesis_images/plot_AsimovData_0_ggHyy_MC_catConv_syst_
+HSM_fid_nom_gaus.pdf  used on input line 1136.
+(pdftex.def)             Requested size: 292.77629pt x 182.98482pt.
+
+LaTeX Warning: Float too large for page by 61.62425pt on input line 1139.
+
+<thesis_images/imp_nom_gaus.pdf, id=1481, 578.16pt x 361.35pt>
+File: thesis_images/imp_nom_gaus.pdf Graphic file (type pdf)
+<use thesis_images/imp_nom_gaus.pdf>
+Package pdftex.def Info: thesis_images/imp_nom_gaus.pdf  used on input line 114
+2.
+(pdftex.def)             Requested size: 418.25368pt x 261.40688pt.
+[57] [58 <./thesis_images/p0_no_catConvEta.pdf> <./thesis_images/p0_catConvEta.
+pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./thesis_images/p0_catConvEta.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./thesis_images/p0_catConv.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./thesis_images/p0_catConv.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] [59 <./thesis_images/plot_AsimovData_0_ggHyy_MC_no_catConvEta_syst_HSM_fid_n
+om_gaus.pdf> <./thesis_images/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fi
+d_nom_gaus.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./thesis_images/plot_AsimovData_0_ggHyy
+_MC_catConvEta_syst_HSM_fid_nom_gaus.pdf): PDF inclusion: multiple pdfs with pa
+ge group included in a single page
+> <./thesis_images/plot_AsimovData_0_ggHyy_MC_catConv_syst_HSM_fid_nom_gaus.pdf
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./thesis_images/plot_AsimovData_0_ggHyy
+_MC_catConv_syst_HSM_fid_nom_gaus.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+>] [60 <./thesis_images/imp_nom_gaus.pdf>]
+Chapter 5.
+[61
+
+] [62] (./thesis.bbl [63
+
+] [64] [65] [66]) [67]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1195.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1195.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1063.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1063.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1195.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2ACE0A89965693BF47F11088D25EE0D6;2835.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1063.
+(rerunfilecheck)             Checksum: 9BECD40F0CD7DE6897035B8897E403C6;2973.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1195.
  ) 
 Here is how much of TeX's memory you used:
- 29733 strings out of 481239
- 531819 string characters out of 5920376
- 769315 words of memory out of 5000000
- 44121 multiletter control sequences out of 15000+600000
+ 29811 strings out of 481239
+ 534679 string characters out of 5920376
+ 770972 words of memory out of 5000000
+ 44174 multiletter control sequences out of 15000+600000
  682420 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,15n,84p,1731b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,15n,84p,2135b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1606,9 +1692,9 @@ public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on thesis.pdf (62 pages, 3603465 bytes).
+Output written on thesis.pdf (68 pages, 3804424 bytes).
 PDF statistics:
- 1723 PDF objects out of 1728 (max. 8388607)
- 234 named destinations out of 1000 (max. 500000)
- 559 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2212 PDF objects out of 2487 (max. 8388607)
+ 252 named destinations out of 1000 (max. 500000)
+ 610 words of extra memory for PDF output out of 10000 (max. 10000000)
 

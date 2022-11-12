@@ -25,14 +25,16 @@
 \contentsline {chapter}{\numberline {3}Statistical techniques}{35}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Formalism of a search as a statistical test}{35}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Test statistic}{37}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Medium mass $m_{\gamma \gamma }$ analysis}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}MC samples}{43}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Event selection}{43}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Categorisation}{44}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Models}{46}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Signal Modelling}{46}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Non resonant background}{49}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Higgs Standard Model background}{49}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Systematic uncertainties}{50}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Results}{54}{section.4.5}%
-\contentsline {chapter}{Bibliography}{61}{chapter*.49}%
+\contentsline {chapter}{\numberline {4}"Medium" $m_{\gamma \gamma }$ mass analysis}{41}{chapter.4}%
+\contentsline {section}{\numberline {4.1}SM Higgs production modes}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}MC samples}{43}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Event selection}{43}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Categorisation}{44}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Models}{46}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Signal Modelling}{46}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Non resonant background}{49}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Higgs Standard Model background}{49}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Systematic uncertainties}{50}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Results}{54}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Conclusions}{61}{chapter.5}%
+\contentsline {chapter}{Bibliography}{67}{chapter*.55}%
