@@ -1,0 +1,86 @@
+\begin{thebibliography}{10}
+
+\bibitem{LHC_DESIGN_2004}
+Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
+  Poole, and Paul Proudlock.
+\newblock {\em {LHC Design Report}}.
+\newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2004.
+\newblock URL: \url{https://cds.cern.ch/record/782076}, \href
+  {https://doi.org/10.5170/CERN-2004-003-V-1}
+  {\path{doi:10.5170/CERN-2004-003-V-1}}.
+
+\bibitem{LHC_DESIGN_2008}
+Lyndon Evans and Philip Bryant.
+\newblock Lhc machine.
+\newblock {\em Journal of Instrumentation}, 3(08):S08001, aug 2008.
+\newblock \href {https://doi.org/10.1088/1748-0221/3/08/S08001}
+  {\path{doi:10.1088/1748-0221/3/08/S08001}}.
+
+\bibitem{LEP_DESIGN_2001}
+The~{LEP} Collaboration.
+\newblock {A Combination of Preliminary Electroweak Measurements and
+  Constraints on the Standard Model}.
+\newblock Technical report, CERN, Geneva, 2001.
+\newblock URL: \url{https://cds.cern.ch/record/531260}.
+
+\bibitem{ATLAS_DESIGN_2008}
+The~ATLAS Collaboration.
+\newblock The {ATLAS} experiment at the {CERN} large hadron collider.
+\newblock {\em Journal of Instrumentation}, 3(08):S08003--S08003, aug 2008.
+\newblock \href {https://doi.org/10.1088/1748-0221/3/08/s08003}
+  {\path{doi:10.1088/1748-0221/3/08/s08003}}.
+
+\bibitem{weinberg_1995}
+Steven Weinberg.
+\newblock {\em The Quantum Theory of Fields}, volume~1.
+\newblock Cambridge University Press, 1995.
+\newblock \href {https://doi.org/10.1017/CBO9781139644167}
+  {\path{doi:10.1017/CBO9781139644167}}.
+
+\bibitem{higgs_atlas}
+ATLAS Collaboration.
+\newblock Observation of a new particle in the search for the standard model
+  higgs boson with the {ATLAS} detector at the {LHC}.
+\newblock {\em Physics Letters B}, 716(1):1--29, 2012.
+\newblock \href {https://doi.org/10.1016/j.physletb.2012.08.020}
+  {\path{doi:10.1016/j.physletb.2012.08.020}}.
+
+\bibitem{higgs_cms}
+CMS Collaboration.
+\newblock Observation of a new boson at a mass of 125 {GeV} with the {CMS}
+  experiment at the {LHC}.
+\newblock {\em Physics Letters B}, 716(1):30--61, sep 2012.
+\newblock \href {https://doi.org/10.1016/j.physletb.2012.08.021}
+  {\path{doi:10.1016/j.physletb.2012.08.021}}.
+
+\bibitem{Branco_2012}
+G.C. Branco, P.M. Ferreira, L.~Lavoura, M.N. Rebelo, Marc Sher, and
+  Jo{\~{a}}o~P. Silva.
+\newblock Theory and phenomenology of two-higgs-doublet models.
+\newblock {\em Physics Reports}, 516(1-2):1--102, jul 2012.
+\newblock \href {https://doi.org/10.1016/j.physrep.2012.02.002}
+  {\path{doi:10.1016/j.physrep.2012.02.002}}.
+
+\bibitem{dine_2016}
+Michael Dine.
+\newblock {\em Supersymmetry and String Theory: Beyond the Standard Model}.
+\newblock Cambridge University Press, 2 edition, 2016.
+\newblock \href {https://doi.org/10.1017/CBO9781107261426}
+  {\path{doi:10.1017/CBO9781107261426}}.
+
+\bibitem{Aad_2019}
+ATLAS Collaboration.
+\newblock Electron and photon performance measurements with the {ATLAS}
+  detector using the 2015{\textendash}2017 {LHC} proton-proton collision data.
+\newblock {\em Journal of Instrumentation}, dec 2019.
+\newblock \href {https://doi.org/10.1088/1748-0221/14/12/p12006}
+  {\path{doi:10.1088/1748-0221/14/12/p12006}}.
+
+\bibitem{Statistic}
+Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
+\newblock Asymptotic formulae for likelihood-based tests of new physics.
+\newblock {\em The European Physical Journal C}, 71(2), feb 2011.
+\newblock \href {https://doi.org/10.1140/epjc/s10052-011-1554-0}
+  {\path{doi:10.1140/epjc/s10052-011-1554-0}}.
+
+\end{thebibliography}
