@@ -270,6 +270,24 @@ Robert Schabinger and James~D. Wells.
 \newblock \href {https://doi.org/10.1103/PhysRevD.72.093007}
   {\path{doi:10.1103/PhysRevD.72.093007}}.
 
+\bibitem{weinberg_1995}
+Steven Weinberg.
+\newblock {\em The Quantum Theory of Fields}, volume~1.
+\newblock Cambridge University Press, 1995.
+\newblock \href {https://doi.org/10.1017/CBO9781139644167}
+  {\path{doi:10.1017/CBO9781139644167}}.
+
+\bibitem{higgs_prod}
+M.Y. Hussein.
+\newblock Higgs boson production at the lhc.
+\newblock {\em Nuclear Physics B - Proceedings Supplements}, 207-208:110--113,
+  2010.
+\newblock Proceedings of the QCD 10: 15th High-Energy Physics International
+  Conference on Quantum Chromodynamics.
+\newblock \href
+  {https://doi.org/https://doi.org/10.1016/j.nuclphysbps.2010.10.029}
+  {\path{doi:https://doi.org/10.1016/j.nuclphysbps.2010.10.029}}.
+
 \bibitem{Pow_1}
 Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
 \newblock A general framework for implementing {NLO} calculations in shower
@@ -311,13 +329,6 @@ Torbjörn Sjöstrand, Stefan Ask, Jesper~R. Christiansen, Richard Corke,
 \newblock \href {https://doi.org/10.1016/j.cpc.2015.01.024}
   {\path{doi:10.1016/j.cpc.2015.01.024}}.
 
-\bibitem{yellow4}
-{SM Higgs production cross sections at $\sqrt{s}$ = 14 TeV (update in CERN
-  Report4 2016)}.
-\newblock Technical report, CERN.
-\newblock URL:
-  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt13TeV}.
-
 \bibitem{sherpa}
 T~Gleisberg, S~Höche, F~Krauss, M~Schönherr, S~Schumann, F~Siegert, and
   J~Winter.
@@ -325,6 +336,20 @@ T~Gleisberg, S~Höche, F~Krauss, M~Schönherr, S~Schumann, F~Siegert, and
 \newblock {\em Journal of High Energy Physics}, 2009(02):007--007, feb 2009.
 \newblock \href {https://doi.org/10.1088/1126-6708/2009/02/007}
   {\path{doi:10.1088/1126-6708/2009/02/007}}.
+
+\bibitem{yellow4}
+{SM Higgs production cross sections at $\sqrt{s}$ = 14 TeV (update in CERN
+  Report4 2016)}.
+\newblock Technical report, CERN.
+\newblock URL:
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt13TeV}.
+
+\bibitem{yellow3}
+ATLAS Collaboration.
+\newblock Handbook of lhc higgs cross sections: 3. higgs properties: Report of
+  the lhc higgs cross section working group, 2013.
+\newblock \href {https://doi.org/10.5170/CERN-2013-004}
+  {\path{doi:10.5170/CERN-2013-004}}.
 
 \bibitem{e_trigger}
 ATLAS Collaboration.

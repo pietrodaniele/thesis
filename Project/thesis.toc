@@ -27,14 +27,15 @@
 \contentsline {section}{\numberline {3.2}Test statistic}{37}{section.3.2}%
 \contentsline {chapter}{\numberline {4}"Medium" $m_{\gamma \gamma }$ mass analysis}{41}{chapter.4}%
 \contentsline {section}{\numberline {4.1}SM Higgs production modes}{43}{section.4.1}%
-\contentsline {section}{\numberline {4.2}MC samples}{43}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Event selection}{43}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Categorisation}{44}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Models}{46}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Signal Modelling}{46}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Non resonant background}{49}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Higgs Standard Model background}{49}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Systematic uncertainties}{50}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Results}{54}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Conclusions}{61}{chapter.5}%
-\contentsline {chapter}{Bibliography}{67}{chapter*.55}%
+\contentsline {section}{\numberline {4.2}MC samples}{45}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Event selection}{46}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Categorisation}{48}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Models}{48}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Signal Modelling}{49}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Non resonant background}{52}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Higgs Standard Model background}{53}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Systematic uncertainties}{54}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Results}{59}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Conclusions}{63}{chapter.5}%
+\contentsline {chapter}{\numberline {A}$\mu $ limits as a function of $m_X$}{65}{appendix.A}%
+\contentsline {chapter}{Bibliography}{71}{appendix*.64}%

@@ -753,6 +753,59 @@
  		A combined maximum likelihood fit in all the categories is performed to investigate the presence of a signal by computing the compatibility of the observed data with the background-only hypothesis $p_0$ (Figure \ref{fig:p_0}) and assessing limits (Figure \ref{fig:limits}) on the production cross-section in case no excess is observed. Different types of categorisation are tested and compared in order to obtain the best working-point from the trade-off between the analysis performance and the model independence.
  		
  		\section{SM Higgs production modes}
+ 			The Higgs mechanism is the cornerstone in the electroweak sector of the Standard Model \cite{weinberg_1995}. The fundamental particles, leptons, quarks and gauge particles, acquire the masses through the interaction with a scalar ﬁeld. To accommodate the wellestablished electromagnetic and weak phenomena, this mechanism requires the existence of at least one scalar ﬁeld, the Higgs boson \cite{higgs_prod}. In the SM, Higgs boson production at the LHC mainly occurs through the following processes, listed in order of decreasing cross section at the Run 1 centre-of-mass energies:
+ 			\begin{itemize}
+ 				\item gluon fusion production $gg\to H$ (Figure \ref{fig:ggF});
+ 				\item vector boson fusion $qq\to qqH$ (Figure \ref{fig:VBF});
+ 				\item associated production with a $W$ boson, $qq\to WH$ (Figure \ref{fig:qqVH}), or with a $Z$ boson, $pp\to ZH$, including a small ($\sim$8\%) but less precisely known contribution from $gg\to ZH$($ggZH$)(Figure \ref{fig:prod2});
+ 				\item associated production with a pair of top quarks, $qq$, $gg\to ttH$ (Figure \ref{fig:prod3}).
+ 			\end{itemize}
+ 			\begin{figure}
+ 				\centering
+ 				\subfloat[]{\includegraphics[width=.3\textwidth]{thesis_images/ggF.png}\label{fig:ggF}}
+ 				\subfloat[]{\includegraphics[width=.3\textwidth]{thesis_images/VBF.png}\label{fig:VBF}}					
+ 				\caption{Examples of leading-order Feynman diagrams for Higgs boson production via the (a) \textit{ggF} and (b) \textit{VBF} production processes.}
+ 				\label{fig:prod1}
+ 			\end{figure}
+ 			\begin{figure}
+ 				\centering
+ 				\subfloat[]{\includegraphics[width=.3\textwidth]{thesis_images/qqVH.png}\label{fig:qqVH}}
+ 				\hspace{.2cm}
+ 				\subfloat[]{\includegraphics[width=.3\textwidth]{thesis_images/ggZH1.png}\label{fig:ggZH1}}
+ 				\hspace{.2cm}				
+ 				\subfloat[]{\includegraphics[width=.3\textwidth]{thesis_images/ggZH2.png}\label{fig:ggZH2}}	
+ 				\caption{Examples of leading-order Feynman diagrams for Higgs boson production via the (a) $qq\to VH$ and (b,c) $gg\to ZH$ production processes.}
+ 				\label{fig:prod2}
+ 			\end{figure}
+ 			\begin{figure}
+ 				\centering
+ 				\subfloat[]{\includegraphics[width=.3\textwidth]{thesis_images/qqH.png}\label{fig:qqH}}
+ 				\hspace{.2cm}
+ 				\subfloat[]{\includegraphics[width=.3\textwidth]{thesis_images/ggH1.png}\label{fig:ggH1}}
+ 				\hspace{.2cm}				
+ 				\subfloat[]{\includegraphics[width=.3\textwidth]{thesis_images/ggH2.png}\label{fig:ggH2}}	
+ 				\caption{Examples of leading-order Feynman diagrams for Higgs boson production via the $qq/gg\to ttH$ and $qq/gg\to bbH$ processes.}
+ 				\label{fig:prod3}
+ 			\end{figure}
+ 			Other less important production processes in the SM, which are not the target of a direct search but are included in the combination, are $qq$, $gg\to bbH$ ($bbH$), also shown in Figure \ref{fig:prod3}, and production in association with a single top quark ($tH$), shown in Figure \ref{fig:prod4}. The latter process proceeds through either $qq/qb\to tHb/tHq'$ ($tHq$) (Figures \ref{fig:tHq1} and \ref{fig:tHq2}) or $gb\to tHW$ ($tHW$) (Figs. \ref{fig:tHW1} and \ref{fig:tHW2}) production. Figure \ref{fig:Higgs_xs} shows the production cross section of the Higgs boson as a function of Higgs mass at the	LHC.
+ 			\begin{figure}
+ 				\centering
+ 				\subfloat[]{\includegraphics[width=.225\textwidth]{thesis_images/tHq1.png}\label{fig:tHq1}}
+ 				\hspace{.1cm}
+ 				\subfloat[]{\includegraphics[width=.225\textwidth]{thesis_images/tHq2.png}\label{fig:tHq2}}
+ 				\hspace{.1cm}				
+ 				\subfloat[]{\includegraphics[width=.225\textwidth]{thesis_images/tHW1.png}\label{fig:tHW1}}
+ 				\hspace{.1cm}
+ 				\subfloat[]{\includegraphics[width=.225\textwidth]{thesis_images/tHW2.png}\label{fig:tHW2}}	
+ 				\caption{Examples of leading-order Feynman diagrams for Higgs boson production in association with a single top quark via the (a,b) $tHq$ and (c,d) $tHW$ production processes.}
+ 				\label{fig:prod4}
+ 			\end{figure}
+ 			\begin{figure}
+ 				\centering
+ 				\includegraphics[width=.6\textwidth]{thesis_images/higgs_xs.png}
+ 				\caption{The production cross section and number of events for $10^5$ pb$^{-1}$ of the Higgs boson as a function of the Higgs mass at the LHC.}
+ 				\label{fig:Higgs_xs}
+ 			\end{figure}
  	
  		\section{MC samples}
 			In order to optimize the analysis selections and characterize the signal and backgrounds, simulated Monte Carlo (MC) events are used. No data recorded by the ATLAS experiment are directly used for these steps, in order to avoid any bias in the analysis. 
@@ -863,23 +916,30 @@
  			To look for the presence of a signal, the $m_{\gamma\gamma}$ is used as discriminating variable. The $m_{\gamma\gamma}$ distribution in each category is described by an extended probability density function (pdf) in which the signal and backgrounds shapes are analytic functions of $m_{\gamma\gamma}$. In this analysis, the analytic functions are defined over the [100,195] GeV di-photon invariant mass range. %, with a blind search in [110,170] GeV $m_X$ range. %Then a simultaneous fit of these pdfs is applied to the $m_{\gamma\gamma}$ distributions in the categories. Systematic uncertainties related to yield, shape of signal and background modelling are incorporated into the likelihood model as nuisance parameters. 
  			
  			\subsection{Signal Modelling}
- 				The signal shape is described by a Double-Sided Crystal Ball (DSCB) distribution (Figure \ref{fig:sig_fit}): this function has a gaussian core, which is useful to describe the mass of $H\to\gamma\gamma$ candidates, completed by power-law tails at lower and higher $m_{\gamma\gamma}$ values.  .To create an analysis sensitive to additional spin-0 resonances, the signal model is a function of $m_X$. Therefore, in the model, each DSCB parameter is inserted as a linear distribution of $m_X$ (Figure \ref{fig:sigma_fit}):
- 				\begin{figure}
- 					\centering
- 					\includegraphics[width=.8\textwidth]{thesis_images/sigma_comp.pdf}
- 					\caption{The signal simultaneous DSCB fit $\sigma$ parameter with a linear distribution of $m_X$ and single DSCB $\sigma$ parameter applied to four different resonance mass MC samples comparison for the \texttt{Inclusive} categorisation}
- 					\label{fig:sigma_fit}
- 				\end{figure}
- 				\begin{equation}\label{eq:DSCB_par}
- 					p^{DSCB} = A_p + B_p\cdot m_X
- 				\end{equation}
- 				where $p^{DSCB}$ is a DSCB parameter. The $A_p$ and $B_p$ for each DSCB parameters in each category are obtained by a simultaneous fit to four different resonance masses (110, 125, 130 and 140 GeV) \textit{ggF} MC samples.
  				\begin{figure}
  					\centering
  					\includegraphics[width=.8\textwidth]{thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf}
  					\caption{Signal fit using a simultaneous DSCB fit, for the resonance mass $m_X$ = 125 GeV and for the \texttt{Inclusive} categorisation}
  					\label{fig:sig_fit}
  				\end{figure}
+ 				The signal shape is described by a Double-Sided Crystal Ball (DSCB) distribution (Figure \ref{fig:sig_fit}): this function has a gaussian core, which is useful to describe the mass of $H\to\gamma\gamma$ candidates, completed by power-law tails at lower and higher $m_{\gamma\gamma}$ values to account for experimental effects. Therefore the DSCB is described by 6 parameters: the mean $\mu$ and the standard deviation $\sigma$ of the Gaussian core and to 2 parameters for each polynomial tail ($a_{1,2}$,$p_{1,2}$). To create an analysis sensitive to additional spin-0 resonances, the signal model is build parametric in $m_X$. Therefore, in the model, each DSCB parameter is inserted as a linear distribution of $m_X$, whose initial values are obtained from a linear fit on the 4 single DSCB fit parameters on the 4 different resonance mass MC (110, 125, 130 and 140 GeV)  (Figure \ref{fig:sigma_single}):
+ 				\begin{figure}
+ 					\centering
+ 					\includegraphics[width=.8\textwidth]{thesis_images/sigma_single.pdf}
+ 					\caption{The signal single DSCB fit $\sigma$ parameters fitted with a linear function of $m_X$.}
+ 					\label{fig:sigma_single}
+ 				\end{figure}
+ 				\begin{equation}\label{eq:DSCB_par}
+ 					p^{DSCB} = A_p + B_p\cdot m_X
+ 				\end{equation}
+ 				where $p^{DSCB}$ is a DSCB parameter. The $A_p$ and $B_p$ for each DSCB parameters in each category are obtained by a simultaneous fit to four different resonance masses (110, 125, 130 and 140 GeV) \textit{ggF} MC samples (Figure \ref{fig:sigma_fit}).
+ 				\begin{figure}
+ 					\centering
+ 					\includegraphics[width=.8\textwidth]{thesis_images/sigma_comp.pdf}
+ 					\caption{The signal simultaneous DSCB fit $\sigma$ parameter with a linear distribution of $m_X$ and single DSCB $\sigma$ parameter applied to four different resonance mass MC samples comparison for the \texttt{Inclusive} categorisation}
+ 					\label{fig:sigma_fit}
+ 				\end{figure}
+ 				
  				
  				In each category $i$, the normalization of the signal pdf, called signal yield, is expressed as:
  				\begin{equation}\label{eq:signal_yield}
@@ -887,11 +947,11 @@
  				\end{equation}
  				where:
  				\begin{itemize}
- 					\item $\sigma_{ggF}(m_X)$ is the cross-section value for the specific $m_X$ obtained by fitting the $\sigma$ values for different masses, showed in Figure \ref{fig:xs_fit}.
+ 					\item $\sigma_{ggF}(m_X)$ is the cross-section value for the specific $m_X$ obtained by parametrising the $\sigma$ values for different masses \cite{yellow4}, showed in Figure \ref{fig:xs_fit}.
  					\item $A_X(m_X)$ is the acceptance value for the specific mass obtained from the linear fit of the four $A_X$ values for the four resonance masses showed in Figure \ref{fig:ax_fit}. The $A_X$ factor for each resonance mass is defined as the ratio of the number of events that pass the fiducial selection $n_{fid}$ and the total number of MC sample events $n_{all}$: $A_X = n_{fid}/n_{all}$.
- 					\item $Br_{\gamma\gamma}(m_X)$ is the branching fraction value for the specific $m_X$ obtained by fitting the $Br_{\gamma\gamma}$ values for different masses, showed in Figure \ref{fig:br_fit}.  
+ 					\item $Br_{\gamma\gamma}(m_X)$ is the branching fraction value for the specific $m_X$ obtained by parametrising the $Br_{\gamma\gamma}$ values for different masses \cite{yellow3}, showed in Figure \ref{fig:br_fit}.  
  					\item $\mathcal{L}_{Run2}$ is the value of the luminosity of LHC Run2 and it is 140 fb$^{-1}$.
- 					\item $C_X^i(m_X)$ for the specific mass is obtained from the linear fit of the four $C_X^i$ values for the four resonance masses showed in Figure \ref{fig:cx_fit}. $C_X$ is the ratio of the number of events that pass the selection after the reconstruction $n_{reco}$ and the number of those that pass the fiducial selection $n_{fid}$: $C_X = n_{reco}/n_{fid}$. The $C_X^i$ factors are calculated for each resonance mass and for each category.
+ 					\item $C_X^i(m_X)$ for the specific mass is obtained from the linear fit of the four $C_X^i$ values for the four resonance masses showed in Figure \ref{fig:cx_fit}. $C_X$ is the ratio of the number of events that pass the selection after the reconstruction $n_{reco}$ and the number of those that pass the fiducial selection $n_{fid}$: $C_X = n_{reco}/n_{fid}$. The $C_X^i$ factors are calculated for each resonance mass and for each category $i$.
  				
  					\begin{figure}[h!]
  						\centering
@@ -899,18 +959,18 @@
  						\subfloat[$A_X$ fit]{\includegraphics[width=.49\textwidth]{thesis_images/ax_fit.pdf}\label{fig:ax_fit}}\\
  						\subfloat[$Br_{\gamma\gamma}$ fit]{\includegraphics[width=.49\textwidth]{thesis_images/br_fit.pdf}\label{fig:br_fit}}				
  						\subfloat[$C_X^i(m_H)$ fit for the \texttt{Inclusive} categorisation]{\includegraphics[width=.49\textwidth]{thesis_images/cx_fit_catConvEta_no.pdf}\label{fig:cx_fit}}	
- 						\caption{\textcolor{red}{Signal yield fit component}}
+ 						\caption{\textcolor{red}{Signal yield fit component for the \texttt{Inclusive} categorisation}}
  						\label{fig:signal_yiels}
  					\end{figure}
  				\end{itemize}
  				
  			\subsection{Non resonant background}
- 				The non-resonant background in the $m_{\gamma\gamma}$ spectrum comes mainly from the non-resonant production of photon pairs ($\gamma\gamma$ events Figure \ref{fig:irr bkg}), smaller background components come from events containing a photon and a jet ($\gamma j$ events) and events with two jets ($jj$ events), where the jets are misidentified as photons (Figure \ref{fig:rid bkg}). Therefore, the background in each category is estimated from \texttt{Sherpa} di-photon MC samples by fitting the $m_{\gamma\gamma}$ spectrum in the mass range [100,195] GeV with a selected model with free parameters of shape and normalisation. The fitting range is set wider than the blind search range ([110,170] GeV $m_X$) in order to have enough events in the $m_{\gamma\gamma}$ side-bands to ensure a good description by the analytic form.
+ 				The non-resonant background in the $m_{\gamma\gamma}$ spectrum comes mainly from the non-resonant production of photon pairs ($\gamma\gamma$ events Figure \ref{fig:irr bkg}). Smaller background components come from events containing a photon and a jet ($\gamma j$ events) and events with two jets ($jj$ events), where the jets are misidentified as photons (Figure \ref{fig:rid bkg}). The study of background modelling in each category is performed on MC events normalized to data in dedicated sidebands ()[100,110] and [170,195] GeV). The background in each category is approximated using \texttt{Sherpa} di-photon MC samples by fitting the $m_{\gamma\gamma}$ spectrum in the mass range [100,195] GeV with a selected model with free parameters of shape and normalisation. The fitting range is set wider than the blind search range ([110,170] GeV $m_X$) in order to have enough events in the $m_{\gamma\gamma}$ side-bands. This function form obtained using MC samples will be applied to data, determining the correct shape and normalisation.
  				
  				\begin{figure}[h]
  					\centering
  					\includegraphics[width=.8\textwidth]{thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.pdf}
- 					\caption{\textcolor{red}{Non-resonant background fit using the \ref{eq:bkg} function form for the \texttt{Inclusive} categorisation}}
+ 					\caption{Non-resonant background fit using the \ref{eq:bkg} function form for the \texttt{Inclusive} categorisation, using  \texttt{Sherpa} di-photon MC samples. The lower plot shows the ratio between the \texttt{Sherpa} di-photon MC distribution and the background fit applied on it.}
  					\label{fig:bkg_fit}
  				\end{figure}
  				The functional form used for the description of the non-resonant background in the $i$ category is (Figure \ref{fig:bkg_fit}):
@@ -920,10 +980,10 @@
  				where $N_{bkg}^i$, which is the non-resonant background normalisation, $a^i$ and $b^i$ are free parameters for the specific $i$ category.
  				
  			\subsection{Higgs Standard Model background}
- 				Since the model must be SM independent in order to investigate the presence of new spin-0 resonances, the SM Higgs$_{125}$ is included as a resonant background (HSM). It is described by a DSCB fit to HSM sample, which is obtained by merging all SM Higgs$_{125}$ production MC samples generated with a resonance mass $m_H=125$ GeV (Figure \ref{fig:HSM_fit}) Therefore for the $i$ category:
+ 				In order to investigate the presence of new spin-0 resonances, the SM Higgs$_{125}$ is included as a resonant background (HSM). The SM Higgs boson is described by a DSCB fit to HSM sample, which is obtained by merging all SM Higgs$_{125}$ production MC samples generated with a resonance mass $m_H=125$ GeV (Figure \ref{fig:HSM_fit}) Therefore for the $i$ category:
  				\begin{itemize}
  					\item the DSCB fit is applied to $i$ category HSM sample;
- 					\item all DSCB parameters are fixed at their value after the fit and included in the analysis;
+ 					\item all DSCB parameters are fixed at their value after the fit and included in the analysis background shape;
  					\item the HSM background yield is obtained by counting the total number of events of $i$ category HSM sample (Table \ref{tab:HSM});
  				\end{itemize}  
  				Therefore, the HSM model has no free parameter, but they can be shifted due to the systematic experimental uncertainties that are included into the analysis, described in the next Section \ref{section:syst}
@@ -931,22 +991,22 @@
  					\centering
 						\begin{tabular}{lc}
 							\toprule[1.5pt]
-							Cat &  HSM\_events \\
+							Category &  HSM\_events \\
 							\midrule
-							Inclusive & 6232.25 \\
+							Inclusive & 6232 \\
 							\midrule
-							catConvEta\_1 & 960.525 \\
-							catConvEta\_2 & 1600.96 \\
-							catConvEta\_3 & 466.921 \\
-							catConvEta\_4 & 599.439 \\
-							catConvEta\_5 & 1820.56 \\
-							catConvEta\_6 & 787.967\\
+							catConvEta\_1 & 9601 \\
+							catConvEta\_2 & 1601 \\
+							catConvEta\_3 & 467 \\
+							catConvEta\_4 & 599 \\
+							catConvEta\_5 & 1821 \\
+							catConvEta\_6 & 788 \\
 							\midrule
-							catConv\_1 & 3028.29 \\
-							catConv\_2 & 3207.86 \\
+							catConv\_1 & 3028 \\
+							catConv\_2 & 3208 \\
 							\bottomrule[1.5pt]
 						\end{tabular}
- 					\caption{Number of SM Higgs$_{125}$ events for each category}
+ 					\caption{Expected Number of SM Higgs$_{125}$ events for each category after selections}
  					\label{tab:HSM}
  				\end{table}
  				\begin{figure}[]
@@ -961,7 +1021,7 @@
  			\subsection{Systematic uncertainties}\label{section:syst}
  				The systematic uncertainties are included into the likelihood model of the measurement as nuisance parameters. They arise from experimental sources and, for each category, they can be divided into two different groups: 
  				\begin{itemize}
- 					\item uncertainties in the modelling of the $m_{\gamma\gamma}$ distribution for the signal and HSM models. They include the uncertainties in the energy resolution and scale of photon candidates. In addition, there is also the Higgs boson mass uncertainty, which affects the energy scale of the HSM model. The photon energy scale uncertainties affect the peak position of the DSCB shape (Figure \ref{fig:scale_syst}) and they are calculated, following the procedure described in \cite{Aad_2019} as:
+ 					\item uncertainties in the modelling of the $m_{\gamma\gamma}$ distribution for the signal and HSM models. They include the uncertainties in the energy resolution and scale of photon candidates. The photon energy scale uncertainties affect the peak position of the DSCB shape (Figure \ref{fig:scale_syst}) and they are calculated, following the procedure described in \cite{Aad_2019} as:
  					\begin{figure}
  						\centering
  						\includegraphics[width=.8\textwidth]{thesis_images/var_shape_scale_catConvEta_no.pdf}
@@ -969,9 +1029,9 @@
  						\label{fig:scale_syst}
  					\end{figure}
  					\begin{equation}\label{eq:shape_syst}
- 						\delta\mu_c(\pm1\sigma)=\frac{<m_{\gamma\gamma}>_c(\pm1\sigma)}{<m_{\gamma\gamma}>_c}
+ 						\delta\mu_c(\pm1\sigma)=\frac{<m_{\gamma\gamma}>_i(\pm1\sigma)}{<m_{\gamma\gamma}>_i}
  					\end{equation}
- 					resulting in an impact of less than 0.5\%, depending on the category. Whereas the photon energy resolution uncertainties, which affect the Gaussian width of the DSCB shape (Figure \ref{fig:res_syst}), are calculated \cite{Aad_2019} as:
+ 					resulting in an impact of less than 0.5\%, depending on the category. The photon energy scale uncertainties are only applied to the signal model. The photon energy resolution uncertainties, which affect the Gaussian width of the DSCB shape (Figure \ref{fig:res_syst}), are calculated \cite{Aad_2019} as:
  					\begin{figure}
  						\centering
  						\includegraphics[width=.8\textwidth]{thesis_images/var_shape_res_catConvEta_no.pdf}
@@ -979,48 +1039,53 @@
  						\label{fig:res_syst}
  					\end{figure}
  					\begin{equation}\label{eq:res_syst}
- 						\delta\sigma_c(\pm1\sigma)=\frac{IQR_c(\pm1\sigma)}{IQR_c}
+ 						\delta\sigma_c(\pm1\sigma)=\frac{IQR_i(\pm1\sigma)}{IQR_i}
  					\end{equation}
- 					resulting in an impact of less than 12\%, depending on the category. $IQR$ is the InterQuartile Range of the distribution;
- 					\item uncertainties in the expected signal and HSM yields . They include: the impact of the photon energy scale and resolution uncertainties on the selection efficiency \cite{Aad_2019}, the photon identification and isolation efficiencies \cite{Aad_2019}, the efficiency of the diphoton trigger \cite{e_trigger} and the modelling of pile-up in the simulation. All these systematic uncertainties have an impact  of less than 2\% (Figure \ref{fig:yield_syst}). The signal yield is also affected by  the other production mode systematic uncertainty. For each category it is the maximum of  $$\dfrac{|C^{fit}_{X\ prod}-C^{fit}_{X\ ggF}|}{C^{fit}_{X\ ggF}}$$ by varying production modes and resonance mass (110,125,130,140 GeV) (Figure \ref{fig:prod_mode_syst}). The impact of this systematic uncertainty for each category is reported in the Table \ref{tab:prod_mode}.
- 					\begin{figure}
+ 					resulting in an impact of less than 12\%, depending on the category. $IQR$ is the InterQuartile Range of the distribution. The shape systematic uncertainties are reported in Table \ref{tab:shape}.
+ 					\begin{table}[tbp]
  						\centering
- 						\includegraphics[width=.8\textwidth]{thesis_images/var_catConvEta_no_sig_fid.pdf}
- 						\caption{Signal yield systematic uncertainties for the \texttt{Inclusive} categorisation}
- 						\label{fig:yield_syst}
- 					\end{figure}
+ 						\resizebox{\textwidth}{!}{
+							\begin{tabular}{lcccccc}
+								\toprule[1.5pt]
+								& \multicolumn{2}{c}{\small ATLAS\_EG\_RESOLUTION\_ALL$^{sig}$}
+								& \multicolumn{2}{c}{\small ATLAS\_EG\_RESOLUTION\_ALL$^{HSM}$}	
+								& \multicolumn{2}{c}{\small ATLAS\_EG\_SCALE\_ALL$^{sig}$}\\
+								\midrule
+								& \textbf{+1$\sigma$} & \textbf{-1$\sigma$}
+								& \textbf{+1$\sigma$} & \textbf{-1$\sigma$}
+								& \textbf{+1$\sigma$} & \textbf{-1$\sigma$}\\
+								\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+								Inclusive 	  & 0.0841 & -0.0669 & 0.0865 & -0.0686 & 0.0043 & -0.0043 \\
+								\midrule
+								catConvEta\_1 & 0.0944 & -0.0511 & 0.0972 & -0.0522 & 0.0027 & -0.0027 \\
+								catConvEta\_2 & 0.0899 & -0.0756 & 0.0923 & -0.0777 & 0.0051 & -0.0051 \\
+								catConvEta\_3 & 0.1187 & -0.1164 & 0.1212 & -0.1187 & 0.0094 & -0.0094 \\
+								catConvEta\_4 & 0.0795 & -0.0440 & 0.0824 & -0.0452 & 0.0029 & -0.0029 \\
+								catConvEta\_5 & 0.0697 & -0.0608 & 0.0716 & -0.0623 & 0.0034 & -0.0034 \\
+								catConvEta\_5 & 0.0781 & -0.0756 & 0.0801 & -0.0777 & 0.0052 & -0.0052 \\
+								\midrule
+								catConv\_1    & 0.0955 & -0.0731 & 0.0981 & -0.0749 & 0.0049 & -0.0049 \\
+								catConv\_2    & 0.0733 & -0.0607 & 0.0754 & -0.0622 & 0.0037 & -0.0037 \\
+								\bottomrule[1.5pt]
+							\end{tabular}
+						}
+ 						\caption{Signal and HSM $\pm1\sigma$ var Resolution and Scale shape systematic uncertainties for each category}
+ 						\label{tab:shape}
+ 					\end{table}
+ 					\item uncertainties in the expected signal and HSM yields. They include: the impact of the photon energy scale and resolution uncertainties on the selection efficiency \cite{Aad_2019}, the photon identification and isolation efficiencies \cite{Aad_2019}, the efficiency of the diphoton trigger \cite{e_trigger} and the modelling of pile-up in the simulation. All these systematic uncertainties have an impact of less than 2\% (Figure \ref{fig:yield_syst}). Since the analysis shown not rely on SM production modes fractions, the signal yield is also affected by the production mode dependence. For each category the values of $C_{X\ prod}$ are extracted from the available MC samples for each production mode and parametrised as functions of the mass. For each category the other production mode systematic uncertainty is the maximum of  $$\dfrac{|C^{fit}_{X\ prod}-C^{fit}_{X\ ggF}|}{C^{fit}_{X\ ggF}}$$ by varying production modes and resonance mass (110,125,130,140 GeV) (Figure \ref{fig:prod_mode_syst}). The impact of this systematic uncertainty for each category is reported in the Table \ref{tab:prod_mode}.
  					\begin{center}
- 						\begin{table}[tbp]
+ 						\begin{figure}
  							\centering
- 							\begin{tabular}{lcc}
- 								\toprule[1.5pt]
- 								Systematic uncertainty					& Signal model	& HSM model	\\
- 								\midrule
- 								ATLAS\_LHCmass							& 				& $\ast$	\\
- 								ATLAS\_EG\_RESOLUTION\_ALL				& $\ast$		& $\ast$	\\
- 								ATLAS\_EG\_SCALE\_ALL					& $\ast$		& $\ast$	\\
- 								\midrule
- 								ATLAS\_EG\_RESOLUTION\_ALL				& $\ast$		& $\ast$	\\
- 								ATLAS\_EG\_SCALE\_ALL					& $\ast$		& $\ast$	\\
- 								ATLAS\_PH\_EFF\_ID\_Uncertainty			& $\ast$		& $\ast$	\\
- 								ATLAS\_PH\_EFF\_ISO\_Uncertainty		& $\ast$		& $\ast$	\\
- 								ATLAS\_PH\_EFF\_TRIGGER\_Uncertainty	& $\ast$		& $\ast$	\\
- 								ATLAS\_PRW\_DATASF						& $\ast$		& $\ast$	\\
- 								ATLAS\_prod\_modes						& $\ast$		& 			\\
- 								\bottomrule[1.5pt]
- 							\end{tabular}
- 							\caption{List of the systematic uncertainties of the signal and HSM models}
- 							\label{tab:sig_HSM_syst}
- 						\end{table}
- 					\end{center}
- 				
-	 				\begin{figure}
-	 					\centering
-	 					\includegraphics[width=.8\textwidth]{thesis_images/cx_all_prod_catConvEta_no.pdf}
-	 					\caption{Four different resonance mass MC samples $C_X$ parameters fitted with a linear distribution of $m_X$, for different production modes and for the \texttt{Inclusive} categorisation}
-	 					\label{fig:prod_mode_syst}
-	 				\end{figure}
- 					\begin{center}
+ 							\includegraphics[width=.8\textwidth]{thesis_images/var_catConvEta_no_sig_fid.pdf}
+ 							\caption{Signal yield systematic uncertainties for the \texttt{Inclusive} categorisation}
+ 							\label{fig:yield_syst}
+ 						\end{figure}
+ 						\begin{figure}
+ 							\centering
+ 							\includegraphics[width=.8\textwidth]{thesis_images/cx_all_prod_catConvEta_no.pdf}
+ 							\caption{Four different resonance mass MC samples $C_X$ parameters fitted with a linear distribution of $m_X$, for different production modes and for the \texttt{Inclusive} categorisation}
+ 							\label{fig:prod_mode_syst}
+ 						\end{figure}
  						\begin{table}[tbp]
  							\centering
  							\begin{tabular}{lc}
@@ -1040,18 +1105,42 @@
  								catConv\_2 		& 0.037				\\
  								\bottomrule[1.5pt]
  							\end{tabular}
- 							\caption{List of the systematic uncertainties of the signal and HSM models}
+ 							\caption{Relative systematic uncertainties on the signal yields due to the different production modes for each category.}
  							\label{tab:prod_mode}
  						\end{table}
  					\end{center}
  				\end{itemize} 
- 			\vspace{-2.75cm}
+ 			\begin{center}
+ 				\begin{table}[tbp]
+ 					\centering
+ 					\begin{tabular}{lcc}
+ 						\toprule[1.5pt]
+ 						Systematic uncertainty					& Signal model	& HSM model	\\
+ 						\midrule
+ 						ATLAS\_EG\_RESOLUTION\_ALL				& $\ast$		& 			\\
+ 						ATLAS\_EG\_SCALE\_ALL					& $\ast$		& $\ast$	\\
+ 						\midrule
+ 						ATLAS\_EG\_RESOLUTION\_ALL				& $\ast$		& $\ast$	\\
+ 						ATLAS\_EG\_SCALE\_ALL					& $\ast$		& $\ast$	\\
+ 						ATLAS\_PH\_EFF\_ID\_Uncertainty			& $\ast$		& $\ast$	\\
+ 						ATLAS\_PH\_EFF\_ISO\_Uncertainty		& $\ast$		& $\ast$	\\
+ 						ATLAS\_PH\_EFF\_TRIGGER\_Uncertainty	& $\ast$		& $\ast$	\\
+ 						ATLAS\_PRW\_DATASF						& $\ast$		& $\ast$	\\
+ 						ATLAS\_prod\_modes						& $\ast$		& 			\\
+ 						\bottomrule[1.5pt]
+ 					\end{tabular}
+ 					\caption{List of the systematic uncertainties of the signal and HSM models.}
+ 					\label{tab:sig_HSM_syst}
+ 				\end{table}
+ 			\end{center}
+ 			\vspace{-2.cm}
  			The signal and HSM systematic uncertainties are reported in Table \ref{tab:sig_HSM_syst}.
+ 			
  			
  				
  				
  		\section{Results}
- 			Once the categorisations and models are defined they are applied to MC samples. The performances for each category, without the systematic uncertainties, can firstly evaluated looking at the $\sigma^{DSCB}$ of the Double Side Crystal Ball fit. Since the aim of the categorisation is to maximise the signal over background (S/B) ratio and thus provide an analysis as sensitive to new spin-0 resonances as possible, a good category should provide a $\sigma^{DSCB}$ smaller then the one of the benchmark category, which in thesis is the \texttt{Inclusive}. The $\sigma^{DSCB}$ of \texttt{Inclusive}, \texttt{catConvEta} and \texttt{catConv} categorisation for the signal models are reported in Table \ref{tab:sigma}.
+ 			Once the categorisations and models are constructed they can be test on a MC sample of signal and background events representing the data expectation. The performances for each category, without the systematic uncertainties, can firstly evaluated looking at the $\sigma^{DSCB}$ of the Double Side Crystal Ball fit. Since the aim of the categorisation is to maximise the signal over background (S/B) ratio and thus provide an analysis as sensitive to new spin-0 resonances as possible, a good categorisation should isolate events with a $\sigma^{DSCB}$ on MC signal events smaller then the one of the benchmark category, which in thesis is the \texttt{Inclusive}. The $\sigma^{DSCB}$ of \texttt{Inclusive}, \texttt{catConvEta} and \texttt{catConv} categorisations for the signal models are reported in Table \ref{tab:sigma}.
  			\begin{table}[tbp]
  				\centering
  				\begin{tabular}{lcccc}
@@ -1074,7 +1163,7 @@
  				\caption{Signal $\sigma^{DSCB}$ for each category obtained by fitting four different $m_X$ MC samples (110, 125, 130 and 140 GeV).}
  				\label{tab:sigma}
  			\end{table}
- 			One can see how some categories are able to improve on the \texttt{Inclusive} category, for example \texttt{catConvEta\_1}, \texttt{catConvEta\_4} or \texttt{catConv\_1}. Another preliminary categorisation performance test is to look at their significances, defined as the ratio of the signal events number and the square root of the non resonant background events number ($Sig/\sqrt{Bkg}$). The events that fall in to a $\pm3\sigma$ window around the peak of the signal distribution are counted. The significances of each categorisation are obtained as square sum of the single category significance, their values are reported in Table \ref{tab:signif}. One can notice that the \texttt{catConvEta} categorisation is able to bring a $\sim$2\% improvement in significance compared to the \texttt{Inclusive} case, whereas \texttt{catConv} categorisation improvement is negligible ($\sim$0.3\%) or even negative. 
+ 			One can see how some categories exhibit a better resolution than the \texttt{Inclusive} category, for example \texttt{catConvEta\_1}, \texttt{catConvEta\_4} or \texttt{catConv\_1}. Another preliminary categorisation performance test is to look at their significances, defined as the ratio of the signal events number and the square root of the non resonant background events number ($Sig/\sqrt{Bkg}$). Only events falling in  a $\pm3\sigma$ window around the peak of the signal distribution are counted. The significances of each categorisation are obtained as square sum of the single category significance, their values are reported in Table \ref{tab:signif}. One can notice that the \texttt{catConvEta} categorisation is able to bring a $\sim$2\% improvement in significance compared to the \texttt{Inclusive} case, whereas \texttt{catConv} categorisation improvement is negligible ($\sim$0.3\%) or even negative. 
  			\begin{table}[tbp]
  				\resizebox{\textwidth}{!}{
 	 				\centering
@@ -1098,25 +1187,35 @@
 	 					\bottomrule[1.5pt]
 	 				\end{tabular}
  				}
- 				\caption{Significances for each category defined as the ratio of the signal events number and the square root of the non resonant background events number ($Sig/\sqrt{Bkg}$) in to a $\pm3\sigma$ window around the peak. Four different $m_X$ MC samples (110, 125, 130 and 140 GeV) are studied.}
+ 				\caption{Significances for each category defined as the ratio of the signal events number and the square root of the non resonant background events number ($Sig/\sqrt{Bkg}$) in to a $\pm3\sigma$ window around the peak. Four different $m_X$ MC samples (110, 125, 130 and 140 GeV) are studied. For each categorisation the sum in quadrature of the significances of all categories is reported.}
  				\label{tab:signif}
  			\end{table}
  			
- 			Another more precise and accurate way to test the categorisation performances without the impact of the systematic uncertainties is to compare the expected  $p_0$ values. They are obtained generating an Asimov dataset for each resonance mass $m_X$ with $\mu$=1, and then calculating the local $p_0$ value, thus estimating the maximum capacity to detect a signal. Since $p_0$ is being calculated with m$_X$ corresponding to the peak of the Asimov dataset, the effect of systematic uncertainties is zero, as the model is able to perfectly reproduce the distribution. Looking at the values reported in Table \ref{tab:p0_imp}, \texttt{catConvEta} categorisation  is able to bring about a $\sim$4 order of magnitude improvement in discovery capability, whereas \texttt{catConv} categorisation is able to bring about a $\sim$1 order of magnitude improvement (without the systematics). The expected  $p_0$ values and observed ones obtained by using Asimov dataset with $\mu$=1 and m$_X$ = 125 (140) GeV, for the different categorisation are showed in Figure \ref{fig:p0_e_o}.
+ 			Given the promising improvement obtained with the proposed categorisation, a complete study of the performances without the impact of the systematic uncertainties is performed comparing the expected  $p_0$ values. They are obtained generating an Asimov dataset for each resonance mass $m_X$ with $\mu$=1, and then calculating the local $p_0$ value, thus estimating the maximum capacity to detect a signal. %Since $p_0$ is being calculated with m$_X$ corresponding to the peak of the Asimov dataset, the effect of systematic uncertainties is zero, as the model is able to perfectly reproduce the distribution. $\sim$6.3\% ($\sim$1.2\%)
+ 			Looking at the values reported in Table \ref{tab:p0_imp}, \texttt{catConvEta} categorisation  is able to bring about $\sim$6.3\% improvement in discovery capability, whereas \texttt{catConv} categorisation is able to bring about a $\sim$1.2\% improvement (without the systematics). 
+ 			%The expected  $p_0$ values and observed ones obtained by using Asimov dataset with $\mu$=1 and m$_X$ = 125 (140) GeV, for the different categorisation are showed in Figure \ref{fig:p0}. 
+ 			A comparison of the different categorisation expected $p_0$ is shown in Figure \ref{fig:p0_comp}. A signal significance ranging from few $\sigma$ to $\sim12\sigma$ can be achieved in the search for new spin-0 resonance in the [110,170] GeV $m_X$ mass range, assuming mass dependence of the cross-section.  When no systematic uncertainties are included in the fit, \texttt{catConvEta} (\texttt{catConv}) categorisation also results in a $\sim$7.6\% ($\sim$2.4\%) enhancement in limits setting, compared to \texttt{Inclusive} category (Figure \ref{fig:limits_comp}).
  			\begin{table}[tbp]
 				\centering
 				\begin{tabular}{lcc}
 					\toprule[1.5pt]
-					Category 			& Minimum expected $p_0$ 	& Improvement factor		\\
+					Category 			& Minimum expected $p_0$ 	& Significance		\\
 					\midrule
-					\texttt{Inclusive}	& 3.556e-30					&							\\
-					\texttt{catConvEta}	& 8.547e-34					& $\sim2.4\cdot 10^{4}$	\\
-					\texttt{catConv}	& 7.956e-31					& $\sim22$ 	\\
+					\texttt{Inclusive}	& 3.556e-30					& 11.343$\sigma$	\\
+					\texttt{catConvEta}	& 8.547e-34					& 12.061$\sigma$	\\
+					\texttt{catConv}	& 7.956e-31					& 11.483$\sigma$ 	\\
 					\bottomrule[1.5pt]
 				\end{tabular}
- 				\caption{Minimum expected $p_0$ values for different categorisation and the \texttt{catConvEta} and \texttt{catConv} improvement factor.}
+ 				\caption{Minimum expected $p_0$ for $m_X$ = 131 GeV and its significance values for each categorisation.}
  				\label{tab:p0_imp}
  			\end{table}
+ 			\begin{figure}
+ 				\centering
+ 				\includegraphics[width=1.\textwidth]{thesis_images/p0_exp_imp.pdf}
+ 				\caption{Expected $p0$ as a function of $m_X$ for \texttt{Inclusive}, \texttt{catConvEta} and \texttt{catConv} categorisations.}
+ 				\label{fig:p0_comp}
+ 			\end{figure}
+ 			\iffalse
  			\begin{figure}
  				\centering
  				\subfloat[Expected and observed $p_0$ values for \texttt{Inclusive}]{\includegraphics[width=.7\textwidth]{thesis_images/p0_no_catConvEta.pdf}\label{fig:p0_inc}}\\			
@@ -1125,18 +1224,9 @@
  				\caption{Expected $p_0$ values and observed ones values obtained by using Asimov dataset with $\mu$=1 and m$_X$ = 125 (140) GeV, for the different categorisation, as function of $m_X$.}
  				\label{fig:p0_e_o}
  			\end{figure}
- 			
+ 			\fi
  			%To observe the effect of systematic uncertainties, one can instead look at the minimum observed $p_0$ values obtained by using Asimov dataset with $\mu$=1 and m$_X$ = 125 (140) GeV, reported in Table 56. \texttt{catConvEta} categorisation brings an improvement of $\sim$2 ($\sim$3) orders of magnitude whereas \texttt{catConv} one by a factor of 5 for m$_X$ = 125 GeV. The \texttt{catConv} categories discovery performance at m$_X$ is worse than the \texttt{Inclusive} categorisation.
- 			
- 			Looking at different categorisation limits (exclusion plots Figures \ref{fig:limits_cat}) is possible to observe if the categories, with systematic uncertainties, are able to bring an improvement or not. At $m_X$ = 125 GeV, the \texttt{catConvEta} exclusion performance is $\sim$1.5\% better then \texttt{Inclusive}, whereas \texttt{catConv} categorisation brings a small improvement of $\sim$0.3\%. The maximum difference in the limits with \texttt{Inclusive} as reference is $\sim$4.2\% for \texttt{catConvEta} and $\sim$2\% for \texttt{catConv} at $m_X$ = 170 GeV (Figure \ref{fig:limits_comp}).
- 			\begin{figure}
- 				\centering
- 				\subfloat[95\% CL$_S$ upper limits for \texttt{Inclusive}]{\includegraphics[width=.7\textwidth]{thesis_images/plot_AsimovData_0_ggHyy_MC_no_catConvEta_syst_HSM_fid_nom_gaus.pdf}\label{fig:lim_inc}}\\			
- 				\subfloat[95\% CL$_S$ upper limits for \texttt{catConvEta}]{\includegraphics[width=.7\textwidth]{thesis_images/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid_nom_gaus.pdf}\label{fig:lim_catConvEta}}\\	
- 				\subfloat[95\% CL$_S$ upper limits plot for \texttt{catConv}]{\includegraphics[width=.7\textwidth]{thesis_images/plot_AsimovData_0_ggHyy_MC_catConv_syst_HSM_fid_nom_gaus.pdf}\label{fig:plim_catConv}}
- 				\caption{95\% CL$_S$ upper limits plots for the different categorisation, as function of $m_X$.}
- 				\label{fig:limits_cat}
- 			\end{figure}
+ 			Translating the expected signal strength into a fiducial cross section, the performance of the categorisation is also checked on $\sigma^{fid}$ limits setting. The impact of the systematic uncertainties is also quantified. At $m_X$ = 125 GeV, the \texttt{catConvEta} exclusion performance is $\sim$1.5\% better then \texttt{Inclusive}, whereas \texttt{catConv} categorisation brings a small improvement of $\sim$0.3\%. The maximum difference in the limits with \texttt{Inclusive} as reference is $\sim$4.2\% for \texttt{catConvEta} and $\sim$2\% for \texttt{catConv} at $m_X$ = 170 GeV (Figure \ref{fig:limits_comp}). In the [110,170] GeV $m_X$ mass range, the excluded fiducial cross-section for a signal ranges from $\sim 3.4$ pb to $\sim 34.6$ pb depending on the new resonance mass. 
  			\begin{figure}
  				\centering
  				\includegraphics[width=1.\textwidth]{thesis_images/imp_nom_gaus.pdf}
@@ -1174,17 +1264,56 @@
  			\fi
  			
 	\chapter{Conclusions}
-		The search for new resonances in the 105 to 200 GeV diphoton invariant mass range using 140 fb$^{-1}$ of $pp$ collisions collected at $\sqrt{s}$=13 TeV with the ATLAS detector, performed in this thesis, led to the creation of a model defined as a function of the resonance mass $m_X$. This need arises as this analysis is looking for new physics, therefore a model independent of the Standard Model must be created. 
+		The potential search for new resonances in the 110 to 170 GeV diphoton invariant mass range using 140 fb$^{-1}$ of $pp$ collisions collected at $\sqrt{s}$=13 TeV with the ATLAS detector has been presented.
+		%performed in this thesis, led to the creation of a model defined as a function of the resonance mass $m_X$. This need arises as this analysis is looking for new physics, therefore a model independent of the Standard Model must be created. 
 		
 		
 		%Using events with pairs of high-$p_T$ and isolated photons, which are classified into mutually exclusive categories designed to enhance the analysis sensitivity, the model is created. Three different type of categorisations are tested and compared: \texttt{Inclusive} (no selections applied), \texttt{catConvEta} ($\gamma$ conversions and $\eta$  selections applied) and \texttt{catConvEta} (only $\gamma$ conversions selections applied). Using these three categorisations, three different analysis models are created. This distribution in each category is describedby an extended probability density function (pdf) in which the signal and backgroundsshapes are analytic functions of m γγ .The results of this thesis are about the signal modelling as function of $m_X$ and the categorisation working point. 
 		
-		The analysis is based on the selection of pairs of high-$p_T$ and isolated photons. The events are classified into mutually exclusive categories designed to enhance the analysis sensitivity. Three different type of categorisations are tested and compared with each other: \texttt{Inclusive} (no selections applied), \texttt{catConvEta} ($\gamma$ conversions and $\eta$  selections applied) and \texttt{catConvEta} (only $\gamma$ conversions selections applied). The signal in each category is defined as a function of the mass of the resonance and its model is created applying a simultaneous Double-Side Crystal Ball fit on different simulated MC samples of SM (spin0) Higgs bosons decaying into two photons. The new spin-0 resonances sensitivity test, performed by applying the the signal model to resonant MC sample not used for its creation, gives a positive results, showing that the fit perfectly able to describe the resonant distribution. The background in each category is described by a smoothly falling function whose normalization and shape parameters will be determined from MC samples. Since the model must be SM independent in order to investigate the presence of new spin-0 resonances, the SM Higgs 125 is also included as background. 
+		The analysis is based on the selection of pairs of high-$p_T$ and isolated photons. The events are classified into mutually exclusive categories designed to enhance the analysis sensitivity. Three different types of categorisations are tested and compared with each other: \texttt{Inclusive} (no selections applied), \texttt{catConvEta} ($\gamma$ conversions and $\eta$  selections applied) and \texttt{catConvEta} (only $\gamma$ conversions selections applied). The signal model in each category is parametrised as a function of the mass of the resonance and it is obtained from applying a simultaneous Double-Side Crystal Ball fit on different simulated MC samples of SM (spin0) Higgs bosons decaying into two photons. To reduce the dependence of the model from SM assumptions only \textit{ggF} samples are used. The differences in efficiency from the other production modes are included as systematic uncertainties. This background in each category is described by a smoothly falling function whose normalization and shape parameters will be determined from data. In order to investigate the presence of new spin-0 resonances, the SM Higgs 125 is also included as background. 
 		
-		A combined maximum likelihood fit in all the categories is performed to investigate the presence of a signal by computing the compatibility of the observed data with the background-only hypothesis $p_0$ \cite{Statistic} and assessing limits \cite{Statistic} on the production cross-section in case no excess of signal is observed. Looking at limits on the signal cross for each models built with different categorisation, the working point is selected as the best trade-off analysis performances and SM independence. In fact considering the other production modes systematic uncertainty values, one can see the model SM independence decreases the stronger the categorisation is. Therefore the best categorisation is the \texttt{catConvEta} that shows an always positive improvement in the exclusion performances, which reaches its maximum value 4.2\% at $m_X$ = 170 GeV. On the contrary, the \texttt{catConv} categorisation should be discarded as it is not able to bring a consistently positive improvement on the limits compared to \texttt{Inclusive} over the $m_{\gamma\gamma}$ range, and its performances are inferior to \texttt{catConvEta}.
+		A combined maximum likelihood fit in all the categories is performed to investigate the presence of a signal by computing the compatibility of the observed data with the background-only hypothesis $p_0$ \cite{Statistic} and assessing limits \cite{Statistic} on the fiducial production cross-section in case no excess of signal is observed. Looking at limits on the signal cross-section for different categorisations, the analysis strategy is selected as the best trade-off analysis performances and SM independence. A more detailed categorisation allows to improve the analysis sensitivity from the statistical point of view, however detailed categorisations generally introduce a larger systematic uncertainty due to model dependence. The best categorisation has been found to be the \texttt{catConvEta} that shows an always positive improvement in the exclusion performances, which reaches its maximum value 4.2\% at $m_X$ = 170 GeV, compared to the \textit{Inclusive} one. On the contrary, the \texttt{catConv} categorisation should be discarded as it is not able to bring a consistently positive improvement on the limits compared to \texttt{Inclusive} over the $m_{\gamma\gamma}$ range, and its performances are inferior to \texttt{catConvEta}. Therefore using the \texttt{catConvEta} categorisation the analysis shows that in the [110,170] GeV $m_X$ mass range:
+		\begin{itemize}
+			\item a signal significance ranging from few $\sigma$ to $\sim12\sigma$ can be achieved in the search for new spin-0 resonance, assuming mass dependence of the cross-section;
+			\item the excluded fiducial cross-section for a signal ranges from $\sim 3.4$ pb to $\sim 34.6$ pb depending on the new resonance mass.
+		\end{itemize}
 		
-		In conclusion, the search for new resonances in [105,200] $m_{\gamma\gamma}$ range using 140 fb$^{-1}$ of $pp$ collisions collected at $\sqrt{s}$=13 TeV with the ATLAS detector, performed in this thesis showed that it is possible to created perfectly functioning signal model as function of the resonance mass $m_X$. Another important result of this analysis is that the best categorisation obtained from the trade-off between performances and model SM independence is \texttt{catConvEta}. Therefore this configuration should be the starting point for further development of the analysis, such as the spurious signal study or, once completed, its application to ATLAS observed data. 
- 				
+		In conclusion, the potential of search for new resonances in [105,200] $m_{\gamma\gamma}$ range using 140 fb$^{-1}$ of $pp$ collisions collected at $\sqrt{s}$=13 TeV with the ATLAS detector, has been investigated in this thesis. The best categorisation obtained from the trade-off between performances and SM independence is \texttt{catConvEta}. The analysis is still blind so no results based on data have been shown. The results presented in this thesis represent the first step towards the unblinding.
+		
+		
+		
+		%In conclusion, the search for new resonances in [105,200] $m_{\gamma\gamma}$ range using 140 fb$^{-1}$ of $pp$ collisions collected at $\sqrt{s}$=13 TeV with the ATLAS detector, performed in this thesis showed that it is possible to created perfectly functioning signal model as function of the resonance mass $m_X$. Another important result of this analysis is that the best categorisation obtained from the trade-off between performances and model SM independence is \texttt{catConvEta}. Therefore this configuration should be the starting point for further development of the analysis, such as the spurious signal study or, once completed, its application to ATLAS observed data. 
+ 			
+ 			
+ 		\appendix
+ 		\chapter{$\mu$ limits as a function of $m_X$}
+ 			\begin{figure}[h!]
+ 				\centering
+ 				\subfloat[]
+ 				{\includegraphics[width=.49\textwidth]{thesis_images/plot_AsimovData_0_ggHyy_MC_no_catConvEta_HSM_fid_nom_gaus.pdf}\label{fig:lim_inc_no}}			
+ 				\subfloat[]
+ 				{\includegraphics[width=.49\textwidth]{thesis_images/plot_AsimovData_0_ggHyy_MC_no_catConvEta_syst_HSM_fid_nom_gaus.pdf}\label{fig:lim_inc}}	
+ 				\caption{95\% CL$_S$ upper limits plots for \textit{Inclusive} categorisation, as function of $m_X$, without (a) and with (b) systematic uncertainties.}
+ 				\label{fig:limits_inc}
+ 			\end{figure}
+	 		\begin{figure}[h!]
+	 			\centering
+	 			\subfloat[]
+	 			{\includegraphics[width=.49\textwidth]{thesis_images/plot_AsimovData_0_ggHyy_MC_catConvEta_HSM_fid_nom_gaus.pdf}\label{fig:lim_eta_no}}			
+	 			\subfloat[]
+	 			{\includegraphics[width=.49\textwidth]{thesis_images/plot_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid_nom_gaus.pdf}\label{fig:lim_eta}}	
+	 			\caption{95\% CL$_S$ upper limits plots for \textit{catConvEta} categorisation, as function of $m_X$, without (a) and with (b) systematic uncertainties.}
+	 			\label{fig:limits_eta}
+	 		\end{figure}
+ 			\begin{figure}[h!]
+ 				\centering
+ 				\subfloat[]
+ 				{\includegraphics[width=.49\textwidth]{thesis_images/plot_AsimovData_0_ggHyy_MC_catConv_HSM_fid_nom_gaus.pdf}\label{fig:lim_conv_no}}			
+ 				\subfloat[]
+ 				{\includegraphics[width=.49\textwidth]{thesis_images/plot_AsimovData_0_ggHyy_MC_catConv_syst_HSM_fid_nom_gaus.pdf}\label{fig:lim_conv}}	
+ 				\caption{95\% CL$_S$ upper limits plots for \textit{catConv} categorisation, as function of $m_X$, without (a) and with (b) systematic uncertainties.}
+ 				\label{fig:limits_conv}
+ 			\end{figure}
  				
 	\newpage
 	\bibliography{biblio.bib}
