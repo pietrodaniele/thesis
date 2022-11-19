@@ -1,0 +1,16 @@
+\frametitle{\LaTeX\ wins!\\
+			\begin{tikzpicture}[
+				node distance = 0mm,
+				start chain = going right,
+				]
+				\node[start=black!80!black,highlight on=<1>] {This};
+				\node[cont=gray!30!white,highlight on=<2>] {and};
+				\node[cont=gray!30!white,highlight on=<3>] {then};
+				\node[cont=gray!30!white,highlight on=<4>] {that};
+		\end{tikzpicture}}
+		\begin{enumerate}
+			\item Never put pineapple on a pizza!
+			\item Never!
+			\item Absolutely never!
+			\item Trust me!
+		\end{enumerate}
