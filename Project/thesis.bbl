@@ -78,13 +78,6 @@ ATLAS Collaboration.
 \newblock Technical report, CERN, Geneva, Jul 2018.
 \newblock URL: \url{https://cds.cern.ch/record/2628760}.
 
-\bibitem{Statistic}
-Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
-\newblock Asymptotic formulae for likelihood-based tests of new physics.
-\newblock {\em The European Physical Journal C}, 71(2), feb 2011.
-\newblock \href {https://doi.org/10.1140/epjc/s10052-011-1554-0}
-  {\path{doi:10.1140/epjc/s10052-011-1554-0}}.
-
 \bibitem{LHC_DESIGN_2008}
 Lyndon Evans and Philip Bryant.
 \newblock Lhc machine.
@@ -246,6 +239,13 @@ ATLAS Collaboration.
 \newblock {\em The European Physical Journal C}, 79(8), aug 2019.
 \newblock \href {https://doi.org/10.1140/epjc/s10052-019-7140-6}
   {\path{doi:10.1140/epjc/s10052-019-7140-6}}.
+
+\bibitem{Statistic}
+Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
+\newblock Asymptotic formulae for likelihood-based tests of new physics.
+\newblock {\em The European Physical Journal C}, 71(2), feb 2011.
+\newblock \href {https://doi.org/10.1140/epjc/s10052-011-1554-0}
+  {\path{doi:10.1140/epjc/s10052-011-1554-0}}.
 
 \bibitem{Higgs_statistic}
 David~A. van Dyk.

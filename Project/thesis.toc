@@ -23,19 +23,28 @@
 \contentsline {section}{\numberline {2.8}Isolation}{28}{section.2.8}%
 \contentsline {subsection}{\numberline {2.8.1}Photon isolation criteria and efficiency measurements}{31}{subsection.2.8.1}%
 \contentsline {chapter}{\numberline {3}Statistical techniques}{35}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Formalism of a search as a statistical test}{35}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Formalism of a search as a statistical test}{36}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Test statistic}{37}{section.3.2}%
-\contentsline {chapter}{\numberline {4}"Medium" $m_{\gamma \gamma }$ mass analysis}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}SM Higgs production modes}{43}{section.4.1}%
-\contentsline {section}{\numberline {4.2}MC samples}{45}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Event selection}{46}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Categorisation}{48}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Models}{48}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Signal Modelling}{49}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Non resonant background}{52}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Higgs Standard Model background}{53}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Systematic uncertainties}{54}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Results}{59}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Conclusions}{63}{chapter.5}%
-\contentsline {chapter}{\numberline {A}$\mu $ limits as a function of $m_X$}{65}{appendix.A}%
-\contentsline {chapter}{Bibliography}{71}{appendix*.64}%
+\contentsline {chapter}{\numberline {4}"Medium" $m_{\gamma \gamma }$ mass analysis}{42}{chapter.4}%
+\contentsline {section}{\numberline {4.1}SM Higgs production modes}{44}{section.4.1}%
+\contentsline {section}{\numberline {4.2}MC samples}{46}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Event selection}{47}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Categorisation}{49}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Models}{49}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Signal Modelling}{50}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Non resonant background}{53}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Higgs Standard Model background}{54}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Systematic uncertainties}{55}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Results}{60}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Conclusions}{65}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Signal model}{67}{appendix.A}%
+\contentsline {chapter}{\numberline {B}New resonances sensitivity of the signal model test}{69}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Non-resonant background model}{70}{appendix.C}%
+\contentsline {chapter}{\numberline {D}SM Higgs boson background model}{72}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Signal yield systematic uncertainty}{74}{appendix.E}%
+\contentsline {chapter}{\numberline {F}SM Higgs boson yield systematic uncertainty}{76}{appendix.F}%
+\contentsline {chapter}{\numberline {G}Run1 mass categorisation}{78}{appendix.G}%
+\contentsline {chapter}{\numberline {H}SM production modes $C_X$ factors}{79}{appendix.H}%
+\contentsline {chapter}{\numberline {I}$\mu $ limits as a function of $m_X$}{81}{appendix.I}%
+\contentsline {chapter}{\numberline {J}$p_0$ values as a function of $m_X$}{83}{appendix.J}%
+\contentsline {chapter}{Bibliography}{88}{appendix*.81}%
