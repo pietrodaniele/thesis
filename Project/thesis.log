@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  15 NOV 2022 20:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  20 NOV 2022 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1596,31 +1596,34 @@ ed 90 degrees>]
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1014.
 
-<thesis_images/HSM_fit_catConvEta_no.pdf, id=1374, 569.12625pt x 355.3275pt>
-File: thesis_images/HSM_fit_catConvEta_no.pdf Graphic file (type pdf)
-<use thesis_images/HSM_fit_catConvEta_no.pdf>
-Package pdftex.def Info: thesis_images/HSM_fit_catConvEta_no.pdf  used on input
- line 1016.
-(pdftex.def)             Requested size: 334.60422pt x 208.91487pt.
-<thesis_images/var_shape_scale_catConvEta_no.pdf, id=1377, 569.12625pt x 385.44
-pt>
-File: thesis_images/var_shape_scale_catConvEta_no.pdf Graphic file (type pdf)
-<use thesis_images/var_shape_scale_catConvEta_no.pdf>
-Package pdftex.def Info: thesis_images/var_shape_scale_catConvEta_no.pdf  used 
-on input line 1029.
-(pdftex.def)             Requested size: 334.60422pt x 226.61952pt.
-<thesis_images/var_shape_res_catConvEta_no.pdf, id=1380, 569.12625pt x 385.44pt
+<thesis_images/bkg/HSM_fit_catConvEta_no.pdf, id=1374, 569.12625pt x 355.3275pt
 >
-File: thesis_images/var_shape_res_catConvEta_no.pdf Graphic file (type pdf)
-<use thesis_images/var_shape_res_catConvEta_no.pdf>
-Package pdftex.def Info: thesis_images/var_shape_res_catConvEta_no.pdf  used on
- input line 1039.
+File: thesis_images/bkg/HSM_fit_catConvEta_no.pdf Graphic file (type pdf)
+<use thesis_images/bkg/HSM_fit_catConvEta_no.pdf>
+Package pdftex.def Info: thesis_images/bkg/HSM_fit_catConvEta_no.pdf  used on i
+nput line 1016.
+(pdftex.def)             Requested size: 334.60422pt x 208.91487pt.
+<thesis_images/Syst/var_shape_scale_catConvEta_no.pdf, id=1377, 569.12625pt x 3
+85.44pt>
+File: thesis_images/Syst/var_shape_scale_catConvEta_no.pdf Graphic file (type p
+df)
+<use thesis_images/Syst/var_shape_scale_catConvEta_no.pdf>
+Package pdftex.def Info: thesis_images/Syst/var_shape_scale_catConvEta_no.pdf  
+used on input line 1029.
+(pdftex.def)             Requested size: 334.60422pt x 226.61952pt.
+<thesis_images/Syst/var_shape_res_catConvEta_no.pdf, id=1380, 569.12625pt x 385
+.44pt>
+File: thesis_images/Syst/var_shape_res_catConvEta_no.pdf Graphic file (type pdf
+)
+<use thesis_images/Syst/var_shape_res_catConvEta_no.pdf>
+Package pdftex.def Info: thesis_images/Syst/var_shape_res_catConvEta_no.pdf  us
+ed on input line 1039.
 (pdftex.def)             Requested size: 334.60422pt x 226.61952pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 1073.
-[55] [56 <./thesis_images/HSM_fit_catConvEta_no.pdf, page is rotated 90 degrees
-> <./thesis_images/var_shape_scale_catConvEta_no.pdf, page is rotated 90 degree
-s>]
+[55] [56 <./thesis_images/bkg/HSM_fit_catConvEta_no.pdf, page is rotated 90 deg
+rees> <./thesis_images/Syst/var_shape_scale_catConvEta_no.pdf, page is rotated 
+90 degrees>]
 <thesis_images/Syst/var_catConvEta_no_sig_fid.pdf, id=1487, 569.12625pt x 385.4
 4pt>
 File: thesis_images/Syst/var_catConvEta_no_sig_fid.pdf Graphic file (type pdf)
@@ -1636,10 +1639,10 @@ File: thesis_images/Signal/cx_all_prod_catConvEta_no.pdf Graphic file (type pdf
 Package pdftex.def Info: thesis_images/Signal/cx_all_prod_catConvEta_no.pdf  us
 ed on input line 1087.
 (pdftex.def)             Requested size: 334.60422pt x 208.91487pt.
- [57 <./thesis_images/var_shape_res_catConvEta_no.pdf, page is rotated 90 degre
-es>] [58 <./thesis_images/Syst/var_catConvEta_no_sig_fid.pdf, page is rotated 9
-0 degrees>] [59 <./thesis_images/Signal/cx_all_prod_catConvEta_no.pdf, page is 
-rotated 90 degrees>] [60]
+ [57 <./thesis_images/Syst/var_shape_res_catConvEta_no.pdf, page is rotated 90 
+degrees>] [58 <./thesis_images/Syst/var_catConvEta_no_sig_fid.pdf, page is rota
+ted 90 degrees>] [59 <./thesis_images/Signal/cx_all_prod_catConvEta_no.pdf, pag
+e is rotated 90 degrees>] [60]
 <thesis_images/p0_no_catConvEta.pdf, id=1651, 578.16pt x 361.35pt>
 File: thesis_images/p0_no_catConvEta.pdf Graphic file (type pdf)
 <use thesis_images/p0_no_catConvEta.pdf>
@@ -1667,8 +1670,8 @@ us.pdf>
 Package pdftex.def Info: thesis_images/plot_AsimovData_0_ggHyy_MC_no_catConvEta
 _syst_HSM_fid_nom_gaus.pdf  used on input line 1234.
 (pdftex.def)             Requested size: 334.60422pt x 209.1255pt.
- [61] [62 <./thesis_images/p0_no_catConvEta.pdf>]
-[63 <./thesis_images/p0_exp_imp.pdf> <./thesis_images/imp_nom_gaus.pdf
+ [61] [62 <./thesis_images/p0_no_catConvEta.pdf>] [63 <./thesis_images/p0_exp_i
+mp.pdf> <./thesis_images/imp_nom_gaus.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./thesis_images/imp_nom_gaus.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
@@ -2310,7 +2313,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1521.
  ) 
 Here is how much of TeX's memory you used:
  30525 strings out of 481239
- 558991 string characters out of 5920376
+ 559061 string characters out of 5920376
  785163 words of memory out of 5000000
  44689 multiletter control sequences out of 15000+600000
  690037 words of font info for 140 fonts, out of 8000000 for 9000
@@ -2346,7 +2349,7 @@ re/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on thesis.pdf (89 pages, 5378055 bytes).
+Output written on thesis.pdf (89 pages, 5378076 bytes).
 PDF statistics:
  4928 PDF objects out of 5155 (max. 8388607)
  377 named destinations out of 1000 (max. 500000)

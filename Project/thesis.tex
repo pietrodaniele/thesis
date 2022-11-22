@@ -1013,7 +1013,7 @@
  				\end{table}
  				\begin{figure}[]
  					\centering
- 					\includegraphics[width=.8\textwidth]{thesis_images/HSM_fit_catConvEta_no.pdf}
+ 					\includegraphics[width=.8\textwidth]{thesis_images/bkg/HSM_fit_catConvEta_no.pdf}
  					\caption{SM Higgs$_{125}$ resonant background fit using a DSCB for the \texttt{Inclusive} categorisation.}
  					\label{fig:HSM_fit}
  				\end{figure}
@@ -1026,22 +1026,22 @@
  					\item uncertainties in the modelling of the $m_{\gamma\gamma}$ distribution for the signal and HSM models. They include the uncertainties in the energy resolution and scale of photon candidates. The photon energy scale uncertainties affect the peak position of the DSCB shape (Figure \ref{fig:scale_syst}) and they are calculated, following the procedure described in \cite{Aad_2019} as:
  					\begin{figure}
  						\centering
- 						\includegraphics[width=.8\textwidth]{thesis_images/var_shape_scale_catConvEta_no.pdf}
+ 						\includegraphics[width=.8\textwidth]{thesis_images/Syst/var_shape_scale_catConvEta_no.pdf}
  						\caption{Energy scale systematic uncertainty effect on the peak position of the DSCB shape, for the \texttt{Inclusive} categorisation.}
  						\label{fig:scale_syst}
  					\end{figure}
  					\begin{equation}\label{eq:shape_syst}
- 						\delta\mu_c(\pm1\sigma)=\frac{<m_{\gamma\gamma}>_i(\pm1\sigma)}{<m_{\gamma\gamma}>_i}
+ 						\delta\mu_c(\pm1\sigma)=\frac{<m_{\gamma\gamma}>_i(\pm1\sigma)}{<m_{\gamma\gamma}>_i} -1
  					\end{equation}
  					resulting in an impact of less than 0.5\%, depending on the category. The photon energy scale uncertainties are only applied to the signal model. The photon energy resolution uncertainties, which affect the Gaussian width of the DSCB shape (Figure \ref{fig:res_syst}), are calculated \cite{Aad_2019} as:
  					\begin{figure}
  						\centering
- 						\includegraphics[width=.8\textwidth]{thesis_images/var_shape_res_catConvEta_no.pdf}
+ 						\includegraphics[width=.8\textwidth]{thesis_images/Syst/var_shape_res_catConvEta_no.pdf}
  						\caption{Energy resolution systematic uncertainty effect on the Gaussian width of the DSCB shape, for the \texttt{Inclusive} categorisation.}
  						\label{fig:res_syst}
  					\end{figure}
  					\begin{equation}\label{eq:res_syst}
- 						\delta\sigma_c(\pm1\sigma)=\frac{IQR_i(\pm1\sigma)}{IQR_i}
+ 						\delta\sigma_c(\pm1\sigma)=\frac{IQR_i(\pm1\sigma)}{IQR_i}-1
  					\end{equation}
  					resulting in an impact of less than 12\%, depending on the category. $IQR$ is the InterQuartile Range of the distribution. The shape systematic uncertainties are reported in Table \ref{tab:shape}.
  					\begin{table}[tbp]

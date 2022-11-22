@@ -6,6 +6,7 @@
 \usefonttheme{default}
 
 \usepackage{cite}
+\usepackage{subfig}
 \usepackage{amsmath, amsthm, mathtools, color, setspace}
 \usepackage{fancyhdr, braket, etoolbox,booktabs,multirow}
 \usepackage{xfrac, lmodern, ifsym, bm, multicol, booktabs, pdflscape}
@@ -50,7 +51,7 @@
 \newtcolorbox{box2}[1]{colback=white!5!white,colframe=red!60!gray,fonttitle=\bfseries,title=#1}
 
 \author{Pietro Daniele}
-\title{\large Search for resonances in the 105 to 200 GeV diphoton invariant mass range using 140 fb$^{-1}$ of pp collisions collected at $\sqrt{s}$=13 TeV with the ATLAS detector}
+\title{\large Search for new resonances in the 100 to 195 GeV diphoton invariant mass range using 140 fb$^{-1}$ of $pp$ collisions collected at $\sqrt{s}$=13 TeV with the ATLAS detector}
 
 \begin{document}
 	\tikzstyle{na} = [baseline=-.5ex]
@@ -60,7 +61,7 @@
 		\vfill
 		\begin{itemize}
 			\item The \textit{Large Hadron Collider} (LHC) \\is a protons and heavy ions collider\\ installed in the 27 km long LEP \\tunnel
-			\item $pp$ collisions $\sqrt{s} = 13.6$ TeV
+			\item Run2 $pp$ collisions $\sqrt{s} = 13$ TeV
 			\item Four leading experiments installed\\ in the four $pp$ interaction points:
 			\begin{itemize}
 				\item \textbf{ATLAS}
@@ -93,40 +94,47 @@
 				\item a barrel toroid and\\ two end-cap toroids
 			\end{itemize}
 			\item Trigger system
+			\begin{itemize}
+				\item 40 MHz $\to$ 1 kHz
+			\end{itemize}
 			
 		\end{itemize}
 		\vfill
-		\begin{textblock}{1.}(0.375,.475)
+		\begin{textblock}{1.}(0.375,.45)
 			\includegraphics[width=.575\textwidth]{../thesis_images/ATLAS.png}
 		\end{textblock}
 	\end{frame}
 
 	\begin{frame}{Standard Model (SM)}
 		\vfill
-		The Standard Model of particle physics is\\ a quantum field theory:
+		The Standard Model of particle physics is a quantum field theory:
 		\begin{itemize}
 			\item based on SU(2)$_L\otimes$U(1)$_Y\otimes$SU(3)$_C$\\ gauge symmetry
 			\item explains the basic building blocks of\\ matter interactions
 			\item classifies all the subatomic known\\ particles
-			\item predicts new particles:
+			\item predicted new particles:
 			\begin{itemize}
 				\item gluon
 				\item top ($t$) and charm ($c$) quarks
-				\item $W$ and $Z$ bosons
+				\item $W$ and $Z$ bosons $\leftarrow$ \textit{massless}
 			\end{itemize}
 		\end{itemize}
-		But the introduction of $W,Z$ mass terms in the SM Lagrangian would break the local gauge invariance of the theory\\ 
+		$W$ and $Z$ bosons discovered in 1983
+		$
+		\begin{cases}
+			m_W = 80\ GeV\\
+			m_Z = 91\ GeV\\
+		\end{cases}
+		$\\
+		$\Rightarrow$ the introduction of $W,Z$ mass terms in the SM Lagrangian would break the local gauge invariance of the theory\\ 
 		\begin{center}
-			$\Rightarrow$ \textit{Spontaneous Symmetry Breaking}
+			$\Rightarrow$ \textit{Spontaneous Symmetry Breaking}\\
+			$\Rightarrow$ \textbf{Higgs Boson}
 		\end{center}
 		\vfill
-		\begin{textblock}{1.}(0.525,.225)
+		\begin{textblock}{1.}(0.525,.175)
 			\includegraphics[width=.45\textwidth]{../thesis_images/SM.jpeg}
 		\end{textblock}
-	\end{frame}
-
-	\begin{frame}{Spontaneous Symmetry Breaking}
-		With the \textit{Higgs mechanism} and the \textit{Spontaneous Symmetry Breaking} is possible to introduce a gauge invariant mass term of the $W,Z$ gauge boson
 	\end{frame}
 
 	\begin{frame}{Higgs boson discovery}
@@ -142,15 +150,31 @@
 				\item $m_H$ = 125.09$\pm$0.24 GeV (Run1)
 				\item the $H \to \gamma\gamma$ channel was used\\ in the ATLAS experiment
 				\begin{itemize}
-					\item low background
+					\item Non resonant background
 					\item final state kinematic fully\\ reconstructed
-					\item great invariant mass resolution
+					\item Excellent invariant mass\\ resolution (1-2 GeV)
 				\end{itemize}
 			\end{itemize}
 		\end{itemize}
 		\vfill
-		\begin{textblock}{1.}(0.525,.275)
+		\begin{textblock}{1.}(0.525,.125)
 			\includegraphics[width=.45\textwidth]{../thesis_images/higgs_boson_plot.png}
+		\end{textblock}
+		\begin{textblock}{1.}(0.6,.63)
+			\begin{itemize}
+				\footnotesize
+				\item Irr $\to$ QCD di-photon production
+				\vspace{.2cm}
+				\item Red $\to$ ($\gamma$,jet), (jet,jet) with jet\\ misidentification (\textit{fake rate})
+			\end{itemize}
+		\end{textblock}
+		\begin{textblock}{1.}(.45,.6125)
+			\begin{tikzpicture}
+				\draw[-to] (0,0) -- (2.,0.3);
+				\path (1.5,0.45) node {70\%};
+				\draw[-to] (0,0) -- (2.,-0.3);
+				\path (1.5,-0.45) node {30\%};
+			\end{tikzpicture}
 		\end{textblock}
 	\end{frame}
 
@@ -161,10 +185,10 @@
 			\item no dark matter candidate  
 			\item no explanation for the matter-antimatter\\ asymmetry 
 		\end{itemize}
-		\begin{textblock}{1.}(.6,.28)
+		\begin{textblock}{1.}(.6,.26)
 			\begin{tikzpicture}
-				\draw[-to,thick] (0,1) -- (2,0.6);
-				\draw[-to,thick] (0,0) -- (2,0.4);
+				\draw[-to,thick] (0,.8) -- (2,0.6);
+				\draw[-to,thick] (0,.2) -- (2,0.4);
 				\path (3.5,0.45) node {\textbf{BSM physics}};
 			\end{tikzpicture}
 		\end{textblock}
@@ -174,9 +198,14 @@
 			\item a complex doublet under SU(2)$_L$ symmetry group
 			\item could be extended $\Rightarrow$ larger scalar sectors:
 			\begin{itemize}
+				\item BSM resolution
 				\item Higgs sector
 				\item additional structures $\Rightarrow$ \textbf{NEW BOSONS}
-				\item new theory $\rightarrow$ 2HDM, SUSY
+				\item new theory
+				\begin{itemize}
+					\item 2HDM $\leftarrow$ \textit{bottom-up} approach
+					\item SUSY $\leftarrow$ \textit{top-down} approach
+				\end{itemize}
 			\end{itemize} 
 		\end{itemize}
 		\vfill
@@ -199,10 +228,6 @@
 			\item \textbf{Background}
 			\begin{itemize}
 				\item Non resonant background
-				\begin{itemize}
-					\item Irr $\to$ QCD di-photon\\ production
-					\item Red $\to$ ($\gamma$,jet), (jet,jet)\\ with jet misidentification\\ (\textit{fake rate})
-				\end{itemize}
 				\item SM Higgs boson background
 			\end{itemize}
 		\end{itemize}
@@ -210,6 +235,18 @@
 		\begin{textblock}{1}(.45,.4)
 			\includegraphics[width=.6\textwidth]{../thesis_images/HSM_prova.pdf}
 		\end{textblock}
+		\begin{textblock}{1}(.575,.46)
+			\colorbox{white}{
+				\begin{minipage}{3.cm}
+					\tiny
+					Template $\mu$=1 and $m_X$=140 GeV\\
+					Background+signal$_{\mu=1}^{m_X=140 GeV}$\\
+					$m_{\gamma\gamma} \epsilon$ [100,195] GeV\\
+					\textit{Inclusive}
+				\end{minipage}
+			}
+		\end{textblock}
+		
 		\begin{textblock}{1.}(.2,.425)
 			\begin{tikzpicture}
 				\draw[-to,purple] (0,2.75) -- (6.5,0);
@@ -236,10 +273,10 @@
 			\begin{itemize}
 				\item identified
 				\item isolation
-				\item $p_T^{\gamma_1}/m_{\gamma\gamma}$ > 0.3 
-				\item $p_T^{\gamma_2}/m_{\gamma\gamma}$ > 0.25
+				\item $p_T^{\gamma_i}/m_{\gamma\gamma}$
+				%\item $p_T^{\gamma_1}/m_{\gamma\gamma}$ > 0.3 
+				%\item $p_T^{\gamma_2}/m_{\gamma\gamma}$ > 0.25
 			\end{itemize}
-			\item Fiducial events mimic selected events
 		\end{itemize}
 		\begin{textblock}{1}(.2,.2)
 			\begin{table}[tbp]
@@ -285,8 +322,14 @@
 			\end{itemize}
 			\item three categorisation test and\\ compared:
 			\begin{itemize}
-				\item $\gamma$ conversion status and\\ $\eta$ position cuts
 				\item \texttt{Inclusive}, \texttt{catConvEta}, \texttt{catConv}
+				\item $\gamma$ conversion status 
+				\item $\eta$ position cuts
+				\begin{itemize}
+					\item central region $|\eta|<0.75$
+					\item trans region $ \eta \epsilon [1.3,1.75]$
+					\item no central and trans regions
+				\end{itemize}
 			\end{itemize}
 		\end{itemize}
 		\begin{textblock}{1}(.5,.15)
@@ -295,22 +338,20 @@
 			\includegraphics[width=.5\textwidth]{../thesis_images/catConv_tree.pdf}\\	
 		\end{textblock}	
 		\vfill
-		\begin{textblock}{1.}(.25,.2)
+		\begin{textblock}{1.}(.2,.2125)
 			\begin{tikzpicture}
-				\draw[-to,black!30] (0,-2.5) -- (3,0)
-				node[below] {} -- (3,0)
-				node[below] {} -- (3.35,3);
+				\draw[-to,black!30] (0,-4) -- (4,0);
 			\end{tikzpicture}
 		\end{textblock}
-		\begin{textblock}{1.}(.375,.435)
+		\begin{textblock}{1.}(.35,.425)
 			\begin{tikzpicture}
-				\draw[-to,black!30] (0,-1) -- (1,0)
-				node[below] {} -- (2,2);
+				\draw[-to,black!30] (0,-2) -- (2,0);
 			\end{tikzpicture}
 		\end{textblock}
-		\begin{textblock}{1.}(.45,.68)
+		\begin{textblock}{1.}(.45,.67)
 			\begin{tikzpicture}
-				\draw[-to,black!30] (0,-0.75) -- (0.75,0);
+				\draw[-to,black!30] (0,0) -- (0,-0.1)
+				node[below] {} -- (.5,-.1);
 			\end{tikzpicture}
 		\end{textblock}
 		\begin{textblock}{1}(0.,.85)
@@ -334,28 +375,56 @@
 
 	\begin{frame}{Signal model}
 		\vfill
-		For each categorisation:
+		For each category:
 		\begin{itemize}
-			\item $\propto$ $m_X$
 			\item \textbf{Function form}: \textit{Double-Sided Crystal\\ Ball} (DSCB):
 			\begin{itemize}
 				\item a gaussian core + power-law tails
 				\item 6 parameters ($\mu, \sigma, a_{1,2}, p_{1,2}$)
 			\end{itemize}
-			\item \textbf{Samples}: \textit{ggF} MC samples with four\\ different resonance mass $m_X$ (110, 125,\\ 130 and GeV):
+			\item \textbf{Samples}: \textit{ggF} MC samples with four\\ different resonance mass $m_X$ (110, 125,\\ 130 and 140 GeV)
 			\item \textbf{Fit}: a simultaneous DSCB fit:
 			\begin{itemize}
-				\item sensibility to new resonances
+				\item $[100,195]$ GeV $m_{\gamma\gamma}$ range
 				\item DSCB parameters $\propto$ $m_X$:\\
 				$par(m_X) = A^{par} + B^{par}\cdot m_X$
+				\item $A$ and $B$ params fixed after fit\\
 			\end{itemize}
 		\end{itemize}
 		\vspace{.5cm}
 		\vfill
-		\begin{textblock}{1}(.575,.1)
-			\includegraphics[width=.45\textwidth]{../thesis_images/sigma_single.pdf}\\
-			\includegraphics[width=.45\textwidth]{../thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf}\\	
+		\begin{textblock}{1}(.575,.125)
+			\includegraphics[width=.45\textwidth]{../thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf}\\
+			\includegraphics[width=.45\textwidth]{../thesis_images/sigma_postfit.pdf}\\
 		\end{textblock}	
+		\begin{textblock}{1}(0.,.85)
+			\begin{figure}
+				\resizebox{\textwidth}{!}{
+					\begin{tikzpicture}[
+						node distance = 0mm,
+						start chain = going right,
+						]
+						\node[start=gray!20!white, scale=1] {Categories};
+						\node[cont=uibblue!80!black,   scale=1] {Sig model};
+						\node[cont=gray!20!white,   scale=1] {Bkg model};
+						\node[cont=gray!20!white,   scale=1.1] {HSM model};
+						\node[cont=gray!20!white,   scale=1] {Syst uncs};
+						\node[cont=gray!20!white,   scale=1] {Exp results};
+					\end{tikzpicture}		
+				}
+			\end{figure}
+		\end{textblock}
+	\end{frame}
+
+	\begin{frame}{Signal yield($m_X$)}
+		\vfill
+		In each category $i$, the signal yield is expressed as:
+		$$
+		N^i(m_X) = \sigma_{ggF}(m_X) \cdot Br_{\gamma\gamma}(m_X) \cdot \mathcal{L}_{Run2} \cdot A_X(m_X)  \cdot C_X^i(m_X)
+		$$
+		\vspace{.2cm}
+		Fiducial volume
+		\vfill
 		\begin{textblock}{1}(0.,.85)
 			\begin{figure}
 				\resizebox{\textwidth}{!}{
@@ -376,24 +445,35 @@
 	\end{frame}
 	
 	\begin{frame}{Signal model SM independence}
-		\resizebox{.5\textwidth}{!}{
-			\begin{box1}{Adolescenza}
+		\vfill
+		New physics search:\\
+		$\Rightarrow$  An analysis as much independent as possible from assumptions based on Standard Model
+		\begin{itemize}
+			\item only \textit{ggF} is considered for the signal model creation
+			\item other production modes:
+			\begin{itemize}
+				\item contribute to SM Higgs boson production
+				\item included as a signal yield systematic uncertainty $\sigma^{prod\ modes}$
+			\end{itemize}
+		\end{itemize}
+		\vspace{1cm}
+		\resizebox{.5\textwidth}{1.3cm}{
+			\begin{box1}{Advantages}
 				\begin{itemize}
-					\item Compito evolutivo di sviluppo \\ $\Rightarrow$ costruzione identità personale\\
-					$\Rightarrow$ garantisce integrità e unitarietà della persona
+					\item small assumptions on the production modes for the new resonances
+					\item include and parameterise the ignorance of the relative importance of different production modes for additional scalar Higgs bosons searches.
 				\end{itemize}
 			\end{box1}
-		}\resizebox{.5\textwidth}{!}{
-			\begin{box2}{Adolescenza e pandemia}
+		}\resizebox{.5\textwidth}{1.3cm}{
+			\begin{box2}{Disadvantages}
 				\begin{itemize}
-					\item Effetti a breve termine:
-					\begin{itemize}
-						\item aumento livelli di ansia, soprattutto nel genere femminile
-						\item aumento sintomatologia depressiva
-					\end{itemize}
+					\item $\sigma^{prod\ modes}$ increases in the more granular categorisation\\
+					$\Rightarrow$ the analysis performances decrease
+					\item No Higgs discovery Run1 categorisation
 				\end{itemize}
 			\end{box2}
 		}
+		\vfill
 		\begin{textblock}{1}(0.,.85)
 			\begin{figure}
 				\resizebox{\textwidth}{!}{
@@ -414,6 +494,27 @@
 	\end{frame}
 	
 	\begin{frame}{Non-resonant background}
+		\vfill
+		For each category:
+		\begin{itemize}
+			\item modelled using MC samples
+			\item \textbf{Functional form}:\\ $f^i_{bkg}(m_{\gamma\gamma},N_{bkg}^i,a^i,b^i) = N_{bkg}^i\cdot\exp^{(a^i\cdot m_{\gamma\gamma}+b^i\cdot m_{\gamma\gamma}^2)}$
+			\begin{itemize}
+				\item $N^{i}_{bkg}$, $a_i$, $bi$ are free parameters
+			\end{itemize} 
+			\item \textbf{Sample}: di-photon MC samples
+			\item \textbf{Fit}: \textit{exp(poly2)} fit:
+			\begin{itemize}
+				%\item blind search $\to$ [110,170] GeV\\ $m_X$ range
+				\item fit $\to$  [100,195] GeV $m_{\gamma\gamma}$ range
+			\end{itemize}
+			\item the functional form, modelled using\\ MC samples, will applied to data
+		\end{itemize}
+		\vspace{.5cm}
+		\vfill
+		\begin{textblock}{1}(.495,.4)
+			\includegraphics[width=.55\textwidth]{../thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.pdf}\\	
+		\end{textblock}
 		\begin{textblock}{1}(0.,.85)
 			\begin{figure}
 				\resizebox{\textwidth}{!}{
@@ -434,6 +535,28 @@
 	\end{frame}
 	
 	\begin{frame}{HSM background}
+		\vfill
+		For each category:
+		\begin{itemize}
+			\item \textbf{Function form}: \textit{Double-Sided Crystal\\ Ball} (DSCB):
+			\begin{itemize}
+				\item a gaussian core + power-law tails
+				\item 6 parameters ($\mu, \sigma, a_{1,2}, p_{1,2}$)
+			\end{itemize}
+			\item \textbf{Samples}: SM Higgs production modes\\ MC samples with resonance mass\\ $m_X=125$ GeV
+			\item \textbf{Fit}: a single DSCB fit:
+			\begin{itemize}
+				\item 125 GeV SM Higgs production modes\\ MC samples merged
+				\item DSCB parameters fixed after the fit
+				\item $[100,195]$ GeV $m_{\gamma\gamma}$ range
+				\item yield fixed from MC samples
+			\end{itemize}
+		\end{itemize}
+		\vspace{.75cm}
+		\vfill
+		\begin{textblock}{1}(.575,.3)
+			\includegraphics[width=.45\textwidth]{../thesis_images/bkg/HSM_fit_catConvEta_no.pdf}\\	
+		\end{textblock}
 		\begin{textblock}{1}(0.,.85)
 			\begin{figure}
 				\resizebox{\textwidth}{!}{
@@ -452,4 +575,328 @@
 			\end{figure}
 		\end{textblock}
 	\end{frame}
+
+	\begin{frame}{Systematic Uncertainties}
+		\vfill
+		Systematic uncertainties
+		\begin{itemize}
+			\item arise from experimental sources
+			\item specific for each category
+			\item  are included into the likelihood model of the measurement as nuisance parameters
+			\item divided into two different groups:
+		\end{itemize}
+		\vspace{.5cm}
+		\begin{enumerate}\centering
+			\item shape systematic uncertainties
+			\item yield systematic uncertainties
+		\end{enumerate}
+		\vfill
+		\begin{textblock}{1}(0.,.85)
+			\begin{figure}
+				\resizebox{\textwidth}{!}{
+					\begin{tikzpicture}[
+						node distance = 0mm,
+						start chain = going right,
+						]
+						\node[start=gray!20!white, scale=1] {Categories};
+						\node[cont=gray!20!white,   scale=1] {Sig model};
+						\node[cont=gray!20!white,   scale=1] {Bkg model};
+						\node[cont=gray!20!white,   scale=1.1] {HSM model};
+						\node[cont=uibblue!80!black,   scale=1] {Syst uncs};
+						\node[cont=gray!20!white,   scale=1] {Exp results};
+					\end{tikzpicture}		
+				}
+			\end{figure}
+		\end{textblock}
+	\end{frame}
+
+	\begin{frame}{Shape systematic uncertainties}
+		\vfill
+		Shape systematic uncertainties $\to$ the\\ modelling of $m_{\gamma\gamma}$ distribution:
+		\begin{itemize}
+			\item photon energy scale uncertainties:
+			\begin{itemize}
+				\item affect the peak position ($\mu^{DSCB}$)
+				%\item $\delta\mu_c(\pm1\sigma)=\frac{<m_{\gamma\gamma}>_i(\pm1\sigma)}{<m_{\gamma\gamma}>_i}-1$
+				\item impact of less than 0.5\%
+				\item only on signal model
+			\end{itemize}
+			\item photon energy resolution uncertainties
+			\begin{itemize}
+				\item affect the Gaussian width ($\sigma^{DSCB}$)
+				%\item $\delta\sigma_c(\pm1\sigma)=\frac{IQR_i(\pm1\sigma)}{IQR_i}-1$
+				\item impact of less than 12\%
+				\item on signal and HSM models
+			\end{itemize}
+			\item LHC Higgs mass uncertainty
+			\begin{itemize}
+				\item affect the peak position ($\mu^{DSCB}$)
+				\item impact of 0.2\%
+				\item only on HSM model
+			\end{itemize}
+		\end{itemize}
+		\vspace{.2cm}
+		\vfill
+		\begin{textblock}{1}(.575,.125)
+			\includegraphics[width=.4\textwidth]{../thesis_images/Syst/var_shape_scale_catConvEta_no.pdf}\\
+			\includegraphics[width=.4\textwidth]{../thesis_images/Syst/var_shape_res_catConvEta_no.pdf}\\	
+		\end{textblock}	
+		\begin{textblock}{1}(0.,.85)
+			\begin{figure}
+				\resizebox{\textwidth}{!}{
+					\begin{tikzpicture}[
+						node distance = 0mm,
+						start chain = going right,
+						]
+						\node[start=gray!20!white, scale=1] {Categories};
+						\node[cont=gray!20!white,   scale=1] {Sig model};
+						\node[cont=gray!20!white,   scale=1] {Bkg model};
+						\node[cont=gray!20!white,   scale=1.1] {HSM model};
+						\node[cont=uibblue!80!black,   scale=1] {Syst uncs};
+						\node[cont=gray!20!white,   scale=1] {Exp results};
+					\end{tikzpicture}		
+				}
+			\end{figure}
+		\end{textblock}
+	\end{frame}
+
+	\begin{frame}{Yield systematic uncertainties}
+		\vfill
+		Yield systematic uncertainties $\to$ the\\ expected signal and HSM yields
+		\begin{itemize}
+			\item the $\gamma$ energy scale and resolution\\ uncertainties on the selection efficiency
+			\item the $\gamma$ identification and isolation efficiencies
+			\item the efficiency of the diphoton trigger
+			\item  the modelling of pile-up in the simulation\\
+			\vspace{.1cm}
+			$\Rightarrow$ an impact of less than 2\%
+			\vspace{.1cm}
+			\item the production mode dependence
+			\begin{itemize}
+				\item For each category $C_X^{prod}$ parametrised as\\ functions of $m_X$
+				\item $\sigma^{prod\ modes}$ is maximum of
+				\begin{itemize}
+					\item $\dfrac{|C^{fit}_{X\ prod}-C^{fit}_{X\ ggF}|}{C^{fit}_{X\ ggF}}$
+					\item by varying production modes and resonance mass
+				\end{itemize}
+			\end{itemize}
+		\end{itemize}
+		\vfill
+		\begin{textblock}{1}(.625,.125)
+			\includegraphics[width=.4\textwidth]{../thesis_images/Syst/var_catConvEta_no_sig_fid.pdf}\\
+			\includegraphics[width=.4\textwidth]{../thesis_images/Signal/cx_all_prod_catConvEta_no.pdf}\\	
+		\end{textblock}	
+		
+		\begin{textblock}{1}(0.,.85)
+			\begin{figure}
+				\resizebox{\textwidth}{!}{
+					\begin{tikzpicture}[
+						node distance = 0mm,
+						start chain = going right,
+						]
+						\node[start=gray!20!white, scale=1] {Categories};
+						\node[cont=gray!20!white,   scale=1] {Sig model};
+						\node[cont=gray!20!white,   scale=1] {Bkg model};
+						\node[cont=gray!20!white,   scale=1.1] {HSM model};
+						\node[cont=uibblue!80!black,   scale=1] {Syst uncs};
+						\node[cont=gray!20!white,   scale=1] {Exp results};
+					\end{tikzpicture}		
+				}
+			\end{figure}
+		\end{textblock}
+	\end{frame}
+
+	\begin{frame}{Expected results}
+		\vfill
+		After:
+		\begin{enumerate}
+			\item event selection 
+			\item application of the different categorisation
+			\item models creation
+			\item systematic uncertainties study
+		\end{enumerate}
+		$\Longrightarrow$ a combined maximum likelihood fit\\ in all the categories is performed
+		\begin{itemize}
+			\item investigating the presence of a signal by\\ computing the compatibility of the MC\\ template with the background-only\\ hypothesis $p_0$
+			\item assessing limits, in a fiducial region, on the\\ x-s in case no excess of signal is observed.
+		\end{itemize}
+		\vfill		
+		\begin{textblock}{1}(.5825,.1)	
+			\includegraphics[width=.45\textwidth]{../thesis_images/p0_no_catConvEta.pdf}\\
+			\includegraphics[width=.45\textwidth]{../thesis_images/plot_AsimovData_0_ggHyy_MC_no_catConvEta_syst_HSM_fid_nom_gaus.pdf}	
+		\end{textblock}
+		\begin{textblock}{1.}(.25,.4)
+			\begin{tikzpicture}
+				\draw[-to,black!30] (0,-3) -- (4,0);
+			\end{tikzpicture}
+		\end{textblock}
+		\begin{textblock}{1.}(.25,.7)
+			\begin{tikzpicture}
+				\draw[-to,black!30] (0,-0.5) -- (4,0);
+			\end{tikzpicture}
+		\end{textblock}
+		\begin{textblock}{1}(0.,.85)
+			\begin{figure}
+				\resizebox{\textwidth}{!}{
+					\begin{tikzpicture}[
+						node distance = 0mm,
+						start chain = going right,
+						]
+						\node[start=gray!20!white, scale=1] {Categories};
+						\node[cont=gray!20!white,   scale=1] {Sig model};
+						\node[cont=gray!20!white,   scale=1] {Bkg model};
+						\node[cont=gray!20!white,   scale=1.1] {HSM model};
+						\node[cont=gray!20!white,   scale=1] {Syst uncs};
+						\node[cont=uibblue!80!black,   scale=1] {Exp results};
+					\end{tikzpicture}		
+				}
+			\end{figure}
+		\end{textblock}
+	\end{frame}
+
+	\begin{frame}{Expected results}
+		\vfill
+		\textbf{Without} systematic uncertainties improvement\\ compared to \texttt{Inclusive} category
+		\begin{itemize}
+			\item discovery potential
+			\begin{itemize}
+				\item \texttt{catConvEta} $\to$ $\sim$6.3\%
+				\item \texttt{catConv} $\to$ $\sim$1.2\%
+			\end{itemize}
+			\item limits setting
+			\begin{itemize}
+				\item \texttt{catConvEta} $\to$ $\sim$7.6\%
+				\item \texttt{catConv} $\to$ $\sim$2.4\%
+			\end{itemize}
+		\end{itemize}
+		\textbf{With} systematic uncertainties improvement\\ compared to \texttt{Inclusive} category
+		\begin{itemize}
+			\item limits setting
+			\begin{itemize}
+				\item \texttt{catConvEta}
+				\begin{itemize}
+					\item always positive improvement
+					\item maximum value 4.2\% at $m_X$=170 GeV
+				\end{itemize}
+				\item \texttt{catConv}
+				\begin{itemize}
+					\item not always positive improvement\\
+					$\Rightarrow$ should be discarded
+				\end{itemize}
+			\end{itemize}
+		\end{itemize}
+		\vspace{.5cm}
+		\vfill
+		\begin{textblock}{1}(.5825,.1)	
+			\includegraphics[width=.45\textwidth]{../thesis_images/p0_exp_imp.pdf}\\
+			\includegraphics[width=.45\textwidth]{../thesis_images/imp_nom_gaus.pdf}	
+		\end{textblock}
+		\begin{textblock}{1}(0.,.85)
+			\begin{figure}
+				\resizebox{\textwidth}{!}{
+					\begin{tikzpicture}[
+						node distance = 0mm,
+						start chain = going right,
+						]
+						\node[start=gray!20!white, scale=1] {Categories};
+						\node[cont=gray!20!white,   scale=1] {Sig model};
+						\node[cont=gray!20!white,   scale=1] {Bkg model};
+						\node[cont=gray!20!white,   scale=1.1] {HSM model};
+						\node[cont=gray!20!white,   scale=1] {Syst uncs};
+						\node[cont=uibblue!80!black,   scale=1] {Exp results};
+					\end{tikzpicture}		
+				}
+			\end{figure}
+		\end{textblock}
+	\end{frame}
+
+	\begin{frame}{Results}
+		\vfill
+		Using the \texttt{catConvEta} categorisation the analysis shows that in the [110,170] GeV $m_X$ mass range:
+		\begin{itemize}
+			\item a signal significance ranging from few $\sigma$ to $\sim$12$\sigma$ can be achieved in the search for new spin-0 resonance, assuming the SM mass dependence of the cross-section
+			\item the excluded fiducial cross-section for a signal ranges from $\sim$3.4 pb to $\sim$34.6 pb depending on the new resonance mass.
+		\end{itemize}
+		\vfill
+		\begin{textblock}{1}(0.,.85)
+			\begin{figure}
+				\resizebox{\textwidth}{!}{
+					\begin{tikzpicture}[
+						node distance = 0mm,
+						start chain = going right,
+						]
+						\node[start=gray!20!white, scale=1] {Categories};
+						\node[cont=gray!20!white,   scale=1] {Sig model};
+						\node[cont=gray!20!white,   scale=1] {Bkg model};
+						\node[cont=gray!20!white,   scale=1.1] {HSM model};
+						\node[cont=gray!20!white,   scale=1] {Syst uncs};
+						\node[cont=uibblue!80!black,   scale=1] {Exp results};
+					\end{tikzpicture}		
+				}
+			\end{figure}
+		\end{textblock}
+	\end{frame}
+
+	\begin{frame}{Conclusions}
+		\vfill
+		\begin{itemize}
+			\item The potential of search for new resonances in [105,200] GeV $m_{\gamma\gamma}$ range has been investigated
+			\item The best categorisation obtained from the trade-off between performances and SM independence is \texttt{catConvEta}
+			\item The analysis is still blind so no results based on data have been shown
+			\item The results presented in this thesis represent the first step towards the unblinding.
+		\end{itemize} 
+		\vfill
+	\end{frame}
+
+	%%%%%%%%% Backup %%%%%%%%%
+	\section{Backup}
+	\SectionPage
+		
+		\begin{frame}{Spontaneous Symmetry Breaking}
+			With the \textit{Higgs mechanism} and the \textit{Spontaneous Symmetry Breaking} is possible to introduce a gauge invariant mass term of the $W,Z$ gauge boson
+		\end{frame}
+	
+		\begin{frame}{ATLAS coordinate system}
+			
+		\end{frame}
+	
+		\begin{frame}{2HDM and SUSY}
+			
+		\end{frame}
+		
+		\begin{frame}{Combined maximum likelihood}
+			
+		\end{frame}
+	
+			\begin{frame}{Signal yield($m_X$)}
+			\vfill
+			In each category $i$, the signal yield is expressed as:
+			$$
+			N^i(m_X) = \sigma_{ggF}(m_X) \cdot A_X(m_X) \cdot Br_{\gamma\gamma}(m_X) \cdot \mathcal{L}_{Run2} \cdot C_X^i(m_X)
+			$$
+			\begin{center}
+				\includegraphics[width=.35\textwidth]{../thesis_images/x_section_fit.pdf}
+				\includegraphics[width=.35\textwidth]{../thesis_images/ax_isFiducialMedium_linear_fit.pdf}\\
+				\includegraphics[width=.35\textwidth]{../thesis_images/br_fit.pdf}			
+				\includegraphics[width=.35\textwidth]{../thesis_images/cx_fit_catConvEta_no.pdf}
+			\end{center}
+			\vfill
+			\begin{textblock}{1}(0.,.85)
+				\begin{figure}
+					\resizebox{\textwidth}{!}{
+						\begin{tikzpicture}[
+							node distance = 0mm,
+							start chain = going right,
+							]
+							\node[start=gray!20!white, scale=1] {Categories};
+							\node[cont=uibblue!80!black,   scale=1] {Sig model};
+							\node[cont=gray!20!white,   scale=1] {Bkg model};
+							\node[cont=gray!20!white,   scale=1.1] {HSM model};
+							\node[cont=gray!20!white,   scale=1] {Syst uncs};
+							\node[cont=gray!20!white,   scale=1] {Exp results};
+						\end{tikzpicture}		
+					}
+				\end{figure}
+			\end{textblock}
+		\end{frame}
 \end{document}
