@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  23 NOV 2022 18:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.17)  26 NOV 2022 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2311,6 +2311,8 @@ Grid set 16 x 16 = 22.7622pt x 17.07166pt
 \TP@tbargs=\toks57
 \TP@prevdepth=\dimen345
 TextBlockOrigin set to 0pt x 0pt
+) (/usr/share/texlive/texmf-dist/tex/latex/calrsfs/calrsfs.sty
+\symrsfscript=\mathgroup11
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tikzmark/tikzlibrarytikzmark.code.tex
 \l__sn_x_dim=\dimen346
@@ -2401,6 +2403,29 @@ File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfnodepartsixbox=\box147
 \pgfnodepartfivebox=\box148
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/stackengine/stackengine.sty
+Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
+ways
+
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex
+\loi_cnt_foreach_nest=\count369
+\loi_nestcnt=\count370
+)
+Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@stackindex=\count371
+\@boxshift=\skip87
+\stack@tmplength=\skip88
+\temp@stkl=\skip89
+\@stackedboxwidth=\skip90
+\@addedbox=\box149
+\@anchorbox=\box150
+\stackedbox=\box151
+\@centerbox=\box152
+\c@ROWcellindex@=\count372
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarychains.code.tex
 File: tikzlibrarychains.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -2424,51 +2449,51 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box149
-\tcb@upperbox=\box150
-\tcb@lowerbox=\box151
-\tcb@phantombox=\box152
-\c@tcbbreakpart=\count369
-\c@tcblayer=\count370
-\tcolorbox@number=\count371
-\tcb@temp=\box153
-\tcb@temp=\box154
-\tcb@temp=\box155
-\tcb@temp=\box156
+\tcb@titlebox=\box153
+\tcb@upperbox=\box154
+\tcb@lowerbox=\box155
+\tcb@phantombox=\box156
+\c@tcbbreakpart=\count373
+\c@tcblayer=\count374
+\tcolorbox@number=\count375
+\tcb@temp=\box157
+\tcb@temp=\box158
+\tcb@temp=\box159
+\tcb@temp=\box160
 \tcb@out=\write5
 \tcb@record@out=\write6
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 56.
+(hyperref)                removing `math shift' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 56.
+(hyperref)                removing `superscript' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 56.
+(hyperref)                removing `math shift' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 56.
+(hyperref)                removing `math shift' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 56.
+(hyperref)                removing `math shift' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 56.
+(hyperref)                removing `math shift' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 56.
+(hyperref)                removing `\@ifnextchar' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 56.
+(hyperref)                removing `math shift' on input line 80.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -2477,32 +2502,32 @@ Package csquotes Info: Redefining alias 'default' -> 'UKenglish'.
 (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 56.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 5
-6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 80.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 8
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5
-6.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 8
+0.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2543,16 +2568,16 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count372
+\scratchcounter=\count376
 \scratchdimen=\dimen351
-\scratchbox=\box157
-\nofMPsegments=\count373
-\nofMParguments=\count374
+\scratchbox=\box161
+\nofMPsegments=\count377
+\nofMParguments=\count378
 \everyMPshowfont=\toks60
-\MPscratchCnt=\count375
+\MPscratchCnt=\count379
 \MPscratchDim=\dimen352
-\MPnumerator=\count376
-\makeMPintoPDFobject=\count377
+\MPnumerator=\count380
+\makeMPintoPDFobject=\count381
 \everyMPtoPDFconversion=\toks61
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -2564,8 +2589,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box158
-Package hyperref Info: Link coloring ON on input line 56.
+\AtBeginShipoutBox=\box162
+Package hyperref Info: Link coloring ON on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -2576,85 +2601,85 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count378
+\c@section@level=\count382
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
 
 (./presentation.out) (./presentation.out)
 \@outlinefile=\write7
 \openout7 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 56.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 56.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 56.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 56.
-\symnumbers=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 56.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 80.
+\symnumbers=\mathgroup12
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 80.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 56
+(Font)              `pureletters' in the math version `normal' on input line 80
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/mathkerncmss/m/sl --> T1/lmss/m/it on input line 56
+(Font)                  OT1/mathkerncmss/m/sl --> T1/lmss/m/it on input line 80
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 56.
+(Font)              `pureletters' in the math version `bold' on input line 80.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/bx/sl --> T1/lmss/m/it on input line 5
-6.
+(Font)                  OT1/mathkerncmss/bx/sl --> T1/lmss/m/it on input line 8
+0.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 56.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 56.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 56.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 56.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 56.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 56.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 80.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 56.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 56.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 56.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 56.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 56.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 56.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 56.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 56.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 56.
-LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 56.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 80.
+LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 80.
 
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
 (Font)              `boldpureletters' in the math version `normal' on input lin
-e 56.
+e 80.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `norma
 l'
 (Font)                  OT1/mathkerncmss/bx/sl --> T1/lmss/bx/it on input line 
-56.
+80.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
 (Font)              `boldpureletters' in the math version `bold' on input line 
-56.
+80.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `bold'
 
 (Font)                  OT1/mathkerncmss/bx/sl --> T1/lmss/bx/it on input line 
-56.
+80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -2681,83 +2706,87 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-56.
+80.
  (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
-6.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+0.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-56.
+80.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-56.
+80.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 56.
+(Font)              <10> on input line 80.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 56.
+(Font)              <7> on input line 80.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 56.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
+(Font)              <5> on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 56.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 80.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 56.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 80.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 56.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-6.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 80.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
+0.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 56.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 80.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <7> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 56.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 80.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <5> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 56.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 80.
+LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
+80.
+
+(/usr/share/texlive/texmf-dist/tex/latex/calrsfs/OMSrsfs.fd)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 56.
+(Font)              <12> on input line 80.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 56.
+(Font)              <8> on input line 80.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 56.
+(Font)              <6> on input line 80.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 56.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 80.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 56.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 80.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 56.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 80.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 56.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 80.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <8> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 56.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 80.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 56.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 56
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 80.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 80
 .
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
@@ -2766,23 +2795,28 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 <UiB-images/uni_bianco.png, id=17, 602.25pt x 206.7725pt>
 File: UiB-images/uni_bianco.png Graphic file (type png)
 <use UiB-images/uni_bianco.png>
-Package pdftex.def Info: UiB-images/uni_bianco.png  used on input line 56.
+Package pdftex.def Info: UiB-images/uni_bianco.png  used on input line 80.
 (pdftex.def)             Requested size: 120.44786pt x 41.35376pt.
- [1
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+80.
+
+(/usr/share/texmf/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./UiB-images/uni_bianco.pn
 g>]
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 56.
+LaTeX Info: Redefining \microtypecontext on input line 80.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 56.
+LaTeX Info: Redefining \showhyphens on input line 80.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -2790,8 +2824,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./presentation.nav)
-Overfull \hbox (1.18056pt too wide) detected at line 56
+
+pdfTeX warning (font expansion): font should be expanded before its first use
+(./presentation.nav)
+Overfull \hbox (1.18056pt too wide) detected at line 80
 [][] 
  []
 
@@ -2809,12 +2845,20 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-<../thesis_images/CERN_complex.png, id=31, 829.0975pt x 660.4675pt>
-File: ../thesis_images/CERN_complex.png Graphic file (type png)
-<use ../thesis_images/CERN_complex.png>
-Package pdftex.def Info: ../thesis_images/CERN_complex.png  used on input line 
-77.
-(pdftex.def)             Requested size: 182.09767pt x 145.05135pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 121.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 121.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <9> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 121.
+
+
+pdfTeX warning (font expansion): font should be expanded before its first use
+<../thesis_images/SM.jpeg, id=33, 702.625pt x 527.9725pt>
+File: ../thesis_images/SM.jpeg Graphic file (type jpg)
+<use ../thesis_images/SM.jpeg>
+Package pdftex.def Info: ../thesis_images/SM.jpeg  used on input line 121.
+(pdftex.def)             Requested size: 163.8868pt x 123.14708pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
@@ -2822,32 +2866,29 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
 [2
 
- <../thesis_images/CERN_complex.png>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 106.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 106.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 106.
-
-<../thesis_images/ATLAS.png, id=41, 1535.7375pt x 907.39pt>
-File: ../thesis_images/ATLAS.png Graphic file (type png)
-<use ../thesis_images/ATLAS.png>
-Package pdftex.def Info: ../thesis_images/ATLAS.png  used on input line 106.
-(pdftex.def)             Requested size: 209.41121pt x 123.72462pt.
-
+ <../thesis_images/SM.jpeg>]
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
  []
 
 [3
 
- <../thesis_images/ATLAS.png>]
-<../thesis_images/SM.jpeg, id=49, 702.625pt x 527.9725pt>
-File: ../thesis_images/SM.jpeg Graphic file (type jpg)
-<use ../thesis_images/SM.jpeg>
-Package pdftex.def Info: ../thesis_images/SM.jpeg  used on input line 138.
-(pdftex.def)             Requested size: 163.8868pt x 123.14708pt.
+]
+<../thesis_images/higgs_boson_plot.png, id=48, 332.442pt x 266.9172pt>
+File: ../thesis_images/higgs_boson_plot.png Graphic file (type png)
+<use ../thesis_images/higgs_boson_plot.png>
+Package pdftex.def Info: ../thesis_images/higgs_boson_plot.png  used on input l
+ine 191.
+(pdftex.def)             Requested size: 182.09767pt x 146.2062pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 191.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 191.
+
+pdfTeX warning (font expansion): font should be expanded before its first use
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 191.
+
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
@@ -2855,14 +2896,13 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
 [4
 
- <../thesis_images/SM.jpeg>]
-pdfTeX warning (font expansion): font should be expanded before its first use
-<../thesis_images/higgs_boson_plot.png, id=58, 332.442pt x 266.9172pt>
-File: ../thesis_images/higgs_boson_plot.png Graphic file (type png)
-<use ../thesis_images/higgs_boson_plot.png>
-Package pdftex.def Info: ../thesis_images/higgs_boson_plot.png  used on input l
-ine 179.
-(pdftex.def)             Requested size: 163.8868pt x 131.58476pt.
+ <../thesis_images/higgs_boson_plot.png>]
+<../thesis_images/MC_sample_140.pdf, id=59, 569.12625pt x 355.3275pt>
+File: ../thesis_images/MC_sample_140.pdf Graphic file (type pdf)
+<use ../thesis_images/MC_sample_140.pdf>
+Package pdftex.def Info: ../thesis_images/MC_sample_140.pdf  used on input line
+ 223.
+(pdftex.def)             Requested size: 218.51942pt x 136.4301pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
@@ -2870,7 +2910,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
 [5
 
- <../thesis_images/higgs_boson_plot.png>]
+ <../thesis_images/MC_sample_140.pdf, page is rotated 90 degrees>]
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
  []
@@ -2878,12 +2918,12 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [6
 
 ]
-<../thesis_images/HSM_prova.pdf, id=71, 569.12625pt x 355.3275pt>
-File: ../thesis_images/HSM_prova.pdf Graphic file (type pdf)
-<use ../thesis_images/HSM_prova.pdf>
-Package pdftex.def Info: ../thesis_images/HSM_prova.pdf  used on input line 265
-.
-(pdftex.def)             Requested size: 218.51942pt x 136.4301pt.
+<../thesis_images/CERN_complex.png, id=117, 829.0975pt x 660.4675pt>
+File: ../thesis_images/CERN_complex.png Graphic file (type png)
+<use ../thesis_images/CERN_complex.png>
+Package pdftex.def Info: ../thesis_images/CERN_complex.png  used on input line 
+289.
+(pdftex.def)             Requested size: 182.09767pt x 145.05135pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
@@ -2891,14 +2931,20 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
 [7
 
- <../thesis_images/HSM_prova.pdf, page is rotated 90 degrees>]
+ <../thesis_images/CERN_complex.png>]
+<../thesis_images/ATLAS.png, id=124, 1535.7375pt x 907.39pt>
+File: ../thesis_images/ATLAS.png Graphic file (type png)
+<use ../thesis_images/ATLAS.png>
+Package pdftex.def Info: ../thesis_images/ATLAS.png  used on input line 318.
+(pdftex.def)             Requested size: 209.41121pt x 123.72462pt.
+
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
  []
 
 [8
 
-]
+ <../thesis_images/ATLAS.png>]
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
  []
@@ -2907,7 +2953,7 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-20.
+10.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2915,23 +2961,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../thesis_images/inclusive_tree.pdf, id=135, 197.18167pt x 35.12122pt>
+<../thesis_images/inclusive_tree.pdf, id=136, 197.18167pt x 35.12122pt>
 File: ../thesis_images/inclusive_tree.pdf Graphic file (type pdf)
 <use ../thesis_images/inclusive_tree.pdf>
 Package pdftex.def Info: ../thesis_images/inclusive_tree.pdf  used on input lin
-e 420.
+e 410.
 (pdftex.def)             Requested size: 182.09767pt x 32.4357pt.
-<../thesis_images/catConvEta_tree.pdf, id=136, 450.30734pt x 178.32922pt>
+<../thesis_images/catConvEta_tree.pdf, id=137, 450.30734pt x 178.32922pt>
 File: ../thesis_images/catConvEta_tree.pdf Graphic file (type pdf)
 <use ../thesis_images/catConvEta_tree.pdf>
 Package pdftex.def Info: ../thesis_images/catConvEta_tree.pdf  used on input li
-ne 420.
+ne 410.
 (pdftex.def)             Requested size: 182.09767pt x 72.11409pt.
-<../thesis_images/catConv_tree.pdf, id=137, 322.4326pt x 120.48012pt>
+<../thesis_images/catConv_tree.pdf, id=138, 322.4326pt x 120.48012pt>
 File: ../thesis_images/catConv_tree.pdf Graphic file (type pdf)
 <use ../thesis_images/catConv_tree.pdf>
 Package pdftex.def Info: ../thesis_images/catConv_tree.pdf  used on input line 
-420.
+410.
 (pdftex.def)             Requested size: 182.09767pt x 68.04381pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
@@ -2942,19 +2988,19 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../thesis_images/inclusive_tree.pdf> <../thesis_images/catConvEta_tree.pdf> <
 ../thesis_images/catConv_tree.pdf>]
-<../thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf, id=213, 569.12
+<../thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf, id=215, 569.12
 625pt x 355.3275pt>
 File: ../thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf Graphic fi
 le (type pdf)
 <use ../thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf>
 Package pdftex.def Info: ../thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no
-_fit.pdf  used on input line 463.
+_fit.pdf  used on input line 453.
 (pdftex.def)             Requested size: 163.8868pt x 102.32121pt.
-<../thesis_images/sigma_postfit.pdf, id=214, 569.12625pt x 355.3275pt>
+<../thesis_images/sigma_postfit.pdf, id=216, 569.12625pt x 355.3275pt>
 File: ../thesis_images/sigma_postfit.pdf Graphic file (type pdf)
 <use ../thesis_images/sigma_postfit.pdf>
 Package pdftex.def Info: ../thesis_images/sigma_postfit.pdf  used on input line
- 463.
+ 453.
 (pdftex.def)             Requested size: 163.8868pt x 102.32121pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
@@ -2966,16 +3012,6 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
  <../thesis_images/PowhegPy8_NNLOPS_ggH125_catConvEta_no_fit.pdf, page is rotat
 ed 90 degrees> <../thesis_images/sigma_postfit.pdf, page is rotated 90 degrees>
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 499.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 499.
-
-pdfTeX warning (font expansion): font should be expanded before its first use
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <17.28> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 499.
-
-
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
  []
@@ -2983,13 +3019,13 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [12
 
 ]
-<../thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.pdf, id=313, 569.12625
+<../thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.pdf, id=314, 569.12625
 pt x 355.3275pt>
 File: ../thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.pdf Graphic file 
 (type pdf)
 <use ../thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.pdf>
 Package pdftex.def Info: ../thesis_images/bkg_100_195GeV_fit_catConvEta_no_prov
-a.pdf  used on input line 540.
+a.pdf  used on input line 544.
 (pdftex.def)             Requested size: 200.30855pt x 125.06047pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
@@ -3000,12 +3036,12 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../thesis_images/bkg_100_195GeV_fit_catConvEta_no_prova.pdf, page is rotated 
 90 degrees>]
-<../thesis_images/bkg/HSM_fit_catConvEta_no.pdf, id=364, 569.12625pt x 355.3275
+<../thesis_images/bkg/HSM_fit_catConvEta_no.pdf, id=366, 569.12625pt x 355.3275
 pt>
 File: ../thesis_images/bkg/HSM_fit_catConvEta_no.pdf Graphic file (type pdf)
 <use ../thesis_images/bkg/HSM_fit_catConvEta_no.pdf>
 Package pdftex.def Info: ../thesis_images/bkg/HSM_fit_catConvEta_no.pdf  used o
-n input line 581.
+n input line 585.
 (pdftex.def)             Requested size: 163.8868pt x 102.32121pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
@@ -3022,21 +3058,21 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [15
 
 ]
-<../thesis_images/Syst/var_shape_scale_catConvEta_no.pdf, id=418, 569.12625pt x
+<../thesis_images/Syst/var_shape_scale_catConvEta_no.pdf, id=420, 569.12625pt x
  385.44pt>
 File: ../thesis_images/Syst/var_shape_scale_catConvEta_no.pdf Graphic file (typ
 e pdf)
 <use ../thesis_images/Syst/var_shape_scale_catConvEta_no.pdf>
 Package pdftex.def Info: ../thesis_images/Syst/var_shape_scale_catConvEta_no.pd
-f  used on input line 665.
+f  used on input line 669.
 (pdftex.def)             Requested size: 145.67592pt x 98.65936pt.
-<../thesis_images/Syst/var_shape_res_catConvEta_no.pdf, id=419, 569.12625pt x 3
+<../thesis_images/Syst/var_shape_res_catConvEta_no.pdf, id=421, 569.12625pt x 3
 85.44pt>
 File: ../thesis_images/Syst/var_shape_res_catConvEta_no.pdf Graphic file (type 
 pdf)
 <use ../thesis_images/Syst/var_shape_res_catConvEta_no.pdf>
 Package pdftex.def Info: ../thesis_images/Syst/var_shape_res_catConvEta_no.pdf 
- used on input line 665.
+ used on input line 669.
 (pdftex.def)             Requested size: 145.67592pt x 98.65936pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
@@ -3048,13 +3084,13 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
  <../thesis_images/Syst/var_shape_scale_catConvEta_no.pdf, page is rotated 90 d
 egrees> <../thesis_images/Syst/var_shape_res_catConvEta_no.pdf, page is rotated
  90 degrees>]
-<../thesis_images/Syst/var_catConvEta_no_sig_fid.pdf, id=512, 569.12625pt x 385
+<../thesis_images/Syst/var_catConvEta_no_sig_fid.pdf, id=514, 569.12625pt x 385
 .44pt>
 File: ../thesis_images/Syst/var_catConvEta_no_sig_fid.pdf Graphic file (type pd
 f)
 <use ../thesis_images/Syst/var_catConvEta_no_sig_fid.pdf>
 Package pdftex.def Info: ../thesis_images/Syst/var_catConvEta_no_sig_fid.pdf  u
-sed on input line 698.
+sed on input line 702.
 (pdftex.def)             Requested size: 236.72475pt x 160.32513pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
@@ -3065,13 +3101,13 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../thesis_images/Syst/var_catConvEta_no_sig_fid.pdf, page is rotated 90 degre
 es>]
-<../thesis_images/Signal/cx_all_prod_catConvEta_no.pdf, id=561, 569.12625pt x 3
+<../thesis_images/Signal/cx_all_prod_catConvEta_no.pdf, id=563, 569.12625pt x 3
 55.3275pt>
 File: ../thesis_images/Signal/cx_all_prod_catConvEta_no.pdf Graphic file (type 
 pdf)
 <use ../thesis_images/Signal/cx_all_prod_catConvEta_no.pdf>
 Package pdftex.def Info: ../thesis_images/Signal/cx_all_prod_catConvEta_no.pdf 
- used on input line 733.
+ used on input line 736.
 (pdftex.def)             Requested size: 236.72475pt x 147.79973pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
@@ -3082,6 +3118,11 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
  <../thesis_images/Signal/cx_all_prod_catConvEta_no.pdf, page is rotated 90 deg
 rees>]
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
+774.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
  []
@@ -3089,12 +3130,12 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [19
 
 ]
-<../thesis_images/p0_no_catConvEta.pdf, id=616, 578.16pt x 361.35pt>
-File: ../thesis_images/p0_no_catConvEta.pdf Graphic file (type pdf)
-<use ../thesis_images/p0_no_catConvEta.pdf>
-Package pdftex.def Info: ../thesis_images/p0_no_catConvEta.pdf  used on input l
-ine 773.
-(pdftex.def)             Requested size: 273.14651pt x 170.71672pt.
+<../thesis_images/p0_catConvEta_pres.pdf, id=619, 578.16pt x 361.35pt>
+File: ../thesis_images/p0_catConvEta_pres.pdf Graphic file (type pdf)
+<use ../thesis_images/p0_catConvEta_pres.pdf>
+Package pdftex.def Info: ../thesis_images/p0_catConvEta_pres.pdf  used on input
+ line 804.
+(pdftex.def)             Requested size: 264.04385pt x 165.02654pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
@@ -3102,16 +3143,16 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 
 [20
 
- <../thesis_images/p0_no_catConvEta.pdf>]
+ <../thesis_images/p0_catConvEta_pres.pdf>]
 <../thesis_images/xs_fid_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid_nom_gaus
-.pdf, id=677, 578.16pt x 361.35pt>
+_pres.pdf, id=680, 578.16pt x 361.35pt>
 File: ../thesis_images/xs_fid_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid_nom
-_gaus.pdf Graphic file (type pdf)
+_gaus_pres.pdf Graphic file (type pdf)
 <use ../thesis_images/xs_fid_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid_nom_
-gaus.pdf>
+gaus_pres.pdf>
 Package pdftex.def Info: ../thesis_images/xs_fid_AsimovData_0_ggHyy_MC_catConvE
-ta_syst_HSM_fid_nom_gaus.pdf  used on input line 803.
-(pdftex.def)             Requested size: 273.14651pt x 170.71672pt.
+ta_syst_HSM_fid_nom_gaus_pres.pdf  used on input line 834.
+(pdftex.def)             Requested size: 264.04385pt x 165.02654pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
@@ -3120,18 +3161,18 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [21
 
  <../thesis_images/xs_fid_AsimovData_0_ggHyy_MC_catConvEta_syst_HSM_fid_nom_gau
-s.pdf>]
-<../thesis_images/p0_exp_imp.pdf, id=747, 578.16pt x 361.35pt>
+s_pres.pdf>]
+<../thesis_images/p0_exp_imp.pdf, id=750, 578.16pt x 361.35pt>
 File: ../thesis_images/p0_exp_imp.pdf Graphic file (type pdf)
 <use ../thesis_images/p0_exp_imp.pdf>
-Package pdftex.def Info: ../thesis_images/p0_exp_imp.pdf  used on input line 85
-9.
+Package pdftex.def Info: ../thesis_images/p0_exp_imp.pdf  used on input line 89
+0.
 (pdftex.def)             Requested size: 163.8868pt x 102.42892pt.
-<../thesis_images/imp_nom_gaus.pdf, id=748, 578.16pt x 361.35pt>
+<../thesis_images/imp_nom_gaus.pdf, id=751, 578.16pt x 361.35pt>
 File: ../thesis_images/imp_nom_gaus.pdf Graphic file (type pdf)
 <use ../thesis_images/imp_nom_gaus.pdf>
 Package pdftex.def Info: ../thesis_images/imp_nom_gaus.pdf  used on input line 
-859.
+890.
 (pdftex.def)             Requested size: 163.8868pt x 102.42892pt.
 
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
@@ -3161,13 +3202,20 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [25
 
 ]
+<../thesis_images/atlas_eta_coord.png, id=888, 1010.77625pt x 438.63875pt>
+File: ../thesis_images/atlas_eta_coord.png Graphic file (type png)
+<use ../thesis_images/atlas_eta_coord.png>
+Package pdftex.def Info: ../thesis_images/atlas_eta_coord.png  used on input li
+ne 930.
+(pdftex.def)             Requested size: 273.14651pt x 118.53444pt.
+
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
  []
 
 [26
 
-]
+ <../thesis_images/atlas_eta_coord.png>]
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
  []
@@ -3175,49 +3223,338 @@ Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [27
 
 ]
+<../thesis_images/susy.jpg, id=900, 374.14781pt x 172.39406pt>
+File: ../thesis_images/susy.jpg Graphic file (type jpg)
+<use ../thesis_images/susy.jpg>
+Package pdftex.def Info: ../thesis_images/susy.jpg  used on input line 970.
+(pdftex.def)             Requested size: 182.09767pt x 83.903pt.
+
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
  []
 
 [28
 
-]
-<../thesis_images/x_section_fit.pdf, id=900, 569.12625pt x 355.3275pt>
-File: ../thesis_images/x_section_fit.pdf Graphic file (type pdf)
-<use ../thesis_images/x_section_fit.pdf>
-Package pdftex.def Info: ../thesis_images/x_section_fit.pdf  used on input line
- 926.
-(pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../thesis_images/ax_isFiducialMedium_linear_fit.pdf, id=901, 569.12625pt x 355
-.3275pt>
-File: ../thesis_images/ax_isFiducialMedium_linear_fit.pdf Graphic file (type pd
-f)
-<use ../thesis_images/ax_isFiducialMedium_linear_fit.pdf>
-Package pdftex.def Info: ../thesis_images/ax_isFiducialMedium_linear_fit.pdf  u
-sed on input line 926.
-(pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../thesis_images/br_fit.pdf, id=902, 569.12625pt x 355.3275pt>
-File: ../thesis_images/br_fit.pdf Graphic file (type pdf)
-<use ../thesis_images/br_fit.pdf>
-Package pdftex.def Info: ../thesis_images/br_fit.pdf  used on input line 926.
-(pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-<../thesis_images/cx_fit_catConvEta_no.pdf, id=903, 569.12625pt x 355.3275pt>
-File: ../thesis_images/cx_fit_catConvEta_no.pdf Graphic file (type pdf)
-<use ../thesis_images/cx_fit_catConvEta_no.pdf>
-Package pdftex.def Info: ../thesis_images/cx_fit_catConvEta_no.pdf  used on inp
-ut line 926.
-(pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
-
+ <../thesis_images/susy.jpg>]
 Overfull \hbox (1.18056pt too wide) has occurred while \output is active
 [][] 
  []
 
 [29
 
+]
+<../thesis_images/alg_flow.png, id=911, 764.8575pt x 592.2125pt>
+File: ../thesis_images/alg_flow.png Graphic file (type png)
+<use ../thesis_images/alg_flow.png>
+Package pdftex.def Info: ../thesis_images/alg_flow.png  used on input line 993.
+
+(pdftex.def)             Requested size: 273.8532pt x 212.03967pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[30
+
+ <../thesis_images/alg_flow.png>]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[31
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[32
+
+]
+<../thesis_images/HSM_prova.pdf, id=929, 569.12625pt x 355.3275pt>
+File: ../thesis_images/HSM_prova.pdf Graphic file (type pdf)
+<use ../thesis_images/HSM_prova.pdf>
+Package pdftex.def Info: ../thesis_images/HSM_prova.pdf  used on input line 104
+9.
+(pdftex.def)             Requested size: 236.72475pt x 147.79973pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[33
+
+ <../thesis_images/HSM_prova.pdf, page is rotated 90 degrees>]
+<../thesis_images/ggF.png, id=979, 598.235pt x 353.32pt>
+File: ../thesis_images/ggF.png Graphic file (type png)
+<use ../thesis_images/ggF.png>
+Package pdftex.def Info: ../thesis_images/ggF.png  used on input line 1061.
+(pdftex.def)             Requested size: 102.6956pt x 60.65125pt.
+<../thesis_images/VBF.png, id=980, 598.235pt x 430.60875pt>
+File: ../thesis_images/VBF.png Graphic file (type png)
+<use ../thesis_images/VBF.png>
+Package pdftex.def Info: ../thesis_images/VBF.png  used on input line 1061.
+(pdftex.def)             Requested size: 102.6956pt x 73.9187pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[34
+
+ <../thesis_images/ggF.png> <../thesis_images/VBF.png>]
+<../thesis_images/qqVH.png, id=986, 599.23875pt x 414.54875pt>
+File: ../thesis_images/qqVH.png Graphic file (type png)
+<use ../thesis_images/qqVH.png>
+Package pdftex.def Info: ../thesis_images/qqVH.png  used on input line 1075.
+(pdftex.def)             Requested size: 102.6956pt x 71.04164pt.
+<../thesis_images/ggZH1.png, id=987, 591.20876pt x 350.30875pt>
+File: ../thesis_images/ggZH1.png Graphic file (type png)
+<use ../thesis_images/ggZH1.png>
+Package pdftex.def Info: ../thesis_images/ggZH1.png  used on input line 1075.
+(pdftex.def)             Requested size: 102.6956pt x 60.8506pt.
+<../thesis_images/ggZH2.png, id=988, 596.2275pt x 353.32pt>
+File: ../thesis_images/ggZH2.png Graphic file (type png)
+<use ../thesis_images/ggZH2.png>
+Package pdftex.def Info: ../thesis_images/ggZH2.png  used on input line 1075.
+(pdftex.def)             Requested size: 102.6956pt x 60.85611pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[35
+
+ <../thesis_images/qqVH.png> <../thesis_images/ggZH1.png> <../thesis_images/ggZ
+H2.png>]
+<../thesis_images/qqH.png, id=994, 597.23125pt x 404.51125pt>
+File: ../thesis_images/qqH.png Graphic file (type png)
+<use ../thesis_images/qqH.png>
+Package pdftex.def Info: ../thesis_images/qqH.png  used on input line 1090.
+(pdftex.def)             Requested size: 102.6956pt x 69.55606pt.
+<../thesis_images/ggH1.png, id=995, 607.26875pt x 432.61626pt>
+File: ../thesis_images/ggH1.png Graphic file (type png)
+<use ../thesis_images/ggH1.png>
+Package pdftex.def Info: ../thesis_images/ggH1.png  used on input line 1090.
+(pdftex.def)             Requested size: 102.6956pt x 73.15431pt.
+<../thesis_images/ggH2.png, id=996, 589.20125pt x 395.4775pt>
+File: ../thesis_images/ggH2.png Graphic file (type png)
+<use ../thesis_images/ggH2.png>
+Package pdftex.def Info: ../thesis_images/ggH2.png  used on input line 1090.
+(pdftex.def)             Requested size: 102.6956pt x 68.92596pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[36
+
+ <../thesis_images/qqH.png> <../thesis_images/ggH1.png> <../thesis_images/ggH2.
+png>]
+<../thesis_images/tHq1.png, id=1002, 541.02126pt x 355.3275pt>
+File: ../thesis_images/tHq1.png Graphic file (type png)
+<use ../thesis_images/tHq1.png>
+Package pdftex.def Info: ../thesis_images/tHq1.png  used on input line 1106.
+(pdftex.def)             Requested size: 77.023pt x 50.58589pt.
+<../thesis_images/tHq2.png, id=1003, 533.995pt x 326.21875pt>
+File: ../thesis_images/tHq2.png Graphic file (type png)
+<use ../thesis_images/tHq2.png>
+Package pdftex.def Info: ../thesis_images/tHq2.png  used on input line 1106.
+(pdftex.def)             Requested size: 77.023pt x 47.04912pt.
+<../thesis_images/tHW1.png, id=1004, 541.02126pt x 318.18875pt>
+File: ../thesis_images/tHW1.png Graphic file (type png)
+<use ../thesis_images/tHW1.png>
+Package pdftex.def Info: ../thesis_images/tHW1.png  used on input line 1106.
+(pdftex.def)             Requested size: 77.023pt x 45.29866pt.
+<../thesis_images/tHW2.png, id=1005, 533.995pt x 344.28625pt>
+File: ../thesis_images/tHW2.png Graphic file (type png)
+<use ../thesis_images/tHW2.png>
+Package pdftex.def Info: ../thesis_images/tHW2.png  used on input line 1106.
+(pdftex.def)             Requested size: 77.023pt x 49.65492pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[37
+
+ <../thesis_images/tHq1.png> <../thesis_images/tHq2.png> <../thesis_images/tHW1
+.png> <../thesis_images/tHW2.png>]
+<../thesis_images/higgs_xs.png, id=1012, 602.25pt x 441.65pt>
+File: ../thesis_images/higgs_xs.png Graphic file (type png)
+<use ../thesis_images/higgs_xs.png>
+Package pdftex.def Info: ../thesis_images/higgs_xs.png  used on input line 1116
+.
+(pdftex.def)             Requested size: 205.3912pt x 150.61726pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[38
+
+ <../thesis_images/higgs_xs.png>]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[39
+
+]
+<../thesis_images/sigma_comp.pdf, id=1024, 569.12625pt x 355.3275pt>
+File: ../thesis_images/sigma_comp.pdf Graphic file (type pdf)
+<use ../thesis_images/sigma_comp.pdf>
+Package pdftex.def Info: ../thesis_images/sigma_comp.pdf  used on input line 12
+01.
+(pdftex.def)             Requested size: 218.51942pt x 136.4301pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[40
+
+ <../thesis_images/sigma_comp.pdf, page is rotated 90 degrees>]
+<../thesis_images/x_section_fit.pdf, id=1073, 569.12625pt x 355.3275pt>
+File: ../thesis_images/x_section_fit.pdf Graphic file (type pdf)
+<use ../thesis_images/x_section_fit.pdf>
+Package pdftex.def Info: ../thesis_images/x_section_fit.pdf  used on input line
+ 1233.
+(pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
+<../thesis_images/ax_isFiducialMedium_linear_fit.pdf, id=1074, 569.12625pt x 35
+5.3275pt>
+File: ../thesis_images/ax_isFiducialMedium_linear_fit.pdf Graphic file (type pd
+f)
+<use ../thesis_images/ax_isFiducialMedium_linear_fit.pdf>
+Package pdftex.def Info: ../thesis_images/ax_isFiducialMedium_linear_fit.pdf  u
+sed on input line 1233.
+(pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
+<../thesis_images/br_fit.pdf, id=1075, 569.12625pt x 355.3275pt>
+File: ../thesis_images/br_fit.pdf Graphic file (type pdf)
+<use ../thesis_images/br_fit.pdf>
+Package pdftex.def Info: ../thesis_images/br_fit.pdf  used on input line 1233.
+(pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
+<../thesis_images/cx_fit_catConvEta_no.pdf, id=1076, 569.12625pt x 355.3275pt>
+File: ../thesis_images/cx_fit_catConvEta_no.pdf Graphic file (type pdf)
+<use ../thesis_images/cx_fit_catConvEta_no.pdf>
+Package pdftex.def Info: ../thesis_images/cx_fit_catConvEta_no.pdf  used on inp
+ut line 1233.
+(pdftex.def)             Requested size: 119.81241pt x 74.79988pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[41
+
  <../thesis_images/x_section_fit.pdf, page is rotated 90 degrees> <../thesis_im
 ages/ax_isFiducialMedium_linear_fit.pdf, page is rotated 90 degrees> <../thesis
 _images/br_fit.pdf, page is rotated 90 degrees> <../thesis_images/cx_fit_catCon
 vEta_no.pdf, page is rotated 90 degrees>]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[42
+
+]
+File: ../thesis_images/Syst/var_shape_res_catConvEta_no.pdf Graphic file (type 
+pdf)
+<use ../thesis_images/Syst/var_shape_res_catConvEta_no.pdf>
+Package pdftex.def Info: ../thesis_images/Syst/var_shape_res_catConvEta_no.pdf 
+ used on input line 1302.
+(pdftex.def)             Requested size: 162.6018pt x 110.12207pt.
+File: ../thesis_images/Syst/var_shape_scale_catConvEta_no.pdf Graphic file (typ
+e pdf)
+<use ../thesis_images/Syst/var_shape_scale_catConvEta_no.pdf>
+Package pdftex.def Info: ../thesis_images/Syst/var_shape_scale_catConvEta_no.pd
+f  used on input line 1302.
+(pdftex.def)             Requested size: 162.6018pt x 110.12207pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[43
+
+]
+<../thesis_images/Syst/var_yield_catConvEta_res_all.pdf, id=1267, 569.12625pt x
+ 385.44pt>
+File: ../thesis_images/Syst/var_yield_catConvEta_res_all.pdf Graphic file (type
+ pdf)
+<use ../thesis_images/Syst/var_yield_catConvEta_res_all.pdf>
+Package pdftex.def Info: ../thesis_images/Syst/var_yield_catConvEta_res_all.pdf
+  used on input line 1342.
+(pdftex.def)             Requested size: 273.8532pt x 185.47372pt.
+
+Overfull \hbox (12.1667pt too wide) in paragraph at lines 1342--1342
+[][][][][][]  
+ []
+
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[44
+
+ <../thesis_images/Syst/var_yield_catConvEta_res_all.pdf, page is rotated 90 de
+grees>]
+Overfull \hbox (5.7817pt too wide) detected at line 1387
+\OML/lmm/m/it/10 ^^U\OT1/lmss/m/n/10 (\OML/lmm/m/it/10 ^^V\OT1/lmss/m/n/10 ) = 
+[] \OMS/lmsy/m/n/10 ! []
+ []
+
+<../thesis_images/t_p_mu.png, id=1316, 623.32875pt x 465.74pt>
+File: ../thesis_images/t_p_mu.png Graphic file (type png)
+<use ../thesis_images/t_p_mu.png>
+Package pdftex.def Info: ../thesis_images/t_p_mu.png  used on input line 1387.
+(pdftex.def)             Requested size: 109.2597pt x 81.63364pt.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[45
+
+ <../thesis_images/t_p_mu.png>]
+<../thesis_images/p0_no_catConvEta.pdf, id=1323, 578.16pt x 361.35pt>
+File: ../thesis_images/p0_no_catConvEta.pdf Graphic file (type pdf)
+<use ../thesis_images/p0_no_catConvEta.pdf>
+Package pdftex.def Info: ../thesis_images/p0_no_catConvEta.pdf  used on input l
+ine 1410.
+(pdftex.def)             Requested size: 342.3152pt x 213.94452pt.
+
+Overfull \vbox (24.80421pt too high) detected at line 1410
+ []
+
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[46
+
+ <../thesis_images/p0_no_catConvEta.pdf>]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[47
+
+]
+Overfull \hbox (1.18056pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[48
+
+]
 \tf@nav=\write8
 \openout8 = `presentation.nav'.
 
@@ -3227,50 +3564,56 @@ vEta_no.pdf, page is rotated 90 degrees>]
 \tf@snm=\write10
 \openout10 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 927.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 927.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1465.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1465.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 927.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 927.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1465.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1465.
+
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: CF7B24D038EE162921D3E60FFFE19572;41.
  ) 
 Here is how much of TeX's memory you used:
- 35593 strings out of 481239
- 721530 string characters out of 5920376
- 1091974 words of memory out of 5000000
- 49857 multiletter control sequences out of 15000+600000
- 694153 words of font info for 153 fonts, out of 8000000 for 9000
+ 36602 strings out of 481239
+ 740400 string characters out of 5920376
+ 1146480 words of memory out of 5000000
+ 50751 multiletter control sequences out of 15000+600000
+ 700550 words of font info for 183 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,14n,80p,779b,929s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,16n,80p,779b,929s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
-i6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso9.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-msy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on presentation.pdf (29 pages, 2402540 bytes).
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+ss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmsso9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on presentation.pdf (48 pages, 2919348 bytes).
 PDF statistics:
- 1182 PDF objects out of 1200 (max. 8388607)
- 558 compressed objects within 6 object streams
- 60 named destinations out of 1000 (max. 500000)
- 43696 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1525 PDF objects out of 1728 (max. 8388607)
+ 732 compressed objects within 8 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 44313 words of extra memory for PDF output out of 51595 (max. 10000000)
 

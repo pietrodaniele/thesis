@@ -222,14 +222,19 @@
                            leftskip  = 1 em,
                            rightskip = 1 em]
                           {section in head/foot}
-        \begin{minipage}[t][0.28\paperheight]{\textwidth}
+        \begin{textblock}{1}(0.3,.825)
             \centering
-            \usebeamerfont{author}
-            \insertauthor
-            \vfill
-            \hfill
             \includegraphics[scale = 0.2]{UiB-images/uni_bianco}
-        \end{minipage}
+        \end{textblock}
+    	
+    	\begin{minipage}[t][0.28\paperheight]{\textwidth}
+    		Pietro Daniele n° 982369\\
+    		\textbf{Relatore}:\\ Prof. Leonardo Carminati\\
+    		\textbf{Correlatori}: \\ Dott. Ruggero Turra \\ Dott. Elena Mazzeo
+    		\vfill
+    		\hfill
+    		%\includegraphics[scale = 0.2]{UiB-images/uni_bianco}
+    	\end{minipage}
     \end{beamercolorbox}
     \vspace*{-1.5em}
 }
